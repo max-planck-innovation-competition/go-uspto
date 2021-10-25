@@ -62,9 +62,9 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	}()
 	// init channels and sync
 	var wg sync.WaitGroup
-	var chContent chan string
-	var chFilename chan string
-	var chFileEnd chan bool
+	chContent := make(chan string)
+	chFilename := make(chan string)
+	chFileEnd := make(chan bool)
 	// start 2nd process
 	go fileWriter(ctx, destinationFolder, &wg, chContent, chFilename, chFileEnd)
 	// scan file
@@ -72,12 +72,6 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	for scanner.Scan() {
 		line := scanner.Text()
 		switch line {
-		case `<?xml version="1.0" encoding="UTF-8"?>`:
-			logger.Trace("xml header")
-			wg.Add(1)
-			chContent <- line
-			// new file
-			break
 		case `</us-patent-grant>`:
 			logger.Trace("us-patent-grant xml end")
 			// end of the file
@@ -96,14 +90,13 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 					logger.Error(err)
 					return
 				}
-				filename := res[0][0]
+				filename := res[0][1]
 				// send the filename
 				wg.Add(1)
 				chFilename <- filename
-				// send the content
-				wg.Add(1)
-				chContent <- line
 			}
+			// send the content
+			wg.Add(1)
 			chContent <- line
 		}
 		logger.Trace("wait")
@@ -179,8 +172,8 @@ func fileWriter(
 			filename = ""
 			break
 		case content := <-chContent:
-			logger.Trace("content", content)
-			_, errWrite := buf.WriteString(content)
+			logger.WithField("content", content).Trace("received data")
+			_, errWrite := buf.WriteString(content + "\n")
 			if errWrite != nil {
 				ctx.Done()
 				msg := "failed to write to buffer: %s"
@@ -192,6 +185,7 @@ func fileWriter(
 			logger.Debug("Set filename", filename)
 			break
 		}
+		log.Trace("done")
 		wg.Done()
 	}
 
