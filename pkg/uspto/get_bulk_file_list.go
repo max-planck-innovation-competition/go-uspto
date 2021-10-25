@@ -42,6 +42,21 @@ type BulkFileResponse struct {
 	} `json:"productFiles"`
 }
 
+// GetPatentXmlBulkFileList returns the download links to the zipped archives between two dates
+func GetPatentXmlBulkFileList(start time.Time, end time.Time) (downloadLinks []string, err error) {
+	res, err := GetBulkFileList(XmlPatents, start, end)
+	if err != nil {
+		log.Error(err)
+		return
+	}
+	// iterate over res
+	for _, r := range res.ProductFiles {
+		downloadLinks = append(downloadLinks, r.FileDownloadURL)
+	}
+	return
+}
+
+// GetBulkFileList returns a list of available files of a specific USPTO product
 func GetBulkFileList(product Product, start time.Time, end time.Time) (res BulkFileResponse, err error) {
 
 	// params
