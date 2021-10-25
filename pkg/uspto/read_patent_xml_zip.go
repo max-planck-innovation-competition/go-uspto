@@ -15,30 +15,31 @@ import (
 var regexFile = regexp.MustCompile(`file="([A-Z0-9-.]+)"`)
 
 func ReadPatentXMLZip(sourceFile, destinationFolder string) (err error) {
-	log.Info("reading file", sourceFile)
+	logger := log.WithField("zipFile", sourceFile)
+	logger.Info("reading file")
 	// read zip file
 	readCloser, err := zip.OpenReader(sourceFile)
 	if err != nil {
 		msg := "Failed to open: %s"
-		log.Fatalf(msg, err)
+		logger.Fatalf(msg, err)
 	}
-	log.Info("file read")
+	logger.Info("file read")
 	// close file after read
 	defer func() {
 		errClose := readCloser.Close()
 		if errClose != nil {
-			log.Fatalf("Failed to close file: %s", errClose)
+			logger.Fatalf("Failed to close file: %s", errClose)
 		}
 	}()
-	log.Info("iterate over files")
+	logger.Info("iterate over files")
 	// iterate over all files in the zip directory
 	for _, file := range readCloser.File {
-		log.WithField("filename", file.Name).Info("found")
+		logger.WithField("filename", file.Name).Info("found")
 		if errFile := processZippedFiles(file, destinationFolder); errFile != nil {
 			return
 		}
 	}
-	log.Info("done")
+	logger.Info("successfully done")
 	return
 }
 
@@ -69,16 +70,21 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	go fileWriter(ctx, destinationFolder, &wg, chContent, chFilename, chFileEnd)
 	// scan file
 	scanner := bufio.NewScanner(fc)
+	buf := make([]byte, 0, 64*1024)
+	scanner.Buffer(buf, 1024*1024)
+	counter := 1
 	for scanner.Scan() {
 		line := scanner.Text()
 		switch line {
 		case `</us-patent-grant>`:
 			logger.Trace("us-patent-grant xml end")
+			logger.WithField("count", counter).Info("done with file")
 			// end of the file
 			wg.Add(1)
 			chContent <- line
 			wg.Add(1)
 			chFileEnd <- true
+			counter++
 			break
 		default:
 			if strings.Contains(line, `<us-patent-grant `) {
@@ -91,6 +97,7 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 					return
 				}
 				filename := res[0][1]
+				logger.WithField("xmlFile", filename).Info("start")
 				// send the filename
 				wg.Add(1)
 				chFilename <- filename
@@ -104,17 +111,12 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	}
 	// scanner error
 	if err = scanner.Err(); err != nil {
-		ctx.Done()
 		msg := "failed to scan file %s line by line: %s"
 		err = fmt.Errorf(msg, file.Name, err)
 		logger.Error(err)
+		ctx.Done()
 		return
 	}
-	// close everything
-	ctx.Done()
-	close(chFilename)
-	close(chContent)
-	close(chFileEnd)
 	return
 }
 
@@ -136,43 +138,47 @@ func fileWriter(
 		case <-ctx.Done():
 			logger.Info("received context done")
 			return
-		case <-chFileEnd:
-			// if the last string was transmitted
-			logger.Trace("last stuff was transmitted")
-			// create a new file based on the filename
-			if len(filename) == 0 {
-				msg := "failed to extract filename: %s"
-				logger.Fatalf(msg, filename)
-				return
+		case end := <-chFileEnd:
+			if end {
+				// if the last string was transmitted
+				logger.Trace("last stuff was transmitted")
+				// create a new file based on the filename
+				if len(filename) == 0 {
+					msg := "failed to extract filename: %s"
+					logger.Fatalf(msg, filename)
+					return
+				}
+				file, err := os.Create(destinationFolder + "/" + filename)
+				if err != nil {
+					logger.Error(err)
+					return
+				}
+				// write the data to the file
+				_, errWrite := file.WriteString(buf.String())
+				if errWrite != nil {
+					ctx.Done()
+					msg := "failed to write to buffer: %s"
+					logger.Fatalf(msg, errWrite)
+					return
+				}
+				// close the file
+				errClose := file.Close()
+				if errClose != nil {
+					ctx.Done()
+					msg := "failed to write close file: %s"
+					logger.Fatalf(msg, errClose)
+					return
+				}
+				// clear the string builder
+				buf.Reset()
+				// clear the filename
+				filename = ""
+				break
 			}
-			file, err := os.Create(destinationFolder + "/" + filename)
-			if err != nil {
-				logger.Error(err)
-				return
-			}
-			// write the data to the file
-			_, errWrite := file.WriteString(buf.String())
-			if errWrite != nil {
-				ctx.Done()
-				msg := "failed to write to buffer: %s"
-				logger.Fatalf(msg, errWrite)
-				return
-			}
-			// close the file
-			errClose := file.Close()
-			if errClose != nil {
-				ctx.Done()
-				msg := "failed to write close file: %s"
-				logger.Fatalf(msg, errClose)
-				return
-			}
-			// clear the string builder
-			buf.Reset()
-			// clear the filename
-			filename = ""
-			break
 		case content := <-chContent:
-			logger.WithField("content", content).Trace("received data")
+			logger.
+				// WithField("content", content).
+				Trace("received data")
 			_, errWrite := buf.WriteString(content + "\n")
 			if errWrite != nil {
 				ctx.Done()
