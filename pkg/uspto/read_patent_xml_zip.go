@@ -75,7 +75,7 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	counter := 1
 	for scanner.Scan() {
 		line := scanner.Text()
-		switch line {
+		switch strings.TrimSpace(line) {
 		case `</us-patent-grant>`:
 			logger.Trace("us-patent-grant xml end")
 			logger.WithField("count", counter).Info("done with file")
