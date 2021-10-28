@@ -75,24 +75,22 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	// abstract
 	abstract := root.Find("abstract")
 	abstract.Each(func(i int, a *goquery.Selection) {
-		lang, _ := a.Attr("lang")
 		patentDoc.Abstract = append(
 			patentDoc.Abstract,
 			Abstract{
 				Text:     strings.TrimSpace(a.Text()),
-				Language: lang,
+				Language: strings.ToLower("en"),
 			},
 		)
 	})
 	// description
 	description := root.Find("description")
 	description.Each(func(i int, d *goquery.Selection) {
-		lang, _ := d.Attr("lang")
 		patentDoc.Description = append(
 			patentDoc.Description,
 			Description{
 				Text:     strings.TrimSpace(d.Text()),
-				Language: lang,
+				Language: strings.ToLower("en"),
 			})
 	})
 	// claims
@@ -111,12 +109,10 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	claims.Each(func(i int, c *goquery.Selection) {
 		lang := "en"
 		id, _ := c.Attr("id")
-		num, _ := c.Attr("num")
 		patentDoc.Claims = append(patentDoc.Claims, Claim{
 			Text:     strings.TrimSpace(c.Text()),
 			Language: strings.TrimSpace(lang),
 			Id:       id,
-			Num:      strings.TrimSpace(num),
 		})
 	})
 	// citations
@@ -143,25 +139,32 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	})
 	// inventors
 	/*
-		<B720>
-			<B721>
-				<snm>MARTIN, Brian Alexander</snm>
-				<adr>
-					<str>c/o Sony Europe IP Europe Jays Close, Viables</str>
-					<city>Basingstoke, Hampshire RG22 4SB</city>
-					<ctry>GB</ctry>
-				</adr>
-			</B721>
-
-
+		<inventors>
+			<inventor sequence="001" designation="us-only">
+				<addressbook>
+					<last-name>Ng</last-name>
+					<first-name>Yeow</first-name>
+					<address>
+						<city>Andover</city>
+						<state>KS</state>
+						<country>US</country>
+					</address>
+				</addressbook>
+			</inventor>
+		</inventors>
 	*/
-	inventors := root.Find("B721")
+	parties := biblio.Find("us-parties")
+	inventors := parties.Find("inventors inventor")
 	inventors.Each(func(i int, c *goquery.Selection) {
 		patentDoc.Inventors = append(patentDoc.Inventors, Inventor{
-			Country: Country(strings.TrimSpace(c.Find("adr ctry").Text())),
-			City:    strings.TrimSpace(c.Find("adr city").Text()),
+			Country: Country(strings.TrimSpace(c.Find("addressbook address country").Text())),
+			City:    strings.TrimSpace(c.Find("addressbook address city").Text()),
 			Street:  strings.TrimSpace(c.Find("adr str").Text()),
-			Name:    strings.TrimSpace(c.Find("snm").Text()),
+			Name:    strings.TrimSpace(c.Find("addressbook last-name").Text() + ", " + c.Find("addressbook first-name").Text()),
+			// USPTO
+			State:    strings.TrimSpace(c.Find("addressbook address state").Text()),
+			FirsName: strings.TrimSpace(c.Find("addressbook first-name").Text()),
+			LastName: strings.TrimSpace(c.Find("addressbook last-name").Text()),
 		})
 	})
 	// owners
@@ -175,10 +178,9 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 					<ctry>GB</ctry>
 				</adr>
 			</B721>
-
-
 	*/
-	owners := root.Find("B731")
+	applicants := parties.Find("us-applicant")
+	owners := applicants.Find("us-applicant")
 	owners.Each(func(i int, c *goquery.Selection) {
 		patentDoc.Owners = append(patentDoc.Owners, Owner{
 			Country: Country(strings.TrimSpace(c.Find("adr ctry").Text())),

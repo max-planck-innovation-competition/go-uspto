@@ -48,7 +48,6 @@ type Claim struct {
 	Text     string
 	Language string
 	Id       string
-	Num      string
 }
 
 type Description struct {
@@ -67,6 +66,10 @@ type Inventor struct {
 	City    string
 	Street  string
 	Name    string
+	// USPTO
+	FirsName string
+	LastName string
+	State    string
 }
 
 type Owner struct {
