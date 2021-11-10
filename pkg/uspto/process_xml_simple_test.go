@@ -1,7 +1,6 @@
 package uspto
 
 import (
-	"fmt"
 	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"testing"
@@ -26,24 +25,38 @@ func TestProcessXMLSimple(t *testing.T) {
 	ass.NotEmpty(patDoc.Abstract)
 	// ass.NotEmpty(patDoc.Citations)
 
-	fmt.Println(patDoc.Abstract[0])
-	fmt.Println(patDoc.Claims[0])
-	fmt.Println(patDoc.Description[0])
+	// fmt.Println(patDoc.Abstract[0])
+	// fmt.Println(patDoc.Claims[0])
+	// fmt.Println(patDoc.Description[0])
 
-	ass.Equal("20060101", patDoc.Classifications[0].Version)
-	ass.Equal("A", patDoc.Classifications[0].ClassificationLevel)
-	ass.Equal(1, patDoc.Classifications[0].Sequence)
-	ass.Equal("A", patDoc.Classifications[0].Section)
-	ass.Equal("01", patDoc.Classifications[0].Class)
-	ass.Equal("B", patDoc.Classifications[0].SubClass)
-	ass.Equal("1", patDoc.Classifications[0].MainGroup)
-	ass.Equal("24", patDoc.Classifications[0].SubGroup)
-	ass.Equal("F", patDoc.Classifications[0].FirstLater)
-	ass.Equal("I", patDoc.Classifications[0].ClassificationValue)
-	ass.Equal("US", patDoc.Classifications[0].GeneratingOffice)
-	ass.Equal("B", patDoc.Classifications[0].OriginalOrReclassified)
-	ass.Equal("H", patDoc.Classifications[0].Source)
+	ass.Equal("20060101", patDoc.IpcClassifications[0].Version)
+	ass.Equal("A", patDoc.IpcClassifications[0].ClassificationLevel)
+	ass.Equal(1, patDoc.IpcClassifications[0].Sequence)
+	ass.Equal("A", patDoc.IpcClassifications[0].Section)
+	ass.Equal("01", patDoc.IpcClassifications[0].Class)
+	ass.Equal("B", patDoc.IpcClassifications[0].SubClass)
+	ass.Equal("1", patDoc.IpcClassifications[0].MainGroup)
+	ass.Equal("24", patDoc.IpcClassifications[0].SubGroup)
+	ass.Equal("F", patDoc.IpcClassifications[0].FirstLater)
+	ass.Equal("I", patDoc.IpcClassifications[0].ClassificationValue)
+	ass.Equal("US", patDoc.IpcClassifications[0].GeneratingOffice)
+	ass.Equal("B", patDoc.IpcClassifications[0].OriginalOrReclassified)
+	ass.Equal("H", patDoc.IpcClassifications[0].Source)
 
-	ass.Equal(patDoc.Classifications[1].Sequence, 2)
+	ass.Equal(patDoc.IpcClassifications[1].Sequence, 2)
+
+	ass.Equal("20130101", patDoc.CpcClassifications[0].Version)
+	ass.Equal("", patDoc.CpcClassifications[0].ClassificationLevel)
+	ass.Equal(1, patDoc.CpcClassifications[0].Sequence)
+	ass.Equal("A", patDoc.CpcClassifications[0].Section)
+	ass.Equal("01", patDoc.CpcClassifications[0].Class)
+	ass.Equal("B", patDoc.CpcClassifications[0].SubClass)
+	ass.Equal("1", patDoc.CpcClassifications[0].MainGroup)
+	ass.Equal("243", patDoc.CpcClassifications[0].SubGroup)
+	ass.Equal("F", patDoc.CpcClassifications[0].FirstLater)
+	ass.Equal("I", patDoc.CpcClassifications[0].ClassificationValue)
+	ass.Equal("US", patDoc.CpcClassifications[0].GeneratingOffice)
+	ass.Equal("B", patDoc.CpcClassifications[0].OriginalOrReclassified)
+	ass.Equal("H", patDoc.CpcClassifications[0].Source)
 
 }

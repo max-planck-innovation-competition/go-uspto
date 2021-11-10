@@ -257,6 +257,7 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	ipcr.Each(func(i int, c *goquery.Selection) {
 		// do not use trim here
 		item := ClassificationItem{
+			System:                 IPC,
 			Text:                   "",
 			Sequence:               sequenceCounter,
 			Section:                strings.TrimSpace(c.Find("section").Text()),
@@ -269,22 +270,69 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 			FirstLater:             strings.TrimSpace(c.Find("symbol-position").Text()),
 			ClassificationValue:    strings.TrimSpace(c.Find("classification-value").Text()),
 			ActionDate:             strings.TrimSpace(c.Find("action-date date").Text()),
-			OriginalOrReclassified: strings.TrimSpace(c.Find("classification-status").Text()), // not sure about that
+			OriginalOrReclassified: strings.TrimSpace(c.Find("classification-status").Text()), // todo: not sure about that
 			Source:                 strings.TrimSpace(c.Find("classification-data-source").Text()),
 			GeneratingOffice:       strings.TrimSpace(c.Find("generating-office").Text()),
 		}
-		patentDoc.Classifications = append(patentDoc.Classifications, item)
+		patentDoc.IpcClassifications = append(patentDoc.IpcClassifications, item)
 		sequenceCounter++
 	})
 
 	// Classifications CPC
 	/*
-		<us-field-of-classification-search>
-			<classification-cpc-text>A01B 1/243</classification-cpc-text>
-			<classification-cpc-text>B62B 2206/60</classification-cpc-text>
-			<classification-cpc-text>B62B 2206/70</classification-cpc-text>
-		</us-field-of-classification-search>
+		<classifications-cpc>
+		            <main-cpc>
+		                <classification-cpc>
+		                    <cpc-version-indicator>
+		                        <date>20130101</date>
+		                    </cpc-version-indicator>
+		                    <section>A</section>
+		                    <class>01</class>
+		                    <subclass>B</subclass>
+		                    <main-group>1</main-group>
+		                    <subgroup>243</subgroup>
+		                    <symbol-position>F</symbol-position>
+		                    <classification-value>I</classification-value>
+		                    <action-date>
+		                        <date>20211019</date>
+		                    </action-date>
+		                    <generating-office>
+		                        <country>US</country>
+		                    </generating-office>
+		                    <classification-status>B</classification-status>
+		                    <classification-data-source>H</classification-data-source>
+		                    <scheme-origination-code>C</scheme-origination-code>
+		                </classification-cpc>
+		            </main-cpc>
+		            <further-cpc>
+		                <classification-cpc>
 	*/
+	sequenceCounter = 1
+	cpc := biblio.Find("classifications-cpc classification-cpc")
+	cpc.Each(func(i int, c *goquery.Selection) {
+		// do not use trim here
+		item := ClassificationItem{
+			System:                 CPC,
+			Text:                   "",
+			Sequence:               sequenceCounter,
+			Section:                strings.TrimSpace(c.Find("section").Text()),
+			Class:                  strings.TrimSpace(c.Find("class").Text()),
+			SubClass:               strings.TrimSpace(c.Find("subclass").Text()),
+			MainGroup:              strings.TrimSpace(c.Find("main-group").Text()),
+			SubGroup:               strings.TrimSpace(c.Find("subgroup").Text()),
+			Version:                strings.TrimSpace(c.Find("cpc-version-indicator date").Text()),
+			ClassificationLevel:    strings.TrimSpace(c.Find("classification-level").Text()),
+			FirstLater:             strings.TrimSpace(c.Find("symbol-position").Text()),
+			ClassificationValue:    strings.TrimSpace(c.Find("classification-value").Text()),
+			ActionDate:             strings.TrimSpace(c.Find("action-date date").Text()),
+			OriginalOrReclassified: strings.TrimSpace(c.Find("classification-status").Text()), // todo: not sure about that
+			Source:                 strings.TrimSpace(c.Find("classification-data-source").Text()),
+			GeneratingOffice:       strings.TrimSpace(c.Find("generating-office").Text()),
+		}
+		patentDoc.CpcClassifications = append(patentDoc.CpcClassifications, item)
+		sequenceCounter++
+	})
+
 	/*
 		classes := biblio.Find("us-field-of-classification-search classification-cpc-text")
 		classes.Each(func(i int, c *goquery.Selection) {
