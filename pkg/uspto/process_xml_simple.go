@@ -5,7 +5,6 @@ import (
 	"errors"
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/sirupsen/logrus"
-	"strconv"
 	"strings"
 	"time"
 )
@@ -227,27 +226,80 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	countries.Each(func(i int, c *goquery.Selection) {
 		patentDoc.ContractingStates = append(patentDoc.ContractingStates, Country(strings.TrimSpace(c.Text())))
 	})
-	// Classifications
+	// Classifications IPCR
 	/*
-		<B510EP>
-			<classification-ipcr sequence="1">
-				<text>B60T 17/22 20060101AFI20200403BHEP</text>
+		<classifications-ipcr>
+			<classification-ipcr>
+				<ipc-version-indicator>
+					<date>20060101</date>
+				</ipc-version-indicator>
+				<classification-level>A</classification-level>
+				<section>A</section>
+				<class>01</class>
+				<subclass>B</subclass>
+				<main-group>1</main-group>
+				<subgroup>24</subgroup>
+				<symbol-position>F</symbol-position>
+				<classification-value>I</classification-value>
+				<action-date>
+					<date>20211019</date>
+				</action-date>
+				<generating-office>
+					<country>US</country>
+				</generating-office>
+				<classification-status>B</classification-status>
+				<classification-data-source>H</classification-data-source>
 			</classification-ipcr>
-		</B510EP>
+		</classifications-ipcr>
 	*/
-	classes := root.Find("B510EP classification-ipcr")
-	classes.Each(func(i int, c *goquery.Selection) {
-		seq, ex := c.Attr("sequence")
-		if !ex {
-			log.Warn("classification ipcr: seq does not exist")
-		}
-		seqInt, warn := strconv.Atoi(seq)
-		if warn != nil {
-			log.Warn("classification ipcr: can not parse seq string", warn)
-		}
+	ipcr := biblio.Find("classifications-ipcr classification-ipcr")
+	sequenceCounter := 1
+	ipcr.Each(func(i int, c *goquery.Selection) {
 		// do not use trim here
-		item := NewClassificationItem(c.Find("text").Text(), seqInt)
+		item := ClassificationItem{
+			Text:                   "",
+			Sequence:               sequenceCounter,
+			Section:                strings.TrimSpace(c.Find("section").Text()),
+			Class:                  strings.TrimSpace(c.Find("class").Text()),
+			SubClass:               strings.TrimSpace(c.Find("subclass").Text()),
+			MainGroup:              strings.TrimSpace(c.Find("main-group").Text()),
+			SubGroup:               strings.TrimSpace(c.Find("subgroup").Text()),
+			Version:                strings.TrimSpace(c.Find("ipc-version-indicator date").Text()),
+			ClassificationLevel:    strings.TrimSpace(c.Find("classification-level").Text()),
+			FirstLater:             strings.TrimSpace(c.Find("symbol-position").Text()),
+			ClassificationValue:    strings.TrimSpace(c.Find("classification-value").Text()),
+			ActionDate:             strings.TrimSpace(c.Find("action-date date").Text()),
+			OriginalOrReclassified: strings.TrimSpace(c.Find("classification-status").Text()), // not sure about that
+			Source:                 strings.TrimSpace(c.Find("classification-data-source").Text()),
+			GeneratingOffice:       strings.TrimSpace(c.Find("generating-office").Text()),
+		}
 		patentDoc.Classifications = append(patentDoc.Classifications, item)
+		sequenceCounter++
 	})
+
+	// Classifications CPC
+	/*
+		<us-field-of-classification-search>
+			<classification-cpc-text>A01B 1/243</classification-cpc-text>
+			<classification-cpc-text>B62B 2206/60</classification-cpc-text>
+			<classification-cpc-text>B62B 2206/70</classification-cpc-text>
+		</us-field-of-classification-search>
+	*/
+	/*
+		classes := biblio.Find("us-field-of-classification-search classification-cpc-text")
+		classes.Each(func(i int, c *goquery.Selection) {
+			seq, ex := c.Attr("sequence")
+			if !ex {
+				log.Warn("classification ipcr: seq does not exist")
+			}
+			seqInt, warn := strconv.Atoi(seq)
+			if warn != nil {
+				log.Warn("classification ipcr: can not parse seq string", warn)
+			}
+			// do not use trim here
+			item := NewClassificationItemFromString(c.Find("text").Text(), seqInt)
+			patentDoc.Classifications = append(patentDoc.Classifications, item)
+		})
+	*/
 	return
 }
