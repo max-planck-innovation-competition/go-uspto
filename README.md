@@ -6,6 +6,20 @@ Interact with the API of the USPTO
 
 Alpha Version
 
+## Standards
+
+* (JAN 1976 – DEC 2001) Patent Grant Full Text Data/APS – Green Book
+* (JAN 2001 – DEC 2001) Patent Grant Full Text Data/SGML Version 2.4
+* (JAN 2002 – DEC 2004) Patent Grant Full Text Data/XML Version 2.5 
+* (JAN 2005 – DEC 2005) Patent Grant Full Text Data/XML Version 4.0 ICE
+* (JAN 2006 – DEC 2006) Patent Grant Full Text Data/XML Version 4.1 ICE
+* (JAN 2007 – DEC 2012) Patent Grant Full Text Data/XML Version 4.2 ICE
+* (JAN 2013 – DEC 2013) Patent Grant Full Text Data/XML Version 4.3 ICE
+* (JAN 2013 – DEC 2014) Patent Grant Full Text Data/XML Version 4.4 ICE
+* (JAN 2015 - Present) Patent Grant Full Text Data/XML Version 4.5 ICE
+
+[See dtd standards](dtds)
+
 ## Installation
 
 Add the package to your project via the following command:
