@@ -12,9 +12,10 @@ func TestReadPatentXMLZip(t *testing.T) {
 	ass.NoError(err)
 }
 
-func TestReadPatentXMLZip2(t *testing.T) {
+func TestReadPatentXMLZip25(t *testing.T) {
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)
-	err := ReadPatentXMLZip("./test-data/pg020101.zip", "./test-data/xml")
+	// 2.5
+	err := ReadPatentXMLZip("./test-data/pg020101.zip", "./test-data/pg020101/xml")
 	ass.NoError(err)
 }

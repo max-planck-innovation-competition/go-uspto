@@ -3,10 +3,13 @@ package uspto
 import (
 	"archive/zip"
 	"bufio"
+	"bytes"
 	"context"
 	"fmt"
+	"github.com/PuerkitoBio/goquery"
 	log "github.com/sirupsen/logrus"
 	"os"
+	"path/filepath"
 	"regexp"
 	"strings"
 	"sync"
@@ -35,8 +38,13 @@ func ReadPatentXMLZip(sourceFile, destinationFolder string) (err error) {
 	// iterate over all files in the zip directory
 	for _, file := range readCloser.File {
 		logger.WithField("filename", file.Name).Info("found")
-		if errFile := processZippedFiles(file, destinationFolder); errFile != nil {
-			return
+		extension := filepath.Ext(file.Name)
+		if extension == ".xml" {
+			if errFile := processZippedFiles(file, destinationFolder); errFile != nil {
+				return
+			}
+		} else {
+			logger.WithField("filename", file.Name).Info("skipping file")
 		}
 	}
 	logger.Info("successfully done")
@@ -76,7 +84,8 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	for scanner.Scan() {
 		line := scanner.Text()
 		switch strings.TrimSpace(line) {
-		case `</us-patent-grant>`:
+		case `</us-patent-grant>`, `</PATDOC>`:
+			// identify the end of the document
 			logger.Trace("us-patent-grant xml end")
 			logger.WithField("count", counter).Info("done with file")
 			// end of the file
@@ -87,8 +96,12 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 			counter++
 			break
 		default:
+			// extract filename from xml file
 			if strings.Contains(line, `<us-patent-grant `) {
-				logger.Trace("us-patent-grant title")
+				// version 4.0
+				logger.Trace("us-patent-grant filename")
+				// if there is a line which contains the beginning of the document xml tag
+				// extract the filename
 				res := regexFile.FindAllStringSubmatch(line, -1)
 				if len(res) != 1 && len(res[0]) != 1 {
 					msg := "failed extract filename"
@@ -101,6 +114,23 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 				// send the filename
 				wg.Add(1)
 				chFilename <- filename
+			} else if strings.Contains(line, `<B110>`) {
+				// version 2.5
+				logger.Trace("b110 number")
+				xmlElement, _ := goquery.NewDocumentFromReader(bytes.NewReader([]byte(line)))
+				filename := strings.TrimSpace(xmlElement.Find("B110").Text())
+				if len(filename) > 0 {
+					logger.WithField("xmlFile", filename).Info("start")
+					// append ending
+					filename += ".XML"
+					// send the filename
+					wg.Add(1)
+					chFilename <- filename
+				} else {
+					msg := "failed extract filename"
+					err = fmt.Errorf(msg)
+					logger.Error(err)
+				}
 			}
 			// send the content
 			wg.Add(1)
@@ -179,6 +209,10 @@ func fileWriter(
 			logger.
 				// WithField("content", content).
 				Trace("received data")
+			// skip the empty line if there is nothing in the buffer
+			if buf.Len() == 0 && len(content) == 0 {
+				continue
+			}
 			_, errWrite := buf.WriteString(content + "\n")
 			if errWrite != nil {
 				ctx.Done()
