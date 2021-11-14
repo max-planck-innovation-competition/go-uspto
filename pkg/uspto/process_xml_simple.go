@@ -17,6 +17,39 @@ const (
 func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err error) {
 	// parse doc
 	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(raw))
+
+	// version 2.4 and 2.5
+	root := doc.Find("PATDOC")
+	if len(root.Nodes) > 0 {
+		return ProcessXML2Simple(doc)
+	}
+	// version 4 and above
+	root = doc.Find("us-patent-grant")
+	if len(root.Nodes) > 0 {
+		return ProcessXML4Simple(doc)
+	}
+
+	return
+}
+
+func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimple, err error) {
+	if err != nil {
+		return
+	}
+	root := doc.Find("PATDOC")
+	if root == nil {
+		return
+	}
+
+	// patentDoc.Lang, _ = root.Attr("lang")
+	// patentDoc.File, _ = root.Attr("file")
+	patentDoc.DtdVersion, _ = root.Attr("DTD")
+	patentDoc.Status, _ = root.Attr("STATUS")
+
+	return
+}
+
+func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimple, err error) {
 	if err != nil {
 		return
 	}
