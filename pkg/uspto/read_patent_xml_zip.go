@@ -211,8 +211,9 @@ func fileWriter(
 				Trace("received data")
 			// skip the empty line if there is nothing in the buffer
 			if buf.Len() == 0 && len(content) == 0 {
-				continue
+				break
 			}
+			// if there is content write it to the buffer
 			_, errWrite := buf.WriteString(content + "\n")
 			if errWrite != nil {
 				ctx.Done()
