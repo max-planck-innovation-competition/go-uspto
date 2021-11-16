@@ -213,9 +213,8 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 		// do not use trim here
 		item := ClassificationItem{
 			System:   US,
-			Text:     c.Text(),
+			Text:     strings.TrimSpace(c.Text()),
 			Sequence: sequenceCounter,
-			Section:  strings.TrimSpace(c.Text()),
 		}
 		patentDoc.Classifications = append(patentDoc.Classifications, item)
 		sequenceCounter++

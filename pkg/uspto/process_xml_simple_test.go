@@ -88,9 +88,7 @@ func TestProcessXMLSimpleVersion25Design(t *testing.T) {
 		// fmt.Println(patDoc.Claims[0])
 		// fmt.Println(patDoc.Description[0])
 
-		ass.Equal("20060101", patDoc.Classifications[3].Version)
-		ass.Equal("A", patDoc.Classifications[3].ClassificationLevel)
-		ass.Equal(1, patDoc.Classifications[3].Sequence)
+
 		ass.Equal("A", patDoc.Classifications[3].Section)
 		ass.Equal("01", patDoc.Classifications[3].Class)
 		ass.Equal("B", patDoc.Classifications[3].SubClass)
@@ -144,6 +142,13 @@ func TestProcessXMLSimpleVersion5Patent(t *testing.T) {
 	ass.Equal("3669141", patDoc.Citations[0].DocNumber)
 	ass.Equal("A", patDoc.Citations[0].Kind)
 	ass.Equal(Country("US"), patDoc.Citations[0].Country)
+
+	ass.Equal("", patDoc.Classifications[0].Version)
+	ass.Equal("4675", patDoc.Classifications[0].Text)
+	ass.Equal(1, patDoc.Classifications[0].Sequence)
+	ass.Equal("", patDoc.Classifications[1].Version)
+	ass.Equal("4676", patDoc.Classifications[1].Text)
+	ass.Equal(2, patDoc.Classifications[1].Sequence)
 	/*
 		//
 
