@@ -110,14 +110,14 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	})
 
 	// description
-	// SDODE <!--Subdocument: Description of the invention.-->
-	SDODEs := root.Find("SDOAB")
+	// SDODE Subdocument: Description of the invention.
+	SDODEs := root.Find("SDODE")
 	SDODEs.Each(func(i int, SDODE *goquery.Selection) {
 		lang, _ := SDODE.Attr("la")
 		if len(lang) == 0 {
 			lang = "en"
 		}
-		patentDoc.Abstract = append(patentDoc.Abstract, Abstract{
+		patentDoc.Description = append(patentDoc.Description, Description{
 			Text:     strings.TrimSpace(SDODE.Text()),
 			Language: strings.TrimSpace(strings.ToLower(lang)),
 		})
@@ -159,6 +159,55 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 			})
 		})
 	})
+
+	// citations
+	/*
+		<B560>
+		                <B561>
+		                    <PCIT>
+		                        <DOC>
+		                            <DNUM>
+		                                <PDAT>3669141</PDAT>
+		                            </DNUM>
+		                            <DATE>
+		                                <PDAT>19720600</PDAT>
+		                            </DATE>
+		                            <KIND>
+		                                <PDAT>A</PDAT>
+		                            </KIND>
+		                        </DOC>
+		                        <PARTY-US>
+		                            <NAM>
+		                                <SNM>
+		                                    <STEXT>
+		                                        <PDAT>Schmitt</PDAT>
+		                                    </STEXT>
+		                                </SNM>
+		                            </NAM>
+		                        </PARTY-US>
+		                        <PNC>
+		                            <PDAT>285208</PDAT>
+		                        </PNC>
+		                    </PCIT>
+		                    <CITED-BY-EXAMINER/>
+		                </B561>
+	*/
+	b560 := root.Find("B560")
+	b561s := b560.Find("B561")
+	b561s.Each(func(i int, b561 *goquery.Selection) {
+		country := strings.TrimSpace(b561.Find("PCIT CTRY").Text())
+		if len(country) == 0 {
+			country = "US"
+		}
+		patentDoc.Citations = append(patentDoc.Citations, Citation{
+			DocNumber: strings.TrimSpace(b561.Find("PCIT DNUM").Text()),
+			Kind:      strings.TrimSpace(b561.Find("PCIT KIND").Text()),
+			Country:   Country(country),
+		})
+	})
+
+	// classification
+
 	return
 }
 
@@ -420,7 +469,7 @@ func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 			Source:                 strings.TrimSpace(c.Find("classification-data-source").Text()),
 			GeneratingOffice:       strings.TrimSpace(c.Find("generating-office").Text()),
 		}
-		patentDoc.IpcClassifications = append(patentDoc.IpcClassifications, item)
+		patentDoc.Classifications = append(patentDoc.Classifications, item)
 		sequenceCounter++
 	})
 
@@ -475,7 +524,7 @@ func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 			Source:                 strings.TrimSpace(c.Find("classification-data-source").Text()),
 			GeneratingOffice:       strings.TrimSpace(c.Find("generating-office").Text()),
 		}
-		patentDoc.CpcClassifications = append(patentDoc.CpcClassifications, item)
+		patentDoc.Classifications = append(patentDoc.Classifications, item)
 		sequenceCounter++
 	})
 

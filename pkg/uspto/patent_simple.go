@@ -9,26 +9,25 @@ import (
 // EpPatentDocumentSimple is a simple representation of the xml data
 
 type UsptoPatentDocumentSimple struct {
-	ID                 string
-	File               string
-	Lang               string
-	Country            Country
-	DocNumber          string
-	Kind               string
-	DatePubl           time.Time
-	Status             string
-	DtdVersion         string
-	Title              []Title
-	Abstract           []Abstract
-	Claims             []Claim
-	Description        []Description
-	Citations          []Citation
-	Inventors          []Inventor
-	Owners             []Owner
-	Representatives    []Representative
-	ContractingStates  []Country
-	IpcClassifications []ClassificationItem
-	CpcClassifications []ClassificationItem
+	ID                string
+	File              string
+	Lang              string
+	Country           Country
+	DocNumber         string
+	Kind              string
+	DatePubl          time.Time
+	Status            string
+	DtdVersion        string
+	Title             []Title
+	Abstract          []Abstract
+	Claims            []Claim
+	Description       []Description
+	Citations         []Citation
+	Inventors         []Inventor
+	Owners            []Owner
+	Representatives   []Representative
+	ContractingStates []Country
+	Classifications   []ClassificationItem
 	// USPTO
 	DateProduced time.Time
 }
@@ -94,6 +93,7 @@ type ClassificationSystem string
 
 const IPC ClassificationSystem = "IPC"
 const CPC ClassificationSystem = "CPC"
+const US ClassificationSystem = "US" // US Classification
 
 type ClassificationItem struct {
 	System                 ClassificationSystem // cpc, ipc
