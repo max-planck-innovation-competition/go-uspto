@@ -207,6 +207,19 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	})
 
 	// classification
+	sequenceCounter := 1
+	usClasses := root.Find("B580 B582")
+	usClasses.Each(func(i int, c *goquery.Selection) {
+		// do not use trim here
+		item := ClassificationItem{
+			System:   US,
+			Text:     c.Text(),
+			Sequence: sequenceCounter,
+			Section:  strings.TrimSpace(c.Text()),
+		}
+		patentDoc.Classifications = append(patentDoc.Classifications, item)
+		sequenceCounter++
+	})
 
 	return
 }
