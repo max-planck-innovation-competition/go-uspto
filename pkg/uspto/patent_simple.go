@@ -29,7 +29,8 @@ type UsptoPatentDocumentSimple struct {
 	ContractingStates []Country
 	Classifications   []ClassificationItem
 	// USPTO
-	DateProduced time.Time
+	DateProduced  time.Time
+	FieldOfSearch []ClassificationItem
 }
 
 type Country string

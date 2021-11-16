@@ -206,17 +206,50 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 		})
 	})
 
-	// classification
+	// Classification
 	sequenceCounter := 1
+	B521s := root.Find("B520 B521")
+	// B521: US: Original classification
+	B521s.Each(func(i int, c *goquery.Selection) {
+		// do not use trim here
+		item := ClassificationItem{
+			System:           US,
+			Text:             strings.TrimSpace(c.Text()),
+			Sequence:         sequenceCounter,
+			Source:           "B521",
+			GeneratingOffice: "US",
+		}
+		patentDoc.Classifications = append(patentDoc.Classifications, item)
+		sequenceCounter++
+	})
+	sequenceCounter = 1
+	B522s := root.Find("B520 B522")
+	// B522: US: Cross-reference classification (official, or XR)
+	B522s.Each(func(i int, c *goquery.Selection) {
+		// do not use trim here
+		item := ClassificationItem{
+			System:           US,
+			Text:             strings.TrimSpace(c.Text()),
+			Source:           "B522",
+			GeneratingOffice: "US",
+			Sequence:         sequenceCounter,
+		}
+		patentDoc.Classifications = append(patentDoc.Classifications, item)
+		sequenceCounter++
+	})
+	// Field of search
+	sequenceCounter = 1
 	usClasses := root.Find("B580 B582")
 	usClasses.Each(func(i int, c *goquery.Selection) {
 		// do not use trim here
 		item := ClassificationItem{
-			System:   US,
-			Text:     strings.TrimSpace(c.Text()),
-			Sequence: sequenceCounter,
+			System:           US,
+			Text:             strings.TrimSpace(c.Text()),
+			Sequence:         sequenceCounter,
+			Source:           "B582",
+			GeneratingOffice: "US",
 		}
-		patentDoc.Classifications = append(patentDoc.Classifications, item)
+		patentDoc.FieldOfSearch = append(patentDoc.FieldOfSearch, item)
 		sequenceCounter++
 	})
 

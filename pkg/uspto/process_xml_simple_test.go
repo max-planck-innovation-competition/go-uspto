@@ -118,7 +118,7 @@ func TestProcessXMLSimpleVersion25Design(t *testing.T) {
 	*/
 }
 
-func TestProcessXMLSimpleVersion5Patent(t *testing.T) {
+func TestProcessXMLSimpleVersion25Patent(t *testing.T) {
 	ass := assert.New(t)
 	data, err := ioutil.ReadFile("./test-data/2-5-b1-patent.xml")
 	ass.NoError(err)
@@ -143,12 +143,20 @@ func TestProcessXMLSimpleVersion5Patent(t *testing.T) {
 	ass.Equal("A", patDoc.Citations[0].Kind)
 	ass.Equal(Country("US"), patDoc.Citations[0].Country)
 
+	// Classification
+	ass.Equal(US, patDoc.Classifications[0].System)
 	ass.Equal("", patDoc.Classifications[0].Version)
 	ass.Equal("4675", patDoc.Classifications[0].Text)
 	ass.Equal(1, patDoc.Classifications[0].Sequence)
-	ass.Equal("", patDoc.Classifications[1].Version)
-	ass.Equal("4676", patDoc.Classifications[1].Text)
-	ass.Equal(2, patDoc.Classifications[1].Sequence)
+
+	// FieldOfSearch
+	ass.Equal(US, patDoc.FieldOfSearch[0].System)
+	ass.Equal("", patDoc.FieldOfSearch[0].Version)
+	ass.Equal("4675", patDoc.FieldOfSearch[0].Text)
+	ass.Equal(1, patDoc.FieldOfSearch[0].Sequence)
+	ass.Equal("", patDoc.FieldOfSearch[1].Version)
+	ass.Equal("4676", patDoc.FieldOfSearch[1].Text)
+	ass.Equal(2, patDoc.FieldOfSearch[1].Sequence)
 	/*
 		//
 
