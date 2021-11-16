@@ -33,19 +33,132 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 }
 
 func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimple, err error) {
-	if err != nil {
-		return
-	}
 	root := doc.Find("PATDOC")
-	if root == nil {
-		return
-	}
 
 	// patentDoc.Lang, _ = root.Attr("lang")
 	// patentDoc.File, _ = root.Attr("file")
-	patentDoc.DtdVersion, _ = root.Attr("DTD")
-	patentDoc.Status, _ = root.Attr("STATUS")
+	patentDoc.DtdVersion, _ = root.Attr("dtd")
+	patentDoc.Status, _ = root.Attr("status")
 
+	b100 := root.Find("B100")
+
+	// B110 Document number
+	patentDoc.DocNumber = strings.TrimSpace(b100.Find("B110").Text())
+
+	// B130 Kind
+	/*
+		Kind codes changed effective 2001-01-02 to accommodate pre-grant publication status.
+		A1 - Utility Patent issued prior to January 2, 2001.
+		A1 - Utility Patent Application published on or after January 2, 2001.
+		A2 - Second or subsequent publication of a Utility Patent Application.
+		A9 - Corrected published Utility Patent Application.
+		Bn - Reexamination Certificate issued prior to January 2, 2001. NOTE: "n" represents a value 1 through 9.
+		B1 - Utility Patent (no pre-grant publication) issued on or after January 2, 2001.
+		B2 - Utility Patent (with pre-grant publication) issued on or after January 2, 2001.
+		Cn - Reexamination Certificate issued on or after January 2, 2001. NOTE: "n" represents a value 1 through 9 denoting the publication level.
+		E1 - Reissue Patent.
+		Fn - Reexamination Certificate of a Reissue Patent NOTE: "n" represents a value 1 through 9 denoting the publication level.
+		H1 - Statutory Invention Registration (SIR) Patent Documents. SIR documents began with the December 3, 1985 issue.
+		I1 - "X" Patents issued from July 31, 1790 to July 13, 1836.
+		I2 - "X" Reissue Patents issued from July 31, 1790 to July 13, 1836.
+		I3 - Additional Improvements - Patents issued between 1838 and 1861.
+		I4 - Defensive Publication - Documents issued from November 5, 1968 through May 5, 1987.
+		I5 - Trial Voluntary Protest Program (TVPP) Patent Documents.
+		NP - Non-Patent Literature.
+		P1 - Plant Patent issued prior to January 2, 2001.
+		P1 - Plant Patent Application published on or after January 2, 2001.
+		P2 - Plant Patent (no pre-grant publication) issued on or after January 2, 2001.
+		P3 - Plant Patent (with pre-grant publication) issued on or after January 2, 2001.
+		P4 - Second or subsequent publication of a Plant Patent Application.
+		P9 - Correction publication of a Plant Patent Application.
+		S1 - Design Patent.
+	*/
+	patentDoc.Kind = strings.TrimSpace(b100.Find("B130").Text())
+
+	// B140 - Document date (publication or issue)
+	dateString := strings.TrimSpace(b100.Find("B140").Text())
+	parsedDate, errDate := time.Parse(layoutDatePubl, dateString)
+	if errDate != nil {
+		log.Warn("can not parse date", dateString)
+	} else {
+		patentDoc.DatePubl = parsedDate
+	}
+
+	// B190 - Publishing country or organization code from WIPO Standard ST.3.
+	patentDoc.Country = Country(strings.TrimSpace(b100.Find("B190").Text()))
+
+	// title
+	// B540 Title of invention
+	title := root.Find("B540")
+	patentDoc.Title = append(patentDoc.Title, Title{
+		Language: "en",
+		Text:     strings.TrimSpace(title.Text()),
+	})
+
+	// abstract
+	// SDOAB Subdocument Abstract. All US patent types have an abstract;
+	SDOABs := root.Find("SDOAB")
+	SDOABs.Each(func(i int, SDOAB *goquery.Selection) {
+		lang, _ := SDOAB.Attr("la")
+		if len(lang) == 0 {
+			lang = "en"
+		}
+		patentDoc.Abstract = append(patentDoc.Abstract, Abstract{
+			Text:     strings.TrimSpace(SDOAB.Text()),
+			Language: strings.TrimSpace(strings.ToLower(lang)),
+		})
+	})
+
+	// description
+	// SDODE <!--Subdocument: Description of the invention.-->
+	SDODEs := root.Find("SDOAB")
+	SDODEs.Each(func(i int, SDODE *goquery.Selection) {
+		lang, _ := SDODE.Attr("la")
+		if len(lang) == 0 {
+			lang = "en"
+		}
+		patentDoc.Abstract = append(patentDoc.Abstract, Abstract{
+			Text:     strings.TrimSpace(SDODE.Text()),
+			Language: strings.TrimSpace(strings.ToLower(lang)),
+		})
+	})
+
+	// claims
+	// SDOCL Subdocument: Claims
+	/*
+		<SDOCL>
+		        <H LVL="1">
+		            <STEXT>
+		                <PDAT>What is claimed is:</PDAT>
+		            </STEXT>
+		        </H>
+		        <CL>
+		            <CLM ID="CLM-00001">
+		                <PARA ID="P-00157" LVL="0">
+		                    <PTEXT>
+		                        <PDAT>1. A faucet support member configured to releasably fix a faucet in a mounting hole that
+		                            is formed in a base plate, the faucet having at least one of a base end portion and a handy
+		                            spray, the faucet support member comprising:
+		                        </PDAT>
+		                    </PTEXT>
+		                </PARA>
+	*/
+	SDOCLs := root.Find("SDOCL")
+	SDOCLs.Each(func(i int, SDOCL *goquery.Selection) {
+		lang, _ := SDOCL.Attr("la")
+		if len(lang) == 0 {
+			lang = "en"
+		}
+		clms := root.Find("CL CLM")
+		clms.Each(func(i int, c *goquery.Selection) {
+			id, _ := c.Attr("id")
+			patentDoc.Claims = append(patentDoc.Claims, Claim{
+				Text:     strings.TrimSpace(c.Text()),
+				Language: strings.TrimSpace(strings.ToLower(lang)),
+				Id:       id,
+			})
+		})
+	})
 	return
 }
 
