@@ -272,9 +272,13 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	// B730: Assignee
 	B731s := root.Find("B700 B730 B731")
 	B731s.Each(func(i int, c *goquery.Selection) {
+		name := strings.TrimSpace(c.Find("PARTY-US NAM ONM").Text())
+		if len(name) == 0 {
+			name = strings.TrimSpace(c.Find("PARTY-US NAM SNM").Text() + ", " + c.Find("PARTY-US NAM FNM").Text())
+		}
 		// do not use trim here
 		owner := Owner{
-			Name:    strings.TrimSpace(c.Find("PARTY-US NAM").Text()),
+			Name:    name,
 			IID:     "",
 			IRF:     "",
 			Country: Country(strings.TrimSpace(strings.ToUpper(c.Find("PARTY-US ADR CTRY").Text()))),
@@ -287,9 +291,13 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	// B740: Attorney, agent, or representative.
 	B741s := root.Find("B700 B740 B741")
 	B741s.Each(func(i int, c *goquery.Selection) {
+		name := strings.TrimSpace(c.Find("PARTY-US NAM ONM").Text())
+		if len(name) == 0 {
+			name = strings.TrimSpace(c.Find("PARTY-US NAM SNM").Text() + ", " + c.Find("PARTY-US NAM FNM").Text())
+		}
 		// do not use trim here
 		rep := Representative{
-			Name:    strings.TrimSpace(c.Find("PARTY-US NAM").Text()),
+			Name:    name,
 			IID:     "",
 			Country: Country(strings.TrimSpace(strings.ToUpper(c.Find("PARTY-US ADR CTRY").Text()))),
 			City:    strings.TrimSpace(c.Find("PARTY-US ADR CITY").Text()),
@@ -489,14 +497,19 @@ func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 			</B741>
 		</B740>
 	*/
-	representatives := root.Find("B741")
+	representatives := root.Find("agents agent")
 	representatives.Each(func(i int, c *goquery.Selection) {
+
+		name := strings.TrimSpace(c.Find("addressbook orgname").Text())
+		if len(name) == 0 {
+			name = strings.TrimSpace(c.Find("addressbook last-name").Text() + ", " + c.Find("addressbook first-name").Text())
+		}
+
 		patentDoc.Representatives = append(patentDoc.Representatives, Representative{
-			Country: Country(strings.TrimSpace(c.Find("adr ctry").Text())),
-			IID:     strings.TrimSpace(c.Find("iid").Text()),
-			City:    strings.TrimSpace(c.Find("adr city").Text()),
-			Street:  strings.TrimSpace(c.Find("adr str").Text()),
-			Name:    strings.TrimSpace(c.Find("snm").Text()),
+			Country: Country(strings.TrimSpace(c.Find("addressbook address country").Text())),
+			City:    strings.TrimSpace(c.Find("addressbook address city").Text()),
+			Street:  strings.TrimSpace(c.Find("addressbook address street").Text()),
+			Name:    name,
 		})
 	})
 	// ContractingStates

@@ -45,7 +45,7 @@ func TestProcessXMLSimpleVersion45(t *testing.T) {
 	ass.Equal("H", patDoc.Classifications[0].Source)
 
 	ass.Equal(patDoc.Classifications[1].Sequence, 2)
-
+	// IPC
 	ass.Equal("20130101", patDoc.Classifications[3].Version)
 	ass.Equal("", patDoc.Classifications[3].ClassificationLevel)
 	ass.Equal(1, patDoc.Classifications[3].Sequence)
@@ -60,6 +60,15 @@ func TestProcessXMLSimpleVersion45(t *testing.T) {
 	ass.Equal("B", patDoc.Classifications[3].OriginalOrReclassified)
 	ass.Equal("H", patDoc.Classifications[3].Source)
 
+	// inventors
+	ass.Equal("Yeow", patDoc.Inventors[0].FirsName)
+	ass.Equal("Ng", patDoc.Inventors[0].LastName)
+	ass.Equal("Andover", patDoc.Inventors[0].City)
+	ass.Equal("KS", patDoc.Inventors[0].State)
+	ass.Equal(Country("US"), patDoc.Inventors[0].Country)
+
+	// inventors
+	ass.Equal("Jack, Kenneth H.", patDoc.Representatives[0].Name)
 }
 
 func TestProcessXMLSimpleVersion25Design(t *testing.T) {
