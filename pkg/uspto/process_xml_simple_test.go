@@ -157,41 +157,18 @@ func TestProcessXMLSimpleVersion25Patent(t *testing.T) {
 	ass.Equal("", patDoc.FieldOfSearch[1].Version)
 	ass.Equal("4676", patDoc.FieldOfSearch[1].Text)
 	ass.Equal(2, patDoc.FieldOfSearch[1].Sequence)
-	/*
-		//
 
-		// fmt.Println(patDoc.Abstract[0])
-		// fmt.Println(patDoc.Claims[0])
-		// fmt.Println(patDoc.Description[0])
+	// Inventor
+	ass.Equal(Country("JP"), patDoc.Inventors[0].Country)
+	ass.Equal("Osamu", patDoc.Inventors[0].FirsName)
+	ass.Equal("Tokunaga", patDoc.Inventors[0].LastName)
+	ass.Equal("Fukuoka", patDoc.Inventors[0].City)
 
-		ass.Equal("20060101", patDoc.Classifications[3].Version)
-		ass.Equal("A", patDoc.Classifications[3].ClassificationLevel)
-		ass.Equal(1, patDoc.Classifications[3].Sequence)
-		ass.Equal("A", patDoc.Classifications[3].Section)
-		ass.Equal("01", patDoc.Classifications[3].Class)
-		ass.Equal("B", patDoc.Classifications[3].SubClass)
-		ass.Equal("1", patDoc.Classifications[3].MainGroup)
-		ass.Equal("24", patDoc.Classifications[3].SubGroup)
-		ass.Equal("F", patDoc.Classifications[3].FirstLater)
-		ass.Equal("I", patDoc.Classifications[3].ClassificationValue)
-		ass.Equal("US", patDoc.Classifications[3].GeneratingOffice)
-		ass.Equal("B", patDoc.Classifications[3].OriginalOrReclassified)
-		ass.Equal("H", patDoc.Classifications[3].Source)
+	// Owner
+	ass.Equal(Country("JP"), patDoc.Owners[0].Country)
+	ass.Equal("Toto Ltd.", patDoc.Owners[0].Name)
+	ass.Equal("Fukuoka", patDoc.Owners[0].City)
 
-		ass.Equal(patDoc.Classifications[1].Sequence, 2)
-
-		ass.Equal("20130101", patDoc.Classifications[3].Version)
-		ass.Equal("", patDoc.Classifications[3].ClassificationLevel)
-		ass.Equal(1, patDoc.Classifications[3].Sequence)
-		ass.Equal("A", patDoc.Classifications[3].Section)
-		ass.Equal("01", patDoc.Classifications[3].Class)
-		ass.Equal("B", patDoc.Classifications[3].SubClass)
-		ass.Equal("1", patDoc.Classifications[3].MainGroup)
-		ass.Equal("243", patDoc.Classifications[3].SubGroup)
-		ass.Equal("F", patDoc.Classifications[3].FirstLater)
-		ass.Equal("I", patDoc.Classifications[3].ClassificationValue)
-		ass.Equal("US", patDoc.Classifications[3].GeneratingOffice)
-		ass.Equal("B", patDoc.Classifications[3].OriginalOrReclassified)
-		ass.Equal("H", patDoc.Classifications[3].Source)
-	*/
+	// Representative
+	ass.Equal("Pillsbury Winthrop LLP", patDoc.Representatives[0].Name)
 }

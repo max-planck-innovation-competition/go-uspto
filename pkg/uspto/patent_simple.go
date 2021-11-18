@@ -29,7 +29,6 @@ type UsptoPatentDocumentSimple struct {
 	ContractingStates []Country
 	Classifications   []ClassificationItem
 	// USPTO
-	DateProduced  time.Time
 	FieldOfSearch []ClassificationItem
 }
 
@@ -115,7 +114,7 @@ type ClassificationItem struct {
 	GeneratingOffice       string
 }
 
-var reClassification = regexp.MustCompile(`([ABCDEFGH])([0-9]{1,2})([A-Z]) *([0-9]{1,4})\/([0-9]{1,6}) *([0-9]{8})([CAS])([FL])([IN])([0-9]{8})([BRVD])([HMG])([A-Z]{2}) *`)
+var reClassification = regexp.MustCompile(`([ABCDEFGH])([0-9]{1,2})([A-Z]) *([0-9]{1,4})/([0-9]{1,6}) *([0-9]{8})([CAS])([FL])([IN])([0-9]{8})([BRVD])([HMG])([A-Z]{2}) *`)
 
 func NewClassificationItemFromString(text string, sequence int) (c ClassificationItem) {
 	c = ClassificationItem{

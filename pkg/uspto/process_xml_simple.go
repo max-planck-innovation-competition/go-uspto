@@ -253,6 +253,51 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 		sequenceCounter++
 	})
 
+	// B720: Inventor information
+	B721s := root.Find("B700 B720 B721")
+	B721s.Each(func(i int, c *goquery.Selection) {
+		// do not use trim here
+		inventor := Inventor{
+			Country:  Country(strings.TrimSpace(strings.ToUpper(c.Find("PARTY-US ADR CTRY").Text()))),
+			City:     strings.TrimSpace(c.Find("PARTY-US ADR CITY").Text()),
+			Street:   strings.TrimSpace(c.Find("PARTY-US ADR STR").Text()),
+			Name:     strings.TrimSpace(c.Find("PARTY-US NAM").Text()),
+			FirsName: strings.TrimSpace(c.Find("PARTY-US NAM FNM").Text()),
+			LastName: strings.TrimSpace(c.Find("PARTY-US NAM SNM").Text()),
+			State:    "",
+		}
+		patentDoc.Inventors = append(patentDoc.Inventors, inventor)
+	})
+
+	// B730: Assignee
+	B731s := root.Find("B700 B730 B731")
+	B731s.Each(func(i int, c *goquery.Selection) {
+		// do not use trim here
+		owner := Owner{
+			Name:    strings.TrimSpace(c.Find("PARTY-US NAM").Text()),
+			IID:     "",
+			IRF:     "",
+			Country: Country(strings.TrimSpace(strings.ToUpper(c.Find("PARTY-US ADR CTRY").Text()))),
+			City:    strings.TrimSpace(c.Find("PARTY-US ADR CITY").Text()),
+			Street:  strings.TrimSpace(c.Find("PARTY-US ADR STR").Text()),
+		}
+		patentDoc.Owners = append(patentDoc.Owners, owner)
+	})
+
+	// B740: Attorney, agent, or representative.
+	B741s := root.Find("B700 B740 B741")
+	B741s.Each(func(i int, c *goquery.Selection) {
+		// do not use trim here
+		rep := Representative{
+			Name:    strings.TrimSpace(c.Find("PARTY-US NAM").Text()),
+			IID:     "",
+			Country: Country(strings.TrimSpace(strings.ToUpper(c.Find("PARTY-US ADR CTRY").Text()))),
+			City:    strings.TrimSpace(c.Find("PARTY-US ADR CITY").Text()),
+			Street:  strings.TrimSpace(c.Find("PARTY-US ADR STR").Text()),
+		}
+		patentDoc.Representatives = append(patentDoc.Representatives, rep)
+	})
+
 	return
 }
 
