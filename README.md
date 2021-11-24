@@ -47,7 +47,7 @@ res, err := uspto.GetPatentXmlBulkFileList(start, end)
 
 Download a bulk zip file from the USPTO:
 ```go
-err := uspto.DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/grant/redbook/fulltext/2021/ipg210907.zip", "./test-data")
+exportFilePath, err := uspto.DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/grant/redbook/fulltext/2021/ipg210907.zip", "./test-data")
 ```
 
 Process the zip file

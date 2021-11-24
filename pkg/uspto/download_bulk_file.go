@@ -14,7 +14,7 @@ import (
 var ErrNoFilenameInUrl = errors.New("no filename in url")
 var ErrFileIsNoZip = errors.New("file is not zip")
 
-func DownloadBulkFile(url string, exportDirectory string) (err error) {
+func DownloadBulkFile(url string, exportDirectory string) (filePath string, err error) {
 	logger := log.WithFields(log.Fields{"url": url, "exportDirectory": exportDirectory})
 	// get the filename from the url
 	urlElements := strings.Split(url, "/")
@@ -31,11 +31,11 @@ func DownloadBulkFile(url string, exportDirectory string) (err error) {
 		return
 	}
 	// create the output file
-	filePath := filepath.Join(exportDirectory, fileName)
+	filePath = filepath.Join(exportDirectory, fileName)
 	out, err := os.Create(filePath)
 	if err != nil {
 		logger.Error(err)
-		return err
+		return
 	}
 	defer out.Close()
 
@@ -46,23 +46,23 @@ func DownloadBulkFile(url string, exportDirectory string) (err error) {
 	resp, err := httpClient.Get(url)
 	if err != nil {
 		logger.Error(err)
-		return err
+		return
 	}
 	defer resp.Body.Close()
 
 	// check server response
 	if resp.StatusCode != http.StatusOK {
 		err = fmt.Errorf("bad status: %s", resp.Status)
-		log.Error(err)
+		logger.Error(err)
 		return
 	}
 
 	// write the body to file
 	_, err = io.Copy(out, resp.Body)
 	if err != nil {
-		return err
+		return
 	}
 	logger.Info("download complete")
 	logger.WithField("path", filePath).Info("file saved")
-	return nil
+	return
 }
