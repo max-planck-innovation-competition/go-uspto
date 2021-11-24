@@ -17,7 +17,7 @@ import (
 
 var regexFile = regexp.MustCompile(`file="([A-Z0-9-.]+)"`)
 
-func ReadPatentXMLZip(sourceFile, destinationFolder string) (err error) {
+func ProcessBulkFile(sourceFile, destinationFolder string) (err error) {
 	logger := log.WithField("zipFile", sourceFile)
 	logger.Info("reading file")
 	// read zip file

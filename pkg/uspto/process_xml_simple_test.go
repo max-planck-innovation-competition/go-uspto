@@ -127,6 +127,13 @@ func TestProcessXMLSimpleVersion25Design(t *testing.T) {
 	*/
 }
 
+func TestProcessXMLFileSimple(t *testing.T) {
+	ass := assert.New(t)
+	patDoc, err := ProcessXMLFileSimple("./test-data/2-5-b1-patent.xml")
+	ass.NoError(err)
+	ass.NotEmpty(patDoc)
+}
+
 func TestProcessXMLSimpleVersion25Patent(t *testing.T) {
 	ass := assert.New(t)
 	data, err := ioutil.ReadFile("./test-data/2-5-b1-patent.xml")

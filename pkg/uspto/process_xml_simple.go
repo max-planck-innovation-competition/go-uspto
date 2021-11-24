@@ -5,6 +5,7 @@ import (
 	"errors"
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/sirupsen/logrus"
+	"io/ioutil"
 	"strings"
 	"time"
 )
@@ -12,6 +13,14 @@ import (
 const (
 	layoutDatePubl = "20060102"
 )
+
+func ProcessXMLFileSimple(filePath string) (patentDoc UsptoPatentDocumentSimple, err error) {
+	data, err := ioutil.ReadFile(filePath)
+	if err != nil {
+		return
+	}
+	return ProcessXMLSimple(data)
+}
 
 // ProcessXMLSimple transforms the raw response of the xml data into a simple patent
 func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err error) {
