@@ -32,6 +32,7 @@ go get github.com/max-planck-innovation-competition/go-uspto
 
 ## Usage
 
+Get a list of all the dates where the USPTO has published new patent grants:
 ```go
 import "github.com/max-planck-innovation-competition/go-uspto/pkg/uspto"
 
@@ -43,3 +44,19 @@ start := time.Date(2021, 9, 1, 0, 0, 0, 0, loc)
 end := time.Date(2021, 10, 1, 0, 0, 0, 0, loc)
 res, err := uspto.GetPatentXmlBulkFileList(start, end)
 ```
+
+Download a bulk zip file from the USPTO:
+```go
+err := uspto.DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/grant/redbook/fulltext/2021/ipg210907.zip", "./test-data")
+```
+
+Process the zip file
+```go
+err := uspto.ProcessBulkFile("./test-data/pg020101.zip", "./test-data/pg020101/xml")
+```
+
+Process the xml file
+```go
+patDoc, err := uspto.ProcessXMLFileSimple("./test-data/2-5-b1-patent.xml")
+```
+
