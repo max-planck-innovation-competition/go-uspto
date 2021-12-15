@@ -39,6 +39,7 @@ func ProcessBulkFile(sourceFile, destinationFolder string) (err error) {
 	for _, file := range readCloser.File {
 		logger.WithField("filename", file.Name).Info("found")
 		extension := filepath.Ext(file.Name)
+		extension = strings.ToLower(extension)
 		if extension == ".xml" {
 			if errFile := processZippedFiles(file, destinationFolder); errFile != nil {
 				return
