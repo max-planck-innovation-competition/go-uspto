@@ -39,19 +39,22 @@ func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	patentDoc.Kind = docId.Find("kind").Text()
 	// build doc id
 	docNumber := docId.Find("doc-number").Text()
+	if len(docNumber) == 0 {
+		err = errors.New("no doc number present for building id")
+		log.Error(err)
+		return
+	}
+
 	country := docId.Find("country").Text()
 	if len(country) == 0 {
 		err = errors.New("no country present for building id")
 		log.Error(err)
 		return
 	}
-	if len(docNumber) == 0 {
-		err = errors.New("no doc number present for building id")
-		log.Error(err)
-		return
-	}
-	patentDoc.ID = country + "-" + docNumber
 	patentDoc.Country = Country(strings.TrimSpace(country))
+
+	// set id
+	patentDoc.ID = docNumber
 
 	// title
 	/*

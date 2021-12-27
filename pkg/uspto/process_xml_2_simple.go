@@ -77,7 +77,7 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	patentDoc.Country = Country(country)
 
 	// build patent doc id
-	patentDoc.ID = country + "-" + docNumber
+	patentDoc.ID = docNumber
 
 	// title
 	// B540 Title of invention
