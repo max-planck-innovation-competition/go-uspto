@@ -14,8 +14,8 @@ import (
 type Product string
 
 const (
-	XmlPatentGrants       Product = "PTGRXML"
-	XmlPatentApplications Product = "APPDT"
+	XmlPatentGrantsOnlyXML       Product = "PTGRXML"
+	XmlPatentApplicationsOnlyXML Product = "APPXML"
 )
 
 type BulkFileResponse struct {
@@ -45,7 +45,7 @@ type BulkFileResponse struct {
 
 // GetPatentGrantXmlBulkFileList returns the download links to the zipped archives between two dates of patent grants
 func GetPatentGrantXmlBulkFileList(start time.Time, end time.Time) (downloadLinks []string, err error) {
-	res, err := GetBulkFileList(XmlPatentGrants, start, end)
+	res, err := GetBulkFileList(XmlPatentGrantsOnlyXML, start, end)
 	if err != nil {
 		log.Error(err)
 		return
@@ -59,7 +59,7 @@ func GetPatentGrantXmlBulkFileList(start time.Time, end time.Time) (downloadLink
 
 // GetPatentApplicationXmlBulkFileList returns the download links to the zipped archives between two dates of patent applications
 func GetPatentApplicationXmlBulkFileList(start time.Time, end time.Time) (downloadLinks []string, err error) {
-	res, err := GetBulkFileList(XmlPatentApplications, start, end)
+	res, err := GetBulkFileList(XmlPatentApplicationsOnlyXML, start, end)
 	if err != nil {
 		log.Error(err)
 		return

@@ -13,7 +13,7 @@ func TestGetBulkFileList(t *testing.T) {
 	ass.NoError(err)
 	start := time.Date(2021, 9, 1, 0, 0, 0, 0, loc)
 	end := time.Date(2021, 10, 1, 0, 0, 0, 0, loc)
-	res, err := GetBulkFileList(XmlPatentGrants, start, end)
+	res, err := GetBulkFileList(XmlPatentGrantsOnlyXML, start, end)
 	ass.NoError(err)
 	ass.NotNil(res)
 	fmt.Println(res)
