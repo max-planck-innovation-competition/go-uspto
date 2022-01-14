@@ -8,11 +8,11 @@ import (
 	"time"
 )
 
-func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimple, err error) {
+func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimple, err error) {
 	if err != nil {
 		return
 	}
-	root := doc.Find("us-patent-grant")
+	root := doc.Find("us-patent-application")
 	if root == nil {
 		return
 	}

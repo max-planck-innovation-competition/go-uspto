@@ -23,6 +23,7 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	// parse doc
 	doc, err := goquery.NewDocumentFromReader(bytes.NewReader(raw))
 
+	// Grants
 	// version 2.4 and 2.5
 	root := doc.Find("PATDOC")
 	if len(root.Nodes) > 0 {
@@ -31,7 +32,14 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	// version 4 and above
 	root = doc.Find("us-patent-grant")
 	if len(root.Nodes) > 0 {
-		return ProcessXML4Simple(doc)
+		return ProcessGrantXML4Simple(doc)
+	}
+
+	// Applications
+	// version 4 and above
+	root = doc.Find("us-patent-application")
+	if len(root.Nodes) > 0 {
+		return ProcessApplicationXML4Simple(doc)
 	}
 
 	return

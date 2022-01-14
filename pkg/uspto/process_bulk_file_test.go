@@ -12,6 +12,13 @@ func TestReadPatentXMLZip(t *testing.T) {
 	ass.NoError(err)
 }
 
+func TestReadPatentApplicationsXMLZip(t *testing.T) {
+	// log.SetLevel(log.TraceLevel)
+	ass := assert.New(t)
+	err := ProcessBulkFile("./test-data/ipa210902.zip", "./test-data/xml-application")
+	ass.NoError(err)
+}
+
 func TestReadPatentXMLZip25(t *testing.T) {
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)

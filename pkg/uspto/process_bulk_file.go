@@ -85,7 +85,7 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	for scanner.Scan() {
 		line := scanner.Text()
 		switch strings.TrimSpace(line) {
-		case `</us-patent-grant>`, `</PATDOC>`:
+		case `</us-patent-grant>`, `</PATDOC>`, `</us-patent-application>`:
 			// identify the end of the document
 			logger.Trace("us-patent-grant xml end")
 			logger.WithField("count", counter).Info("done with file")
@@ -98,7 +98,7 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 			break
 		default:
 			// extract filename from xml file
-			if strings.Contains(line, `<us-patent-grant `) {
+			if strings.Contains(line, `<us-patent-grant `) || strings.Contains(line, `<us-patent-application `) {
 				// version 4.0
 				logger.Trace("us-patent-grant filename")
 				// if there is a line which contains the beginning of the document xml tag
