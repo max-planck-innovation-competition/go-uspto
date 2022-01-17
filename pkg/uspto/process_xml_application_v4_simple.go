@@ -32,7 +32,7 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 	}
 
 	// upto bibliography
-	biblio := root.Find("us-bibliographic-data-grant").First()
+	biblio := root.Find("us-bibliographic-data-application").First()
 	pubReferenceDoc := biblio.Find("publication-reference").First()
 	docId := pubReferenceDoc.Find("document-id").First()
 	patentDoc.DocNumber = docId.Find("doc-number").Text()
