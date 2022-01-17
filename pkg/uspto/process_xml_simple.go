@@ -5,6 +5,7 @@ import (
 	"errors"
 	"github.com/PuerkitoBio/goquery"
 	"io/ioutil"
+	"strings"
 )
 
 const (
@@ -44,6 +45,16 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	// version 4 and above
 	root = doc.Find("us-patent-application")
 	if len(root.Nodes) > 0 {
+		// get dtd version
+		dtdVersion, attPresent := root.Attr("dtd-version")
+		// clean
+		dtdVersion = strings.TrimSpace(dtdVersion)
+		if attPresent {
+			switch dtdVersion {
+			case "v4.0 2004-12-02":
+				return ProcessApplicationXML40Simple(doc)
+			}
+		}
 		return ProcessApplicationXML4Simple(doc)
 	}
 	// version 1-5

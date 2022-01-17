@@ -8,7 +8,7 @@ import (
 
 func TestApplicationProcessXMLSimpleVersion45(t *testing.T) {
 	ass := assert.New(t)
-	data, err := ioutil.ReadFile("./test-data/application/4-4-a1-patent-application-example.xml")
+	data, err := ioutil.ReadFile("./test-data/application/4-4-a1.xml")
 	ass.NoError(err)
 	patDoc, err := ProcessXMLSimple(data)
 	ass.NoError(err)
