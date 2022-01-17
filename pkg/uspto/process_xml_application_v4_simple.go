@@ -60,14 +60,14 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 	/*
 		<invention-title id="d2e43">Wheeled hand truck</invention-title>
 	*/
-	title := biblio.Find("invention-title")
+	title := biblio.Find("title-of-invention")
 	patentDoc.Title = append(patentDoc.Title, Title{
 		Language: strings.ToLower("en"),
 		Text:     strings.TrimSpace(title.Text()),
 	})
 
 	// abstract
-	abstract := root.Find("abstract")
+	abstract := root.Find("subdoc-abstract")
 	abstract.Each(func(i int, a *goquery.Selection) {
 		patentDoc.Abstract = append(
 			patentDoc.Abstract,
@@ -77,6 +77,7 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 			},
 		)
 	})
+
 	// description
 	description := root.Find("description")
 	description.Each(func(i int, d *goquery.Selection) {

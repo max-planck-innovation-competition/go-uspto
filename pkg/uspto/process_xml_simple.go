@@ -2,6 +2,7 @@ package uspto
 
 import (
 	"bytes"
+	"errors"
 	"github.com/PuerkitoBio/goquery"
 	"io/ioutil"
 )
@@ -9,6 +10,8 @@ import (
 const (
 	layoutDatePubl = "20060102"
 )
+
+var ErrCanNotFindParser = errors.New("can not find parser for this document")
 
 func ProcessXMLFileSimple(filePath string) (patentDoc UsptoPatentDocumentSimple, err error) {
 	data, err := ioutil.ReadFile(filePath)
@@ -43,6 +46,14 @@ func ProcessXMLSimple(raw []byte) (patentDoc UsptoPatentDocumentSimple, err erro
 	if len(root.Nodes) > 0 {
 		return ProcessApplicationXML4Simple(doc)
 	}
+	// version 1-5
+	root = doc.Find("patent-application-publication")
+	if len(root.Nodes) > 0 {
+		return ProcessApplicationXML15Simple(doc)
+	}
+
+	// If no parser is found, return error
+	err = ErrCanNotFindParser
 
 	return
 }
