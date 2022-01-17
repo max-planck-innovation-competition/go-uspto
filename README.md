@@ -28,13 +28,13 @@ At the moment there are parsers that are tested with examples of the following v
 ### Applications
 
 - [ ] (JAN 2022 - Present) Patent Application Data/XML Version 4.6 ICE
-- [ ] (JAN 2015 - DEC 2021) Patent Application Data/XML Version 4.4 ICE
+- [x] (JAN 2015 - DEC 2021) Patent Application Data/XML Version 4.4 ICE
 - [ ] (JAN 2013 – DEC 2014) Patent Application Data/XML Version 4.3 ICE
 - [ ] (JAN 2007 – DEC 2012) Patent Application Data/XML Version 4.2 ICE
 - [ ] (JAN 2006 – DEC 2006) Patent Application Data/XML Version 4.1 ICE 
 - [ ] (JAN 2005 – DEC 2005) Patent Application Data/XML Version 4.0 ICE
 - [ ] (JAN 2002 – DEC 2004) Patent Application Data/XML Version 1.6  
-- [ ] (MAR 15, 2001 – DEC 2001) Patent Application Data/XML Version 1.5
+- [x] (MAR 15, 2001 – DEC 2001) Patent Application Data/XML Version 1.5
 
 [See dtd standards](dtds)
 
