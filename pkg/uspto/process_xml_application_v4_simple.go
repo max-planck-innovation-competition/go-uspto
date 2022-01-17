@@ -8,11 +8,11 @@ import (
 	"time"
 )
 
-func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimple, err error) {
+func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimple, err error) {
 	if err != nil {
 		return
 	}
-	root := doc.Find("us-patent-grant")
+	root := doc.Find("us-patent-application")
 	if root == nil {
 		return
 	}
@@ -32,7 +32,7 @@ func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	}
 
 	// upto bibliography
-	biblio := root.Find("us-bibliographic-data-grant").First()
+	biblio := root.Find("us-bibliographic-data-application").First()
 	pubReferenceDoc := biblio.Find("publication-reference").First()
 	docId := pubReferenceDoc.Find("document-id").First()
 	patentDoc.DocNumber = docId.Find("doc-number").Text()
@@ -60,11 +60,24 @@ func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	/*
 		<invention-title id="d2e43">Wheeled hand truck</invention-title>
 	*/
-	title := biblio.Find("invention-title")
-	patentDoc.Title = append(patentDoc.Title, Title{
-		Language: strings.ToLower("en"),
-		Text:     strings.TrimSpace(title.Text()),
-	})
+	title := biblio.Find("title-of-invention")
+	if title.Length() > 0 {
+		patentDoc.Title = append(patentDoc.Title, Title{
+			Language: strings.ToLower("en"),
+			Text:     strings.TrimSpace(title.Text()),
+		})
+	}
+
+	/* v 4-0
+	<invention-title id="d0e64">Novelty jeans</invention-title>
+	*/
+	title = biblio.Find("invention-title")
+	if title.Length() > 0 {
+		patentDoc.Title = append(patentDoc.Title, Title{
+			Language: strings.ToLower("en"),
+			Text:     strings.TrimSpace(title.Text()),
+		})
+	}
 
 	// abstract
 	abstract := root.Find("abstract")
@@ -77,6 +90,7 @@ func ProcessXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 			},
 		)
 	})
+
 	// description
 	description := root.Find("description")
 	description.Each(func(i int, d *goquery.Selection) {
