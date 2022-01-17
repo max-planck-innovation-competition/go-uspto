@@ -11,6 +11,7 @@ import (
 	"os"
 	"path/filepath"
 	"regexp"
+	"strconv"
 	"strings"
 	"sync"
 )
@@ -85,7 +86,14 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	for scanner.Scan() {
 		line := scanner.Text()
 		switch strings.TrimSpace(line) {
-		case `</us-patent-grant>`, `</PATDOC>`, `</us-patent-application>`:
+		// identify the last line of the file
+		case
+			// grants
+			`</us-patent-grant>`,
+			`</PATDOC>`,
+			// applications
+			`</us-patent-application>`,
+			`</patent-application-publication>`:
 			// identify the end of the document
 			logger.Trace("us-patent-grant xml end")
 			logger.WithField("count", counter).Info("done with file")
@@ -132,6 +140,12 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 					err = fmt.Errorf(msg)
 					logger.Error(err)
 				}
+			} else if strings.Contains(line, `<patent-application-publication`) {
+				// create filename based on counter
+				filename := strconv.Itoa(counter) + ".XML"
+				// send the filename
+				wg.Add(1)
+				chFilename <- filename
 			}
 			// send the content
 			wg.Add(1)

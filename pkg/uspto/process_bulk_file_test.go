@@ -12,6 +12,15 @@ func TestReadPatentXMLZip(t *testing.T) {
 	ass.NoError(err)
 }
 
+func TestReadPatentXMLZip25(t *testing.T) {
+	// log.SetLevel(log.TraceLevel)
+	ass := assert.New(t)
+	// 2.5
+	err := ProcessBulkFile("./test-data/pg020101.zip", "./test-data/pg020101/xml")
+	ass.NoError(err)
+}
+
+// version 4-0
 func TestReadPatentApplicationsXMLZip(t *testing.T) {
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)
@@ -19,10 +28,10 @@ func TestReadPatentApplicationsXMLZip(t *testing.T) {
 	ass.NoError(err)
 }
 
-func TestReadPatentXMLZip25(t *testing.T) {
+// version 1-5
+func TestReadPatentApplicationsXMLZip15(t *testing.T) {
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)
-	// 2.5
-	err := ProcessBulkFile("./test-data/pg020101.zip", "./test-data/pg020101/xml")
+	err := ProcessBulkFile("./test-data/application/bulk/1-5-pab20010315_wk11.zip", "./test-data/xml-application")
 	ass.NoError(err)
 }
