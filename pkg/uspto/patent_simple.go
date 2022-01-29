@@ -10,6 +10,7 @@ import (
 
 type UsptoPatentDocumentSimple struct {
 	ID                string
+	Aliases           []string
 	File              string
 	Lang              string
 	Country           Country
