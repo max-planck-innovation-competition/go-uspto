@@ -76,3 +76,23 @@ Process the xml file
 patDoc, err := uspto.ProcessXMLFileSimple("./test-data/2-5-b1-patent.xml")
 ```
 
+## PatentID
+
+USPTO IDs are generated in the following way
+
+## Patents
+* Applications: application number: 4-digit year (starting in 2001) followed by 7 digits
+
+### Applications
+A Publication number includes a four-digit year, followed by a seven-digit sequence code 
+followed by a two-character Kind Code that is assigned by the USPTO. 
+The system displays the publication number with or without the "US" prefix and the Kind Code suffix 
+(e.g., `US YYYY-9999999 A9` or `9999-9999999`).
+https://www.uspto.gov/patents/apply/applying-online/publication-number
+
+* Re-examination utility patent number: B followed by up to 4 digits (issued before 01/02/2001)
+
+## Trademarks
+* Trademark application serial number: 8 digits
+* Trademark reel and frame number: 4-digit reel followed by 4-digit frame
+* Trademark registration number: up to 7 digits
