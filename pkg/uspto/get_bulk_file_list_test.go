@@ -58,3 +58,16 @@ func TestGetPatentApplicationXmlBulkFileList(t *testing.T) {
 	fmt.Println(res)
 	ass.NotEmpty(res)
 }
+
+func TestGetPatentApplicationXmlBulkFileList2(t *testing.T) {
+	ass := assert.New(t)
+	loc, err := time.LoadLocation("Europe/Berlin")
+	ass.NoError(err)
+	start := time.Date(2022, 2, 2, 0, 0, 0, 0, loc)
+	end := time.Date(2022, 2, 8, 0, 0, 0, 0, loc)
+	res, err := GetPatentApplicationXmlBulkFileList(start, end)
+	ass.NoError(err)
+	ass.NotNil(res)
+	fmt.Println(res)
+	ass.NotEmpty(res)
+}

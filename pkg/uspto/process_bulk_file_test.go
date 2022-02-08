@@ -35,3 +35,11 @@ func TestReadPatentApplicationsXMLZip15(t *testing.T) {
 	err := ProcessBulkFile("./test-data/application/bulk/1-5-pab20010315_wk11.zip", "./test-data/xml-application")
 	ass.NoError(err)
 }
+
+// 2022
+func TestReadPatentApplicationsXMLZip2022(t *testing.T) {
+	// log.SetLevel(log.TraceLevel)
+	ass := assert.New(t)
+	err := ProcessBulkFile("./test-data/ipa220203.zip", "./test-data/ipa220203")
+	ass.NoError(err)
+}
