@@ -19,6 +19,7 @@ func TestUsptoPatentDocumentSimple_GenerateAliases(t *testing.T) {
 	p.GenerateAliases()
 	ass.Contains(p.Aliases, "US2001001008A1")
 }
+
 func TestUsptoPatentDocumentSimple_GenerateAliases2(t *testing.T) {
 	ass := assert.New(t)
 	location, err := time.LoadLocation("America/New_York")
@@ -32,6 +33,7 @@ func TestUsptoPatentDocumentSimple_GenerateAliases2(t *testing.T) {
 	p.GenerateAliases()
 	ass.Contains(p.Aliases, "US2009247212A1")
 }
+
 func TestUsptoPatentDocumentSimple_GenerateAliases3(t *testing.T) {
 	ass := assert.New(t)
 	location, err := time.LoadLocation("America/New_York")
