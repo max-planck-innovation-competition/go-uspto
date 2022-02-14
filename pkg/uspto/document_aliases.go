@@ -3,7 +3,9 @@ package uspto
 import (
 	"errors"
 	log "github.com/sirupsen/logrus"
+	"regexp"
 	"strconv"
+	"strings"
 	"time"
 )
 
@@ -60,21 +62,34 @@ func GenerateAliases(documentNumber, kind string, publicationDate time.Time) (al
 	// add: year
 	// check if document publication year is already part of the document number
 	yearStr := strconv.Itoa(publicationDate.Year())
-	if len(documentNumber) > 4 && documentNumber[:4] != yearStr {
-		// if it's not part of the document add it
-		aliases = append(aliases, "US"+yearStr+documentNumber)      // adds [office + document number + year]
-		aliases = append(aliases, "US"+yearStr+documentNumber+kind) // adds [office + document number + year + kind]
+	if len(documentNumber) > 4 && documentNumber[:4] == yearStr {
+		documentNumber = documentNumber[4:]
 	}
-
-	// remove leading zero if doc number is 7 digits long
-	// e.g. 0034018 --> 034018
-	if len(documentNumber) == 7 && documentNumber[0] == '0' {
-		aliases = append(aliases, "US"+documentNumber[1:])              // adds [office + document number without leading zero]
-		aliases = append(aliases, "US"+documentNumber[1:]+kind)         // adds [office + document number without leading zero + kind]
-		aliases = append(aliases, "US"+yearStr+documentNumber[1:])      // adds [office + year +document number without leading zero]
-		aliases = append(aliases, "US"+yearStr+documentNumber[1:]+kind) // adds [office + document number without leading zero + kind]
-	}
+	// if it's not part of the document add it
+	// e.g. 034018 - MISSING [2013]
+	aliases = append(aliases, "US"+yearStr+documentNumber)      // adds [office + year + document number]
+	aliases = append(aliases, "US"+yearStr+documentNumber+kind) // adds [office + year + document number + kind]
+	// remove preceding zeros
+	aliases = append(aliases, "US"+yearStr+removeLeadingZero(documentNumber))       // adds [office + year + [-0{0,1}]document number]
+	aliases = append(aliases, "US"+yearStr+removeLeadingZero(documentNumber)+kind)  // adds [office + year + [-0{0,1}]document number + kind]
+	aliases = append(aliases, "US"+yearStr+removeLeadingZeros(documentNumber))      // adds [office + year + [-0{*}]document number]
+	aliases = append(aliases, "US"+yearStr+removeLeadingZeros(documentNumber)+kind) // adds [office + year + [-0{*}]document number + kind]
 	return
+}
+
+// removeLeadingZero removes ONE leading 0 from the document number
+func removeLeadingZero(documentNumber string) string {
+	documentNumber = strings.TrimPrefix(documentNumber, "0")
+	return documentNumber
+}
+
+// regexpZeros matches all leading zeros
+var regexpZeros = regexp.MustCompile(`^0+`)
+
+// removeLeadingZeros removes ALL leading 0 from the document number
+func removeLeadingZeros(documentNumber string) string {
+	documentNumber = regexpZeros.ReplaceAllString(documentNumber, "")
+	return documentNumber
 }
 
 func (p *UsptoPatentDocumentSimple) GenerateAliases() {
