@@ -54,10 +54,11 @@ func GenerateAliases(documentNumber, kind string, publicationDate time.Time) (al
 	}
 	// init result
 	aliases = []string{}
+	aliasesMap := map[string]struct{}{}
 	// generate initial aliases
-	aliases = append(aliases, documentNumber)           // adds [document number]
-	aliases = append(aliases, "US"+documentNumber)      // adds [office + document number]
-	aliases = append(aliases, "US"+documentNumber+kind) // adds [office + document number + kind]
+	aliasesMap[documentNumber] = struct{}{}           // adds [document number]
+	aliasesMap["US"+documentNumber] = struct{}{}      // adds [office + document number]
+	aliasesMap["US"+documentNumber+kind] = struct{}{} // adds [office + document number + kind]
 
 	// add: year
 	// check if document publication year is already part of the document number
@@ -67,13 +68,18 @@ func GenerateAliases(documentNumber, kind string, publicationDate time.Time) (al
 	}
 	// if it's not part of the document add it
 	// e.g. 034018 - MISSING [2013]
-	aliases = append(aliases, "US"+yearStr+documentNumber)      // adds [office + year + document number]
-	aliases = append(aliases, "US"+yearStr+documentNumber+kind) // adds [office + year + document number + kind]
+	aliasesMap["US"+yearStr+documentNumber] = struct{}{}      // adds [office + year + document number]
+	aliasesMap["US"+yearStr+documentNumber+kind] = struct{}{} // adds [office + year + document number + kind]
 	// remove preceding zeros
-	aliases = append(aliases, "US"+yearStr+removeLeadingZero(documentNumber))       // adds [office + year + [-0{0,1}]document number]
-	aliases = append(aliases, "US"+yearStr+removeLeadingZero(documentNumber)+kind)  // adds [office + year + [-0{0,1}]document number + kind]
-	aliases = append(aliases, "US"+yearStr+removeLeadingZeros(documentNumber))      // adds [office + year + [-0{*}]document number]
-	aliases = append(aliases, "US"+yearStr+removeLeadingZeros(documentNumber)+kind) // adds [office + year + [-0{*}]document number + kind]
+	aliasesMap["US"+yearStr+removeLeadingZero(documentNumber)] = struct{}{}       // adds [office + year + [-0{0,1}]document number]
+	aliasesMap["US"+yearStr+removeLeadingZero(documentNumber)+kind] = struct{}{}  // adds [office + year + [-0{0,1}]document number + kind]
+	aliasesMap["US"+yearStr+removeLeadingZeros(documentNumber)] = struct{}{}      // adds [office + year + [-0{*}]document number]
+	aliasesMap["US"+yearStr+removeLeadingZeros(documentNumber)+kind] = struct{}{} // adds [office + year + [-0{*}]document number + kind]
+
+	// convert alias map to string array
+	for k, _ := range aliasesMap {
+		aliases = append(aliases, k)
+	}
 	return
 }
 
