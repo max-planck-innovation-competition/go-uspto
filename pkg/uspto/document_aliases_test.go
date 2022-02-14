@@ -108,3 +108,18 @@ func TestUsptoPatentDocumentSimple_GenerateAliases5(t *testing.T) {
 	ass.Contains(p.Aliases, "US20080063115A1")
 	ass.Contains(p.Aliases, "US200863115A1")
 }
+
+func TestUsptoPatentDocumentSimple_GenerateAliases6(t *testing.T) {
+	ass := assert.New(t)
+	location, err := time.LoadLocation("America/New_York")
+	ass.NoError(err)
+	p := UsptoPatentDocumentSimple{
+		DocNumber: "20060126547",
+		Kind:      "A1",
+		Country:   Country("US"),
+		DatePubl:  time.Date(2006, 4, 5, 10, 0, 0, 0, location),
+	}
+	p.GenerateAliases()
+	ass.Contains(p.Aliases, "US20060126547A1")
+	ass.Contains(p.Aliases, "US2006126547A1")
+}
