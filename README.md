@@ -1,5 +1,6 @@
 # Go API client for United States Patent and Trademark Office (USPTO)
 [![Go Report Card](https://goreportcard.com/badge/github.com/max-planck-innovation-competition/go-uspto)](https://goreportcard.com/report/github.com/max-planck-innovation-competition/go-uspto)
+[![Go Reference](https://pkg.go.dev/badge/github.com/max-planck-innovation-competition/go-uspto.svg)](https://pkg.go.dev/github.com/max-planck-innovation-competition/go-uspto)
 
 Interact with the API of the USPTO
 
