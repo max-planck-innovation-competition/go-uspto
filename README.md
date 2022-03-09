@@ -8,6 +8,8 @@ Go API client for United States Patent and Trademark Office (USPTO) API
 
 Alpha Version
 
+**⚠️ Experimental - Not ready for production.**
+
 ## Standards
 
 ### Grants
