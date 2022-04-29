@@ -1,10 +1,14 @@
-# Go API client for United States Patent and Trademark Office (USPTO)
+# GO USPTO
+[![Go Report Card](https://goreportcard.com/badge/github.com/max-planck-innovation-competition/go-uspto)](https://goreportcard.com/report/github.com/max-planck-innovation-competition/go-uspto)
+[![Go Reference](https://pkg.go.dev/badge/github.com/max-planck-innovation-competition/go-uspto.svg)](https://pkg.go.dev/github.com/max-planck-innovation-competition/go-uspto)
 
-Interact with the API of the USPTO
+Go API client for United States Patent and Trademark Office (USPTO) API
 
 ## Status
 
 Alpha Version
+
+**⚠️ Experimental - Not ready for production.**
 
 ## Standards
 
@@ -12,7 +16,6 @@ Alpha Version
 
 At the moment there are parsers that are tested with examples of the following versions of the USPTO XML format:
 
-- [ ]  (JAN 2022 - Present) Patent Grant Full Text Data/XML Version 4.6 ICE
 - [ ] (JAN 1976 – DEC 2001) Patent Grant Full Text Data/APS – Green Book
 - [ ] (JAN 2001 – DEC 2001) Patent Grant Full Text Data/SGML Version 2.4
 - [x] (JAN 2002 – DEC 2004) Patent Grant Full Text Data/XML Version 2.5
@@ -22,6 +25,7 @@ At the moment there are parsers that are tested with examples of the following v
 - [ ] (JAN 2013 – DEC 2013) Patent Grant Full Text Data/XML Version 4.3 ICE
 - [ ] (JAN 2013 – DEC 2014) Patent Grant Full Text Data/XML Version 4.4 ICE
 - [x] (JAN 2015 - Present) Patent Grant Full Text Data/XML Version 4.5 ICE
+- [ ] (JAN 2022 - Present) Patent Grant Full Text Data/XML Version 4.6 ICE
 
 [See dtd standards](dtds)
 
