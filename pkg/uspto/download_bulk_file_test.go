@@ -25,3 +25,10 @@ func TestDownloadApplicationBulkFile2(t *testing.T) {
 	ass.NoError(err)
 	ass.NotEmpty(filePath)
 }
+
+func TestDownloadApplicationBulkFile3(t *testing.T) {
+	ass := assert.New(t)
+	filePath, err := DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/application/redbook/fulltext/2022/ipa220526.zip", "./test-data")
+	ass.NoError(err)
+	ass.NotEmpty(filePath)
+}
