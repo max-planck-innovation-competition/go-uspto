@@ -8,7 +8,7 @@ import (
 
 func TestProcessXMLSimpleVersion45(t *testing.T) {
 	ass := assert.New(t)
-	data, err := ioutil.ReadFile("./test-data/4-5-b2-patent-example.xml")
+	data, err := ioutil.ReadFile("./test-data/grant/v4-5-B2.xml")
 	ass.NoError(err)
 	patDoc, err := ProcessXMLSimple(data)
 	ass.NoError(err)
@@ -73,7 +73,7 @@ func TestProcessXMLSimpleVersion45(t *testing.T) {
 
 func TestProcessXMLSimpleVersion25Design(t *testing.T) {
 	ass := assert.New(t)
-	data, err := ioutil.ReadFile("./test-data/2-5-s1-design-patent-example.xml")
+	data, err := ioutil.ReadFile("./test-data/v2-5-S1.xml")
 	ass.NoError(err)
 	patDoc, err := ProcessXMLSimple(data)
 	ass.NoError(err)
@@ -129,14 +129,14 @@ func TestProcessXMLSimpleVersion25Design(t *testing.T) {
 
 func TestProcessXMLFileSimple(t *testing.T) {
 	ass := assert.New(t)
-	patDoc, err := ProcessXMLFileSimple("./test-data/2-5-b1-patent.xml")
+	patDoc, err := ProcessXMLFileSimple("./test-data/grant/v2-5-B1_1.xml")
 	ass.NoError(err)
 	ass.NotEmpty(patDoc)
 }
 
 func TestProcessXMLSimpleVersion25Patent(t *testing.T) {
 	ass := assert.New(t)
-	data, err := ioutil.ReadFile("./test-data/2-5-b1-patent.xml")
+	data, err := ioutil.ReadFile("./test-data/grant/v2-5-B1_1.xml")
 	ass.NoError(err)
 	patDoc, err := ProcessXMLSimple(data)
 	ass.NoError(err)

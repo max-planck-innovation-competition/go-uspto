@@ -8,7 +8,7 @@ import (
 
 func TestApplicationProcessXMLSimpleVersion40A1(t *testing.T) {
 	ass := assert.New(t)
-	data, err := ioutil.ReadFile("./test-data/application/4-0-a1.xml")
+	data, err := ioutil.ReadFile("./test-data/application/v4-0-A1.xml")
 	ass.NoError(err)
 	patDoc, err := ProcessXMLSimple(data)
 	ass.NoError(err)
@@ -37,9 +37,10 @@ func TestApplicationProcessXMLSimpleVersion40A1(t *testing.T) {
 	ass.Equal("NY", patDoc.Inventors[0].State)
 	ass.Equal(Country("US"), patDoc.Inventors[0].Country)
 }
+
 func TestApplicationProcessXMLSimpleVersion40A2(t *testing.T) {
 	ass := assert.New(t)
-	data, err := ioutil.ReadFile("./test-data/application/4-0-a2.xml")
+	data, err := ioutil.ReadFile("./test-data/application/v4-0-A2.xml")
 	ass.NoError(err)
 	patDoc, err := ProcessXMLSimple(data)
 	ass.NoError(err)
