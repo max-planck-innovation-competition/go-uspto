@@ -189,6 +189,93 @@ func TestApplicationProcessXMLSimpleVersion44A1(t *testing.T) {
 
 }
 
+func TestApplicationProcessXMLSimpleVersion44A2(t *testing.T) {
+	ass := assert.New(t)
+	data, err := ioutil.ReadFile("./test-data/application/v4-4-A2.xml")
+	ass.NoError(err)
+	patDoc, err := ProcessXMLSimple(data)
+	ass.NoError(err)
+
+	ass.Equal("20150075015", patDoc.ID)
+	ass.Equal("US20150075015A2-20150319.XML", patDoc.File)
+	ass.Equal("EN", patDoc.Lang)
+	ass.Equal(Country("US"), patDoc.Country)
+	ass.Equal("20150075015", patDoc.DocNumber)
+	ass.Equal("A2", patDoc.Kind)
+	ass.False(patDoc.DatePubl.IsZero())
+	ass.Equal("20150319", patDoc.DatePubl.Format(layoutDatePubl))
+	ass.Equal("PRODUCTION", patDoc.Status)
+	ass.Equal("v4.4 2014-04-03", patDoc.DtdVersion)
+
+	// title
+	ass.NotEmpty(patDoc.Title)
+	ass.Equal("RAZOR WITH CUTTING BLADE ROTATABLE ABOUT MULTIPLE AXES", patDoc.Title[0].Text)
+	ass.Equal("en", patDoc.Title[0].Language)
+
+	// abstract
+	ass.NotEmpty(patDoc.Abstract)
+	ass.Equal(800, len(patDoc.Abstract[0].Text))
+	ass.Equal("en", patDoc.Abstract[0].Language)
+
+	// claims
+	ass.NotEmpty(patDoc.Claims)
+	ass.Equal(5031, len(patDoc.Claims[0].Text))
+	ass.Equal("en", patDoc.Claims[0].Language)
+	ass.Equal("claims", patDoc.Claims[0].Id)
+
+	// description
+	ass.NotEmpty(patDoc.Description)
+	ass.Equal(16684, len(patDoc.Description[0].Text))
+	ass.Equal("en", patDoc.Description[0].Language)
+
+	// ass.NotEmpty(patDoc.Citations)
+
+	// inventors
+	ass.NotEmpty(patDoc.Inventors[0])
+	ass.Equal("Setauket", patDoc.Inventors[0].City)
+	ass.Empty(patDoc.Inventors[0].Street)
+	ass.Equal("Bucco, Thomas J.", patDoc.Inventors[0].Name)
+	ass.Equal("Thomas J.", patDoc.Inventors[0].FirsName)
+	ass.Equal("Bucco", patDoc.Inventors[0].LastName)
+	ass.Equal("NY", patDoc.Inventors[0].State)
+	ass.Equal(Country("US"), patDoc.Inventors[0].Country)
+
+	// Classifications
+	// IPC
+	ass.Equal(ClassificationSystem("IPC"), patDoc.Classifications[0].System)
+	ass.Equal(1, patDoc.Classifications[0].Sequence)
+	ass.Equal("B", patDoc.Classifications[0].Section)
+	ass.Equal("26", patDoc.Classifications[0].Class)
+	ass.Equal("B", patDoc.Classifications[0].SubClass)
+	ass.Equal("21", patDoc.Classifications[0].MainGroup)
+	ass.Equal("52", patDoc.Classifications[0].SubGroup)
+	ass.Equal("20060101", patDoc.Classifications[0].Version)
+	ass.Equal("A", patDoc.Classifications[0].ClassificationLevel)
+	ass.Equal("F", patDoc.Classifications[0].FirstLater)
+	ass.Equal("I", patDoc.Classifications[0].ClassificationValue)
+	ass.Equal("20150319", patDoc.Classifications[0].ActionDate)
+	ass.Equal("B", patDoc.Classifications[0].OriginalOrReclassified)
+	ass.Equal("H", patDoc.Classifications[0].Source)
+	ass.Equal("US", patDoc.Classifications[0].GeneratingOffice)
+
+	ass.Equal(ClassificationSystem("CPC"), patDoc.Classifications[1].System)
+	ass.Equal(1, patDoc.Classifications[1].Sequence)
+	ass.Equal("B", patDoc.Classifications[1].Section)
+	ass.Equal("26", patDoc.Classifications[1].Class)
+	ass.Equal("B", patDoc.Classifications[1].SubClass)
+	ass.Equal("21", patDoc.Classifications[1].MainGroup)
+	ass.Equal("521", patDoc.Classifications[1].SubGroup)
+	ass.Equal("20130101", patDoc.Classifications[1].Version)
+	ass.Equal("", patDoc.Classifications[1].ClassificationLevel)
+	ass.Equal("F", patDoc.Classifications[1].FirstLater)
+	ass.Equal("I", patDoc.Classifications[1].ClassificationValue)
+	ass.Equal("20150319", patDoc.Classifications[1].ActionDate)
+	ass.Equal("B", patDoc.Classifications[1].OriginalOrReclassified)
+	ass.Equal("H", patDoc.Classifications[1].Source)
+	ass.Equal("US", patDoc.Classifications[1].GeneratingOffice)
+
+}
+
 func TestApplicationProcessXMLSimpleVersion45A1(t *testing.T) {
 	ass := assert.New(t)
 	data, err := ioutil.ReadFile("./test-data/application/v4-5-A1.xml")
