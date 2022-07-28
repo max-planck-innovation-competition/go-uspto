@@ -6,6 +6,56 @@ import (
 	"testing"
 )
 
+func TestProcessXMLSimpleVersion40B2(t *testing.T) {
+	ass := assert.New(t)
+	data, err := ioutil.ReadFile("./test-data/grant/v4-0-B2.xml")
+	ass.NoError(err)
+	patDoc, err := ProcessXMLSimple(data)
+	ass.NoError(err)
+
+	ass.Equal("06857133", patDoc.ID)
+	ass.Equal("US06857133-20050222.XML", patDoc.File)
+	ass.Equal("EN", patDoc.Lang)
+	ass.Equal(Country("US"), patDoc.Country)
+	ass.Equal("06857133", patDoc.DocNumber)
+	ass.Equal("B2", patDoc.Kind)
+	ass.Equal("PARALLEL-RUN", patDoc.Status)
+	ass.False(patDoc.DatePubl.IsZero())
+	ass.Equal("20050222", patDoc.DatePubl.Format(layoutDatePubl))
+	ass.Equal("v40 2004-12-02", patDoc.DtdVersion)
+
+	// title
+	ass.NotEmpty(patDoc.Title)
+	ass.Equal("Method and apparatus for manufacturing and installing water resistant cover on a limb", patDoc.Title[0].Text)
+	ass.Equal("en", patDoc.Title[0].Language)
+
+	// abstract
+	ass.NotEmpty(patDoc.Abstract)
+	ass.Equal(151, len(patDoc.Abstract[0].Text))
+	ass.Equal("en", patDoc.Abstract[0].Language)
+
+	// claims
+	ass.NotEmpty(patDoc.Claims)
+	ass.Equal(1, len(patDoc.Claims))
+	ass.Equal(4292, len(patDoc.Claims[0].Text))
+
+	// description
+	ass.Equal(30345, len(patDoc.Description[0].Text))
+	ass.Equal("en", patDoc.Description[0].Language)
+
+	// citations
+	ass.NotEmpty(patDoc.Citations)
+	ass.Equal(8, len(patDoc.Citations))
+
+	ass.Equal("3820200", patDoc.Citations[0].DocNumber)
+	ass.Equal(Country("US"), patDoc.Citations[0].Country)
+	ass.Equal("A", patDoc.Citations[0].Kind)
+
+	// representatives
+	ass.Equal("Nissle, P.C., Tod R.", patDoc.Representatives[0].Name)
+
+}
+
 func TestProcessXMLSimpleVersion45B1(t *testing.T) {
 	ass := assert.New(t)
 	data, err := ioutil.ReadFile("./test-data/grant/v4-5-B1.xml")
