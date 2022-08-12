@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PATDOC SYSTEM "ST32-US-Grant-025xml.dtd" [
+        <!ENTITY USD0452599-20020101-D00000.TIF SYSTEM "USD0452599-20020101-D00000.TIF" NDATA TIF>
+        <!ENTITY USD0452599-20020101-D00001.TIF SYSTEM "USD0452599-20020101-D00001.TIF" NDATA TIF>
+        <!ENTITY USD0452599-20020101-D00002.TIF SYSTEM "USD0452599-20020101-D00002.TIF" NDATA TIF>
+        ]>
+<PATDOC DTD="2.5" STATUS="Build 20020101">
+    <SDOBI>
+        <B100>
+            <B110>
+                <DNUM>
+                    <PDAT>D0452599</PDAT>
+                </DNUM>
+            </B110>
+            <B130>
+                <PDAT>S1</PDAT>
+            </B130>
+            <B140>
+                <DATE>
+                    <PDAT>20020101</PDAT>
+                </DATE>
+            </B140>
+            <B190>
+                <PDAT>US</PDAT>
+            </B190>
+        </B100>
+        <B200>
+            <B210>
+                <DNUM>
+                    <PDAT>29129833</PDAT>
+                </DNUM>
+            </B210>
+            <B211US>
+                <PDAT>29</PDAT>
+            </B211US>
+            <B220>
+                <DATE>
+                    <PDAT>20000922</PDAT>
+                </DATE>
+            </B220>
+        </B200>
+        <B300>
+            <B310>
+                <DNUM>
+                    <PDAT>400 02 946</PDAT>
+                </DNUM>
+            </B310>
+            <B320>
+                <DATE>
+                    <PDAT>20000322</PDAT>
+                </DATE>
+            </B320>
+            <B330>
+                <CTRY>
+                    <PDAT>DE</PDAT>
+                </CTRY>
+            </B330>
+        </B300>
+        <B400>
+            <B472>
+                <B474>
+                    <PDAT>14</PDAT>
+                </B474>
+            </B472>
+        </B400>
+        <B500>
+            <B510>
+                <B511>
+                    <PDAT>0101</PDAT>
+                </B511>
+                <B516>
+                    <PDAT>7</PDAT>
+                </B516>
+            </B510>
+            <B520>
+                <B521>
+                    <PDAT>D 1106</PDAT>
+                </B521>
+            </B520>
+            <B540>
+                <STEXT>
+                    <PDAT>Confection item in the form of a tied braid</PDAT>
+                </STEXT>
+            </B540>
+            <B560>
+                <B561>
+                    <PCIT>
+                        <DOC>
+                            <DNUM>
+                                <PDAT>3530862</PDAT>
+                            </DNUM>
+                            <DATE>
+                                <PDAT>19700900</PDAT>
+                            </DATE>
+                            <KIND>
+                                <PDAT>A</PDAT>
+                            </KIND>
+                        </DOC>
+                        <PARTY-US>
+                            <NAM>
+                                <SNM>
+                                    <STEXT>
+                                        <PDAT>Hudson</PDAT>
+                                    </STEXT>
+                                </SNM>
+                            </NAM>
+                        </PARTY-US>
+                        <PNC>
+                            <PDAT>D28 93 X</PDAT>
+                        </PNC>
+                    </PCIT>
+                    <CITED-BY-EXAMINER/>
+                </B561>
+                <B561>
+                    <PCIT>
+                        <DOC>
+                            <DNUM>
+                                <PDAT>5526830</PDAT>
+                            </DNUM>
+                            <DATE>
+                                <PDAT>19960600</PDAT>
+                            </DATE>
+                            <KIND>
+                                <PDAT>A</PDAT>
+                            </KIND>
+                        </DOC>
+                        <PARTY-US>
+                            <NAM>
+                                <SNM>
+                                    <STEXT>
+                                        <PDAT>Hunter</PDAT>
+                                    </STEXT>
+                                </SNM>
+                            </NAM>
+                        </PARTY-US>
+                        <PNC>
+                            <PDAT>132275</PDAT>
+                        </PNC>
+                    </PCIT>
+                    <CITED-BY-EXAMINER/>
+                </B561>
+                <B561>
+                    <PCIT>
+                        <DOC>
+                            <DNUM>
+                                <PDAT>5890498</PDAT>
+                            </DNUM>
+                            <DATE>
+                                <PDAT>19990400</PDAT>
+                            </DATE>
+                            <KIND>
+                                <PDAT>A</PDAT>
+                            </KIND>
+                        </DOC>
+                        <PARTY-US>
+                            <NAM>
+                                <SNM>
+                                    <STEXT>
+                                        <PDAT>Kawaguchi</PDAT>
+                                    </STEXT>
+                                </SNM>
+                            </NAM>
+                        </PARTY-US>
+                        <PNC>
+                            <PDAT>132275</PDAT>
+                        </PNC>
+                    </PCIT>
+                    <CITED-BY-EXAMINER/>
+                </B561>
+                <B562>
+                    <NCIT>
+                        <STEXT>
+                            <PDAT>The Practical Encyclopedia of Baking, Barnes &amp; Noble (New York)/&copy; Anness
+                                Publishing Limited (London, England), braided bread on p. 367, 1999.
+                            </PDAT>
+                        </STEXT>
+                    </NCIT>
+                    <CITED-BY-EXAMINER/>
+                </B562>
+            </B560>
+            <B570>
+                <B577>
+                    <PDAT>1</PDAT>
+                </B577>
+                <B578US>
+                    <PDAT>1</PDAT>
+                </B578US>
+            </B570>
+            <B580>
+                <B583US>
+                    <PDAT>D 1106-109</PDAT>
+                </B583US>
+                <B583US>
+                    <PDAT>D 1125-130</PDAT>
+                </B583US>
+                <B582>
+                    <PDAT>D 1199</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>426500</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>426103</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>426104</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>426512</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>426517</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>426660</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>426 27</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>132 53</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>132 56</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>132275</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>D28 92</PDAT>
+                </B582>
+                <B582>
+                    <PDAT>D28 93</PDAT>
+                </B582>
+                <B583US>
+                    <PDAT>87 1- 9</PDAT>
+                </B583US>
+            </B580>
+            <B590>
+                <B595>
+                    <PDAT>2</PDAT>
+                </B595>
+                <B596>
+                    <PDAT>7</PDAT>
+                </B596>
+                <B597US/>
+            </B590>
+        </B500>
+        <B700>
+            <B720>
+                <B721>
+                    <PARTY-US>
+                        <NAM>
+                            <FNM>
+                                <PDAT>Ute</PDAT>
+                            </FNM>
+                            <SNM>
+                                <STEXT>
+                                    <PDAT>Rossi-Wolter</PDAT>
+                                </STEXT>
+                            </SNM>
+                        </NAM>
+                        <ADR>
+                            <STR>
+                                <PDAT>Holderbuschweg 67</PDAT>
+                            </STR>
+                            <CITY>
+                                <PDAT>74193 Schwaigern</PDAT>
+                            </CITY>
+                            <CTRY>
+                                <PDAT>DE</PDAT>
+                            </CTRY>
+                        </ADR>
+                    </PARTY-US>
+                </B721>
+            </B720>
+            <B740>
+                <B741>
+                    <PARTY-US>
+                        <NAM>
+                            <ONM>
+                                <STEXT>
+                                    <PDAT>Darby &amp; Darby</PDAT>
+                                </STEXT>
+                            </ONM>
+                        </NAM>
+                    </PARTY-US>
+                </B741>
+            </B740>
+            <B745>
+                <B746>
+                    <PARTY-US>
+                        <NAM>
+                            <FNM>
+                                <PDAT>Alan P.</PDAT>
+                            </FNM>
+                            <SNM>
+                                <STEXT>
+                                    <PDAT>Douglas</PDAT>
+                                </STEXT>
+                            </SNM>
+                        </NAM>
+                    </PARTY-US>
+                </B746>
+                <B747>
+                    <PARTY-US>
+                        <NAM>
+                            <FNM>
+                                <PDAT>Linda</PDAT>
+                            </FNM>
+                            <SNM>
+                                <STEXT>
+                                    <PDAT>Brooks</PDAT>
+                                </STEXT>
+                            </SNM>
+                        </NAM>
+                    </PARTY-US>
+                </B747>
+                <B748US>
+                    <PDAT>2911</PDAT>
+                </B748US>
+            </B745>
+        </B700>
+    </SDOBI>
+    <SDODE>
+        <DRWDESC>
+            <BTEXT>
+                <PARA ID="P-00001" LVL="7">
+                    <PTEXT>
+                        <PDAT>FIG. 1 is a top perspective view of the confection item in the form of a tied braid
+                            showing my new design;
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+                <PARA ID="P-00002" LVL="7">
+                    <PTEXT>
+                        <PDAT>FIG. 2 is a top plan view of the confection item in the form of a tied braid shown in FIG.
+                            1;
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+                <PARA ID="P-00003" LVL="7">
+                    <PTEXT>
+                        <PDAT>FIG. 3 is a bottom plan view of the confection item in the form of a tied braid shown in
+                            FIG. 1;
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+                <PARA ID="P-00004" LVL="7">
+                    <PTEXT>
+                        <PDAT>FIG. 4 is a front elevational view of the confection item in the form of a tied braid
+                            shown in FIG. 1;
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+                <PARA ID="P-00005" LVL="7">
+                    <PTEXT>
+                        <PDAT>FIG. 5 is a rear elevational view of the confection item in the form of a tied braid shown
+                            in FIG. 1;
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+                <PARA ID="P-00006" LVL="7">
+                    <PTEXT>
+                        <PDAT>FIG. 6 is a right side elevational view of the confection item in the form of a tied braid
+                            shown in FIG. 1; and,
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+                <PARA ID="P-00007" LVL="7">
+                    <PTEXT>
+                        <PDAT>FIG. 7 is a left side elevational view of the confection item in the form of a tied braid
+                            shown in FIG. 1.
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+            </BTEXT>
+        </DRWDESC>
+    </SDODE>
+    <SDOCL>
+        <CL>
+            <CLM ID="CLM-00001">
+                <PARA ID="P-00008" LVL="7">
+                    <PTEXT>
+                        <PDAT>The ornamental design for a confection item in the form of a tied braid, as shown and
+                            described.
+                        </PDAT>
+                    </PTEXT>
+                </PARA>
+            </CLM>
+        </CL>
+    </SDOCL>
+    <SDODR ID="DRAWINGS">
+        <EMI ID="EMI-D00000" ALT="embedded image" FILE="USD0452599-20020101-D00000.TIF"/>
+        <EMI ID="EMI-D00001" ALT="embedded image" FILE="USD0452599-20020101-D00001.TIF"/>
+        <EMI ID="EMI-D00002" ALT="embedded image" FILE="USD0452599-20020101-D00002.TIF"/>
+    </SDODR>
+</PATDOC>

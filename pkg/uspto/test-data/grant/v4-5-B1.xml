@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US09358892-20160607.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20160523" date-publ="20160607">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>09358892</doc-number>
+<kind>B1</kind>
+<date>20160607</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14558596</doc-number>
+<date>20141202</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>28</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>60</class>
+<subclass>L</subclass>
+<main-group>9</main-group>
+<subgroup>00</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>60</class>
+<subclass>L</subclass>
+<main-group>11</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>60</class>
+<subclass>L</subclass>
+<main-group>11</main-group>
+<subgroup>18</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>G</section>
+<class>01</class>
+<subclass>C</subclass>
+<main-group>21</main-group>
+<subgroup>26</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>60</class>
+<subclass>K</subclass>
+<main-group>35</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20160101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>60</class>
+<subclass>W</subclass>
+<main-group>20</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>N</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>60</class>
+<subclass>L</subclass>
+<main-group>11</main-group>
+<subgroup>1809</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>60</class>
+<subclass>K</subclass>
+<main-group>35</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>60</class>
+<subclass>L</subclass>
+<main-group>11</main-group>
+<subgroup>1861</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>G</section>
+<class>01</class>
+<subclass>C</subclass>
+<main-group>21</main-group>
+<subgroup>26</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>60</class>
+<subclass>K</subclass>
+<main-group>2350</main-group>
+<subgroup>1076</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>60</class>
+<subclass>W</subclass>
+<main-group>20</main-group>
+<subgroup>00</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20160607</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e53">System and method for pre-charging a hybrid vehicle for improving reverse driving performance</invention-title>
+<us-references-cited>
+<us-citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>5856709</doc-number>
+<kind>A</kind>
+<name>Ibaraki et al.</name>
+<date>19990100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>6409623</doc-number>
+<kind>B1</kind>
+<name>Hoshiya et al.</name>
+<date>20020600</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>6540035</doc-number>
+<kind>B2</kind>
+<name>Nagano et al.</name>
+<date>20030400</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>6962545</doc-number>
+<kind>B2</kind>
+<name>Larkin</name>
+<date>20051100</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>7101298</doc-number>
+<kind>B2</kind>
+<name>Sowul et al.</name>
+<date>20060900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>7285869</doc-number>
+<kind>B2</kind>
+<name>Syed et al.</name>
+<date>20071000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>7653474</doc-number>
+<kind>B2</kind>
+<name>Cawthorne</name>
+<date>20100100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>B60K 6/40</classification-cpc-text>
+<classification-national><country>US</country><main-classification>12340612</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>7772799</doc-number>
+<kind>B2</kind>
+<name>Wu</name>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>B60L 3/0046</classification-cpc-text>
+<classification-national><country>US</country><main-classification>320104</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>7935022</doc-number>
+<kind>B2</kind>
+<name>Iwase et al.</name>
+<date>20110500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>8033954</doc-number>
+<kind>B2</kind>
+<name>Theobald et al.</name>
+<date>20111000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>8467924</doc-number>
+<kind>B2</kind>
+<name>Shiba</name>
+<date>20130600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>B60K 6/445</classification-cpc-text>
+<classification-national><country>US</country><main-classification>290 40 C</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>8541915</doc-number>
+<kind>B2</kind>
+<name>Burns</name>
+<date>20130900</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H02K 5/20</classification-cpc-text>
+<classification-national><country>US</country><main-classification>310 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>8672805</doc-number>
+<kind>B2</kind>
+<name>Akebono et al.</name>
+<date>20140300</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00014">
+<document-id>
+<country>US</country>
+<doc-number>8721491</doc-number>
+<kind>B2</kind>
+<name>Wittkopp et al.</name>
+<date>20140500</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00015">
+<document-id>
+<country>US</country>
+<doc-number>9231282</doc-number>
+<kind>B2</kind>
+<name>Yebka</name>
+<date>20160100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H01M 10/44</classification-cpc-text>
+</us-citation>
+<us-citation>
+<patcit num="00016">
+<document-id>
+<country>US</country>
+<doc-number>2007/0080662</doc-number>
+<kind>A1</kind>
+<name>Wu</name>
+<date>20070400</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>B60L 3/0046</classification-cpc-text>
+<classification-national><country>US</country><main-classification>320110</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00017">
+<document-id>
+<country>US</country>
+<doc-number>2012/0104883</doc-number>
+<kind>A1</kind>
+<name>Burns</name>
+<date>20120500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H02K 5/20</classification-cpc-text>
+<classification-national><country>US</country><main-classification>310 54</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00018">
+<document-id>
+<country>US</country>
+<doc-number>2014/0008976</doc-number>
+<kind>A1</kind>
+<name>Yebka</name>
+<date>20140100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>H01M 10/44</classification-cpc-text>
+<classification-national><country>US</country><main-classification>307 23</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00019">
+<document-id>
+<country>US</country>
+<doc-number>2015/0006008</doc-number>
+<kind>A1</kind>
+<name>Wei</name>
+<date>20150100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>B60L 11/1816</classification-cpc-text>
+<classification-national><country>US</country><main-classification>701 22</main-classification></classification-national>
+</us-citation>
+<us-citation>
+<patcit num="00020">
+<document-id>
+<country>JP</country>
+<doc-number>2007-186048</doc-number>
+<date>20070700</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00021">
+<document-id>
+<country>JP</country>
+<doc-number>2010-173361</doc-number>
+<date>20100800</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00022">
+<document-id>
+<country>JP</country>
+<doc-number>2010-195255</doc-number>
+<date>20100900</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00023">
+<document-id>
+<country>JP</country>
+<doc-number>2010-241385</doc-number>
+<date>20101000</date>
+</document-id>
+</patcit>
+<category>cited by applicant</category>
+</us-citation>
+<us-citation>
+<patcit num="00024">
+<document-id>
+<country>WO</country>
+<doc-number>WO2009/157308</doc-number>
+<date>20091200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-cpc-text>B60K 6/445</classification-cpc-text>
+</us-citation>
+<us-citation>
+<nplcit num="00025">
+<othercit>Route profile analysis to determine suitability of electric postal delivery vehicles; Walter, C.E.; Kong, M.K.; Mullenhoff, D.J. Vehicular Technology Conference, 1982. 32nd IEEE; Year: 1982, vol. 32; pp. 26-39, DOI: 10.1109/VTC.1982.1622998.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<nplcit num="00026">
+<othercit>Evaluation of electric range demands of EV and EREV on the basis of field test data; Spichartz, P.; Dost, P.; Sourkounis, C. Electrical Systems for Aircraft, Railway, Ship Propulsion and Road Vehicles (ESARS), 2015 International Conference on Year: 2015; pp. 1-6, DOI: 10.1109/ESARS.2015.7101505.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<nplcit num="00027">
+<othercit>Electric transit bus for variable grade terrain; Baker, B.C.; Faddis, T.N.; Strunk, G.P.; Electric Vehicle Conference (IEVC), 2012 IEEE International ; Year: 2012; pp. 1-5, DOI: 10.1109/IEVC.2012.6183200.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</us-citation>
+<us-citation>
+<nplcit num="00028">
+<othercit>Modeling of a Series Hybrid Electric High-Mobility Multipurpose Wheeled Vehicle; Ducusin, M.; Gargies, S.; Chunting Mi Vehicular Technology, IEEE Transactions on; Year: 2007, vol. 56, Issue: 2; pp. 557-565, DOI: 10.1109/TVT.2006.889575.</othercit>
+</nplcit>
+<category>cited by examiner</category>
+</us-citation>
+</us-references-cited>
+<number-of-claims>20</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification>701 22</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>903930</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>290 45</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>307 46</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>320104</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>180 6527</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>180 6528</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>6</number-of-drawing-sheets>
+<number-of-figures>6</number-of-figures>
+</figures>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="001" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Toyota Motor Engineering &#x26; Manufacturing North America, Inc.</orgname>
+<address>
+<city>Erlanger</city>
+<state>KY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="001" designation="us-only">
+<addressbook>
+<last-name>Gaither</last-name>
+<first-name>Geoffrey D.</first-name>
+<address>
+<city>Nagoya</city>
+<country>JP</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<orgname>Snell &#x26; Wilmer LLP</orgname>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>Toyota Motor Engineering &#x26; Manufacturing North America, Inc.</orgname>
+<role>02</role>
+<address>
+<city>Erlanger</city>
+<state>KY</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Nguyen</last-name>
+<first-name>Cuong H</first-name>
+<department>3663</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A method/system is provided for improving reverse hill climb performance of a hybrid vehicle. An electronic control unit (ECU) determines whether pre-charging is needed based on vehicle state and environmental conditions. This determination can be based on a grade value of a hill upon which the vehicle is positioned, a state of charge (SOC) of the battery, and/or the expected distance that the vehicle will travel uphill. The ECU sets a charging rate and a target charge value based on the foregoing data. The battery may be charged to have an SOC that exceeds an actual needed target charge value by a hysteresis margin. A message may be displayed requesting the driver to wait until pre-charging is complete. The engine charges the battery at the charging rate until the SOC reaches the target charge value. The driver is prompted that he or she can start reverse driving.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="233.93mm" wi="166.79mm" file="US09358892-20160607-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="241.38mm" wi="138.85mm" orientation="landscape" file="US09358892-20160607-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="239.44mm" wi="165.69mm" file="US09358892-20160607-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="202.18mm" wi="162.48mm" orientation="landscape" file="US09358892-20160607-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="186.86mm" wi="157.99mm" file="US09358892-20160607-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="102.28mm" wi="162.81mm" file="US09358892-20160607-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="165.61mm" wi="157.31mm" file="US09358892-20160607-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND</heading>
+<p id="p-0002" num="0001">1. Field</p>
+<p id="p-0003" num="0002">The present invention relates to methods and systems for managing a charging operation of a hybrid vehicle.</p>
+<p id="p-0004" num="0003">2. Description of the Related Art</p>
+<p id="p-0005" num="0004">With, growing environmental awareness and concerns for energy efficiency, demand for various forms of hybrid vehicles that utilize non-fuel energy has significantly increased. Movement of a hybrid vehicle and/or operation of its units may be powered, wholly or in part, by electrical power stored in one or more batteries. The batteries are used to power the hybrid vehicle when the engine is turned off. As one might expect, a hybrid vehicle travelling up a steep hill will generally require more electrical power from the batteries than when travelling on a flat smooth road. In certain conditions, however, the stored electrical energy may not be sufficient for propelling movement of the hybrid vehicle. This insufficient power may occur when the hybrid vehicle is operated in a reverse gear and needs to travel up a steep hill. Thus, there is a need in the art for a method/system of managing charging of the batteries to improve performance of the hybrid vehicle during reverse climbing.</p>
+<heading id="h-0002" level="1">SUMMARY</heading>
+<p id="p-0006" num="0005">A method/system is provided for managing pre-charging of a battery of a hybrid vehicle to improve hill climb performance when driving in reverse. The method/system determines whether pre-charging is needed based on the vehicle state and environmental conditions. This determination can be based on a grade value (angle) of a hill upon which the vehicle is positioned. The decision as to whether pre-charging is needed can also be based on a state of charge (SOC) value of the battery. The greater the grade value and the lower the SOC value of the battery, the more likely it is that pre-charging would be needed. The system and method may also base this decision on the expected distance that the vehicle will travel in reverse uphill. An electronic control unit (ECU) sets a charging rate and a target charge value based on the foregoing data. An engine of the vehicle produces the required charging energy to be stored in the battery. A message may be displayed to the driver requesting the driver to wait until pre-charging is complete. The engine may pre-charge the battery to be at or above the target charge value. Once the target charge value is reached or exceeded, a message can be displayed to prompt the driver that the vehicle is ready to begin reverse driving uphill.</p>
+<p id="p-0007" num="0006">In an embodiment, a pre-charging system/method is provided for improving reverse direction hill climb performance of a hybrid vehicle. The hybrid vehicle further includes a motor for powering a movement or an operation of the hybrid vehicle using energy stored in a battery of the hybrid vehicle. The hybrid vehicle also includes an engine configured to output power for at least one of driving the hybrid vehicle or charging the battery. A grade sensor may be provided for detecting a grade value of a surface upon which the hybrid vehicle is positioned. A gear selection sensor is configured to detect a gear selection by a driver. An ECU is connected to the sensors and configured to determine whether to activate a pre-charge mode based on the gear selection, the grade value, and the SOC value of the battery. When or after the pre-charge mode is activated, the ECU is configured to determine a target charge value based on the grade value and the SOC value of the battery. The battery is charged using the power outputted by the engine until the SOC value of the battery is equal to or greater than the target charge value.</p>
+<p id="p-0008" num="0007">The ECU may further determine a charging rate for the battery based on the SOC value of the battery and the grade value. The ECU charges the battery at the charging rate until the SOC value of the battery is equal to or greater than the target charge value. The ECU may determine a pre-charge need value based on the grade value and the SOC value of the battery, and activate the pre-charge mode when or after the pre-charge need value is greater than or equal to a pre-charge activation threshold value. A display is provided for displaying a message that pre-charging is completed, and the vehicle is ready for driving in reverse, when the SOC value of the battery is equal to or greater than the target charge value.</p>
+<p id="p-0009" num="0008">The ECU is configured to set the target charge value such that it exceeds an actual charge value needed for reverse driving by a hysteresis margin value. This can ensure that the SOC value does not decrease to a value less than the actual charge value needed for reverse driving during a time lag between display of the message that pre-charging is completed and when the driver starts reverse driving. Another advantage of the present invention is that by determining the vehicle state and environmental conditions, the battery can be effectively pre-charged to ensure that the battery is adequately charged prior to reverse driving. By enhancing reverse driving performance and displaying helpful information to the driver, the present invention helps meet driver expectations of vehicle performance.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0010" num="0009">Other systems, methods, features, and advantages of the present invention will be apparent to one skilled in the art upon examination of the following figures and detailed description. Component parts shown in the drawings are not necessarily to scale, and may be exaggerated to better illustrate the important features of the present invention, wherein:</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 1</figref> is a block diagram of a pre-charging system for a hybrid vehicle according to an embodiment of the present invention;</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 2</figref> is a logic flowchart diagram for a method/system of improving reverse direction hill climb performance of a hybrid vehicle according to an embodiment of the present invention;</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 3</figref> is a logic operation example of pre-charging a battery of a hybrid vehicle according to an embodiment of the present invention;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 4</figref> shows examples of look-up tables that may be used by a reverse drive pre-charge logic according to an embodiment of the present invention;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 5</figref> is a graph showing an example of how target charge values can be determined when the grade values of the surfaces vary over the expected reverse direction hill climb distance according to an embodiment of the present invention; and</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 6</figref> is a flowchart diagram of a pre-charge method for improving reverse direction hill climb performance of a hybrid vehicle according to an embodiment of the present invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION</heading>
+<p id="p-0017" num="0016">The invention relates to a method and a system of managing pre-charging of a battery of a hybrid vehicle to improve reverse direction hill climb performance. The system/method determines whether pre-charging is needed based on the vehicle state and environmental conditions. This determination can be based on a grade value (or an angle) of a surface or hill upon which the vehicle is positioned, as detected by a grade sensor. The determination can also be based on a state of charge (SOC) value of the battery. The higher the grade value of the hill, and the lower the SOC value, the more likely that pre-charging would be required. The system and method may also base this decision on the expected distance that the vehicle will travel in reverse uphill. The system sets a charging rate and a target charge value based on the detected grade value, SOC data, and/or other sensed data. The engine produces the required charging energy to be stored in the battery. A message may be displayed to the driver requesting the driver to wait until pre-charging is complete. The engine may pre-charge the battery to be at or above the target charge value. The target charge value may be set above the actual needed SOC value by a margin for hysteresis. After applying hysteresis, the engine may stop charging the battery. The logic prompts the driver that the vehicle is ready to begin reverse hill climb, for example, by displaying a message.</p>
+<p id="p-0018" num="0017">As will be apparent from the description herein, an advantage of the present invention is that by determining the vehicle state and environmental conditions, the battery can be effectively pre-charged to ensure that the battery is adequately charged prior to reverse driving. By enhancing reverse driving performance and displaying helpful information to the driver, the present invention helps meet driver expectations of vehicle performance.</p>
+<p id="p-0019" num="0018">Referring to <figref idref="DRAWINGS">FIG. 1</figref>, a schematic block diagram is shown of a system <b>100</b> for managing pre-charging of a battery of a hybrid vehicle. The vehicle may be a hybrid vehicle that operates by utilizing a fuel source and a non-fuel source of energy. The vehicle may be an alternative fuel vehicle, a hybrid electric vehicle, a plug-in hybrid electric vehicle, an electric vehicle, a hydrogen fuel cell vehicle or a solar powered vehicle or any other vehicle utilizing a non-fuel source of energy.</p>
+<p id="p-0020" num="0019">The discussion now turns to an overview of interaction of an electronic control unit (ECU) <b>102</b> with units and devices of the vehicle. The ECU <b>102</b> includes one or more processors operating in conjunction with one another to control operations of the vehicle. The ECU <b>102</b> may be in continuous or periodic communication with various units of the vehicle such as the units shown in <figref idref="DRAWINGS">FIG. 1</figref>. The control and communication may be via transmission of electronic signals through a Control Area Network (CAN) bus. The control and communication may be over various other types of communication links, direct wirings, digital communication buses, wireless communications or other communication links.</p>
+<p id="p-0021" num="0020">The ECU <b>102</b> controls operations of the vehicle based on data detected by sensors <b>120</b>. The sensors <b>120</b> include a grade sensor <b>126</b> for detecting a grade value of a surface upon which the vehicle is positioned. A grade value can refer to an angle of steepness, for example, in terms of degrees or percentage. The sensors <b>120</b> include a gear selection sensor <b>128</b> for sensing a transmission gear selection (e.g., reverse, drive, park, neutral) of a user. The gear selection sensor <b>128</b> may be located on a transmission selector shaft, steering column mounting, or other locations of the vehicle.</p>
+<p id="p-0022" num="0021">A memory <b>124</b> is connected to and/or incorporated in the ECU <b>102</b>. The memory <b>124</b> can store data or instructions for operations of the ECU <b>102</b>. The memory <b>124</b> may store algorithms and look-up tables as discussed in further details below with respect to <figref idref="DRAWINGS">FIG. 4</figref>. The memory <b>124</b> may include an on-board storage device and/or off-board memory in communication with the vehicle via wireless communication and/or cloud-based technology.</p>
+<p id="p-0023" num="0022">The ECU <b>102</b> may be connected to a display <b>104</b>. The display <b>104</b> may include a dashboard touch-screen display. The display <b>104</b> may be a display of a navigation unit <b>122</b>. The navigation unit <b>122</b> may access GPS data for route prediction. The navigation unit <b>122</b> may be integrated in the vehicle or a separate unit in communication with the ECU <b>102</b>.</p>
+<p id="p-0024" num="0023">The discussion now turns to powering operations and movement of the vehicle. An engine <b>106</b> is utilized for powering a plurality of wheels <b>136</b> and/or for charging the battery (or batteries) <b>118</b>. Various types of fuel may be used by the vehicle, such as gasoline, diesel, ethanol, biodiesel, natural gas, propane, hydrogen, or combinations thereof. The vehicle may also include a fuel cell in lieu of or in addition to the engine <b>106</b> which may charge the battery <b>118</b> and/or a capacitor by converting a fuel through a chemical reaction.</p>
+<p id="p-0025" num="0024">Movement of the vehicle and/or operation of its units may be powered, wholly or in part, by electrical power stored in the battery <b>118</b>. A change in an SOC value of the battery <b>118</b> can indicate an electrical consumption rate or amount. A battery management system (BMS) <b>114</b> may measure, using battery sensors, parameters that are used to determine the SOC value of the battery <b>118</b>. The battery sensors may measure a voltage, a current, a temperature, a charge acceptance, an internal resistance, self-discharges, magnetic properties, a state of health and/or other states or parameters of the battery <b>118</b>. The ECU <b>102</b> may determine an SOC percentage or ratio based on an energy value stored in the battery <b>118</b> relative to the current charging capacity of the battery <b>118</b>.</p>
+<p id="p-0026" num="0025">The battery <b>118</b> may be coupled to an external charger before departure or driving of the vehicle. The battery <b>118</b>, as in for example a plug-in hybrid vehicle, may be charged by an energy generation unit. The energy generation unit may include a solar panel, a ram induction generator, a regenerative braking unit, a heat exchange unit or combinations thereof. The vehicle may also include a catalytic converter connected to the engine <b>106</b> to generate heat used by the energy generation unit to charge the battery <b>118</b>. The energy generation unit may charge the battery <b>118</b> using a generator and/or a motor-generator of a motor/generator unit <b>130</b>.</p>
+<p id="p-0027" num="0026">The engine <b>106</b> may be connected to the motor/generator unit <b>130</b> using planetary gears <b>132</b>. The motor/generator unit <b>130</b>, the planetary gears <b>132</b>, the engine <b>106</b>, and other power train units form a drive train unit <b>134</b>. The motors and/or the engine <b>106</b> output torque for driving one or more of the wheels <b>136</b>. The amount of output torque and/or output power supplied by the motors can depend on the amount of output torque and/or output power supplied by the engine <b>106</b>, and vice versa. A transmission (not shown) can be connected between the drive train unit <b>134</b> and the wheels <b>136</b>.</p>
+<p id="p-0028" num="0027">The drive train unit <b>134</b> interacts with an electric power management and control unit (EPMCU) <b>116</b>. The drive train unit <b>134</b> and the EPMCU <b>116</b> do not necessarily relate to structural positioning or connections. Rather, the units are grouped in the schematic block diagram to clarify functions of the vehicle for powering the wheels <b>136</b>, and storing electrical energy. A person skilled in the art would appreciate that there are various ways to connect the devices and units based on design needs and concerns.</p>
+<p id="p-0029" num="0028">The EPMCU <b>116</b> may include an inverter/converter unit <b>108</b> for powering the motors of the motor/generator unit <b>130</b> using electric energy stored in the battery <b>118</b>. The EPMCU <b>116</b> may include a charger <b>112</b> for charging the battery using the generators of the motor/generator unit <b>130</b> and/or the engine <b>106</b>. The vehicle may also utilize power provided by the engine <b>106</b> and/or regenerated energy for example, using regenerative braking to charge the battery <b>118</b>.</p>
+<p id="p-0030" num="0029">One or more motor-generators (M-Gs) may be utilized, each serving both as a motor and a generator. That is, under certain conditions, at least one of the M-Gs may use battery power to drive the wheels <b>136</b>, and under certain other conditions, at least one of the M-Gs may utilize regenerative braking and/or energy generated by the engine <b>106</b> to charge the battery <b>118</b>. In other embodiments, the motors and the generators of the motor/generator unit <b>130</b> may be separate physical devices.</p>
+<p id="p-0031" num="0030">The vehicle may include planetary gears <b>132</b> that mechanically link the engine <b>106</b> and one or more M-Gs (e.g., two M-Gs). The engine <b>106</b> can only output torque in one rotational direction. In reverse driving, the torque provided by the engine <b>106</b> may oppose the torque required to move the vehicle. As such, when the engine <b>106</b> is outputting torque (running), the motors propel reverse movement using electrical energy stored in the battery <b>118</b>. In the foregoing drive train configuration, the engine torque output would inhibit reverse direction movement.</p>
+<p id="p-0032" num="0031">In other embodiments, the engine torque and the motor torque may supplement one another to propel the vehicle in reverse driving. The engine <b>106</b> may be decoupled from the motors such that the engine <b>106</b> could propel the wheels directly for reverse driving without the foregoing counter-rotation. Other variations of motors and generators, and drive train connections known in the art can be utilized based on design concerns.</p>
+<p id="p-0033" num="0032">The pre-charging logic may operate the vehicle exclusively in electric vehicle (EV) mode during reverse driving when certain pre-conditions as described herein are met. The pre-conditions are based on the vehicle state and environmental characteristics. The EV mode refers to propelling the vehicle using power entirely or substantially entirely provided by the battery <b>118</b>.</p>
+<p id="p-0034" num="0033">Examples of operation of the method/system of the present invention are described with respect to <figref idref="DRAWINGS">FIGS. 2-4</figref>. <figref idref="DRAWINGS">FIG. 2</figref> is a logic flowchart diagram for a method/system of improving reverse direction hill climb performance of a hybrid vehicle. <figref idref="DRAWINGS">FIG. 3</figref> shows an example of how values of different parameters progress during a pre-charging operation of a battery of a hybrid vehicle. <figref idref="DRAWINGS">FIG. 4</figref> shows examples of look-up tables that may be used by the pre-charge operation. A person skilled in the art would appreciate that the parameters, values, settings, and/or the illustrated operation in the graph and look-up table may differ based on design concerns and other considerations.</p>
+<p id="p-0035" num="0034">&#x201c;Pre-charging&#x201d; and variants thereof as used herein refer to charging the battery <b>118</b> to be at an SOC value that is sufficient for powering a movement and/or an operation of units of the vehicle for driving uphill in reverse. Pre-charging can be completed once the SOC value reaches a defined target charge value.</p>
+<p id="p-0036" num="0035">Referring to <figref idref="DRAWINGS">FIG. 2</figref>, the user of the vehicle may select a reverse gear after vehicle start-up (block <b>202</b>) or after the vehicle is stopped (block <b>204</b>). In block <b>206</b>, the ECU <b>102</b> determines that the shift position is set to &#x201c;R&#x201d; (Reverse) based on data detected by the gear selection sensor <b>128</b>. A pre-charge analysis and control logic is activated, as shown in block <b>208</b>, when or after the shift position is set to reverse. If the shift position is not set to reverse, the vehicle's base logic may continue to be operated. At this juncture, activation of the pre-charge analysis and control logic in block <b>208</b> does not necessarily indicate that pre-charging will begin. Rather, it signifies a beginning of analyzing detected data as instructed by the reverse driving pre-charge analysis and control logic instead of the base logic.</p>
+<p id="p-0037" num="0036">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, graph <b>310</b> shows a state of a reverse gear selection flag <b>312</b> over a given time. The reverse gear selection flag <b>312</b> is initially in an OFF mode (as shown by <b>312</b><i>a</i>), meaning that the gear selection is not reverse. Once the reverse gear is selected as detected by the gear selection sensor <b>128</b>, the reverse gear selection flag <b>312</b> is in an ON mode (as shown by <b>312</b><i>b</i>).</p>
+<p id="p-0038" num="0037">A reverse range counter <b>322</b> is in an OFF mode (as shown by <b>322</b><i>a</i>) when the gear is not in reverse. The reverse range counter <b>322</b> is started when the gear selection is in reverse, as indicated by <b>322</b><i>b</i>. The reverse range counter <b>322</b> can determine whether the logic has timed out before reaching a target charge value, as explained below with respect to block <b>228</b>.</p>
+<p id="p-0039" num="0038">Referring back to <figref idref="DRAWINGS">FIG. 2</figref>, grade sensor data is detected and read in block <b>210</b>. The SOC value of the battery <b>118</b> is detected and read in block <b>212</b>. The ECU <b>102</b> can determine whether pre-charging is required based on the SOC value and the grade value, and/or other values. In block <b>214</b>, the ECU <b>102</b> uses the determined values and a look-up table stored in the memory <b>124</b> to determine a corresponding pre-charge need value.</p>
+<p id="p-0040" num="0039">Exemplary look-up tables for pre-charging determination are shown in <figref idref="DRAWINGS">FIG. 4</figref>. Table <b>410</b> shows a look-up table for determining whether pre-charging should be turned on or off. The first row <b>412</b> includes grade values of the surface upon which the vehicle is positioned. The grade values are in percentage (%), but may alternatively be expressed in other units such as degrees. The first column <b>414</b> includes SOC values of the battery <b>118</b>. The SOC values are shown in terms of percentage (%) as compared with the capacity of the battery <b>118</b>. The SOC values may alternatively be expressed in various other units of measuring stored energy. The ECU <b>102</b> looks up a pre-charge need value based on the detected SOC value and grade value. If the detected values are in between the values in the first row <b>412</b> and the first column <b>414</b>, the pre-charge need value can be determined by interpolating the data. The interpolation can be performed in two directions: with respect to SOC values as well as with respect to grade values. In this scenario, the interpolation essentially would be performed over a three-dimensional map. The number of significant digits on the sensors can affect the accuracy of the pre-charge need value determined by the interpolation process.</p>
+<p id="p-0041" num="0040">The pre-charge need is greater when the battery has a low SOC value and when the grade value is high because the electrical energy may not be sufficient to reverse drive the vehicle up a hill with a high grade value. As can be seen in table <b>410</b>, the greatest pre-charge need value corresponds to the value 20. This occurs when the SOC value is the lowest (0%) and the grade percentage is the highest (20%). The ellipses ( . . . ) on the tables indicate that there are additional rows and columns, but a few are shown for illustration purposes.</p>
+<p id="p-0042" num="0041">The pre-charge need value in table <b>410</b> may take into account consumer research data that indicates the expected distance to be travelled uphill given the SOC value, the grade value, and/or other factors. Alternatively, another dimension may be added to table <b>410</b> for determining the pre-charge need value. The following three inputs amongst other inputs may be considered: the SOC value of the battery <b>118</b>, the grade value, and the expected distance of reverse driving uphill. The expected distance can be determined by navigation data (e.g., GPS data) provided by the navigation unit <b>122</b>. More particularly, the navigation data may indicate the expected driving distance of the hill upon which the vehicle is positioned before reaching the destination.</p>
+<p id="p-0043" num="0042">Referring back to <figref idref="DRAWINGS">FIG. 2</figref>, the ECU <b>102</b> determines whether a pre-charge mode should be activated in block <b>216</b>. The ECU <b>102</b> may compare the pre-charge need value to a pre-charge activation threshold value. The pre-charge mode can be activated based on the comparison of the pre-charge need value to the pre-charge activation threshold value. Referring to table <b>410</b> of <figref idref="DRAWINGS">FIG. 4</figref>, the pre-charge activation threshold value may be four (4) in this example. Pre-charge needs greater than or equal to 4 correspond to severe conditions for reverse driving (as indicated by the SOC value, the grade value, and/or the expected distance of travelling uphill). That is, if the pre-charge need value is greater than 4, the pre-charge mode would be activated. Other values or units for the pre-charge activation threshold value can be set based on design concerns.</p>
+<p id="p-0044" num="0043">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, graph <b>330</b> shows the detected grade data in terms of percentage as indicated by <b>332</b>. The detected grade value is greater than the pre-charge activation grade threshold value <b>334</b> for activating the pre-charge mode. Graph <b>340</b> shows progression of the SOC value <b>342</b> of the battery <b>118</b>. In this case, the pre-charge mode is activated as the determined conditions indicate that pre-charge need is high. More particularly, as can be seen from graphs <b>310</b>, <b>330</b>, and <b>340</b>, the following pre-conditions for activation are met: (a) the driving gear is in reverse (<b>312</b><i>b</i>), (<i>b</i>) the grade value <b>332</b> is greater than the pre-charge activation grade threshold value <b>334</b>, and (c) the initial SOC value before pre-charging (<b>342</b><i>a</i>) is less than the pre-charge activation SOC threshold value <b>348</b>.</p>
+<p id="p-0045" num="0044">Referring to block <b>218</b> of <figref idref="DRAWINGS">FIG. 2</figref>, the driver is notified of pre-charging necessity. The ECU <b>102</b> directs the display <b>104</b> to display a message, an image and/or a video. The display can indicate that pre-charging is in progress and prompt the driver to wait until pre-charging is complete before reverse driving up the hill. In addition or alternatively, an audio message may be outputted using a speaker of the vehicle.</p>
+<p id="p-0046" num="0045">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, display graph <b>350</b> shows that the pre-charging display <b>352</b> is in an OFF state (<b>352</b><i>a</i>) initially. Once the pre-charging mode is activated, a &#x201c;wait&#x201d; message is displayed for the driver, as shown by <b>352</b><i>b. </i></p>
+<p id="p-0047" num="0046">Referring to <figref idref="DRAWINGS">FIG. 2</figref>, the engine <b>106</b> is started in block <b>220</b> to charge the battery <b>118</b>. The engine <b>106</b> may drive a generator of the motor/generator unit <b>130</b> to charge the battery <b>118</b>. The generator may be a motor-generator (M-G) and/or a generator that is separate from the motor.</p>
+<p id="p-0048" num="0047">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, the SOC value <b>342</b> is increased using engine output power. As shown by graph <b>360</b>, the engine operation <b>362</b> may initially be in an OFF state as shown by <b>362</b><i>a</i>. The engine operation is set to ON (<b>362</b><i>b</i>) which powers the battery <b>118</b> using a generator of the motor/generator unit <b>130</b>.</p>
+<p id="p-0049" num="0048">Referring to block <b>222</b> of <figref idref="DRAWINGS">FIG. 2</figref>, a charging rate and a target charge value are set. The battery <b>118</b> is charged at the charging rate until the target charge value reaches and exceeds the target charge value. In block <b>224</b>, a hysteresis process is applied. The target charge value is set to exceed the actual SOC value needed for reverse driving by a hysteresis margin value. The hysteresis process is explained in further details with respect to <figref idref="DRAWINGS">FIGS. 3 and 4</figref>.</p>
+<p id="p-0050" num="0049">Referring to <figref idref="DRAWINGS">FIG. 4</figref>, the charging rate can be set, for example, in kW/sec (kilo Watts per second) using a look-up table <b>420</b>. The charging rate can be set based on the detected grade value and the SOC value of the battery <b>118</b>. The charging rate can be set based on the pre-charge need value (which is based on the grade value and the SOC value). The pre-charge need values <b>422</b> are listed in a row, having corresponding charging rates <b>424</b>. The charging rate can be interpolated in one direction if the pre-charge value is in between the stored pre-charge values. Alternatively, a multi-dimensional table can be set up similar to table <b>410</b>, except with the look-up values in the body of the table being the charging rate instead of the pre-charge need value. In other words, the charging rate can be determined directly based on the grade value and the SOC value.</p>
+<p id="p-0051" num="0050">The pre-charge need value indicates the severity of conditions for reverse driving. The charging rate <b>424</b> is set to be high when the pre-charge need value <b>422</b> is high. The charging rate <b>424</b> may be set such that the duration of pre-charging is substantially the same independently of the grade value of the hill. An advantage of fixing the charging time is that the driver would be satisfied with the use of pre-charging mode when he or she expects the same wait time for pre-charging.</p>
+<p id="p-0052" num="0051">Alternatively, the charging rate can be fixed instead of the pre-charging time. In a scenario where pre-charge need is low, the ECU <b>102</b> can charge the battery <b>118</b> to reach the target charge value in a shorter amount of time. When the charging rate is fixed, the duration of the pre-charge operation until a target charge value is reached may depend on the SOC value, but not the detected grade value. The charging rate can be set based on the maximum amount of wait time. The maximum amount of wait time can be determined based on a scenario having the greatest pre-charge need. The pre-charge time would be variable depending on the grade value and the SOC value. An advantage of fixing the charging rate is that the battery <b>118</b> can be damaged when varying the charging rate. By having a steady fixed charging rate for different conditions with different grade and SOC values, the usable life of the battery <b>118</b> can be extended.</p>
+<p id="p-0053" num="0052">Alternatively, the pre-charging rate and the pre-charge duration to reach the target charge value may both vary and be set dynamically based on the sensed parameters. The sensed parameters may be the SOC value, the grade value, the expected distance of reverse driving uphill, and/or other factors.</p>
+<p id="p-0054" num="0053">As shown in table <b>430</b>, a target charge value <b>434</b> can be determined based on the pre-charge need value <b>432</b>. The target charge value <b>434</b> may take into account power needed by auxiliary units of the vehicle such as a heating, ventilation and air conditioning (HVAC) unit. The target charge value <b>434</b> can be set such that it exceeds an actual charge value needed for reverse driving by a hysteresis margin value.</p>
+<p id="p-0055" num="0054">One reason for providing a hysteresis margin value is that during a time lag between the time that a display message is displayed and the driver depresses the gas pedal, the SOC value may drop below the actual charge value needed for reverse driving. A hysteresis margin value can be predetermined based on an expected decrease in the SOC value during the time lag. The expected decrease in the SOC value can be based on an average electrical energy consumption of the vehicle. The expected decrease in the SOC value can also be based on the average time a user takes from the time he or she sees the wait message to the time he or she depresses the gas pedal.</p>
+<p id="p-0056" num="0055">Another advantage of the hysteresis process is that the margin value prevents the pre-charge mode from deactivating and re-activating. The hysteresis margin value ensures that the SOC value does not drop below the actual charge value needed for reverse driving, which could undesirably lead to re-activation and deactivation of the pre-charge mode.</p>
+<p id="p-0057" num="0056">Alternatively, the hysteresis margin value can be dynamically set based on sensed parameters. The ECU <b>102</b> may be connected to various auxiliary devices of the vehicle and can estimate electrical consumption values or rates. Based on the electrical consumption rates or values, the ECU <b>102</b> can determine a battery load value. The ECU <b>102</b> can set the hysteresis margin value based on the battery load value to ensure that the SOC value does not drop below the target charge value after display of the wait message and before uphill reverse driving. An HVAC unit can exert a significant amount of battery load during heavy heating or cooling of the vehicle. The ECU <b>102</b> can set the hysteresis margin value to be high when the sensed battery load is high. The ECU. <b>102</b> may utilize a look-up table to determine an actual charge value needed for reverse driving, and another look-up table to determine a hysteresis margin value based on the battery load. The ECU <b>102</b> may add the two values to set the target charge value. Alternatively, a multi-dimensional look-up table can be used to directly set the target charge value based on the grade value, the SOC value, and the battery load. One skilled in the art would appreciate that other calculations and look-up tables can be utilized to set the target charge value based on the parameters envisioned here: the SOC value, the grade value, the expected distance of reverse driving uphill, the battery load, and/or other factors.</p>
+<p id="p-0058" num="0057">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, the SOC value <b>342</b> is initially at <b>342</b><i>a </i>before activation of the pre-charging mode. The SOC value <b>342</b> is increased at a constant charging rate as shown by <b>342</b><i>b </i>until the SOC value <b>342</b> reaches a target charge value <b>342</b><i>c</i>. The target charge value <b>342</b><i>c </i>exceeds the actual charge value needed for reverse driving by a hysteresis margin value <b>344</b>.</p>
+<p id="p-0059" num="0058">Referring to block <b>226</b> of <figref idref="DRAWINGS">FIG. 2</figref>, the ECU <b>102</b> determines whether the target charge value is reached before a threshold time period has passed. If not, the pre-charge mode times out as shown in block <b>228</b>. This results in de-activation of the pre-charge analysis and control logic (&#x201c;END&#x201d; <b>234</b>). The base logic can be re-activated at this juncture. If the pre-charge mode has not timed out, and the target charge value is read within the allowed time, the process proceeds to block <b>230</b>.</p>
+<p id="p-0060" num="0059">Referring to <figref idref="DRAWINGS">FIG. 3</figref>, a pre-charge logic operation duration threshold <b>326</b> can be set, for example, in terms of seconds. Once the reverse range counter <b>322</b><i>b </i>reaches or exceeds the pre-charge logic operation duration threshold <b>326</b>, the logic times out. At time-out, a message can be displayed, indicating that that the battery <b>118</b> was not sufficiently pre-charged. The message may further indicate that the driver may proceed with driving. A reason for using a time-out counter is that a driver would prefer not to wait too long for pre-charging. The pre-charging logic takes this concern into account by prompting the user to advance with reverse driving when the duration of the pre-charging process exceeds a pre-charge logic operation duration threshold.</p>
+<p id="p-0061" num="0060">The process may be designed such that ideally the overall wait time is within the maximum allowable wait time <b>370</b>. Referring to <figref idref="DRAWINGS">FIG. 2</figref>, the overall wait time begins from the time the process starts in block <b>201</b>. The time window considered for time-out analysis and the maximum allowable wait time could be set differently based on design concerns and consumer data analysis. Consumer data analysis indicates typical consumer expectations of reasonable wait time. If the maximum allowable wait time <b>370</b> is exceeded, the logic times out as discussed above with respect to blocks <b>226</b> and <b>228</b> of <figref idref="DRAWINGS">FIG. 2</figref>.</p>
+<p id="p-0062" num="0061">Referring back to <figref idref="DRAWINGS">FIG. 2</figref>, once the target charge value is reached, the engine <b>106</b> is stopped (block <b>230</b>). The engine <b>106</b> would no longer charge the battery <b>118</b>. The engine <b>106</b> may indeed shut down at this juncture. Referring to <figref idref="DRAWINGS">FIG. 3</figref>, the engine operation <b>362</b> may be set to an OFF state and transition from <b>362</b><i>b </i>to <b>362</b><i>c</i>. This occurs when or after the SOC value <b>342</b> reaches the target charge value <b>342</b><i>c</i>. During the engine operation <b>362</b><i>b</i>, the engine <b>106</b> produces the required charging energy to be stored in the battery <b>118</b> as the vehicle remains stopped.</p>
+<p id="p-0063" num="0062">Referring to <figref idref="DRAWINGS">FIG. 2</figref>, the driver can be notified of pre-charge completion in <b>232</b>. An image, video, and/or a text may be displayed using the display <b>104</b>, indicating that the driver can start reverse driving up-hill. Referring to <figref idref="DRAWINGS">FIG. 3</figref>, the display graph <b>350</b> shows that the display can move from the wait message <b>352</b><i>b </i>to &#x201c;Go&#x201d; message <b>352</b><i>c </i>once the target charge value is reached. The &#x201c;Go&#x201d; (or &#x201c;Go when Safe&#x201d;) message may be a message displayed, indicating to the driver that pre-charging is completed and the hybrid vehicle is ready for driving in reverse.</p>
+<p id="p-0064" num="0063">In certain environments, the grade value (or angle) may vary significantly in the hill climb. A drawback with significant variation of the grade value is that the initial estimation for the target charge value may not be accurate if the initial estimation considered only the initial grade value.</p>
+<p id="p-0065" num="0064"><figref idref="DRAWINGS">FIG. 5</figref> is a graph showing grade value variations of the over the expected reverse direction hill climb route. In section <b>502</b>, over a distance (A), the grade value is initially X percent (%). Over the next distance (B) in section <b>504</b>, the grade value increases to Y %. The grade value subsequently increases to Z % over a distance C in section <b>506</b>. The ECU <b>102</b> and/or another processor (e.g., processor of the navigation unit <b>122</b>) can determine the grade values and the corresponding distance values based on the navigation data. The ECU <b>102</b> may determine a first target charge value (noted by &#x201c;target 1&#x201d; in section <b>502</b>) based on the grade value of section <b>502</b> (X %), the current SOC value, distance A of section <b>502</b>, and/or other factors as discussed above with respect to <figref idref="DRAWINGS">FIG. 2</figref>. Similarly, a second target charge value (noted by &#x201c;target 2&#x201d; in section <b>504</b>) can be determined based on the grade value of section <b>504</b> (Y %), the current SOC value, the distance B of section <b>504</b>, and/or other factors as discussed above with respect to <figref idref="DRAWINGS">FIG. 2</figref>. A third target charge value (target 3) can also be determined similarly based on distance C, corresponding grade value (Z %), current SOC value, and/or other factors. The overall target charge value can be set by summing the target charge values for each section (target 1+target 2+target 3+ . . . ). Alternatively, the overall target charge value can be directly determined by taking into account distance A, X %, distance B, Y %, distance C, Z %, current SOC value, and/or other parameters.</p>
+<p id="p-0066" num="0065">Although three sections are shown in this example, it can be appreciated that a different number of sections could be present depending on the particular reverse driving route. The number of sections may also depend on the logic's defined sensitivity to grade value, distance, and/or other parameters. More particularly, the sensitivity can be defined based on a minimum distance variation threshold, a minimum grade value variation threshold, and/or other factors or parameters. By defining sensitivity thresholds, the determination of target charge values can be simplified without significantly affecting the accuracy of the target charge value. That is, if the grade value varies by a very small percentage over a negligible distance in a section, the logic would ignore such variation and not separate it into a different section.</p>
+<p id="p-0067" num="0066">Grade value variations may be taken into account only if the condition becomes more severe uphill (that is, the grade value increases). This reduces the likelihood that the SOC value of the battery <b>118</b> becomes insufficient for reverse driving once the grade value increases. When the grade values decrease, conditions become less severe. The decreases in the grade value may be ignored in this implementation. A reason for ignoring the grade value decline is that the original estimation would merely result in storage of excess charge beyond what is needed for reverse driving. Assume the grade value changes from 5% to 10% and then to 8%. The logic would take into account the 5% to 10% change. The logic would ignore the 10% to 8% change and continue to determine the target charge value based on the preceding 10% rate. In alternative implementations, both increases and decreases can be taken into account when determining the overall target charge amount. This would increase the accuracy of the initial estimation of the overall target charge amount.</p>
+<p id="p-0068" num="0067">Similarly, the following steps can also take into account the expected variations of the grade values in advance based on the navigation data: (a) determination of a pre-charge need value (e.g., Table <b>410</b> of <figref idref="DRAWINGS">FIG. 4</figref>); (b) activation of the pre-charge mode (e.g., blocks <b>214</b> and <b>216</b> of <figref idref="DRAWINGS">FIG. 2</figref>); and/or (c) determination of the charging rate (e.g., block <b>222</b> of <figref idref="DRAWINGS">FIG. 2</figref>).</p>
+<p id="p-0069" num="0068"><figref idref="DRAWINGS">FIG. 6</figref> is a flowchart diagram for a method <b>600</b> of improving the reverse direction hill climb performance of a hybrid vehicle. In block <b>602</b>, an SOC value of the battery <b>118</b> is determined. This may be a current SOC value of the battery before pre-charging. In block <b>604</b>, a grade value of a surface upon which the hybrid vehicle is positioned is detected using a grade sensor <b>126</b>. In block <b>606</b>, a gear selection by a driver of the vehicle is detected using a gear selection sensor <b>128</b>. The gear selection sensor <b>128</b> may be located on a transmission selector shaft, steering column mounting, or other locations of the vehicle to sense a transmission gear selection.</p>
+<p id="p-0070" num="0069">In block <b>608</b>, the ECU <b>102</b> determines whether to activate a pre-charge mode based on the gear selection, the grade value, and the SOC value of the battery <b>118</b>. If and when the gear selection, the grade value, the SOC value, and/or other parameters indicate that pre-charging is needed for reverse driving, the ECU <b>102</b> activates the pre-charge mode. In block <b>610</b>, the display <b>104</b> displays a message that pre-charging is in progress and the driver should wait until pre-charging is completed. In block <b>612</b>, the ECU <b>102</b> determines a target charge value based on the grade value and the SOC value of the battery when or after the pre-charge mode is activated. The target charge value determination can take into account variations of the grade value as discussed above with respect to <figref idref="DRAWINGS">FIG. 5</figref>. In block <b>614</b>, the engine <b>106</b> outputs power to charge the battery until the SOC value of the battery is equal to or greater than the target charge value. In block <b>616</b>, the display <b>104</b> displays a message that pre-charging is completed and the hybrid vehicle is ready for driving in reverse. This message is displayed when or after the SOC value of the battery is equal to or greater than the target charge value.</p>
+<p id="p-0071" num="0070">An advantage of the present invention is that by determining the vehicle state and environmental conditions, pre-charging can be performed. The vehicle may operate in EV mode throughout the hill climb in reverse. This would help meet customer expectations.</p>
+<p id="p-0072" num="0071">In addition to the logic described above, a route prediction logic may be applied to expect that pre-charging would be required prior to arriving at the hill. If the route prediction is available, the ECU <b>102</b> can manage charging and discharging of the battery such that sufficient SOC value remains when the user arrives at the given hill.</p>
+<p id="p-0073" num="0072">The steps described above with respect to <figref idref="DRAWINGS">FIGS. 2 and 6</figref> may not necessarily be performed in the order presented above. A person skilled in the art would appreciate that, for example, the following steps do not necessarily be performed in different orders: displaying a wait message, setting a target charge value, and determining a charging rate.</p>
+<p id="p-0074" num="0073">While only certain presently embodiments of the invention have been described in detail, a person skilled in the art would appreciate that certain changes and modifications may be made in the embodiments without departing from the spirit and scope of the invention. A person skilled in the art would appreciate the invention may be practiced other than as specifically described with respect to the foregoing embodiments of the method/system.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A pre-charging system for improving reverse direction hill climb performance of a hybrid vehicle, comprising:
+<claim-text>a battery having a state of charge value;</claim-text>
+<claim-text>a motor for powering a movement or an operation of the hybrid vehicle using energy stored in the battery;</claim-text>
+<claim-text>an engine configured to output power for at least one of driving the hybrid vehicle or charging the battery;</claim-text>
+<claim-text>a grade sensor for detecting a grade value of a surface upon which the hybrid vehicle is positioned;</claim-text>
+<claim-text>a gear selection sensor for detecting a gear selection by a driver; and</claim-text>
+<claim-text>an electronic control unit configured to determine whether to activate a pre-charge mode based on the gear selection, the grade value, and the state of charge value, and when or after the pre-charge mode is activated, the electronic control unit is configured to:
+<claim-text>determine a target charge value based on the grade value and the state of charge value, and</claim-text>
+<claim-text>charge the battery using power outputted by the engine until the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The pre-charging system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the electronic control unit is further configured to determine a charging rate for the battery based on the grade value and the state of charge value, and further configured to charge the battery at the charging rate until the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The pre-charging system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein when or after the gear selection sensor detects a reverse gear selection, the electronic control unit is configured to determine a pre-charge need value based on the grade value and the state of charge value, and activate the pre-charge mode when the pre-charge need value is greater than or equal to a pre-charge activation threshold value.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The pre-charging system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a memory configured to store:
+<claim-text>a plurality of pre-charge need values, each pre-charge need value having a corresponding state of charge value stored in the memory and a corresponding grade value stored in the memory, and</claim-text>
+<claim-text>a pre-charge activation threshold value,</claim-text>
+</claim-text>
+<claim-text>wherein the electronic control unit is further configured to:
+<claim-text>determine a pre-charge need value based on the stored plurality of pre-charge need values, and the detected grade value and the state of charge value, and</claim-text>
+<claim-text>activate the pre-charge mode when the pre-charge need value is greater than or equal to the pre-charge activation threshold value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The pre-charging system of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the electronic control unit is further configured to determine a charging rate for the battery based on the pre-charge need value, and charge the battery at the charging rate until the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The pre-charging system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a display connected to the electronic control unit, and configured to display:
+<claim-text>a message that pre-charging is in progress for prompting the driver to wait until pre-charging is completed before driving in reverse, and</claim-text>
+<claim-text>a message that pre-charging is completed, when or after the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The pre-charging system of <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the electronic control unit is configured to set the target charge value to exceed an actual charge value needed for reverse driving by a hysteresis margin value for ensuring that the state of charge value does not decrease to a value less than the actual charge value needed for reverse driving during a time lag before the driver of the hybrid vehicle starts reverse driving the hybrid vehicle.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. The pre-charging system of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the hysteresis margin value is predetermined based on an average electrical energy consumption during an average time lag before the driver of the hybrid vehicle starts reverse driving the hybrid vehicle.</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The pre-charging system of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the electronic control unit is configured to determine a battery load value based on an electrical consumption value or rate of one or more auxiliary devices of the hybrid vehicle, and determine the hysteresis margin value based on the battery load value.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The pre-charging system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a navigation unit for providing navigation data of a surrounding environment of the hybrid vehicle,
+<claim-text>wherein the electronic control unit is further configured to determine an expected distance of reverse driving uphill based on the navigation data, and the target charge value is further based on the expected distance of reverse driving uphill.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The pre-charging system of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a navigation unit for providing navigation data of a surrounding environment of the hybrid vehicle,
+<claim-text>wherein the electronic control unit is further configured to:
+<claim-text>determine a first expected distance of reverse driving uphill and a first grade value corresponding to the first expected distance grade value based on the navigation data,</claim-text>
+<claim-text>determine a second expected distance of reverse driving uphill and a second grade value corresponding to the second expected distance based on the navigation data, and</claim-text>
+<claim-text>determine the target charge value based on the first expected distance, the first grade value, the second expected distance, and the second grade value.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. A pre-charging system for improving reverse direction hill climb performance of a hybrid vehicle, comprising:
+<claim-text>a battery having a state of charge value;</claim-text>
+<claim-text>a motor for powering a movement or an operation of the hybrid vehicle using energy stored in the battery;</claim-text>
+<claim-text>an engine configured to output power for at least one of driving the hybrid vehicle or charging the battery;</claim-text>
+<claim-text>a grade sensor for detecting a grade value of a surface upon which the hybrid vehicle is positioned;</claim-text>
+<claim-text>a gear selection sensor for detecting a transmission gear selection;</claim-text>
+<claim-text>an electronic control unit configured to determine whether to activate a pre-charge mode based on the gear selection, the grade value, and the state of charge value, and when or after the pre-charge mode is activated, the electronic control unit is configured to:
+<claim-text>determine a target charge value based on the grade value and the state of charge value,</claim-text>
+<claim-text>determine a charging rate for the battery based on the state of charge value and the grade value, and</claim-text>
+<claim-text>charge the battery at the charging rate until the state of charge value is equal to or greater than the target charge value; and</claim-text>
+</claim-text>
+<claim-text>a display connected to the electronic control unit, and configured to display a message that pre-charging is completed and the hybrid vehicle is ready for driving in reverse, when or after the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The pre-charging system of <claim-ref idref="CLM-00012">claim 12</claim-ref>, wherein in response to detection of a reverse gear selection by the gear selection sensor, the electronic control unit is configured to determine a pre-charge need value based on the grade value and the state of charge value, and activate the pre-charge mode when or after the pre-charge need value is greater than or equal to a pre-charge need value.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The pre-charging system of <claim-ref idref="CLM-00012">claim 12</claim-ref>, wherein the electronic control unit is configured to set the target charge value to exceed an actual charge value needed for reverse driving by a hysteresis margin value for ensuring that the state of charge value does not decrease to a value less than the actual charge value needed for reverse driving during a time lag before the driver of the hybrid vehicle starts reverse driving the hybrid vehicle.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. A pre-charging method for improving reverse direction hill climb performance of a hybrid vehicle having an engine, a motor, and a battery with a state of charge value, comprising:
+<claim-text>detecting, using a grade sensor, a grade value of a surface upon which the hybrid vehicle is positioned;</claim-text>
+<claim-text>detecting, using a gear selection sensor, a gear selection by a driver;</claim-text>
+<claim-text>determining, using an electronic control unit, whether to activate a pre-charge mode based on the gear selection, the grade value, and the state of charge value;</claim-text>
+<claim-text>determining, using the electronic control unit, a target charge value based on the grade value and the state of charge value when or after the pre-charge mode is activated; and</claim-text>
+<claim-text>charging the battery using power outputted by the engine until the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text>16. The pre-charging method of <claim-ref idref="CLM-00015">claim 15</claim-ref>, further comprising determining, using the electronic control unit, a charging rate for the battery based on the state of charge value and the grade value,
+<claim-text>wherein the step of charging the battery includes charging the battery at the charging rate until the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text>17. The pre-charging method of <claim-ref idref="CLM-00015">claim 15</claim-ref>, further comprising:
+<claim-text>determining, using the electronic control unit, a pre-charge need value based on the grade value and the state of charge value; and</claim-text>
+<claim-text>activating, using the electronic control unit, the pre-charge mode when or after the pre-charge need value is greater than or equal to a pre-charge activation threshold value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text>18. The pre-charging method of <claim-ref idref="CLM-00015">claim 15</claim-ref>, further comprising:
+<claim-text>displaying, using a display connected to the electronic control unit, a message that pre-charging is in progress for prompting the driver to wait until pre-charging is completed; and</claim-text>
+<claim-text>displaying, using the display, a message that pre-charging is completed and the hybrid vehicle is ready for driving in reverse, when or after the state of charge value is equal to or greater than the target charge value.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text>19. The pre-charging method of <claim-ref idref="CLM-00015">claim 15</claim-ref>, wherein the step of determining, using the electronic control unit, the target charge value includes setting the target charge value to exceed an actual charge value needed for reverse driving by a hysteresis margin value for ensuring that the state of charge value does not decrease to a value less than the actual charge value needed for reverse driving the hybrid vehicle.</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text>20. The pre-charging method of <claim-ref idref="CLM-00019">claim 19</claim-ref>, further comprising:
+<claim-text>determining, using the electronic control unit, a battery load value based on an electrical consumption value or rate of one or more auxiliary devices of the hybrid vehicle; and</claim-text>
+<claim-text>determining, using the electronic control unit, the hysteresis margin value based on the battery load value.</claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

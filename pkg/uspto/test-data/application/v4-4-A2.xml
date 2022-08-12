@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v44-2014-04-03.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.4 2014-04-03" file="US20150075015A2-20150319.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20150304" date-publ="20150319">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>20150075015</doc-number>
+<kind>A2</kind>
+<date>20150319</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>14266913</doc-number>
+<date>20140501</date>
+</document-id>
+</application-reference>
+<us-application-series-code>14</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>B</section>
+<class>26</class>
+<subclass>B</subclass>
+<main-group>21</main-group>
+<subgroup>52</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150319</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>B</section>
+<class>26</class>
+<subclass>B</subclass>
+<main-group>21</main-group>
+<subgroup>521</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20150319</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+</classifications-cpc>
+<classification-national>
+<country>US</country>
+<main-classification> 30527</main-classification>
+</classification-national>
+<invention-title id="d0e43">RAZOR WITH CUTTING BLADE ROTATABLE ABOUT MULTIPLE AXES</invention-title>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>13030752</doc-number>
+<date>20110218</date>
+</document-id>
+<parent-status>PENDING</parent-status>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>14266913</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>61372662</doc-number>
+<date>20100811</date>
+</document-id>
+<us-provisional-application-status>abandoned</us-provisional-application-status>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20140237828</doc-number>
+<kind>A1</kind>
+<date>20140828</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="00" app-type="applicant-inventor" designation="us-only" applicant-authority-category="inventor">
+<addressbook>
+<last-name>Bucco</last-name>
+<first-name>Thomas J.</first-name>
+<address>
+<city>Setauket</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="00" designation="us-only">
+<addressbook>
+<last-name>Bucco</last-name>
+<first-name>Thomas J.</first-name>
+<address>
+<city>Setauket</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+</us-bibliographic-data-application>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A razor includes a handle and detachable blade cartridge. The end of the handle has a pivot sphere upon which the blade cartridge is rotatably mounted, with freedom to pivot around three axes of the handle, and otherwise holds its orientation relative to the handle. The blade cartridge is held to the pivot sphere by a clevis having recesses defined in at least the inner side surfaces of its legs. The recesses, together with the clevis, are sized to admit the pivot sphere between them and to hold the sphere therein once admitted. The clevis and/or the pivot sphere can be formed of a resilient injection molded plastic. The range of motion of the blade cartridge can be limited by forming one or more stops on the pivot sphere to interact with the clevis and thereby interrupt its free rotation.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="128.69mm" wi="157.65mm" file="US20150075015A2-20150319-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="220.30mm" wi="164.34mm" file="US20150075015A2-20150319-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">The present application is a continuation of U.S. application Ser. No. 13/030,752, filed Feb. 18, 2011 and now patented as U.S. Pat. No. 8,720,072, which claims the benefit of U.S. Provisional Application Ser. No. 61/372,662, filed Aug. 11, 2010.</p>
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="tail"?>
+<?summary-of-invention description="Summary of Invention" end="lead"?>
+<heading id="h-0002" level="1">BACKGROUND</heading>
+<p id="p-0003" num="0002">1. Field</p>
+<p id="p-0004" num="0003">The present invention relates to the field of consumer products and particularly to a razor with blade holder that is pivotable around three axes.</p>
+<p id="p-0005" num="0004">2. Description of Related Art</p>
+<p id="p-0006" num="0005">In a shaving tool for personal grooming, one well-known design is the safety razor that has a blade cartridge holding one or more blades at an appropriate angle for shaving, with the blade cartridge connected to a handle. As the face, etc. or other body portion being shaven is not flat, the user must articulate the handle around three axes while moving the blade over the skin to achieve a suitable result. This requires a certain level of dexterity on the part of the user.</p>
+<p id="p-0007" num="0006">In recognition of this, it is known to mount the blade cartridge to the handle in a manner to allow the blade cartridge to pivot around an axis parallel to the cutting edge(s) of the blades. However, this limited range of motion still requires the manual dexterity of the user to rotate the blade around other axes. Therefore, a better solution is lacking.</p>
+<heading id="h-0003" level="1">SUMMARY</heading>
+<p id="p-0008" num="0007">A razor according to the instant disclosure includes a handle and detachable blade cartridge. The end of the handle has a pivot sphere upon which the blade cartridge is rotatably mounted, with freedom to pivot around three axes of the handle, and otherwise holds its orientation relative to the handle. The blade cartridge is held to the pivot sphere by a clevis having recesses defined in at least the inner side surfaces of its legs. The recesses, together with the clevis, are sized to admit the pivot sphere between them and to hold the sphere therein once admitted. The clevis and/or the pivot sphere can be formed of a resilient injection molded plastic. The range of motion of the blade cartridge may be limited by forming one or more stops on the pivot sphere to interact with the clevis and thereby interrupt its free rotation.</p>
+<p id="p-0009" num="0008">In a particular embodiment, a personal grooming apparatus comprises a handle having a gripping portion and an attachment portion operative to rotably support a cartridge for rotational movement around at least two axes. The cartridge includes a clevis with first and second opposed legs, spaced from one another, each of the first and second legs having a respective recess in a side facing the opposing leg, the respective recesses sized, shaped and positioned such that the attachment portion is received simultaneously in both recesses, with the cartridge being pivotably mounted upon the attachment portion with freedom of motion around at least two axes.</p>
+<p id="p-0010" num="0009">In a further embodiment, the cartridge comprises a central recess between the first and second legs receiving and substantially covering an end of the attachment portion. The attachment portion may comprise a sphere or part thereof having a first radius. The sphere or part thereof may comprise a plurality of elements approximating the surface of the sphere. At least one of the plurality of elements approximating the surface of the sphere may be resilient to facilitate attachment between the sphere or part thereof with the cartridge.</p>
+<p id="p-0011" num="0010">In a further embodiment, the central recess may comprise either a spherical section or a toroidal section, the spherical section or toroidal section being defined by a radius substantially equal to, or greater than, the first radius of the sphere or part thereof</p>
+<p id="p-0012" num="0011">The recesses in each of the first and second legs may be either cylindrical or spherical recesses. At least one of the recesses in each of the first and second legs may be a through opening that perforates the side of its respective first or second leg facing away from the opposing leg.</p>
+<p id="p-0013" num="0012">In a further embodiment, at least one of the first and second legs comprises a relief portion inclined toward the opposing one of said first and second legs, said relief portion being operative to facilitate the insertion of the attachment portion between the first and second legs. The relief portion may comprise a spherical section surface, optionally having a radius substantially equal to or greater than that of the sphere of the attachment potion, where the attachment portion is provided with a sphere or part thereof.</p>
+<p id="p-0014" num="0013">In a particular embodiment, at least one of the first and second legs comprise a resilient material, said leg being operative to deflect under the pressure of the attachment portion upon insertion of the attachment portion between the first and second legs, and thereby admit the attachment portion between the first and second legs.</p>
+<p id="p-0015" num="0014">In a further embodiment, the attachment portion further comprises at least one stop extending above its surface to partially obstruct the rotation of the cartridge when the cartridge is mounted upon the attachment portion. In a further embodiment, two symmetric and diametrically opposed stops are provided.</p>
+<p id="p-0016" num="0015">The cartridge may be mounted on the attachment portion operative to hold the orientation of the cartridge with respect to the handle at rest, yet pivot freely under an applied pressure.</p>
+<p id="p-0017" num="0016">The attachment portion may comprise an attachment arm by which it is mounted to the handle. The attachment arm may extend at an angle to the axis of the handle. The attachment arm may further be configured to reduce in diameter, for example as a frusto-conical shape, and may further be attached to the handle by the relatively larger-diameter portion of the attachment arm.</p>
+<p id="p-0018" num="0017">These and other features, advantages and benefits of the present disclosure will become apparent from the following description.</p>
+<p id="p-0019" num="0018">DETAILED DESCRIPTION OF THE FIGURES</p>
+<p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 1</figref> illustrates a razor according to an exemplary embodiment of the present disclosure, in an exploded assembly view wherein a blade cartridge thereof is separated from the handle along the phantom line.</p>
+<p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 2</figref> illustrates an alternate embodiment of a razor according to the present disclosure, as a detail view of the end of handle.</p>
+<?summary-of-invention description="Summary of Invention" end="tail"?>
+<?detailed-description description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE EMBODIMENTS</heading>
+<p id="p-0022" num="0021">Referring now to <figref idref="DRAWINGS">FIG. 1</figref>, illustrated is an exploded assembly view of a three axis safety razor, generally <b>10</b>, according to an exemplary embodiment of the present disclosure. The razor <b>10</b> includes a handle <b>12</b>, and a blade cartridge <b>14</b> pivotally connected. to the handle <b>12</b>. The handle <b>12</b> includes a gripping portion <b>16</b>. The gripping portion <b>16</b> is illustrated as generally cylindrical, however, it is contemplated, and, in fact, preferred that the gripping portion <b>16</b> have some features to enhance its friction when held in the hand of the user.</p>
+<p id="p-0023" num="0022">Among these features, without limitation, the shape of the gripping portion <b>16</b> may be varied from the generally right circular cylinder as illustrated, for example, to other prismatic shapes such as triangular, rectangular (including square) or hexagonal prisms, among others, and/or to optionally include some combination of lands and curves. The gripping portion <b>16</b> may be further provided with one or more localized depressions <b>17</b> and/or protuberances <b>19</b> to receive the fingers of a user's hand. The surface of the gripping portion <b>16</b> may be provided with texture and/or friction enhancements, including without limitation knurling, localized or general surface roughening, and friction-enhancing appliqu&#xe9;s <b>21</b>, including those which may raise the height of the surface to which they are applied.</p>
+<p id="p-0024" num="0023">At a first end <b>18</b> of the handle <b>12</b>, a pivot sphere <b>20</b> is secured to and/or made part of the handle <b>12</b>. Designating the structure as a pivot sphere does not preclude the possibility that the pivot sphere may be only partially spherical, as described further below. In a further embodiment, shown for example in <figref idref="DRAWINGS">FIG. 2</figref>, the pivot sphere may be formed by a plurality of elements <b>40</b> approximating a sphere (or part thereof). Optionally, those elements <b>40</b> may themselves be resilient to deform from a spherical surface to permit the pivot sphere <b>20</b><i>a </i>to be connected with the blade cartridge <b>14</b>. Moreover, in the embodiment illustrated in <figref idref="DRAWINGS">FIG. 2</figref>, the gaps <b>42</b> between elements <b>40</b> are substantially parallel with one another and circumferential with the sphere <b>20</b><i>a. </i>This need not be the case, however. As well, the gaps may be formed around poles of the sphere that are not substantially aligned with the stops <b>32</b><i>a, </i><b>32</b><i>b, </i>as illustrated. For example, the gaps <b>42</b> may be formed to meet at or near the attachment with arm <b>22</b>. Other variations will be apparent to those of skill in the art, in light of the instant disclosure.</p>
+<p id="p-0025" num="0024">Returning to the exemplary embodiment, pivot sphere <b>20</b> is mounted to the handle <b>12</b> at the end of an arm <b>22</b>. Arm <b>22</b> preferably achieves a reduction in diameter from the gripping portion <b>16</b> of the handle <b>12</b>, to reduce and/or avoid obstructing the pivoting of the blade cartridge <b>14</b> about the pivot sphere <b>20</b>. In the exemplary embodiment, arm <b>22</b> is frusto-conical in shape, with a smaller diameter end adjacent to and connected with the pivot sphere. Moreover, the arm <b>22</b> may be offset such that its longitudinal axis diverges from a longitudinal axis of the handle <b>12</b> generally, or gripping portion <b>16</b> specifically, in order to further distance the blade cartridge <b>14</b> from the handle <b>12</b>. In alternate embodiments, the arm <b>22</b> supporting the pivot sphere <b>20</b> may be mounted along the length of the handle <b>12</b>, rather than at or near an end. One manner of mounting the arm <b>22</b> may be substantially perpendicular to the axis of the handle <b>12</b>, approximating a &#x201c;T&#x201d;-shape between the handle <b>12</b> and the arm <b>22</b>. Other configurations, e.g., &#x201c;C&#x201d;, &#x201c;J&#x201d;, &#x201c;L&#x201d;, &#x201c;Y&#x201d;-shaped combinations of handle <b>12</b> and arm <b>22</b>, are clearly conceivable within the scope of the instant disclosure.</p>
+<p id="p-0026" num="0025">Blade cartridge <b>14</b> includes a clevis <b>24</b> for pivotably securing the blade cartridge <b>14</b> to the pivot sphere <b>20</b>. The clevis <b>24</b> includes two opposed legs <b>24</b><i>a, </i><b>24</b><i>b. </i>Each leg <b>24</b><i>a, </i><b>24</b><i>b </i>has a hole <b>26</b><i>a, </i><b>26</b><i>b, </i>respectively. In the exemplary embodiment, holes <b>26</b><i>a, </i><b>26</b><i>b </i>are through holes which traverse their respective legs <b>24</b><i>a, </i><b>24</b><i>b, </i>however, they need not perforate the legs <b>24</b><i>a, </i><b>24</b><i>b </i>entirely. Holes <b>26</b><i>a, </i><b>26</b><i>b </i>are sized and spaced such that the clevis <b>24</b> can be installed over the pivot sphere <b>20</b>, and be retained there in connection with the handle <b>12</b>. The tolerances of fit between the clevis <b>24</b>, specifically holes <b>26</b><i>a, </i><b>26</b><i>b, </i>and pivot sphere <b>20</b>, are readily adjustable by those having skill in the art without departing from the scope of the present disclosure. In a preferred embodiment, the tolerances are set to achieve a fit between clevis <b>24</b> and sphere <b>20</b> such that the cartridge <b>14</b> holds its orientation with respect to the handle <b>12</b> at rest, yet pivots freely under any applied pressure.</p>
+<p id="p-0027" num="0026">In the exemplary embodiment, the clevis <b>24</b> is optionally provided with a recess <b>30</b>, between legs <b>24</b><i>a, </i><b>24</b><i>b </i>and below holes <b>26</b><i>a, </i><b>26</b><i>b. </i>The recess may be configured as a spherical section, or alternately may resemble a portion of a torus. The radius of the recess <b>30</b> when configured as a spherical section, or the outer radius of the torus section where configured as such, is preferably no smaller than the diameter of the pivot sphere <b>20</b>. The recess should not interfere with the pivoting of the blade cartridge on the pivot sphere. A close fit between the pivot sphere <b>20</b> and the recess <b>30</b> may enhance the ability of the cartridge <b>14</b> to hold its position, and can also inhibit the ingress of water or shaving detritus (e.g., foam, cut hair, etc.) that might inhibit the ability of the cartridge to change position under pressure.</p>
+<p id="p-0028" num="0027">The nature of the fit between the clevis <b>24</b> and the pivot sphere <b>20</b> is that the maximum diameter of the pivot sphere <b>20</b> is greater than the distance between the legs <b>24</b><i>a, </i><b>24</b><i>b, </i>and their included holes <b>26</b><i>a, </i><b>26</b><i>b, </i>or more specifically, the nearest facing surfaces of legs <b>24</b><i>a, </i><b>24</b><i>b </i>and/or holes <b>26</b><i>a, </i><b>26</b><i>b. </i>To accommodate the assembly of the cartridge <b>14</b> with the handle <b>12</b>, either the pivot sphere <b>20</b>, or one or both of legs <b>24</b><i>a, </i><b>24</b><i>b, </i>or any of them, may be constructed of a resilient material which yields to the degree necessary to mate the cartridge <b>14</b> to the handle <b>12</b>, yet return to their previous respective states once assembled.</p>
+<p id="p-0029" num="0028">The clevis <b>24</b> may be provided with one or more relief portions <b>28</b><i>a, </i><b>28</b><i>b </i>as illustrated. Relief portions in this exemplary embodiment are generally spherical sections, and preferably have a radius at least as great as that of the pivot sphere <b>20</b>. Relief portions <b>28</b><i>a, </i><b>28</b><i>b </i>guide and ease the interface between the pivot sphere <b>20</b> and the clevis <b>24</b> on their assembly. In connection with this, making the interface between the pivot sphere <b>20</b> and the clevis <b>24</b> easy and reliable makes it possible to allow the user to exchange and replace the blade cartridge <b>14</b> at that interface in the ordinary course of use. This eliminates the need for an additional point of separation to achieve a blade change, thereby simplifying the construction of the blade cartridge <b>14</b>. However, this does not exclude an additional point of separation, pivoting and/or articulation in connection with blade cartridge <b>14</b> described in the present disclosure.</p>
+<p id="p-0030" num="0029">The clevis <b>24</b> described herein is advantageously formed of an injection molded plastic and/or metal, for economic benefits in cost of material and manufacture. Alternately, the clevis <b>24</b> can be formed and injection molded integrally with the frame of the blade cartridge <b>14</b>, which is completed by the addition of the blades themselves, among other accessories as desired.</p>
+<p id="p-0031" num="0030">As described above, a razor <b>10</b> has a blade cartridge <b>14</b> that can freely move around three axes of the handle <b>12</b>. However, while such freedom of motion is desirable, it may be further desired to limit the range of motion of the blade cartridge <b>14</b>, for example to avoid extreme or unusual orientations of the blade cartridge <b>14</b>. This can be accomplished by altering the shape of the pivot sphere <b>20</b>, for example to provide a stop <b>32</b>. The stop <b>32</b> is sized and positioned to obstruct the clevis <b>24</b>, and thereby limit its range of motion about the pivot sphere <b>20</b>. In the exemplary embodiment disclosed, the stop <b>32</b> is formed integrally with the remainder of the pivot sphere <b>20</b>, as a molded part thereof. Alternately, the stop <b>32</b> may be a separate structure, secured either permanently or removably to the pivot sphere <b>20</b>, for example, without limitation, by adhesive or fastener. One or more such stops <b>32</b> may be provided, which individually or in combination can permit nearly any desired range of motion in the blade cartridge <b>14</b> about the handle <b>12</b>.</p>
+<p id="p-0032" num="0031">The stop <b>32</b> is illustrated in <figref idref="DRAWINGS">FIG. 1</figref> as a simple circular cylindrical projection. However, the size, shape and height of the stop <b>32</b>, or several of them, may be selected as desired in consideration of the shape of the clevis <b>24</b> and specifically its legs <b>24</b><i>a, </i><b>24</b><i>b. </i>The stop <b>32</b> may be shaped to obstruct movement in certain orientations, but not in others. As an example only, once connected in the orientation illustrated in <figref idref="DRAWINGS">FIG. 1</figref>, the stop <b>32</b> largely inhibits the lateral rotation of the blade cartridge <b>14</b>. On the other hand, the blade cartridge <b>14</b> is free to rotate about its transverse axis, to lift its head' in a manner of speaking. Having done so, the blade cartridge now has additional freedom of lateral rotation, not possible in the prior orientation because of the interaction of the legs <b>24</b><i>a, </i><b>24</b><i>b </i>with the stop <b>32</b>. This discussion is offered merely as an example of the possible range of motion that could be obtained by the configuration of the stop <b>32</b>, and further alteration will be apparent to those of ordinary skill in the art in light of the instant disclosure.</p>
+<p id="p-0033" num="0032">In one embodiment, illustrated in <figref idref="DRAWINGS">FIG. 2</figref>, two such stops <b>32</b><i>a, </i><b>32</b><i>b </i>are substantially diametrically opposed to one another on the pivot sphere <b>20</b>. Stops <b>32</b><i>a, </i><b>32</b><i>b </i>are, in this embodiment formed by deforming a spherical section into a plane, with the excess material rising above the surface of the sphere <b>20</b> to restrict the movement of the blade cartridge <b>14</b>. The embodiment of <figref idref="DRAWINGS">FIG. 2</figref> includes the planes formed by this method of creating stops <b>32</b><i>a, </i><b>32</b><i>b </i>being angled with respect to one another. The planes are closer together at the attachment of the sphere <b>20</b> with the arm <b>22</b>. They may, in other embodiments, be angled differently, or parallel with each other.</p>
+<p id="p-0034" num="0033">The foregoing disclosure has been made with reference to certain exemplary and/or preferred features and embodiments. These are not limiting upon the scope of the disclosure. Certain modification, alterations, or substitutions will be apparent to those of ordinary skill in the art in light of the present disclosure.</p>
+<?detailed-description description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-01-18" num="01-18">
+<claim-text><b>1</b>-<b>18</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text><b>19</b>. A personal grooming apparatus, comprising:
+<claim-text>a handle having a gripping portion and an attachment portion, the attachment portion including a pivot member having an at least partially rounded surface; and</claim-text>
+<claim-text>a cartridge removably attached to the attachment portion and supporting at least one cutting blade, the at least one cutting blade rotatable about a first axis;</claim-text>
+<claim-text>wherein rotation of the at least one cutting blade about a second axis is enabled by two opposed legs having spaced-apart ends, the pivot member of the attachment portion pivotably held between the ends such that the at least one cutting blade is rotatable about the second axis; and</claim-text>
+<claim-text>at least one stop extending from and above the at least partially rounded surface of the pivot member and configured to limit rotation of the cartridge about the second axis when the cartridge is mounted on the attachment portion.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text><b>20</b>. The personal grooming apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the at least partially rounded surface of the pivot member is at least partially spheroidal.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text><b>21</b>. The personal grooming apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the gripping portion supports an at least partial spheroid including the pivot member.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text><b>22</b>. The personal grooming apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the two opposed legs form a portion of the cartridge.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text><b>23</b>. The personal grooming apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the first axis is perpendicular to the second axis.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text><b>24</b>. The personal grooming apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the first axis is parallel to a cutting edge of the at least one cutting blade.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text><b>25</b>. The personal grooming apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the gripping portion includes friction enhancing depressions and protuberances.</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text><b>26</b>. The personal grooming apparatus of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the at least one stop comprises a first stop configured to engage with a first one of the two legs and a second stop configured to engage with a second one of the two legs.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text><b>27</b>. A razor handle, comprising:
+<claim-text>an elongate body having a gripping portion;</claim-text>
+<claim-text>a pivot member at one end of the body, the pivot member providing a removable attachment to a cartridge supporting at least one cutting blade, the at least one cutting blade rotatable about a first axis;</claim-text>
+<claim-text>wherein the pivot member includes an at least partially rounded surface configured to be held between spaced-apart ends of two opposed legs such that the at least one cutting blade is rotatable about a second axis; and</claim-text>
+<claim-text>at least one stop protruding from the at least partially rounded surface of the pivot member and configured to limit rotation of the pivot member about the second axis.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text><b>28</b>. The razor handle of <claim-ref idref="CLM-00027">claim 27</claim-ref>, wherein the at least partially rounded surface of the pivot member is at least partially spheroidal.</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text><b>29</b>. The razor handle apparatus of <claim-ref idref="CLM-00027">claim 27</claim-ref>, wherein the gripping portion supports a spheroid including the pivot member.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text><b>30</b>. The razor handle of <claim-ref idref="CLM-00027">claim 27</claim-ref>, wherein the two opposed legs extend from the cartridge.</claim-text>
+</claim>
+<claim id="CLM-00031" num="00031">
+<claim-text><b>31</b>. The razor handle of <claim-ref idref="CLM-00027">claim 27</claim-ref>, wherein the first axis is perpendicular to the second axis.</claim-text>
+</claim>
+<claim id="CLM-00032" num="00032">
+<claim-text><b>32</b>. The razor handle of <claim-ref idref="CLM-00027">claim 27</claim-ref>, wherein the first axis is parallel to a cutting edge of the at least one cutting blade.</claim-text>
+</claim>
+<claim id="CLM-00033" num="00033">
+<claim-text><b>33</b>. The razor handle of <claim-ref idref="CLM-00027">claim 27</claim-ref>, wherein the gripping portion includes friction enhancing depressions and protuberances.</claim-text>
+</claim>
+<claim id="CLM-00034" num="00034">
+<claim-text><b>34</b>. A razor comprising the razor handle of <claim-ref idref="CLM-00027">claim 27</claim-ref>, the razor further comprising the cartridge.</claim-text>
+</claim>
+<claim id="CLM-00035" num="00035">
+<claim-text><b>35</b>. The razor handle of <claim-ref idref="CLM-00027">claim 27</claim-ref>, wherein the at least one stop comprises a first stop configured to engage with a first one of the two legs and a second stop configured to engage with a second one of the two legs.</claim-text>
+</claim>
+<claim id="CLM-00036" num="00036">
+<claim-text><b>36</b>. A razor, comprising:
+<claim-text>a cartridge supporting at least one cutting blade, wherein the at least one cutting blade is rotatable about a first axis;</claim-text>
+<claim-text>a handle having an elongate gripping portion and an attachment portion at one end of the handle, the attachment portion supporting a pivot member providing a removable attachment to the cartridge;</claim-text>
+<claim-text>wherein the pivot member includes an at least partially rounded surface and is configured to be held between spaced-apart ends of two opposed legs such that the at least one cutting blade is rotatable about a second axis; and</claim-text>
+<claim-text>at least one stop protruding from the at least partially rounded surface of the pivot member and configured to limit rotation of the cartridge about the second axis when the cartridge is mounted on the attachment portion.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00037" num="00037">
+<claim-text><b>37</b>. The razor of <claim-ref idref="CLM-00036">claim 36</claim-ref>, wherein the two opposed legs extend from the cartridge.</claim-text>
+</claim>
+<claim id="CLM-00038" num="00038">
+<claim-text><b>38</b>. The razor of <claim-ref idref="CLM-00036">claim 36</claim-ref>, wherein the first axis is perpendicular to the second axis.</claim-text>
+</claim>
+<claim id="CLM-00039" num="00039">
+<claim-text><b>39</b>. The razor of <claim-ref idref="CLM-00036">claim 36</claim-ref>, wherein the first axis is parallel to a cutting edge of the at least one cutting blade.</claim-text>
+</claim>
+<claim id="CLM-00040" num="00040">
+<claim-text><b>40</b>. The razor of <claim-ref idref="CLM-00036">claim 36</claim-ref>, wherein the gripping portion includes friction enhancing depressions and protuberances.</claim-text>
+</claim>
+<claim id="CLM-00041" num="00041">
+<claim-text><b>41</b>. The razor of <claim-ref idref="CLM-00036">claim 36</claim-ref>, wherein the at least one stop comprises a first stop configured to engage with a first one of the two legs and a second stop configured to engage with a second one of the two legs.</claim-text>
+</claim>
+</claims>
+</us-patent-application>

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v40-2004-12-02.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v40 2004-12-02" file="US06857133-20050222.XML" status="PARALLEL-RUN" id="us-patent-grant" country="US" date-produced="20050209" date-publ="20050222">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>06857133</doc-number>
+<kind>B2</kind>
+<date>20050222</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>10141259</doc-number>
+<date>20020507</date>
+</document-id>
+</application-reference>
+<us-application-series-code>10</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>268</us-term-extension>
+</us-term-of-grant>
+<classification-ipc>
+<edition>7</edition>
+<main-classification>A41D013/00</main-classification>
+</classification-ipc>
+<classification-national>
+<country>US</country>
+<main-classification>  2 16</main-classification>
+<further-classification>602 62</further-classification>
+</classification-national>
+<invention-title id="d0e53">Method and apparatus for manufacturing and installing water resistant cover on a limb</invention-title>
+<references-cited>
+<citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3820200</doc-number>
+<kind>A</kind>
+<name>Myers</name>
+<date>19740600</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 24 305 S</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4570304</doc-number>
+<kind>A</kind>
+<name>Montreuil et al.</name>
+<date>19860200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 24 305 S</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>4639945</doc-number>
+<kind>A</kind>
+<name>Betz</name>
+<date>19870200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 22</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5063919</doc-number>
+<kind>A</kind>
+<name>Silverberg</name>
+<date>19911100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>602  3</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>5195218</doc-number>
+<kind>A</kind>
+<name>Joseph et al.</name>
+<date>19930300</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 24129 R</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>5699632</doc-number>
+<kind>A</kind>
+<name>Stout et al.</name>
+<date>19971200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 43 25</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>6237252</doc-number>
+<kind>B1</kind>
+<name>Cook</name>
+<date>20010500</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 36 501</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6421830</doc-number>
+<kind>B1</kind>
+<name>Reynolds</name>
+<date>20020700</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification>  2 59</main-classification></classification-national>
+</citation>
+</references-cited>
+<number-of-claims>6</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<field-of-search>
+<classification-national>
+<country>US</country>
+<main-classification>  2 16</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 59</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2125</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2126</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 22</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 23</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 17</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  21615</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 69</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2 695</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2170</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2309-313</main-classification>
+<additional-info>unstructured</additional-info>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  21611</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2158</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>  2159</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>128 82</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>602 62</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification>602 63</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24122 B</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24129 D</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 247127</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24115 H</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24 669</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 24 305 S</main-classification>
+</classification-national>
+</field-of-search>
+<figures>
+<number-of-drawing-sheets>4</number-of-drawing-sheets>
+<number-of-figures>15</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20030208827</doc-number>
+<kind>A1</kind>
+<date>20031113</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<parties>
+<applicants>
+<applicant sequence="001" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Reynolds</last-name>
+<first-name>David V.</first-name>
+<address>
+<street>3220 W. Echo La.</street>
+<city>Phoenix</city>
+<state>AZ</state>
+<postcode>85051</postcode>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+</applicants>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<last-name>Nissle, P.C.</last-name>
+<first-name>Tod R.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</parties>
+<examiners>
+<primary-examiner>
+<last-name>Hale</last-name>
+<first-name>Gloria M.</first-name>
+<department>3765</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="P-00001" num="00001">A water resistant covering covers a part of the body, prevents water from penetrating the covering, and can be emplaced on the body with a single hand.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="96.08mm" wi="117.47mm" file="US06857133-20050222-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="222.38mm" wi="176.97mm" file="US06857133-20050222-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="190.94mm" wi="144.84mm" file="US06857133-20050222-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="220.60mm" wi="167.26mm" file="US06857133-20050222-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="195.90mm" wi="161.80mm" file="US06857133-20050222-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<p id="P-00002" num="00002">This invention pertains to water resistant coverings.</p>
+<p id="P-00003" num="00003">More particularly, the invention pertains to a water resistant covering which is installed on an arm, leg, or other extremity or part of the body to cover a cast or otherwise protect the body and to prevent water from penetrating the covering.</p>
+<p id="P-00004" num="00004">In a further respect, the invention pertains to a method for enabling an individual to use only a single hand to conveniently put a water resistant covering on an arm or leg.</p>
+<p id="P-00005" num="00005">Water resistant coverings for the arm or leg are well known in the art. See, for example, U.S. Pat. No. 6,047,403 to Juozaitis, U.S. Pat. No. 5,761,746 to Brown, U.S. Pat. No. 5,342,286 to Kelly et al., U.S. Pat. No. 5,542,121 to Lahaussois et al., U.S. Pat. No. 5,728,052 to Meehan, D406,897 to Agati et al., U.S. Pat. No. 4,768,501 to George, U.S. Pat. No. 5,817,038 to Orange et al., U.S. Pat. No. 5,063,919 to Silverberg, U.S. Pat. No. 4,986,265 to Caponi, U.S. Pat. No. 5,720,712 to Joy et al., U.S. Pat. No. 4,523,586 to Couri, U.S. Pat. No. 5,720,713 to Hutchison, and U.S. Pat. No. 5,865,772 to George.</p>
+<p id="P-00006" num="00006">Conventional water resistant coverings are fastened or mounted on the arm or other extremity of an individual using elastic straps, VELCRO(TM) hook and loop fasteners, and other fastening means. Such prior art fastening systems, while functioning to maintain the covering in place on the user's extremity, appear to suffer from certain disadvantages. First, some fastening systems tend to restrict blood circulation in and movement of the user's extremity. Second, other fastening systems are not readily quickly removed from the user's extremity. Third, still other prior art systems are not readily installed without the help of a second individual. Fourth, yet other prior art systems are comfortable to wear but are not adjustable to insure that they efficiently seal and prevent water from seeping under the water resistant covering.</p>
+<p id="P-00007" num="00007">Accordingly, it would be highly desirable to provide an improved water resistant covering which could be readily installed and removed, which would be comfortable to wear and still prevent water from seeping into the covering, and which would not unnecessarily restrict movement of or blood flow in a user's body.</p>
+<p id="P-00008" num="00008">Therefore, it is a principal object of the instant invention to provide an improved method and apparatus for installing and using a water resistant covering on a part of the body.</p>
+<p id="P-00009" num="00009">Another object of the invention is to provide an improved water resistant covering which can with the use of only a single hand be installed on, removed from, and adjusted on a user's body.</p>
+<p id="P-00010" num="00010">A further object of the invention is to provide a water resistant covering which includes a sealing mechanism that is readily adjusted, efficiently seals, and expands and contracts with tissues in a user's body during movement of the body.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<p id="P-00011" num="00011">The foregoing and other, further and more specific objects and advantages of the invention will be apparent from the following detailed description of the invention, taken in conjunction with the drawings, in which:</p>
+<p id="P-00012" num="00012"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective view illustrating a water resistant covering constructed in accordance with the principles of the invention;</p>
+<p id="P-00013" num="00013"><figref idref="DRAWINGS">FIG. 2</figref> is a front view illustrating a frictional releasable engagement device used in the sealing system of the invention;</p>
+<p id="P-00014" num="00014"><figref idref="DRAWINGS">FIG. 3</figref> is a front view further illustrating the mode of operation of the frictional releasable engagement device of <figref idref="DRAWINGS">FIG. 2</figref>;</p>
+<p id="P-00015" num="00015"><figref idref="DRAWINGS">FIG. 4</figref> is a front view illustrating an unstreched flat elastic strip utilized in the sealing system of the invention;</p>
+<p id="P-00016" num="00016"><figref idref="DRAWINGS">FIG. 5</figref> is a front view illustrating the elastic strip of <figref idref="DRAWINGS">FIG. 5</figref> after it has been tensioned and stretched by pulling the strip in the opposing directions indicated by arrows B and C;</p>
+<p id="P-00017" num="00017"><figref idref="DRAWINGS">FIG. 6</figref> is a partial sectional view illustrating the water resistant covering of <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="P-00018" num="00018"><figref idref="DRAWINGS">FIG. 7</figref> is a sectional view illustrating the frictional releasable engagement system and the strip of <figref idref="DRAWINGS">FIG. 2</figref> illustrating the mode of operation thereof;</p>
+<p id="P-00019" num="00019"><figref idref="DRAWINGS">FIG. 8</figref> is a perspective view illustrating an alternate embodiment of the water resistant covering of the invention;</p>
+<p id="P-00020" num="00020"><figref idref="DRAWINGS">FIG. 9</figref> is a front view illustrating a draw string utilized in the water resistant covering of <figref idref="DRAWINGS">FIG. 8</figref>;</p>
+<p id="P-00021" num="00021"><figref idref="DRAWINGS">FIG. 10</figref> is a cross-section view of the draw string of <figref idref="DRAWINGS">FIG. 9</figref> illustrating additional construction details thereof and taken along section line <b>10</b>&#x2014;<b>10</b>;</p>
+<p id="P-00022" num="00022"><figref idref="DRAWINGS">FIG. 11</figref> is a cross-section view of the draw string of <figref idref="DRAWINGS">FIG. 9</figref> illustrating the string after it has been elastically distended and taken along section line <b>10</b>&#x2014;<b>10</b>;</p>
+<p id="P-00023" num="00023"><figref idref="DRAWINGS">FIG. 12</figref> is a cross-section view of the hem of the water resistant covering of <figref idref="DRAWINGS">FIG. 8</figref> illustrating further construction details thereof and taken along section line <b>12</b>&#x2014;<b>12</b> thereof;</p>
+<p id="P-00024" num="00024"><figref idref="DRAWINGS">FIG. 13</figref> is a perspective view of a water resistant bag illustrating the method of manufacturing the water resistant covering of the invention;</p>
+<p id="P-00025" num="00025"><figref idref="DRAWINGS">FIG. 14</figref> is a perspective view further illustrating the method of manufacturing the water resistant covering of the invention; and,</p>
+<p id="P-00026" num="00026"><figref idref="DRAWINGS">FIG. 15</figref> is a perspective view further illustrating the method of the invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<p id="P-00027" num="00027">Briefly, in accordance with the invention, improvements as provided in combination with a water-resistant sleeve. The sleeve is shaped and dimensioned to fit over a portion of the body of a user and has a distal end and a proximate end. The improvements enable the proximate end of the sleeve to be sealingly secured with a single hand around the portion of the user's body. The improvements include a pliable hem connected to the proximate end of the sleeve and foldable in accordion fashion when drawn closed to fit sealingly around the portion of the user's body; an elongate, elastic flat strip extending through the hem to draw closed sealingly the hem means against the portion of the user's body; and, a releasable engagement system which is operable with a single hand. The engagement system can be operated with a single hand to permit the flat strip to be drawn through the engaging means, to slide the engagement system along the flat strip to a position adjacent the portion of the user's body, and to lock a portion of the flat strip in the engagement system to prevent the strip from sliding through the engagement system.</p>
+<p id="P-00028" num="00028">In another embodiment of the invention, an improved method is provided to sealingly mount a pliable, water-resistant sleeve on a portion of a user's body. The sleeve is shaped and dimensioned to fit over the portion of the user's body. The sleeve includes a distal end and a proximate end; a pliable hem connected to the proximate end of the sleeve and foldable in accordion fashion when drawn closed to fit sealingly around the portion of the user's body; an elongate, elastic flat strip extending through said hem to draw closed sealingly the hem against the portion of the user's body; and, a releasable engagement system. The releasable engagement system is operable with a single hand to permit the flat strip to be drawn through the engagement system, to slide the engagement system along the flat strip to a position adjacent the portion of the user's body, and to lock a portion of the flat strip in the engagement system to prevent the strip from sliding through the engagement system. The improved method includes the steps of mounting the sleeve on the portion of the user's body; and, operating with a single hand the engagement means to draw the flat strip through the engagement system, slide the engagement means along the flat strip to a position adjacent the portion of the user's body, and lock a portion of the flat strip in the engagement system to prevent the strip from sliding through the engagement system.</p>
+<p id="P-00029" num="00029">In a further embodiment of the invention, improvements are provided in combination with a water-resistant sleeve shaped and dimensioned to fit over a portion of the body of a user. The sleeve has a distal end and a proximate end. The portion of the user's body includes tissue which expands and contracts during movement of the extremity. The improvements enable the proximate end of the sleeve to be sealingly secured around with a single hand to the portion of the user's body such that the proximate end when sealingly secured expands and contract simultaneously with expansion and contraction of the portion of the user's body during movement of the portion of the user's body. The improvements include a pliable hem connected to the proximate end of the sleeve and foldable when drawn closed to fit sealingly around the portion of the user's body; an elongate, elastic strip extending through the hem to draw closed sealingly the hem against the portion of the user's body, the elastic strip elastically contracting and tapering when stretched; and, a releasable engagement system operable with a single hand to permit the strip to be stretched, tapered and drawn through the engagement system, to slide the engagement system along the strip to a position adjacent the portion of the user's body, to lock a portion of the stretched, tapered strip in the engagement system to prevent the strip from sliding through the engagement system, and to release the stretched strip to bunch against the engagement system to interfere with slidable passage of the strip through the engagement system.</p>
+<p id="P-00030" num="00030">In still another embodiment of the invention, an improved method is provided for producing a water-resistant unit. The method includes the steps of providing a water-resistant sleeve shaped and dimensioned to fit over a portion of the body of a user. The sleeve includes a distal end, and a proximate end. The sleeve provides an elongate pliable stretchable strand including an elongate elastic inner core, and a sheathing around the core. The core and sheathing take on a flatter configuration when the strand is stretched and drawn around the portion of the body of a user. The method also includes the steps of forming at least one hole through the proximate end of the sleeve; folding the proximate end to form a hem circumscribing the proximate end; inserting an insulator in the proximate end; heat sealing the hem; and, inserting the elongate pliable strand through the hole to circumscribe the proximate end in the hem.</p>
+<p id="P-00031" num="00031">In still a further embodiment of the invention, an improved water-resistant sleeve is provided shaped and dimensioned to fit over a portion of the body of a user. The sleeve includes a distal end; a proximate end; a pliable hem extending substantially continuously around the proximate end of the sleeve and shaped and dimensioned when drawn closed to fit sealingly around the portion of the body of the user; an elongate pliable strand extending through the hem draw closed sealingly the hem against the portion of the user's body. The elastic strand includes an elongate elastic inner core, and a sheathing around the core. The core and sheathing take on a flatter configuration when the strand is stretched and drawn around the portion of the body of a user. The sleeve also includes releasable engaging structure shaped and dimensioned to permit the strand to be stretched, flattened, and drawn through the engaging structure; slide the engaging structure along the strand to a position adjacent the portion of the user's body, lock a portion of the stretched, flattened strand in the engaging structure to prevent the strand from sliding through the engaging structure, and release the stretched strand to bunch against the engaging structure to interfere with slidable passage of said strand through said engaging structure. The strand can have a width in the range of two millimeters to ten millimeters. The engaging structure can be operable with a single hand to manipulate with the hand the engaging structure and the strand. The sleeve can include an opening which has a cross sectional area and which slidably receives the strand, the opening being adjustable to alter the cross sectional area.</p>
+<p id="P-00032" num="00032">In yet a further embodiment of the invention, an improved method is provided for sealingly mounting a pliable, water-resistant sleeve on a portion of the body of a user. The sleeve is shaped and dimensioned to fit over the portion of body of a user. The sleeve includes a distal end and a proximate end; a pliable hem means in the proximate end of the sleeve and foldable in accordion fashion when drawn closed to fit sealingly around the portion of the body of the user; an elongate, pliable, strechable strand extending freely continuously through the hem substantially completely around the proximate end to draw in sealingly the hem against the portion of the body of the user, the strand taking on a flatter configuration when stretched to increase the area of the strand pressed against the portion of the body of the user; and, a releasable engagement structure. The engagement structure is operable to permit the strand to be flattened and drawn through the engagement structure; slide the engagement structure along the strand to a position adjacent the portion of the user's body; and, lock a portion of the flat strand in the engagement structure to prevent the strand from sliding through the engagement structure. The method includes the steps of mounting the sleeve on the portion of the user's body; and, operating the engagement structure means to stretch, flatten, and draw the strand through the engagement structure, to slide the engagement structure along the flattened strand to a position adjacent the portion of the user's body, and to lock a portion of the flattened strand in the engagement structure to prevent the strand from sliding through the engagement structure.</p>
+<p id="P-00033" num="00033">Turning now to the drawings, which depict the presently preferred embodiments of the invention for the purpose of illustrating the practice thereof and not by way of limitation of the scope of the invention, and in which like reference characters refer to corresponding elements throughout the several views, <figref idref="DRAWINGS">FIG. 1</figref> illustrates a water resistant sleeve <b>10</b> shaped and dimensioned to fit over the lower arm of an individual. Sleeve <b>10</b> is presently fabricated from plastic, but can be fabricated from any other waterproof or water resistant material. As used herein, water resistant materials include both waterproof material and material which resist penetration by water. Sleeve <b>10</b> includes distal end <b>41</b> and proximate end <b>42</b>. Proximate end <b>42</b> is the end closest to the user's body when the sleeve <b>10</b> is worn in the desired orientation. Distal end <b>41</b> is the end furthest from the user's body when the sleeve <b>10</b> is worn in the desired orientation. Distal end <b>41</b> need not cover the hand or other distal portion of an extremity. For example, distal end <b>41</b> might only extend to the wrist of a user's am and not extend over the hand.</p>
+<p id="P-00034" num="00034">Hem <b>11</b> is connected to proximate end <b>42</b>. Hem <b>11</b> can be connected by being integrally formed with end <b>42</b>, by being stitched to end <b>42</b>, or by any other desired means. Hem <b>11</b> functions to direct and to channel elastic strip <b>12</b> around the perimeter of sleeve <b>10</b>. Hem <b>11</b> includes open ends or mouths <b>16</b> and <b>17</b>. In <figref idref="DRAWINGS">FIG. 1</figref>, hem <b>11</b> comprises one long continuous channel or &#x201c;tunnel&#x201d;. As would be appreciated by those of skill in the art, hem <b>11</b> can comprises a plurality of spaced apart channels, in the same fashion that belt loops on a pair of pants function as a hem for a belt. Hem <b>11</b> comprises a pliable material which can fold like an accordion when strip <b>12</b> is pulled out of hem <b>11</b> to draw closed the opening in end <b>42</b> circumscribed by hem <b>11</b>.</p>
+<p id="P-00035" num="00035">Although the shape and dimension of strip <b>12</b> can vary as desired, strip <b>12</b> is preferably flat, like a shoe lace, and has, in its normal unstretched state, a width W<b>1</b> (<figref idref="DRAWINGS">FIG. 4</figref>) in the range of 3 mm to 10 mm, and a thickness T (<figref idref="DRAWINGS">FIG. 2</figref>) in the range of 0.3 to 2 mm. This relatively flat, narrow configuration is preferred in the practice of the invention. If strip <b>12</b> is wider, there is a tendency to compress a user's arm or other extremity over a wider area and to interfere with the user's blood circulation. Likewise, if strip <b>12</b> is less wide, there is a tendency for the strip <b>12</b> to sink or cut into skin, muscle, or other tissue comprising the user's extremity and to restrict the user's blood circulation. If strip <b>12</b> is wider, greater frictional forces are generated which make it more difficult for strip <b>12</b> to slide through hem <b>11</b>. Similarly, if the thickness, T, is too small, strip <b>12</b> tends to roll up and cut into the tissue comprising the user's extremity. If the thickness, T, is too great, the it is more difficult to readily stretch strip <b>12</b> and to move strip <b>12</b> through hem <b>11</b>.</p>
+<p id="P-00036" num="00036">Strip <b>12</b> should, when a tensile force of only three to ten pounds is applied, be able to be stretched from its normal unstretched state to a length which is one and one-half to three times its length in its normal unstretched state.</p>
+<p id="P-00037" num="00037">The use of a relatively narrow, flat, elastic strip <b>12</b> which can be stretched with the application of relatively little force is important in the practice of the invention, because when the strip <b>12</b> is stretched to press and seal the proximate end <b>42</b> against a user's arm or other extremity, strip <b>12</b> still readily expands and contracts with and permits movement of the muscle and other tissue adjacent strip <b>12</b>.</p>
+<p id="P-00038" num="00038">In <figref idref="DRAWINGS">FIG. 4</figref>, strip <b>12</b> is shown in its normal, unstretched state and has a width W<b>1</b>. In <figref idref="DRAWINGS">FIG. 5</figref>, strip <b>12</b> is stretched because it is pulled in the directions of arrow B and C and subjected to a tensile force in the range of three to ten pounds. When strip <b>12</b> is stretched, it contracts and tapers, i.e., its width and thickness become less. Width W<b>1</b> is greater than width W<b>2</b>.</p>
+<p id="P-00039" num="00039">The characteristics of strip <b>12</b> discussed above facilitate the one-handed operation of the engagement system <b>15</b> illustrated in <figref idref="DRAWINGS">FIGS. 2</figref>, <b>3</b>, and <b>7</b>.</p>
+<p id="P-00040" num="00040">The shape and dimension of engagement system <b>15</b> can vary as desired. As would be appreciated by those of skill in the art, a variety of engagement systems can be constructed to perform the functions of system <b>15</b>. While the engagement system <b>15</b> illustrated in <figref idref="DRAWINGS">FIGS. 2</figref>, <b>3</b>, <b>7</b> is unitary, system <b>15</b> can include two or more parts, some of which may move with respect to other parts in system <b>15</b>.</p>
+<p id="P-00041" num="00041">System <b>15</b> comprises an egg-shaped elastic member having a pair of generally circular apertures <b>20</b>, <b>24</b> extending therethrough. A slot extends between apertures <b>20</b>, <b>24</b>. The slot includes opposing sides <b>21</b> and <b>22</b>. An elongate notch <b>23</b> formed in side <b>21</b> receives and conforms to an elongate tooth <b>23</b> (<figref idref="DRAWINGS">FIG. 3</figref>) formed in side <b>22</b>. When the ends <b>45</b>, <b>46</b> of system <b>15</b> are grasped between the thumb and index finger of one hand and are compressed to generate forces F<b>1</b> and F<b>2</b>, system <b>15</b> takes on the generally circular shape <b>15</b>A depicted in FIG. <b>3</b>. When system <b>15</b> takes on the circular shape of <figref idref="DRAWINGS">FIG. 3</figref>, sides <b>21</b> and <b>22</b> are displaced away from one another to form an opening or channel which extends completely through system <b>15</b>. This opening permits strip <b>12</b> to be readily pulled and stretched through the opening. After strip <b>12</b> is pulled the desired distance through the opening, the compressive forces F<b>1</b> and F<b>2</b> are released and system <b>15</b> returns to the egg-shaped configuration of FIG. <b>2</b>. In the configuration of <figref idref="DRAWINGS">FIG. 2</figref>, sides <b>21</b> and <b>22</b> compress and frictionally engage strip <b>12</b>. Tooth <b>25</b> also compresses strip <b>12</b> into notch <b>23</b>.</p>
+<p id="P-00042" num="00042">As illustrated in <figref idref="DRAWINGS">FIG. 1</figref>, system <b>15</b> is mounted on strip <b>12</b> such that ends <b>13</b> and <b>14</b> extend through system <b>15</b>. In <figref idref="DRAWINGS">FIG. 1</figref>, dashed lines <b>15</b>A represent system <b>15</b> when it has been temporarily compressed into the spherical configuration <b>15</b>A shown in FIG. <b>3</b>.</p>
+<p id="P-00043" num="00043"><figref idref="DRAWINGS">FIG. 7</figref> is a section view of the system <b>15</b> of <figref idref="DRAWINGS">FIG. 2</figref> taken along section lines <b>7</b>&#x2014;<b>7</b> thereof. <figref idref="DRAWINGS">FIG. 7</figref> illustrates the &#x201c;bunching&#x201d; of strip <b>12</b> which takes place during utilization of strip <b>12</b> and system <b>15</b>. In use, sleeve <b>10</b> is placed on the arm (or other extremity) of a user in the position shown in <figref idref="DRAWINGS">FIG. 1</figref>, system <b>15</b> is held between the thumb and index finger on the right or left hand of a user and is compressed to produce forces F<b>1</b> and F<b>2</b> and to produce spherical configuration <b>15</b>A. Ends <b>13</b> and <b>14</b> are pulled in the direction of arrow S (<figref idref="DRAWINGS">FIG. 3</figref>) through the opening (shown in <figref idref="DRAWINGS">FIG. 3</figref>) formed in system <b>15</b>. This pulling of ends <b>13</b> and <b>14</b> can be accomplished with the 3<sup>rd</sup>, 4<sup>th</sup>, and 5<sup>th </sup>fingers of the same hand which is holding system <b>15</b> between the thumb and index finger of the hand. Ends <b>13</b> and <b>14</b> are pulled in the direction of arrow S a distance sufficient to stretch strip <b>12</b> around arm <b>18</b> and sealingly compress the proximate end <b>42</b> of sleeve <b>10</b> against arm <b>18</b>. System <b>15</b> is slid along strip <b>12</b> until system <b>15</b> is also adjacent arm <b>18</b>. Forces F<b>1</b> and F<b>2</b> are released, i.e., system <b>15</b> is no longer compressed between the thumb and index finger. When forces F<b>1</b> and F<b>2</b> are released, system <b>15</b> returns to the egg-shaped configuration shown in FIG. <b>2</b> and sides <b>21</b> and <b>22</b> frictionally engage and compress strip <b>12</b>. The portion of strip <b>12</b> which extends outwardly away from system <b>15</b> in the direction of T in FIG. <b>7</b> and around arm <b>18</b> is stretched. The portion of each end <b>13</b>, <b>14</b> of strip <b>12</b> which extends outwardly away from system <b>15</b> and arm <b>18</b> in the direction of arrow V in <figref idref="DRAWINGS">FIG. 7</figref> is not stretched, but is in its normal unstretched state. The stretched portion of strip <b>12</b> is trying to pulled the unstretched portion of strip <b>12</b> into system <b>15</b>. But the portions of system <b>15</b>, namely sides <b>21</b> and <b>22</b>, which frictionally compress and engage strip <b>12</b> prevent this from happening. Consequently, the unstretched portion of strip <b>12</b> adjacent system <b>15</b> tends to &#x201c;bunch&#x201d; against side <b>50</b> of system <b>15</b> in the manner shown in FIG. <b>7</b>. The bunched portion of strip <b>12</b> is wider than the stretched portion. The bunched portion of strip <b>12</b> against side <b>50</b> tends to stabilize strip <b>12</b> in the position shown in <figref idref="DRAWINGS">FIG. 7</figref> because the &#x201c;bunching&#x201d; makes it more difficult for the bunched portion to slide into system <b>15</b> between sides <b>21</b> and <b>22</b>. A method of accentuating this phenomenon is to make the height H of sides <b>21</b> and <b>22</b> less than the width W<b>1</b> of strip <b>12</b> when strip <b>12</b> is not stretched. This allows strip <b>12</b> to more readily pass through system <b>15</b> when strip <b>12</b> is stretched and makes it increasingly difficult for the unstretched, bunched portion of strip <b>12</b> to slide into system <b>15</b> between sides <b>21</b> and <b>22</b>.</p>
+<p id="P-00044" num="00044">System <b>15</b> can be shaped and dimensioned so that it can be held and squeezed between the user's teeth to generate the forces F<b>1</b> and F<b>2</b> necessary to produce spherical shape <b>15</b>A. When spherical shape <b>15</b>A is produced, the user needs only a single hand to pulls the ends <b>13</b>, <b>14</b> of strip <b>12</b> through the opening formed in system <b>15</b>. Consequently, the user can, with the free hand which will not be covered by sleeve <b>10</b>, pull sleeve <b>10</b> over the other hand and arm <b>18</b>, can use his teeth to generate forces F<b>1</b> and F<b>2</b> on system <b>15</b> to produce sphere <b>15</b>A, and can use his free hand to pull strip <b>12</b> through the opening in sphere <b>15</b>A.</p>
+<p id="P-00045" num="00045">System <b>15</b> functions to permit a first opening to be formed which facilitates sliding strip <b>12</b> through the opening. System <b>15</b> also functions to permit a second opening to be formed which prevents or tends to prevent strip <b>12</b> from sliding through the second opening. The second opening can be formed by modifying or changing the shape of the first opening.</p>
+<p id="P-00046" num="00046">Sleeve <b>10</b> is presently formed from a polymer or other pliable water resistant material which has a thickness in the range of one to eight mils, preferably three to six mils. The material used to fabricate sleeve <b>10</b> can vary as desired, as can the shape and dimension of sleeve <b>10</b>.</p>
+<p id="P-00047" num="00047">As would be appreciated by those of skill in the art, sleeve <b>10</b> can also be sized to be installed over and extend around the chest, mid-section, neck, or head of a user's body.</p>
+<p id="P-00048" num="00048"><figref idref="DRAWINGS">FIG. 8</figref> illustrates another water resistant sleeve <b>100</b> shaped and dimensioned to fit over the lower arm of an individual. Sleeve <b>100</b> is presently fabricated from plastic, but can be fabricated from any other waterproof or water resistant material. Sleeve <b>100</b> includes distal end <b>141</b> and proximate end <b>142</b>. Proximate end <b>142</b> is the end closest to the user's body when the sleeve <b>100</b> is worn in the desired orientation. Distal end <b>141</b> is the end furthest from the user's body when the sleeve <b>100</b> is worn in the desired orientation. Distal end <b>141</b> need not cover the hand or other distal portion of an extremity. For example, distal end <b>141</b> might only extend to the wrist of a user's arm and not extend over the hand.</p>
+<p id="P-00049" num="00049">Hem <b>111</b> is formed on proximate end <b>142</b>. Hem <b>111</b> functions to direct and to channel elastic strip <b>112</b> freely continuously around the perimeter of sleeve <b>100</b>. Hem <b>111</b> includes openings <b>116</b> and <b>117</b>. As shown in <figref idref="DRAWINGS">FIG. 12</figref>, hem <b>111</b> forms one long continuous inner channel <b>144</b>. Draw string <b>112</b> extends through channel <b>144</b> around proximate end <b>142</b> and out through opening <b>116</b>. The entire length of draw string <b>112</b> that extends through channel <b>144</b> is free to slidably move along channel <b>144</b>. This is important in the practice of the invention. Some prior art units &#x201c;tack&#x201d; down or fix part of hem <b>111</b> and an intermediate portion of string <b>112</b>. Such a &#x201c;tacking&#x201d; prevents string <b>112</b> from freely sliding through channel <b>144</b>. The free movement of string <b>112</b> through channel <b>144</b> is important in producing a generally uniform seal around proximate end <b>142</b> when string <b>112</b> is tightened by drawing ends through an engagement system <b>15</b>. Hem <b>11</b> comprises a pliable material which can fold like an accordion when portions of string <b>112</b> are pulled out of hem <b>111</b> through opening <b>116</b> to draw closed the opening in end <b>142</b> circumscribed by hem <b>111</b>.</p>
+<p id="P-00050" num="00050">Although the shape and dimension and construction of string <b>112</b> can vary as desired, in the embodiment of the invention illustrated in <figref idref="DRAWINGS">FIG. 8</figref>, string <b>112</b> is preferably cylindrical and has the construction discussed below and illustrated in <figref idref="DRAWINGS">FIGS. 9</figref> to <b>11</b>. The flat construction illustrated in <figref idref="DRAWINGS">FIGS. 2</figref> to <b>5</b> has a disadvantage in that it tends to twist inside the hem, preventing a flat surface from continuously pressing against the user's skin when the strip is tightened about the body portion of the user.</p>
+<p id="P-00051" num="00051">In its normal unstretched state, the width or diameter, indicated by arrows V in <figref idref="DRAWINGS">FIG. 9</figref>, of string <b>112</b> is in the range of 1 mm to 10 mm. String <b>112</b> includes a core <b>131</b> fabricated from rubber or some other elastic material, and includes a sheathing <b>130</b> woven from nylon, cotton, wool, or some other fabric. The sheathing <b>130</b> has the ability to stretch or distend elastically when core <b>131</b> is elastically stretched. However, sheathing <b>130</b> ordinarily does not have the ability to stretch as much as core <b>131</b> can stretch; consequently, sheathing <b>130</b> tends to limit the amount core <b>131</b> stretches. When string <b>112</b> is in its normal unstretched &#x201c;at rest&#x201d; configuration, string <b>112</b> has the generally cylindrical cross-sectional area illustrated in FIG. <b>10</b>. When string <b>112</b> is elastically stretched in hem <b>111</b> around the portion of the user's body in the directions indicated by arrow(s) X and/or W, string <b>112</b> flattens and tends to more evenly distribute the compressive force generated by string <b>112</b> over a wider area of the user's body. When, however, the string <b>112</b> is not being elastically stretched, the cylindrical shape of the string facilitates sliding the string through hem <b>111</b>. Even if string <b>112</b> twists, string <b>112</b> still generally retains its cylindrical shape.</p>
+<p id="P-00052" num="00052">Strip <b>112</b> should, when a tensile force of only three to ten pounds is applied, be able to be stretched from its normal unstretched state to a length which is one and one-half to five times its length in its normal unstretched state. The use of a cylindrical elastic string or strip <b>112</b> which flattens when stretched is important in the practice of the invention, because when the string <b>112</b> is stretched to press and seal the proximate end <b>142</b> against and about a user's arm or other extremity, string <b>112</b> still readily flattens to distribute the compressive force generated by string over a larger area of the user's body.</p>
+<p id="P-00053" num="00053">The characteristics of string <b>112</b> discussed above facilitate the one-handed operation of the engagement system <b>15</b> illustrated in <figref idref="DRAWINGS">FIGS. 2</figref>, <b>3</b>, and <b>7</b>.</p>
+<p id="P-00054" num="00054">System <b>15</b> can be mounted on string <b>112</b> and operated in the same manner earlier discussed with respect to strip <b>12</b>.</p>
+<p id="P-00055" num="00055">Sleeve <b>100</b> is presently formed from a polymer or other pliable water resistant material which has a thickness in the range of one to eight mils, preferably three to six mils. The material used to fabricate sleeve <b>100</b> can vary as desired, as can the shape and dimension of sleeve <b>100</b>.</p>
+<p id="P-00056" num="00056">A method for fabricating sleeve <b>100</b> is illustrated in <figref idref="DRAWINGS">FIGS. 13</figref> to <b>15</b>. In <figref idref="DRAWINGS">FIG. 13</figref> a plastic bag <b>143</b> includes distal end <b>141</b> and proximate end <b>142</b>. Bag <b>143</b> is placed in the flattened orientation illustrated in <figref idref="DRAWINGS">FIG. 13. A</figref> punch, die cutter, or other cutting tool is used to cut through bag <b>143</b> to form openings <b>116</b> and <b>117</b>. If desired, only a single opening <b>116</b> (or <b>117</b>) can be formed in bag <b>143</b>. Openings <b>116</b>, <b>117</b> can be cut individually or simultaneously. When openings <b>116</b>, <b>117</b> are cut simultaneously, the cutting tool pierces one side of end <b>142</b> to cut opening <b>116</b> and continues through the other side of end <b>142</b> to cut opening <b>117</b> immediately beneath and in registration with opening <b>116</b>.</p>
+<p id="P-00057" num="00057">A portion of end <b>142</b> is folded along fold line <b>119</b> to the position illustrated in <figref idref="DRAWINGS">FIG. 14. A</figref> piece of cardboard <b>149</b> or other heat insulation material is inserted in opening <b>150</b> to the position shown in <figref idref="DRAWINGS">FIG. 15. A</figref> heated plate <b>147</b> is displaced in the direction of arrow R until the lower edge <b>148</b> contacts the folded plastic along the seal line indicated by reference character <b>146</b> and melts or softens the plastic to seal the folded plastic to the underlying portion of bag <b>143</b> along line <b>146</b> to form about one-half of hem <b>111</b>. Piece <b>149</b> includes top <b>151</b> and bottom <b>152</b>.</p>
+<p id="P-00058" num="00058">Bag <b>143</b> is turned over in the direction indicated by arrow T in <figref idref="DRAWINGS">FIG. 14</figref> to the position shown in <figref idref="DRAWINGS">FIG. 15</figref>, and heated plate <b>147</b> is displaced in the direction indicated by arrow S to press lower edge <b>148</b> against the folded plastic along seal line <b>146</b> in <figref idref="DRAWINGS">FIG. 15</figref> to soften or melt the plastic along line <b>146</b> to complete the formation of sealed hem <b>111</b>. If desired, the folded plastic can be sealed along seal line <b>146</b> using a laser, microwave, or other sealing mechanism. The seal can be formed along the entire line <b>146</b> simultaneously by contacting the entire seal line simultaneously with a heating element or other sealing means. String <b>112</b> is threaded through hem <b>111</b> in the manner illustrated in FIG. <b>8</b>.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A method for producing a water-resistant unit, comprising the steps of
+<claim-text>(a) providing a water-resistant sleeve shaped and dimensioned to fit over a portion of the body of a user and including 
+<claim-text>(i) a distal end, and </claim-text>
+<claim-text>(ii) a proximate end; </claim-text>
+</claim-text>
+<claim-text>(b) providing an elongate pliable stretchable strand including 
+<claim-text>(i) an elongate elastic inner core, and </claim-text>
+<claim-text>(ii) a sheathing around said core, said core and sheathing taking on a flatter configuration when said strand is stretched and drawn around said portion of the body of a user; </claim-text>
+</claim-text>
+<claim-text>(c) forming at least one hole through said proximate end of said sleeve; </claim-text>
+<claim-text>(d) folding said proximate end to form a hem circumscribing said proximate end; </claim-text>
+<claim-text>(e) inserting an insulator in said proximate end; </claim-text>
+<claim-text>(f) heat sealing said hem; and, </claim-text>
+<claim-text>(g) inserting said elongate pliable strand through said hole to circumscribe said proximate end in said hem. </claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. A water-resistant sleeve shaped and dimensioned to fit over a portion of the body of a user and including
+<claim-text>(a) a distal end; </claim-text>
+<claim-text>(b) a proximate end; </claim-text>
+<claim-text>(c) pliable hem means extending substantially continuously around said proximate end of the sleeve and shaped and dimensioned when drawn closed to fit sealingly around the portion of the body of the user; </claim-text>
+<claim-text>(d) an elongate pliable strand extending through said hem means to draw closed sealingly said hem means against the portion of the user's body, said elastic strand including 
+<claim-text>(i) an elongate elastic inner core, and </claim-text>
+<claim-text>(ii) a sheathing around said core, said core and sheathing taking on a flatter configuration when said strand is stretched and drawn around said portion of the body of a user; </claim-text>
+</claim-text>
+<claim-text>e) releasable engaging means shaped and dimensioned to 
+<claim-text>(i) permit said strand to be stretched, flattened, and drawn through said engaging means, </claim-text>
+<claim-text>(ii) slide said engaging means along said strand to a position adjacent the portion of the user's body, </claim-text>
+<claim-text>(iii) lock a portion of said stretched, flattened strand in said engaging means to prevent said strand from sliding through said engaging means, and </claim-text>
+<claim-text>(iv) release said stretched strand to bunch against said engaging means to interfere with slidable passage of said strand through said engaging means. </claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The sleeve of <claim-ref idref="CLM-00002">claim 2</claim-ref> wherein said strand has a width in the range of two millimeters to ten millimeters.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The sleeve of <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein said releasable engaging means is operable with a single hand to manipulate with said hand said engaging means and said strand to accomplish the operations set forth in (e)(i), (e)(ii), (e)(iii), and (e)(iv).</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The sleeve of <claim-ref idref="CLM-00004">claim 4</claim-ref> including an opening which has a cross sectional area and which slidably receives said strand, said opening being adjustable to alter said cross sectional area.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. A method for sealingly mounting a pliable, water-resistant sleeve on a portion of the body of a user, the sleeve being shaped and dimensioned to fit over the portion of body of a user and including
+<claim-text>a distal end and a proximate end; </claim-text>
+<claim-text>pliable hem means in the proximate end of the sleeve and foldable in accordion fashion when drawn closed to fit sealingly around the portion of the body of the user; </claim-text>
+<claim-text>an elongate, pliable, strechable strand extending freely continuously through the hem means substantially completely around the proximate end to draw in sealingly the hem means against the portion of the body of the user, the strand taking on a flatter configuration when stretched to increase the area of the strand pressed against the portion of the body of the user; </claim-text>
+<claim-text>releasable engaging means operable to 
+<claim-text>permit the strand to be flattened and drawn through said engaging means, </claim-text>
+<claim-text>slide the engaging means along the strand to a position adjacent the portion of the user's body, and </claim-text>
+<claim-text>lock a portion of the flat strand in the engaging means to prevent the strand from sliding through the engaging means, said method including the steps of </claim-text>
+</claim-text>
+<claim-text>(a) mounting the sleeve on the portion of the user's body; and, </claim-text>
+<claim-text>(b) operating the engaging means to 
+<claim-text>(i) stretch, flatten, and draw the strand through the engaging means, </claim-text>
+<claim-text>(ii) slide the engaging means along the flattened strand to a position adjacent the portion of the user's body, and </claim-text>
+<claim-text>(iii) lock a portion of the flattened strand in the engaging means to prevent the strand from sliding through the engaging means.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-grant>
