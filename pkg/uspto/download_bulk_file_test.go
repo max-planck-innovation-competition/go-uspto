@@ -6,6 +6,7 @@ import (
 )
 
 func TestDownloadBulkFile(t *testing.T) {
+	skipTest(t)
 	ass := assert.New(t)
 	filePath, err := DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/grant/redbook/fulltext/2021/ipg210907.zip", "./test-data")
 	ass.NoError(err)
@@ -13,6 +14,7 @@ func TestDownloadBulkFile(t *testing.T) {
 }
 
 func TestDownloadApplicationBulkFile(t *testing.T) {
+	skipTest(t)
 	ass := assert.New(t)
 	filePath, err := DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/application/redbook/fulltext/2021/ipa210902.zip", "./test-data")
 	ass.NoError(err)
@@ -20,6 +22,7 @@ func TestDownloadApplicationBulkFile(t *testing.T) {
 }
 
 func TestDownloadApplicationBulkFile2(t *testing.T) {
+	skipTest(t)
 	ass := assert.New(t)
 	filePath, err := DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/application/redbook/fulltext/2022/ipa220203.zip", "./test-data")
 	ass.NoError(err)
@@ -27,6 +30,7 @@ func TestDownloadApplicationBulkFile2(t *testing.T) {
 }
 
 func TestDownloadApplicationBulkFile3(t *testing.T) {
+	skipTest(t)
 	ass := assert.New(t)
 	filePath, err := DownloadBulkFile("https://bulkdata.uspto.gov/data/patent/application/redbook/fulltext/2022/ipa220526.zip", "./test-data")
 	ass.NoError(err)
