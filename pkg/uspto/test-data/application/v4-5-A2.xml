@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v45-2021-08-30.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.5 2021-08-30" file="US20220160114A2-20220526.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20220510" date-publ="20220526">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>20220160114</doc-number>
+<kind>A2</kind>
+<date>20220526</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>17309147</doc-number>
+<date>20191105</date>
+</document-id>
+</application-reference>
+<us-application-series-code>17</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>45</class>
+<subclass>F</subclass>
+<main-group>3</main-group>
+<subgroup>04</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220526</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>A</section>
+<class>45</class>
+<subclass>F</subclass>
+<main-group>3</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220526</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>45</class>
+<subclass>F</subclass>
+<main-group>3</main-group>
+<subgroup>047</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220526</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>45</class>
+<subclass>F</subclass>
+<main-group>3</main-group>
+<subgroup>02</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220526</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e43">CARRYING CASE WITH PIVOTING HOUSING</invention-title>
+<us-related-documents>
+<us-provisional-application>
+<document-id>
+<country>US</country>
+<doc-number>62756069</doc-number>
+<date>20181105</date>
+</document-id>
+<us-provisional-application-status>abandoned</us-provisional-application-status>
+</us-provisional-application>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20210378390</doc-number>
+<kind>A1</kind>
+<date>20211209</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="00" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>BEVIS GEAR INC.</orgname>
+<address>
+<city>VANCOUVER</city>
+<country>CA</country>
+</address>
+</addressbook>
+<residence>
+<country>CA</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="00" designation="us-only">
+<addressbook>
+<last-name>Bevis</last-name>
+<first-name>Matthew</first-name>
+<address>
+<city>Vancouver</city>
+<country>CA</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+<pct-or-regional-filing-data>
+<document-id>
+<country>WO</country>
+<doc-number>PCT/CA2019/051575</doc-number>
+<kind>00</kind>
+<date>20191105</date>
+</document-id>
+<us-371c12-date><date>20210429</date></us-371c12-date>
+</pct-or-regional-filing-data>
+</us-bibliographic-data-application>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A carrying case comprises a housing having a top, a bottom, a front, and a rear. There are sides extending between the front and the rear of the housing. There is a guide member extending along the bottom of the housing. The carrying case further comprises a carrying strap having a first end and a second end. The first end of the carrying strap is connected near the top of the housing and the second end of the carrying strap is coupled to the guide member. The second end of the carrying strap is movable along the guide member to allow the carrying case to be moved between different configurations.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="186.52mm" wi="140.97mm" file="US20220160114A2-20220526-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="201.25mm" wi="143.00mm" file="US20220160114A2-20220526-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="201.25mm" wi="143.26mm" file="US20220160114A2-20220526-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="122.17mm" wi="155.11mm" file="US20220160114A2-20220526-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="125.31mm" wi="139.19mm" file="US20220160114A2-20220526-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="201.25mm" wi="125.98mm" file="US20220160114A2-20220526-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="182.96mm" wi="162.05mm" file="US20220160114A2-20220526-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00007" num="00007">
+<img id="EMI-D00007" he="198.80mm" wi="111.25mm" file="US20220160114A2-20220526-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00008" num="00008">
+<img id="EMI-D00008" he="205.23mm" wi="129.03mm" file="US20220160114A2-20220526-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00009" num="00009">
+<img id="EMI-D00009" he="203.79mm" wi="149.18mm" file="US20220160114A2-20220526-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00010" num="00010">
+<img id="EMI-D00010" he="203.88mm" wi="150.54mm" file="US20220160114A2-20220526-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00011" num="00011">
+<img id="EMI-D00011" he="201.25mm" wi="137.08mm" file="US20220160114A2-20220526-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATION(S)</heading>
+<p id="p-0002" num="0001">This application is a National Phase entry of PCT/CA2019/051575 filed Nov. 5, 2019, which claims priority to and the benefit of US Provisional Patent Application No. 62/756,069 filed Nov. 5, 2018, the entire contents of both of which are incorporated herein by reference.</p>
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="tail"?>
+<?summary-of-invention description="Summary of Invention" end="lead"?>
+<heading id="h-0002" level="1">TECHNICAL FIELD</heading>
+<p id="p-0003" num="0002">The present disclosure relates to a carrying case and, in particular, to a carrying case which is accessible from the front while being worn by a user.</p>
+<heading id="h-0003" level="1">BACKGROUND</heading>
+<p id="p-0004" num="0003">U.S. Pat. No. 7,316,340, which issued on Jan. 8, 2008 in the name of Marik, discloses an altered backpack which allows the wearer to reconfigure the shoulder straps while wearing the backback. The wearer can also swing the backpack around to the wearer's front, and access the contents of the backpack while still wearing the backpack. The backpack comprises a first primary shoulder strap and a second primary shoulder strap. The first primary shoulder strap comprises two segments. The upper segment has one end connected near the top of the backpack and the lower segment has one end connected near the bottom of the backpack. The second ends of the first primary shoulder strap are separably connected together by a buckle.</p>
+<heading id="h-0004" level="1">SUMMARY OF THE DISCLOSURE</heading>
+<p id="p-0005" num="0004">It is an object of the present invention to provide a carrying case which can be easily accessed from the front while being worn by a user.</p>
+<p id="p-0006" num="0005">There is accordingly provided a carrying case comprising a housing having a top, a bottom, a front, and a rear. There are sides extending between the front and the rear of the housing. There is a guide member extending along the bottom of the housing. The carrying case further comprises a carrying strap having a first end and a second end. The first end of the carrying strap is connected near the top of the housing and the second end of the carrying strap is coupled to the guide member. The second end of the carrying strap is movable along the guide member to allow the carrying case to be moved between different configurations. The guide member may be a loop. The second end of the carrying strap may be a loop which engages with the loop of the guide member.</p>
+<p id="p-0007" num="0006">The carrying case may include an adjustable stop cord which restricts movement of the second end of the carrying strap along the guide member. The carrying case may also include an additional carrying strap. The additional carrying strap may have a first end and a second end. The first end of the additional carrying strap may be connected near the top of the housing and the second end of the additional carrying strap may be connected near the bottom of the housing.</p>
+<p id="p-0008" num="0007">The carrying case may include one or more reinforcement frames which extend around a perimeter of the housing. The carrying case may include a lid which provides access to an interior of the housing.</p>
+<?summary-of-invention description="Summary of Invention" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0005" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 1</figref> is a front view of a carrying case;</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 2</figref> is a rear view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 3</figref> is a top view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 4</figref> is a bottom view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 5</figref> is another rear view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref> showing a lid for accessing an interior of the carrying case;</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 6</figref> is a perspective view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref> showing the interior of the carrying case;</p>
+<p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 7</figref> is a side view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 8</figref> is a perspective view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref> being worn on a user's back;</p>
+<p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 9</figref> is a perspective view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref> being accessed from the user's front while being worn by the user;</p>
+<p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 10</figref> is a perspective view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref> showing the carrying case rotated ninety degrees from the position shown in <figref idref="DRAWINGS">FIG. 9</figref>; and</p>
+<p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 11</figref> is another rear view of the carrying case of <figref idref="DRAWINGS">FIG. 1</figref> showing both carrying straps.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?detailed-description description="Detailed Description" end="lead"?>
+<heading id="h-0006" level="1">DESCRIPTION OF SPECIFIC EMBODIMENTS</heading>
+<p id="p-0020" num="0019">Referring to the drawings and first to <figref idref="DRAWINGS">FIGS. 1 and 2</figref>, there is shown a carrying case <b>10</b>. The carrying case <b>10</b> includes a housing <b>12</b>, a primary carrying strap <b>14</b> (shown in <figref idref="DRAWINGS">FIG. 2</figref>), and a secondary carrying strap <b>16</b> (shown in <figref idref="DRAWINGS">FIG. 1</figref>). The housing <b>12</b> may be made of fabric or a rigid material such as hard plastic or rigid foam. The housing <b>12</b> is generally rectangular in this example and includes a top <b>18</b>, a bottom <b>20</b>, a front <b>22</b>, and a rear <b>24</b>. The terms &#x201c;top&#x201d;, &#x201c;bottom&#x201d;, &#x201c;front&#x201d; and &#x201c;rear&#x201d; of the housing <b>12</b> as used herein refer to the position of the carrying case <b>10</b> when worn on a user's back as shown in <figref idref="DRAWINGS">FIG. 8</figref>. Referring back to <figref idref="DRAWINGS">FIG. 1</figref>, there are opposed sides <b>26</b> and <b>28</b> extending between the front <b>22</b> and the rear <b>24</b>. There is a guide member <b>30</b> extending along the bottom <b>20</b> of the housing <b>12</b>. The guide member <b>30</b> is generally strap-like in this example and forms a loop with the housing <b>12</b>, but may be a different shape in other examples.</p>
+<p id="p-0021" num="0020">As best shown in <figref idref="DRAWINGS">FIG. 3</figref>, the primary carrying strap <b>14</b> has a first end <b>32</b> which is connected near the top <b>18</b> of the housing <b>12</b>. The secondary carrying strap <b>16</b> also has a first end <b>34</b> which is connected near the top <b>18</b> of the housing <b>12</b>. There may be a handle <b>36</b> extending from the top <b>18</b> of the housing <b>12</b>. Referring now to <figref idref="DRAWINGS">FIG. 4</figref>, the primary carrying strap <b>14</b> has a second end <b>38</b> which is connected near the bottom <b>20</b> of the housing <b>12</b> via the guide member <b>30</b>. The secondary carrying strap <b>16</b> also has a second end <b>40</b> which is connected near the bottom <b>20</b> of the housing <b>12</b>. In this example, the second end <b>40</b> of the secondary carrying strap <b>16</b> is a loop which engages with a loop element <b>42</b> extending from the bottom <b>20</b> of the housing <b>12</b> to couple the secondary carrying strap <b>16</b> to the housing <b>12</b>. The second end <b>38</b> of the primary carrying strap <b>14</b> is a loop in this example and engages with the guide member <b>30</b>. The second end <b>38</b> of the primary carrying strap <b>14</b> can travel along a length of the guide member <b>30</b>, thereby allowing the second end <b>38</b> of the primary carrying strap <b>14</b> to move along a length of the bottom <b>20</b> of the housing <b>12</b>.</p>
+<p id="p-0022" num="0021">There may be an adjustable stop cord <b>41</b> connected at one end to the housing <b>12</b> and at the other end to the primary carrying strap <b>14</b>. In this example, the cord <b>41</b> is fed through a cord lock <b>43</b> and looped around the second end <b>38</b> of the primary carrying strap <b>14</b>. The length of the cord <b>41</b> can be adjusted by toggling the cord lock <b>43</b>. This in turn limits the distance that the second end <b>38</b> of the primary carrying strap <b>14</b> can travel along the length of the guide member <b>30</b>.</p>
+<p id="p-0023" num="0022">In the example shown in <figref idref="DRAWINGS">FIG. 4</figref>, the guide member <b>30</b> is connected to the bottom <b>20</b> of the housing <b>12</b> near the rear <b>24</b> of the housing <b>12</b>. However, the guide member <b>30</b> may be connected to the bottom <b>20</b> of the housing <b>12</b> at different locations between the front <b>22</b> and the rear <b>24</b> of the housing <b>12</b> in other examples. In further examples, the second end <b>38</b> of the primary carrying strap <b>14</b> may be connected to the front <b>22</b> of the housing <b>12</b> and guided along the length of the bottom <b>20</b> of the housing <b>12</b> by the guide member <b>30</b> as the primary carrying strap <b>14</b> is pivoted about its connection point to the housing <b>12</b>.</p>
+<p id="p-0024" num="0023">Referring now to <figref idref="DRAWINGS">FIGS. 5 and 6</figref>, the rear <b>24</b> of the housing <b>12</b> includes a lid <b>44</b> which provides access to an interior <b>46</b> of the housing <b>12</b>. This allows a user to store items in and retrieve items from the carrying case <b>10</b>. The lid <b>44</b> may be hingedly connected to the housing <b>12</b> by a hinge <b>48</b>. The lid <b>44</b> may be provided with a handle <b>50</b> to facilitate opening and closing of the lid <b>44</b>. In this example, there is a reinforcement frame <b>52</b> extending around a perimeter of the rear <b>24</b> of the housing <b>12</b> and a reinforcement frame <b>54</b> extending around a perimeter of the front <b>22</b> of the housing <b>12</b>. The reinforcement frames may be made of metal, plastic or other suitably stiff materials. The reinforcement frame <b>54</b> is generally U-shaped in this example to avoid obstructing side access to the interior <b>46</b> of the housing <b>12</b> via a lid <b>56</b>. If the housing <b>12</b> is made of a fabric material, the reinforcement frames <b>52</b> and <b>54</b> may be under tension to provide structure to the carrying case <b>10</b>. As shown in <figref idref="DRAWINGS">FIG. 7</figref>, the lid <b>56</b> may be provided with a handle <b>58</b> to facilitate opening and closing of the lid <b>56</b>. There may also be another handle <b>60</b> extending from the side <b>26</b> of the housing <b>12</b>.</p>
+<p id="p-0025" num="0024">The lid <b>44</b> may be provided with a quick release mechanism to allow for ease of access to the interior <b>46</b> of the housing <b>12</b>. In this example, the quick release mechanism is a push button latch which includes a push button <b>45</b> and a pin <b>47</b>. The push button <b>45</b> is disposed on the lid <b>44</b> and engages with the pin <b>47</b> to secure the lid <b>44</b> to the housing <b>12</b>.</p>
+<p id="p-0026" num="0025">The lid <b>44</b> can be opened by actuating the push button <b>45</b> to release the push button <b>45</b> from the pin <b>47</b>. In this example, the pin <b>47</b> is connected to the reinforcement frame <b>52</b> by a rod member <b>49</b>. The rod member <b>49</b> may be welded to the reinforcement frame <b>52</b>. The lid <b>44</b> may further include a magnetic closure. The lid <b>44</b> may have a zipper to releasably close the interior <b>46</b> of the housing <b>12</b>.</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 8</figref> shows the carrying case <b>10</b> worn by a user. In this position, the carrying case <b>10</b> is positioned against the user's back. The carrying case <b>10</b> is supported on the user's shoulder by the primary carrying strap <b>14</b> which extends across the user's torso. To access the contents of the carrying case <b>10</b>, the user can swing the carrying case <b>10</b> around to the user's front as shown in <figref idref="DRAWINGS">FIG. 9</figref>. This swinging motion is enabled by the second end <b>38</b> of the primary carrying strap <b>14</b> travelling along the guide member <b>30</b> as the carrying case <b>10</b> is swung around to the user's front. The user can use the handle <b>60</b> to facilitate swinging the carrying case <b>10</b> forward and backward.</p>
+<p id="p-0028" num="0027">The platform position shown in <figref idref="DRAWINGS">FIG. 9</figref> allows the user to quickly and easily access the contents of the carrying case <b>10</b> via the lid <b>44</b>. Furthermore, since the contents of the carrying case <b>10</b> can be accessed in a horizontal configuration, items can be stored side by side instead of stacked on top of each other for easier access. The reinforcement frames <b>52</b> and <b>54</b>, shown in <figref idref="DRAWINGS">FIG. 6</figref>, provide structure to the carrying case <b>10</b> and keep the guide member <b>30</b> under tension so that the second end <b>38</b> of the primary carrying strap <b>14</b> can travel along the guide member <b>30</b>. However, the reinforcements frames <b>52</b> and <b>54</b> may not be required if the housing <b>12</b> is constructed of a rigid material such as hard plastic, or rigid or thick foam. The carrying case <b>10</b> is supported by the primary carrying strap <b>14</b> against the user's body so the user can have both hands free. This allows the user to store and retrieve items which may require use of both hands, such as camera gear. The stop cord <b>41</b> restricts rearward movement of the second end <b>38</b> of the primary carrying strap <b>14</b> along the guide member <b>30</b>. By having the primary carrying strap <b>14</b> stop further forward, it can make the carrying case more stable in the platform position.</p>
+<p id="p-0029" num="0028">The carrying case <b>10</b> can also be rotated ninety degrees from the position shown in <figref idref="DRAWINGS">FIG. 9</figref> to the position shown in <figref idref="DRAWINGS">FIG. 10</figref> to allow side access to the contents of the housing <b>12</b> via the lid <b>56</b>. Again, the second end <b>38</b> of the primary carrying strap <b>14</b> travels along the guide member <b>30</b> to permit rotation of the carrying case <b>10</b>. The primary carrying strap <b>14</b> may also be provided with a padded portion <b>62</b> for added comfort.</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIGS. 8 to 10</figref> show the carrying case <b>10</b> used only with the primary carrying strap <b>14</b>, where the secondary carrying strap <b>16</b> is stowed away and secured to the carrying case <b>10</b> by a securing strap <b>64</b>. However, the secondary carrying strap <b>16</b> may be released from the securing strap <b>64</b>, shown in <figref idref="DRAWINGS">FIG. 10</figref>, to allow the secondary carrying strap <b>16</b> to be used in conjunction with the primary carrying strap <b>14</b> as shown in <figref idref="DRAWINGS">FIG. 11</figref>. The carrying case <b>10</b> can accordingly be worn with two carrying straps to distribute the weight on both of the user's shoulders. In other examples, the secondary carrying strap <b>16</b> may be stowed away and secured to the carrying case <b>10</b> by a fastener, for example, a button.</p>
+<p id="p-0031" num="0030">It will be understood by a person skilled in the art that many of the details provided above are by way of example only, and are not intended to limit the scope of the invention which is to be determined with reference to the following claims.</p>
+<?detailed-description description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text><b>1</b>. A carrying case comprising:
+<claim-text>a housing having a top, a bottom, a front, a rear, and sides extending between the front and the rear;</claim-text>
+<claim-text>a guide member extending along the bottom of the housing; and</claim-text>
+<claim-text>a carrying strap having a first end and a second end, the first end being connected near the top of the housing and the second end being coupled to the guide member, wherein the second end of the carrying strap is movable along the guide member to allow the carrying case to be moved between different configurations.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text><b>2</b>. The carrying case as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the guide member is a loop.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text><b>3</b>. The carrying case as claimed in <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the second end of the carrying strap is a loop which engages with the loop of the guide member.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text><b>4</b>. The carrying case as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further including an additional carrying strap, the additional carrying strap having a first end and a second end, the first end of the additional carrying strap being connected near the top of the housing and the second end of the additional carrying strap being connected near the bottom of the housing.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text><b>5</b>. The carrying case as claimed in <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the additional carrying strap is releasably secured against the housing of the carrying case when the additional carrying strap is not in use.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text><b>6</b>. The carrying case as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further including an adjustable stop cord which restricts movement of the second end of the carrying strap along the guide member.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text><b>7</b>. The carrying case as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further including one or more reinforcement frames extending around a perimeter of the housing.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text><b>8</b>. The carrying case as claimed in <claim-ref idref="CLM-00001">claim 1</claim-ref>, further including a lid which provides access to an interior of the housing.</claim-text>
+</claim>
+</claims>
+</us-patent-application>

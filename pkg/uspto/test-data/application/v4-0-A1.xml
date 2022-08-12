@@ -1,0 +1,96 @@
+<us-patent-application lang="EN" dtd-version="v4.0 2004-12-02" file="US20050000001A1-20050106.XML" status="PARALLEL-RUN" id="us-patent-application" country="US" date-produced="20041222" date-publ="20050106">
+    <us-bibliographic-data-application lang="EN" country="US">
+        <publication-reference>
+            <document-id>
+                <country>US</country>
+                <doc-number>20050000001</doc-number>
+                <kind>A1</kind>
+                <date>20050106</date>
+            </document-id>
+        </publication-reference>
+        <application-reference appl-type="utility">
+            <document-id>
+                <country>US</country>
+                <doc-number>10909766</doc-number>
+                <date>20040802</date>
+            </document-id>
+        </application-reference>
+        <us-application-series-code>10</us-application-series-code>
+        <us-publication-filing-type>
+            <us-original-publication-voluntary/>
+        </us-publication-filing-type>
+        <classification-ipc>
+            <edition>07</edition>
+            <main-classification>A41D001/06</main-classification>
+        </classification-ipc>
+        <classification-national>
+            <country>US</country>
+            <main-classification>002227000</main-classification>
+        </classification-national>
+        <invention-title id="d0e64">Novelty jeans</invention-title>
+        <us-related-documents>
+            <division>
+                <relation>
+                    <parent-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>10098856</doc-number>
+                            <date>20020314</date>
+                        </document-id>
+                        <parent-status>GRANTED</parent-status>
+                        <parent-grant-document>
+                            <document-id>
+                                <country>US</country>
+                                <doc-number>6769139</doc-number>
+                            </document-id>
+                        </parent-grant-document>
+                    </parent-doc>
+                    <child-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>10909766</doc-number>
+                            <kind>A1</kind>
+                            <date>20040802</date>
+                        </document-id>
+                    </child-doc>
+                </relation>
+            </division>
+        </us-related-documents>
+        <parties>
+            <applicants>
+                <applicant sequence="00" app-type="applicant-inventor" designation="us-only">
+                    <addressbook>
+                        <last-name>Goldkind</last-name>
+                        <first-name>Tina</first-name>
+                        <address>
+                            <city>St. James</city>
+                            <state>NY</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                    <nationality>
+                        <country>US</country>
+                    </nationality>
+                    <residence>
+                        <country>US</country>
+                    </residence>
+                </applicant>
+            </applicants>
+            <correspondence-address>
+                <addressbook>
+                    <name>SCHWEITZER CORNMAN GROSS &#x26; BONDELL LLP</name>
+                    <address>
+                        <address-1>292 MADISON AVENUE - 19th FLOOR</address-1>
+                        <city>NEW YORK</city>
+                        <state>NY</state>
+                        <postcode>10017</postcode>
+                        <country>US</country>
+                    </address>
+                </addressbook>
+            </correspondence-address>
+        </parties>
+    </us-bibliographic-data-application>
+    <abstract id="abstract">
+        <p id="A-0001" num="none">Novelty play jeans for children which include one or more active play features usable while the jeans are being worn. These various features include, but are not limited to a race course for a toy race car, a concealed pocket extractable to form a flag-like decoration, a window pocket, a secret tunnel pocket, a carry pouch convertible into a flat play area, and concealed knee pockets which enable the user of jeans to display a puppet show using built-in features of the jeans, while worn by the user. </p>
+    </abstract>
+</us-patent-application>

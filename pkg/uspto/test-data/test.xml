@@ -1,0 +1,1831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US11147202-20211019.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20210929" date-publ="20211019">
+    <us-bibliographic-data-grant>
+        <publication-reference>
+            <document-id>
+                <country>US</country>
+                <doc-number>11147202</doc-number>
+                <kind>B2</kind>
+                <date>20211019</date>
+            </document-id>
+        </publication-reference>
+        <application-reference appl-type="utility">
+            <document-id>
+                <country>US</country>
+                <doc-number>16232658</doc-number>
+                <date>20181226</date>
+            </document-id>
+        </application-reference>
+        <us-application-series-code>16</us-application-series-code>
+        <us-term-of-grant><us-term-extension>408</us-term-extension></us-term-of-grant>
+        <classifications-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>A</section>
+                <class>01</class>
+                <subclass>B</subclass>
+                <main-group>1</main-group>
+                <subgroup>24</subgroup>
+                <symbol-position>F</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>B</section>
+                <class>62</class>
+                <subclass>B</subclass>
+                <main-group>1</main-group>
+                <subgroup>12</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+            <classification-ipcr>
+                <ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+                <classification-level>A</classification-level>
+                <section>B</section>
+                <class>62</class>
+                <subclass>B</subclass>
+                <main-group>5</main-group>
+                <subgroup>06</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+            </classification-ipcr>
+        </classifications-ipcr>
+        <classifications-cpc>
+            <main-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                    <section>A</section>
+                    <class>01</class>
+                    <subclass>B</subclass>
+                    <main-group>1</main-group>
+                    <subgroup>243</subgroup>
+                    <symbol-position>F</symbol-position>
+                    <classification-value>I</classification-value>
+                    <action-date><date>20211019</date></action-date>
+                    <generating-office><country>US</country></generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+            </main-cpc>
+            <further-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                    <section>B</section>
+                    <class>62</class>
+                    <subclass>B</subclass>
+                    <main-group>1</main-group>
+                    <subgroup>12</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>I</classification-value>
+                    <action-date><date>20211019</date></action-date>
+                    <generating-office><country>US</country></generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                    <section>B</section>
+                    <class>62</class>
+                    <subclass>B</subclass>
+                    <main-group>5</main-group>
+                    <subgroup>06</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>I</classification-value>
+                    <action-date><date>20211019</date></action-date>
+                    <generating-office><country>US</country></generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                    <section>B</section>
+                    <class>62</class>
+                    <subclass>B</subclass>
+                    <main-group>2202</main-group>
+                    <subgroup>70</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>A</classification-value>
+                    <action-date><date>20211019</date></action-date>
+                    <generating-office><country>US</country></generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+                <classification-cpc>
+                    <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                    <section>B</section>
+                    <class>62</class>
+                    <subclass>B</subclass>
+                    <main-group>2206</main-group>
+                    <subgroup>006</subgroup>
+                    <symbol-position>L</symbol-position>
+                    <classification-value>A</classification-value>
+                    <action-date><date>20211019</date></action-date>
+                    <generating-office><country>US</country></generating-office>
+                    <classification-status>B</classification-status>
+                    <classification-data-source>H</classification-data-source>
+                    <scheme-origination-code>C</scheme-origination-code>
+                </classification-cpc>
+            </further-cpc>
+        </classifications-cpc>
+        <invention-title id="d2e43">Wheeled hand truck</invention-title>
+        <us-references-cited>
+            <us-citation>
+                <patcit num="00001">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>554139</doc-number>
+                        <kind>A</kind>
+                        <name>Ober</name>
+                        <date>18960200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00002">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>779984</doc-number>
+                        <kind>A</kind>
+                        <name>Allen</name>
+                        <date>19050100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00003">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>1020762</doc-number>
+                        <kind>A</kind>
+                        <name>Judson</name>
+                        <date>19120300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00004">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>1893258</doc-number>
+                        <kind>A</kind>
+                        <name>Washbum</name>
+                        <date>19330100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00005">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>1965177</doc-number>
+                        <kind>A</kind>
+                        <name>Finkl</name>
+                        <date>19340700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00006">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2987018</doc-number>
+                        <kind>A</kind>
+                        <name>Vath</name>
+                        <date>19620600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00007">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3123391</doc-number>
+                        <kind>A</kind>
+                        <name>Novak</name>
+                        <date>19640300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00008">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3180427</doc-number>
+                        <kind>A</kind>
+                        <name>Leeper, Jr.</name>
+                        <date>19650400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00009">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3210112</doc-number>
+                        <kind>A</kind>
+                        <name>Glynn</name>
+                        <date>19651000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00010">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>3690383</doc-number>
+                        <kind>A</kind>
+                        <name>Malley</name>
+                        <date>19720900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>A01D 45/006</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>171126</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00011">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4007916</doc-number>
+                        <kind>A</kind>
+                        <name>Maples</name>
+                        <date>19770200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00012">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4048735</doc-number>
+                        <kind>A</kind>
+                        <name>Brunty</name>
+                        <date>19770900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>A01D 67/00</classification-cpc-text>
+                <classification-national><country>US</country><main-classification> 37434</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00013">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4204576</doc-number>
+                        <kind>A</kind>
+                        <name>Mullet et al.</name>
+                        <date>19800500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00014">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4585072</doc-number>
+                        <kind>A</kind>
+                        <name>Martinez</name>
+                        <date>19860400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00015">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4646663</doc-number>
+                        <kind>A</kind>
+                        <name>Nikkei</name>
+                        <date>19870300</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>A01C 5/064</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>111 73</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00016">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4673165</doc-number>
+                        <kind>A</kind>
+                        <name>Nelson et al.</name>
+                        <date>19870600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00017">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4706582</doc-number>
+                        <kind>A</kind>
+                        <name>Keskilohko</name>
+                        <date>19871100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00018">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4718584</doc-number>
+                        <kind>A</kind>
+                        <name>Schoeny</name>
+                        <date>19880100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B60R 7/02</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>217 12 R</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00019">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4791995</doc-number>
+                        <kind>A</kind>
+                        <name>Hochlan, Jr.</name>
+                        <date>19881200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00020">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4819735</doc-number>
+                        <kind>A</kind>
+                        <name>Puckett</name>
+                        <date>19890400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00021">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4855759</doc-number>
+                        <kind>A</kind>
+                        <name>Ness</name>
+                        <date>19890800</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00022">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>D309242</doc-number>
+                        <kind>S</kind>
+                        <name>Laslo</name>
+                        <date>19900700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00023">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>4964528</doc-number>
+                        <kind>A</kind>
+                        <name>Wagoner</name>
+                        <date>19901000</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B65D 25/06</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>220541</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00024">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5088562</doc-number>
+                        <kind>A</kind>
+                        <name>Shlelds</name>
+                        <date>19920200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00025">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5105578</doc-number>
+                        <kind>A</kind>
+                        <name>Fleuridas et al.</name>
+                        <date>19920400</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00026">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5555943</doc-number>
+                        <kind>A</kind>
+                        <name>Blasczyk</name>
+                        <date>19960900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00027">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5709273</doc-number>
+                        <kind>A</kind>
+                        <name>Roth</name>
+                        <date>19980100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00028">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>D398203</doc-number>
+                        <kind>S</kind>
+                        <name>Naccarato et al.</name>
+                        <date>19980900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00029">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>5813471</doc-number>
+                        <kind>A</kind>
+                        <name>Ramsey</name>
+                        <date>19980900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00030">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6015071</doc-number>
+                        <kind>A</kind>
+                        <name>Adomeit</name>
+                        <date>20000100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B60R 7/02</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>220  6</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00031">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>D423889</doc-number>
+                        <kind>S</kind>
+                        <name>Heffner</name>
+                        <date>20000500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00032">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6223456</doc-number>
+                        <kind>B1</kind>
+                        <name>Hawkins</name>
+                        <date>20010500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00033">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>6257346</doc-number>
+                        <kind>B1</kind>
+                        <name>Schofield et al.</name>
+                        <date>20010700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by applicant</category>
+            </us-citation>
+            <us-citation>
+                <patcit num="00034">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>8714275</doc-number>
+                        <kind>B1</kind>
+                        <name>Ng</name>
+                        <date>20140500</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>A01B 1/243</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>172 22</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00035">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>10196008</doc-number>
+                        <kind>B2</kind>
+                        <name>Ranka</name>
+                        <date>20190200</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B60R 11/06</classification-cpc-text>
+            </us-citation>
+            <us-citation>
+                <patcit num="00036">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2002/0162191</doc-number>
+                        <kind>A1</kind>
+                        <name>Chen</name>
+                        <date>20021100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>G06F 1/1681</classification-cpc-text>
+                <classification-national><country>US</country><main-classification> 16337</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00037">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2015/0175080</doc-number>
+                        <kind>A1</kind>
+                        <name>Kmita</name>
+                        <date>20150600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B60R 7/02</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>296 375</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00038">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2016/0159288</doc-number>
+                        <kind>A1</kind>
+                        <name>Ito</name>
+                        <date>20160600</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B60R 5/04</classification-cpc-text>
+                <classification-national><country>US</country><main-classification>224542</main-classification></classification-national>
+            </us-citation>
+            <us-citation>
+                <patcit num="00039">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2016/0257327</doc-number>
+                        <kind>A1</kind>
+                        <name>Gayk, Jr.</name>
+                        <date>20160900</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B62B 1/12</classification-cpc-text>
+            </us-citation>
+            <us-citation>
+                <patcit num="00040">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2018/0015939</doc-number>
+                        <kind>A1</kind>
+                        <name>Dorman</name>
+                        <date>20180100</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B62B 1/14</classification-cpc-text>
+            </us-citation>
+            <us-citation>
+                <patcit num="00041">
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>2020/0223462</doc-number>
+                        <kind>A1</kind>
+                        <name>Ferree, Jr.</name>
+                        <date>20200700</date>
+                    </document-id>
+                </patcit>
+                <category>cited by examiner</category>
+                <classification-cpc-text>B62B 1/002</classification-cpc-text>
+            </us-citation>
+        </us-references-cited>
+        <number-of-claims>9</number-of-claims>
+        <us-exemplary-claim>1</us-exemplary-claim>
+        <us-field-of-classification-search>
+            <classification-cpc-text>A01B 1/243</classification-cpc-text>
+            <classification-cpc-text>B62B 2206/60</classification-cpc-text>
+            <classification-cpc-text>B62B 2206/70</classification-cpc-text>
+            <classification-cpc-text>B62B 1/12</classification-cpc-text>
+            <classification-cpc-text>B62B 5/0006</classification-cpc-text>
+            <classification-cpc-text>B62B 5/00063</classification-cpc-text>
+            <classification-cpc-text>B62B 5/0009</classification-cpc-text>
+            <classification-cpc-text>B62B 3/02</classification-cpc-text>
+        </us-field-of-classification-search>
+        <figures>
+            <number-of-drawing-sheets>8</number-of-drawing-sheets>
+            <number-of-figures>8</number-of-figures>
+        </figures>
+        <us-related-documents>
+            <related-publication>
+                <document-id>
+                    <country>US</country>
+                    <doc-number>20190124818</doc-number>
+                    <kind>A1</kind>
+                    <date>20190502</date>
+                </document-id>
+            </related-publication>
+        </us-related-documents>
+        <us-parties>
+            <us-applicants>
+                <us-applicant sequence="001" app-type="applicant" designation="us-only">
+                    <addressbook>
+                        <last-name>Ng</last-name>
+                        <first-name>Yeow</first-name>
+                        <address>
+                            <city>Andover</city>
+                            <state>KS</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                    <residence>
+                        <country>US</country>
+                    </residence>
+                </us-applicant>
+            </us-applicants>
+            <inventors>
+                <inventor sequence="001" designation="us-only">
+                    <addressbook>
+                        <last-name>Ng</last-name>
+                        <first-name>Yeow</first-name>
+                        <address>
+                            <city>Andover</city>
+                            <state>KS</state>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                </inventor>
+            </inventors>
+            <agents>
+                <agent sequence="01" rep-type="attorney">
+                    <addressbook>
+                        <last-name>Jack</last-name>
+                        <first-name>Kenneth H.</first-name>
+                        <address>
+                            <country>unknown</country>
+                        </address>
+                    </addressbook>
+                </agent>
+                <agent sequence="02" rep-type="attorney">
+                    <addressbook>
+                        <orgname>Davis &#x26; Jack, LLC</orgname>
+                        <address>
+                            <country>unknown</country>
+                        </address>
+                    </addressbook>
+                </agent>
+            </agents>
+        </us-parties>
+        <examiners>
+            <primary-examiner>
+                <last-name>Lutz</last-name>
+                <first-name>Jessica H</first-name>
+                <department>3671</department>
+            </primary-examiner>
+        </examiners>
+    </us-bibliographic-data-grant>
+    <abstract id="abstract">
+        <p id="p-0001" num="0000">A wheeled hand truck incorporating a footplate; a segmented retainer flange; a left pin pivotally mounting a left segment of the retainer flange and allowing sliding flange motion to a clearance elevation; a right pin pivotally mounting a right segment of the retainer flange and allowing sliding flange motion to the clearance elevation; left and right stops extending downwardly from the left and right flange segments; and left and right pairs of sockets positioned for, upon alternative motions of the left and right flange segments toward and away from the clearance elevation, and upon forward and rearward pivoting of the left and right flange segments, alternately holding the left and right flange segments at laterally and forwardly extending positions.</p>
+    </abstract>
+    <drawings id="DRAWINGS">
+        <figure id="Fig-EMI-D00000" num="00000">
+            <img id="EMI-D00000" he="221.49mm" wi="129.29mm" file="US11147202-20211019-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00001" num="00001">
+            <img id="EMI-D00001" he="226.31mm" wi="131.32mm" file="US11147202-20211019-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00002" num="00002">
+            <img id="EMI-D00002" he="230.89mm" wi="135.97mm" file="US11147202-20211019-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00003" num="00003">
+            <img id="EMI-D00003" he="223.60mm" wi="139.36mm" file="US11147202-20211019-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00004" num="00004">
+            <img id="EMI-D00004" he="234.95mm" wi="152.74mm" file="US11147202-20211019-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00005" num="00005">
+            <img id="EMI-D00005" he="234.95mm" wi="122.09mm" file="US11147202-20211019-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00006" num="00006">
+            <img id="EMI-D00006" he="171.11mm" wi="165.61mm" file="US11147202-20211019-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00007" num="00007">
+            <img id="EMI-D00007" he="186.69mm" wi="165.52mm" file="US11147202-20211019-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+        <figure id="Fig-EMI-D00008" num="00008">
+            <img id="EMI-D00008" he="220.30mm" wi="138.09mm" file="US11147202-20211019-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+        </figure>
+    </drawings>
+    <description id="description">
+        <?BRFSUM description="Brief Summary" end="lead"?>
+        <heading id="h-0001" level="1">FIELD OF THE INVENTION</heading>
+        <p id="p-0002" num="0001">This invention relates to hand trucks of the type which are specially adapted for alternatively performing turf aerating.</p>
+        <heading id="h-0002" level="1">BACKGROUND OF THE INVENTION</heading>
+        <p id="p-0003" num="0002">Hand trucks of the type which are specially adapted for performing turf aerating are known (e.g., See U.S. Pat. No. 8,714,275 issued May 6, 2014 to Ng). Such known turf aerating hand trucks commonly incorporate and configure mechanical parts which produce economic waste, and excess complexity of moving parts. Such turf aerating hand trucks also commonly undesirably impose mechanical restrictions which interfere with attachment and utilization of more than a single pair of turf aerating tines.</p>
+        <p id="p-0004" num="0003">The instant inventive wheeled hand truck solves or ameliorates the problems, defects, and deficiencies described above by incorporating a specialized slide shaft and pivot pin functioning handle in combination with a matrix of pin and socket pivot stops.</p>
+        <heading id="h-0003" level="1">BRIEF SUMMARY OF THE INVENTION</heading>
+        <p id="p-0005" num="0004">A first structural component of the instant inventive wheeled hand truck comprises a rigid foot plate. In the preferred embodiment, such plate is composed of heavy gauge steel and is geometrically configured as a laterally oblongated rectangle.</p>
+        <p id="p-0006" num="0005">A further structural component of the instant inventive wheeled hand truck comprises a laterally extending retainer flange. In the preferred embodiment, such flange component is configurable to rigidly extend upwardly from a rearward end or edge of the foot plate. In use and operation of such retainer flange component, the hand truck's handle may be rearwardly and downwardly tilted to raise and upwardly tilt the attached foot plate. During such upward tilting of the foot plate, the laterally extending retainer flange prevents items carried upon the foot plate's upper surface from sliding rearwardly and falling from the foot plate. The laterally extending retainer flange is preferably segmented for performance of further functions described below.</p>
+        <p id="p-0007" num="0006">A further structural component of the instant inventive wheeled hand truck comprises left and right pivot pins which are preferably rigidly mounted to and extend upwardly from left and right ends of the rearward end of the foot plate. Where the retainer flange includes the preferred segmented configuration, left and right segments are advantageously formed, the left end of the retainer flange's left segment constituting a left end of the retainer flange and the right end of the retainer flange's right segment constituting a right end of the retainer flange. In such preferred embodiment, left and right hinge sleeves respectively join the left and right ends of the left and right retainer flange segments with the left and right pivot pins, such sleeves facilitating substantially 90&#xb0; front to rear and rear to front pivoting movements of the left and right retainer flange segments. Upon rearward pivoting of the left and right retainer flange segments, such segments together form and function as the invention's retainer flange component, as described above. Opposite forward pivoting motions of such flange segments advantageously re-orient such segments for service as left and right dirt deflecting walls.</p>
+        <p id="p-0008" num="0007">In the preferred embodiment, the left and right pivot pins are vertically lengthened beyond the vertical dimensions of the left and right retainer flange segments, such lengthening adapting the pivot pins for service as slide shafts. As slide shafts, the pivot pins facilitate vertically upward and downward motions of the left and right retainer flange segments away from and toward the foot plate. The preferred vertical lengthening of the left and right pivot pins facilitates upward motions of the left and right retainer flange segments from the upper surface of the foot plate to an overlying elevation which constitutes a clearance elevation, the parameters of which are further described below.</p>
+        <p id="p-0009" num="0008">Further structural components of the instant inventive wheeled hand truck comprise left and right stops, tabs, or pins which are preferably fixedly attached to and respectively extend downwardly from the lower edges of the left and right retainer flange segments. In coordination with the stop components, the inventive hand truck preferably further comprises left and right pairs of sockets, each such socket preferably opening at and extending vertically through the foot plate.</p>
+        <p id="p-0010" num="0009">Forwardmost sockets among the left and right pairs of sockets are preferably positioned for holding the left and right retainer flange segments at their forwardly extending dirt deflecting orientations. Correspondingly, rearmost sockets among such pairs of sockets are preferably oriented for alternatively receiving the left and right stops, thereby holding the left and right retainer flange segments at their rearwardly pivoted retainer flange function positions.</p>
+        <p id="p-0011" num="0010">Lateral pairs of the invention's coring tines are preferably configured as &#x201c;H&#x201d; bracket assemblies which incorporate crossmembers which are rigidly attached by mounting bolts to the undersurface of the foot plate. The &#x201c;H&#x201d; brackets' mounting bolts typically have bolt heads which, upon installation, extend a short distance upwardly, typically 3/16&#x2033; to 5/16&#x2033;, from the upper surface of the foot plate. Recognizing that the left and right stops extend downwardly from the left and right retainer flanges' lower edges a first distance, and that the &#x201c;H&#x201d; bracket attaching bolt heads extend upwardly from the foot plate a second distance, it is preferred that the vertical elongation of the left and right pivot pins be sufficient to facilitate vertical sliding motions of the left and right retainer flange segments along a path whose length is at least as great as the greater of such bolt head and stop extensions. Such minimum pivot pin extension length assures that the stops will always be capable of upwardly disengaging from their sockets, and assures that the lower edges of the retainer flange segments will always be capable of vertically clearing and pivoting past the upper ends of the &#x201c;H&#x201d; bracket attaching bolt heads.</p>
+        <p id="p-0012" num="0011">The handle of the instant inventive wheeled hand truck is preferably configured as an inverted &#x201c;U&#x201d; which has left and right arms, the lower or distal ends of which are rigidly attached to the foot plate. For purposes of parts economy and mechanical simplicity, such lower arm ends preferably comprise the invention's left and right pivot pins.</p>
+        <p id="p-0013" num="0012">Accordingly, objects of the instant invention include the provision of a wheeled hand truck which incorporates structures as described above, and which arranges those structures in relation to each in manners described above for the achievement of beneficial functions described above.</p>
+        <p id="p-0014" num="0013">Other and further objects, benefits, and advantages of the instant invention will become known to those skilled in the art upon review of the Detailed Description which follows, and upon review of the appended drawings.</p>
+        <?BRFSUM description="Brief Summary" end="tail"?>
+        <?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+        <description-of-drawings>
+            <heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+            <p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 1</figref> is a perspective view of the instant inventive wheeled hand truck.</p>
+            <p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 2</figref> redepicts the hand truck of <figref idref="DRAWINGS">FIG. 1</figref>, the view of alternatively showing a left retainer flange segment at a raised position.</p>
+            <p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 3</figref> redepicts the hand truck of <figref idref="DRAWINGS">FIG. 2</figref>, the view alternatively showing a right retainer flange segment raised and forwardly pivoted, and showing the left retainer flange segment lowered and forwardly pivoted.</p>
+            <p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 4</figref> redepicts the hand truck of <figref idref="DRAWINGS">FIG. 3</figref>, the view alternatively showing the right retainer flange segment lowered.</p>
+            <p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 5</figref> is a side view of the hand truck of <figref idref="DRAWINGS">FIG. 4</figref>.</p>
+            <p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 6</figref> is a magnified view of a portion of the structure of <figref idref="DRAWINGS">FIG. 5</figref>.</p>
+            <p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 7</figref> redepicts the structure of <figref idref="DRAWINGS">FIG. 6</figref>, the view of <figref idref="DRAWINGS">FIG. 7</figref> alternatively showing the left retainer flange segment raised.</p>
+            <p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 8</figref> redepicts the hand truck of <figref idref="DRAWINGS">FIG. 1</figref>, the view of <figref idref="DRAWINGS">FIG. 8</figref> additionally showing an attached auxiliary dirt collection box.</p>
+        </description-of-drawings>
+        <?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+        <?DETDESC description="Detailed Description" end="lead"?>
+        <heading id="h-0005" level="1">DETAILED DESCRIPTION OF A PREFERRED EMBODIMENT</heading>
+        <p id="p-0023" num="0022">Referring now to the drawings, and in particular to Drawing <figref idref="DRAWINGS">FIG. 1</figref>, a preferred embodiment of the instant inventive wheeled hand truck is referred to generally by Reference Arrow <b>1</b>. The wheeled hand truck <b>1</b> has a foot plate which is referred to generally by Reference Arrow <b>2</b>, such plate preferably being rectangular and laterally oblongated. Referring further simultaneously to <figref idref="DRAWINGS">FIG. 3</figref>, the foot plate <b>2</b> has a front end <b>4</b> and a rearward end <b>6</b>. Left and right edges of the foot plate <b>2</b> present downwardly angled left and right hook latching sections <b>16</b> and <b>18</b>, the functions of which are further discussed below.</p>
+        <p id="p-0024" num="0023">Matrixes of coring tine passage apertures <b>8</b>, and sockets or slots <b>12</b>, <b>15</b>, <b>10</b>, and <b>14</b>, open at and extend through the foot plate <b>2</b>. Further structures of the foot plate <b>2</b> preferably comprise a matrix of bolt receiving eyes (not depicted within views) through which &#x201c;H&#x201d; bracket attaching bolts <b>42</b>, <b>54</b>, <b>50</b>, and <b>40</b> vertically extend.</p>
+        <p id="p-0025" num="0024">A further structural component of the instant inventive wheeled hand truck <b>1</b> comprises a retainer flange which is referred to generally by Reference Arrow <b>20</b>. The retainer flange <b>20</b> is preferably laterally divided or segmented to include a left retainer flange segment <b>22</b> and a right retainer flange segment <b>24</b>. Left and right pivot sleeves <b>26</b> and <b>28</b> are preferably fixedly welded respectively to the leftward end of retainer flange segment <b>22</b>, and to the rightward end of retainer flange segment <b>24</b>. Such sleeves <b>26</b> and <b>28</b> respectively function in combination with pivot pins <b>68</b> and <b>70</b>, such pins preferably comprising lower or distal ends of left and right arms <b>62</b> and <b>64</b> of a &#x201c;U&#x201d; handle <b>60</b>. Such handle preferably has an upper laterally curving web portion <b>66</b> which rigidly interconnects the proximal ends of arms <b>62</b> and <b>64</b>. Left and right wheel brackets <b>72</b> and <b>76</b> preferably rigidly attach and mount to the &#x201c;U&#x201d; handle's arms <b>62</b> and <b>64</b> and/or to foot plate <b>2</b>, such brackets supporting and rotatably mounting left and right wheels <b>74</b> and <b>78</b>.</p>
+        <p id="p-0026" num="0025">The left and right retainer flange segments <b>22</b> and <b>24</b> are capable of rearwardly pivoting to their laterally extending retainer flange orientations depicted in <figref idref="DRAWINGS">FIG. 1</figref>, and alternatively, are capable of forwardly pivoting to the dirt deflecting side wall configurations depicted in <figref idref="DRAWINGS">FIG. 4</figref>. Referring further to <figref idref="DRAWINGS">FIG. 3</figref>, stops <b>30</b> and <b>32</b> are respectively fixedly attached to or formed wholly with the retainer flange segments <b>22</b> and <b>24</b>, such stops <b>30</b> and <b>32</b> preferably extending downwardly from those segments' lower edges. In the <figref idref="DRAWINGS">FIG. 1</figref> configuration, the left retainer flange segment <b>22</b> may slidably move downwardly along pin <b>68</b> until stop <b>30</b> nestingly engages within socket <b>15</b>. Similar downward sliding movement of retainer flange segment <b>24</b> along pin <b>70</b> allows its stop <b>32</b> to nestingly engage within socket <b>14</b>. The rearwardly positioned sockets <b>14</b> and <b>15</b> are preferably positioned between the distal ends <b>68</b> and <b>70</b> of arms <b>62</b> and <b>64</b>, and such sockets are suitably continuous with each other. Where stops <b>30</b> and <b>32</b> reside at shorter radiuses from the pivot axes of sleeves <b>26</b> and <b>28</b>, their corresponding sockets <b>15</b> and <b>14</b> may be separate and laterally spaced apart. Upon forward pivoting of the retainer flange segments <b>22</b> and <b>24</b> to the dirt deflecting positions, as depicted in <figref idref="DRAWINGS">FIG. 4</figref>, those segments' stops <b>30</b> and <b>32</b> may be alternatively nestingly received and retained within left and right sockets <b>12</b> and <b>10</b>.</p>
+        <p id="p-0027" num="0026">Referring simultaneously to <figref idref="DRAWINGS">FIGS. 1-4</figref>, forward and rearward pairs of hollow bored coring tines <b>34</b>,<b>36</b> and <b>44</b>,<b>46</b> are preferably provided. The front coring tine pair <b>34</b>,<b>36</b> in combination with a laterally interconnecting crossmember <b>38</b> advantageously forms an &#x201c;H&#x201d; bracket whose crossmember is rigidly bolted to the foot plate <b>2</b> by means of mounting bolts <b>40</b> and <b>42</b>. Referring further to <figref idref="DRAWINGS">FIG. 6</figref>, the rear pair of coring tines <b>44</b>,<b>46</b> forms a similarly configured &#x201c;H&#x201d; bracket via incorporation of a crossmember <b>48</b>. Similarly with the front &#x201c;H&#x201d; bracket's bolted attachment, the rear &#x201c;H&#x201d; bracket's crossmember <b>48</b> is mounted to the foot plate <b>2</b> by means of bolts <b>50</b> and <b>54</b>. The capacity of flanges <b>22</b> and <b>24</b> to slid upwardly along handle arms <b>62</b> and <b>64</b> assumes that such flanges may pivot forwardly without mechanical interference against the bolts' heads. Accordingly, the vertical sliding capacity of flanges <b>22</b> and <b>24</b> advantageously enables the installation of additional coring tines <b>44</b> and <b>46</b>.</p>
+        <p id="p-0028" num="0027">The heads of the &#x201c;H&#x201d; bracket attaching bolts <b>40</b>, <b>42</b>, <b>50</b>, and <b>54</b> extend short distances, each approximately 3/16&#x2033; to 5/16&#x2033;, upwardly from the upper surface of foot plate <b>2</b>, such bolt heads threatening the above described mechanical interference with pivoting motions of flange segments <b>22</b> and <b>24</b>. Similar, albeit intended, mechanical interference with flange pivoting is produced by the downward extensions (approximately &#x215c;&#x2033; to &#xbd;&#x2033;) of stops <b>30</b> and <b>32</b> into sockets <b>12</b>,<b>15</b>,<b>10</b>,<b>14</b>. Such bolt heads and stops which extend upwardly and downwardly from the upper surface of the foot plate <b>2</b> are necessarily accommodated by vertical travel of sleeves <b>26</b> and <b>28</b> along pivot pins <b>68</b> and <b>70</b>, and sleeves are preferably capable of slidably moving vertically from their lower foot plate contacting positions to an overlying clearance elevation which is greater than the greater of the lengths of the upward bolt head extensions and the downward stop extensions.</p>
+        <p id="p-0029" num="0028">Looking to Drawing <figref idref="DRAWINGS">FIG. 6</figref>, it may be seen that the distance between the upper edge <b>27</b> of sleeve <b>26</b> and an upper clearance elevation &#x201c;u&#x201d; is greater than the lengths of both the upward extensions of bolt heads <b>40</b> and <b>50</b> (shown in dashed lines), and the lengths of the downward extensions of stops <b>30</b> and <b>32</b>. As indicated in <figref idref="DRAWINGS">FIG. 4</figref>, sleeve <b>26</b>, along with its attached retainer flange segment <b>22</b>, is capable of slidably moving along slide pin <b>68</b> to at least such upper elevation &#x201c;u&#x201d;, such motion assuring that upon vertical sliding and forward pivoting of segment <b>22</b>, stop <b>30</b> will fully extract from socket <b>15</b> (or socket <b>12</b> as the case may be), and assuring that the lower edge of segment <b>22</b> may pass over bolt heads <b>40</b> and <b>50</b>. Vertical sliding motion of the right retainer flange segment <b>24</b> preferably functions in a mirroring fashion.</p>
+        <p id="p-0030" num="0029">In use of the instant inventive wheeled hand truck <b>1</b>, flange segments <b>22</b> and <b>24</b> may be initially laterally configured as indicated in <figref idref="DRAWINGS">FIG. 1</figref>. In such lateral configuration, a heavy article such as a potted plant (not depicted within views), may be placed upon the upper surface of foot plate <b>2</b>. Thereafter, a user may tilt &#x201c;U&#x201d; handle <b>60</b> rearwardly, raising and tilting foot plate <b>2</b>, and allowing rearwardly directed rolling motion assisted by wheels <b>74</b> and <b>78</b>. During such handle and plate tilting action, retainer flange segments <b>22</b> and <b>24</b> are held in their laterally extending positions by stops <b>30</b> and <b>32</b> which nest within sockets <b>15</b> and <b>14</b>. In such configuration, the retainer flange <b>20</b> prevents such potted plant from sliding off of the foot plate <b>2</b>.</p>
+        <p id="p-0031" num="0030">A reconfiguration of the hand truck as indicated in <figref idref="DRAWINGS">FIG. 4</figref> allows an operator to use foot pressure upon the upper surface of the foot plate <b>2</b> to drive the hollow bored coring tines <b>34</b>, <b>36</b>, <b>44</b>, and <b>46</b> downwardly into the ground. In the <figref idref="DRAWINGS">FIG. 4</figref> configuration, the left and right retainer flange segments <b>22</b> and <b>24</b> are held at their forwardly pivoted positions by stops <b>30</b> and <b>32</b> which nestingly engage sockets <b>12</b> and <b>10</b>. At such forwardly extending positions, the upper openings of the coring tines <b>34</b>, <b>44</b>, <b>36</b>, and <b>46</b> reside leftwardly and rightwardly from the flanges, allowing flange segments <b>22</b> and <b>24</b> to shield against encroachments of dirt and mud from the tines onto the central spaces of the foot plate. The multiple functions of the distal ends of the arms <b>62</b> and <b>64</b> which serve as handle anchors, as flange travel guiding shafts, and as pivot pins in combination with the flanges' corresponding stops <b>30</b>,<b>32</b> and sockets <b>12</b>,<b>15</b>, <b>10</b>,<b>14</b> advantageously facilitates such dual retainer flange and dirt shield functions of the flanges <b>22</b> and <b>24</b>.</p>
+        <p id="p-0032" num="0031">Referring further to <figref idref="DRAWINGS">FIG. 8</figref>, reconfiguration of the hand truck <b>1</b> from the <figref idref="DRAWINGS">FIG. 4</figref> configuration to the <figref idref="DRAWINGS">FIG. 1</figref> configuration allows an auxiliary dirt collection box <b>80</b> to be mounted upon the upper surface of the foot plate <b>2</b>. Box <b>80</b> has an apertured floor (not depicted within views), such apertures receiving the upper ends of coring tines <b>34</b>, <b>36</b>, <b>44</b>, and <b>46</b>. To facilitate mounting of box <b>80</b>, over center latches <b>82</b> and <b>84</b> engage angled plate section <b>16</b> and <b>18</b>. In use of the assembly of <figref idref="DRAWINGS">FIG. 8</figref>, an operator may downwardly step upon and apply tine driving force against a bridge member <b>81</b> which spans the upper end of box <b>80</b>.</p>
+        <p id="p-0033" num="0032">While the principles of the invention have been made clear in the above illustrative embodiment, those skilled in the art may make modifications to the structure, arrangement, portions and components of the invention without departing from those principles. Accordingly, it is intended that the description and drawings be interpreted as illustrative and not in the limiting sense, and that the invention be given a scope commensurate with the appended claims.</p>
+        <?DETDESC description="Detailed Description" end="tail"?>
+    </description>
+    <us-claim-statement>The invention claimed is:</us-claim-statement>
+    <claims id="claims">
+        <claim id="CLM-00001" num="00001">
+            <claim-text>1. A wheeled hand truck comprising:
+                <claim-text>(a) a footplate having front and rear ends;</claim-text>
+                <claim-text>(b) a retainer flange having left and right ends;</claim-text>
+                <claim-text>(c) a left pin and sleeve combination pivotally mounting a left segment of the retainer flange upon the foot plate, the left pin and sleeve combination facilitating upward motion of said left segment to a clearance elevation;</claim-text>
+                <claim-text>(d) a right pin and sleeve combination pivotally mounting a right segment of the retainer flange upon the foot plate, the right pin sleeve combination facilitating upward motion of said right segment to the clearance elevation;</claim-text>
+                <claim-text>(e) left and right stops respectively fixedly attached to and extending downwardly from the retainer flange's left and right segments;</claim-text>
+                <claim-text>(f) a left front socket opening at the foot plate, the left front socket being positioned for, upon leftward pivoting of the left segment of the retainer flange, underlying the left stop, the left front socket being fitted for receiving the left stop; and</claim-text>
+                <claim-text>(g) a right front socket opening at the foot plate, the right front socket being positioned for, upon rightward pivoting of the right segment of the retainer flange, underlying the right stop, the right front socket being fitted for receiving the right stop.</claim-text>
+            </claim-text>
+        </claim>
+        <claim id="CLM-00002" num="00002">
+            <claim-text>2. The wheeled hand truck of <claim-ref idref="CLM-00001">claim 1</claim-ref> further comprising a &#x201c;U&#x201d; handle having left and right arms, the left and right pins respectively comprising lower ends of said arms.</claim-text>
+        </claim>
+        <claim id="CLM-00003" num="00003">
+            <claim-text>3. The wheeled hand truck of <claim-ref idref="CLM-00001">claim 1</claim-ref> further comprising a plurality of coring tines fixedly attached to and extending downwardly from the foot plate.</claim-text>
+        </claim>
+        <claim id="CLM-00004" num="00004">
+            <claim-text>4. The wheeled hand truck of <claim-ref idref="CLM-00003">claim 3</claim-ref> wherein each coring tine is either positioned rightwardly from the right retainer flange segment while in its forwardly extended orientation, or is positioned leftwardly from the left retainer flange while in its forwardly extended orientation.</claim-text>
+        </claim>
+        <claim id="CLM-00005" num="00005">
+            <claim-text>5. The wheeled hand truck of <claim-ref idref="CLM-00004">claim 4</claim-ref> further comprising plurality of upwardly extending tine fastener heads, each such head residing between the left and right retainer flange segments while in their forwardly extended orientations.</claim-text>
+        </claim>
+        <claim id="CLM-00006" num="00006">
+            <claim-text>6. The wheeled hand truck of <claim-ref idref="CLM-00005">claim 5</claim-ref> wherein the clearance elevation overlies the footplate a distance greater than the lengths of the tine attaching fastener heads' upward extensions, said distance being greater than the lengths of the stops' downward extensions.</claim-text>
+        </claim>
+        <claim id="CLM-00007" num="00007">
+            <claim-text>7. The wheeled hand truck of <claim-ref idref="CLM-00002">claim 2</claim-ref> further comprising a rear socket opening at the foot plate, the rear socket being positioned for, upon rearward pivoting of the left and right segments of the retainer flange, underlying said flanges, the rear socket being fitted for receiving the left and right stops.</claim-text>
+        </claim>
+        <claim id="CLM-00008" num="00008">
+            <claim-text>8. The wheeled hand truck of <claim-ref idref="CLM-00007">claim 7</claim-ref> wherein the rear socket is positioned between the lower ends of the &#x201c;U&#x201d; handle's arms.</claim-text>
+        </claim>
+        <claim id="CLM-00009" num="00009">
+            <claim-text>9. The wheeled hand truck of <claim-ref idref="CLM-00008">claim 8</claim-ref> wherein the foot plate has upper and lower surfaces, and wherein each socket among the left front and right front sockets comprises a passage which opens at said surfaces.</claim-text>
+        </claim>
+    </claims>
+</us-patent-grant>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <!DOCTYPE us-patent-grant SYSTEM "us-patent-grant-v45-2014-04-03.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.5 2014-04-03" file="US11147203-20211019.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20210928" date-publ="20211019">
+<us-bibliographic-data-grant>
+    <publication-reference>
+        <document-id>
+            <country>US</country>
+            <doc-number>11147203</doc-number>
+            <kind>B2</kind>
+            <date>20211019</date>
+        </document-id>
+    </publication-reference>
+    <application-reference appl-type="utility">
+        <document-id>
+            <country>US</country>
+            <doc-number>15900792</doc-number>
+            <date>20180220</date>
+        </document-id>
+    </application-reference>
+    <us-application-series-code>15</us-application-series-code>
+    <classifications-ipcr>
+        <classification-ipcr>
+            <ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+            <classification-level>A</classification-level>
+            <section>A</section>
+            <class>01</class>
+            <subclass>B</subclass>
+            <main-group>51</main-group>
+            <subgroup>02</subgroup>
+            <symbol-position>F</symbol-position>
+            <classification-value>I</classification-value>
+            <action-date><date>20211019</date></action-date>
+            <generating-office><country>US</country></generating-office>
+            <classification-status>B</classification-status>
+            <classification-data-source>H</classification-data-source>
+        </classification-ipcr>
+        <classification-ipcr>
+            <ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+            <classification-level>A</classification-level>
+            <section>A</section>
+            <class>01</class>
+            <subclass>B</subclass>
+            <main-group>59</main-group>
+            <subgroup>06</subgroup>
+            <symbol-position>L</symbol-position>
+            <classification-value>I</classification-value>
+            <action-date><date>20211019</date></action-date>
+            <generating-office><country>US</country></generating-office>
+            <classification-status>B</classification-status>
+            <classification-data-source>H</classification-data-source>
+        </classification-ipcr>
+        <classification-ipcr>
+            <ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+            <classification-level>A</classification-level>
+            <section>B</section>
+            <class>62</class>
+            <subclass>D</subclass>
+            <main-group>49</main-group>
+            <subgroup>06</subgroup>
+            <symbol-position>L</symbol-position>
+            <classification-value>I</classification-value>
+            <action-date><date>20211019</date></action-date>
+            <generating-office><country>US</country></generating-office>
+            <classification-status>B</classification-status>
+            <classification-data-source>H</classification-data-source>
+        </classification-ipcr>
+        <classification-ipcr>
+            <ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+            <classification-level>A</classification-level>
+            <section>B</section>
+            <class>65</class>
+            <subclass>G</subclass>
+            <main-group>69</main-group>
+            <subgroup>28</subgroup>
+            <symbol-position>L</symbol-position>
+            <classification-value>N</classification-value>
+            <action-date><date>20211019</date></action-date>
+            <generating-office><country>US</country></generating-office>
+            <classification-status>B</classification-status>
+            <classification-data-source>H</classification-data-source>
+        </classification-ipcr>
+    </classifications-ipcr>
+    <classifications-cpc>
+        <main-cpc>
+            <classification-cpc>
+                <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                <section>A</section>
+                <class>01</class>
+                <subclass>B</subclass>
+                <main-group>51</main-group>
+                <subgroup>023</subgroup>
+                <symbol-position>F</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+                <scheme-origination-code>C</scheme-origination-code>
+            </classification-cpc>
+        </main-cpc>
+        <further-cpc>
+            <classification-cpc>
+                <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                <section>A</section>
+                <class>01</class>
+                <subclass>B</subclass>
+                <main-group>51</main-group>
+                <subgroup>026</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+                <scheme-origination-code>C</scheme-origination-code>
+            </classification-cpc>
+            <classification-cpc>
+                <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                <section>A</section>
+                <class>01</class>
+                <subclass>B</subclass>
+                <main-group>59</main-group>
+                <subgroup>062</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+                <scheme-origination-code>C</scheme-origination-code>
+            </classification-cpc>
+            <classification-cpc>
+                <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                <section>B</section>
+                <class>62</class>
+                <subclass>D</subclass>
+                <main-group>49</main-group>
+                <subgroup>065</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+                <scheme-origination-code>C</scheme-origination-code>
+            </classification-cpc>
+            <classification-cpc>
+                <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                <section>B</section>
+                <class>62</class>
+                <subclass>D</subclass>
+                <main-group>49</main-group>
+                <subgroup>0678</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>I</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+                <scheme-origination-code>C</scheme-origination-code>
+            </classification-cpc>
+            <classification-cpc>
+                <cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+                <section>B</section>
+                <class>65</class>
+                <subclass>G</subclass>
+                <main-group>69</main-group>
+                <subgroup>28</subgroup>
+                <symbol-position>L</symbol-position>
+                <classification-value>A</classification-value>
+                <action-date><date>20211019</date></action-date>
+                <generating-office><country>US</country></generating-office>
+                <classification-status>B</classification-status>
+                <classification-data-source>H</classification-data-source>
+                <scheme-origination-code>C</scheme-origination-code>
+            </classification-cpc>
+        </further-cpc>
+    </classifications-cpc>
+    <invention-title id="d2e43">Middle mounted implement tractor</invention-title>
+    <us-references-cited>
+        <us-citation>
+            <patcit num="00001">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>3027662</doc-number>
+                    <kind>A</kind>
+                    <name>Cunningham, Jr.</name>
+                    <date>19620400</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-national><country>US</country><main-classification>172815</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00002">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>3207233</doc-number>
+                    <kind>A</kind>
+                    <name>Shumaker</name>
+                    <date>19650900</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 63/22</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>172316</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00003">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>3874469</doc-number>
+                    <kind>A</kind>
+                    <name>Sjovall</name>
+                    <date>19750400</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>B62D 49/0607</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>180 12</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00004">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>3876023</doc-number>
+                    <kind>A</kind>
+                    <name>Hushower</name>
+                    <date>19750400</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>B62D 49/007</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>180 141</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00005">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>3889976</doc-number>
+                    <kind>A</kind>
+                    <name>Jesswein</name>
+                    <date>19750600</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>E02F 9/0841</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>280400</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00006">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>4213507</doc-number>
+                    <kind>A</kind>
+                    <name>Horrer et al.</name>
+                    <date>19800700</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-national><country>US</country><main-classification>172784</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00007">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>4635730</doc-number>
+                    <kind>A</kind>
+                    <name>Larsson</name>
+                    <date>19870100</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>E02F 3/764</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>172788</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00008">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>4679634</doc-number>
+                    <kind>A</kind>
+                    <name>Bulmahn</name>
+                    <date>19870700</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 59/044</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>172250</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00009">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>4693331</doc-number>
+                    <kind>A</kind>
+                    <name>Johnson</name>
+                    <date>19870900</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 51/026</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>172292</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00010">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>5105608</doc-number>
+                    <kind>A</kind>
+                    <name>Knez</name>
+                    <date>19920400</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 51/026</classification-cpc-text>
+            <classification-national><country>US</country><main-classification> 563281</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00011">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>6764270</doc-number>
+                    <kind>B1</kind>
+                    <name>Bernhardt</name>
+                    <date>20040700</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 51/026</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>414685</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00012">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>7021720</doc-number>
+                    <kind>B1</kind>
+                    <name>Yeggy</name>
+                    <date>20060400</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 51/026</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>180 16</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00013">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>7658236</doc-number>
+                    <kind>B2</kind>
+                    <name>Howson</name>
+                    <date>20100200</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>E02F 3/3604</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>172780</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00014">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>10086868</doc-number>
+                    <kind>B1</kind>
+                    <name>Brooks</name>
+                    <date>20181000</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>B62D 7/142</classification-cpc-text>
+        </us-citation>
+        <us-citation>
+            <patcit num="00015">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>2002/0084085</doc-number>
+                    <kind>A1</kind>
+                    <name>Pellenc</name>
+                    <date>20020700</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>B62D 49/0607</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>172762</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00016">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>2017/0274704</doc-number>
+                    <kind>A1</kind>
+                    <name>Fay, II</name>
+                    <date>20170900</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>B62D 49/0678</classification-cpc-text>
+        </us-citation>
+        <us-citation>
+            <patcit num="00017">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>2017/0290258</doc-number>
+                    <kind>A1</kind>
+                    <name>Mollick</name>
+                    <date>20171000</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 59/002</classification-cpc-text>
+        </us-citation>
+        <us-citation>
+            <patcit num="00018">
+                <document-id>
+                    <country>US</country>
+                    <doc-number>2019/0141884</doc-number>
+                    <kind>A1</kind>
+                    <name>Pilney</name>
+                    <date>20190500</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01M 7/0082</classification-cpc-text>
+            <classification-national><country>US</country><main-classification>180209</main-classification></classification-national>
+        </us-citation>
+        <us-citation>
+            <patcit num="00019">
+                <document-id>
+                    <country>WO</country>
+                    <doc-number>WO-0123241</doc-number>
+                    <kind>A2</kind>
+                    <date>20010400</date>
+                </document-id>
+            </patcit>
+            <category>cited by examiner</category>
+            <classification-cpc-text>A01B 51/023</classification-cpc-text>
+        </us-citation>
+    </us-references-cited>
+    <number-of-claims>20</number-of-claims>
+    <us-exemplary-claim>1</us-exemplary-claim>
+    <us-field-of-classification-search>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172273</main-classification>
+        </classification-national>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172297-309</main-classification>
+            <additional-info>unstructured</additional-info>
+        </classification-national>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172312</main-classification>
+        </classification-national>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172780</main-classification>
+        </classification-national>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172781</main-classification>
+        </classification-national>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172788</main-classification>
+        </classification-national>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172789</main-classification>
+        </classification-national>
+        <classification-national>
+            <country>US</country>
+            <main-classification>172795</main-classification>
+        </classification-national>
+        <classification-cpc-text>B62D 49/0607</classification-cpc-text>
+        <classification-cpc-text>B62D 49/065</classification-cpc-text>
+        <classification-cpc-text>B62D 49/0678</classification-cpc-text>
+        <classification-cpc-text>E02F 3/7668</classification-cpc-text>
+        <classification-cpc-text>A01B 51/026</classification-cpc-text>
+        <classification-cpc-text>A01B 51/00</classification-cpc-text>
+        <classification-cpc-text>A01B 51/02</classification-cpc-text>
+        <classification-cpc-text>A01B 51/023</classification-cpc-text>
+        <classification-cpc-text>A01B 59/062</classification-cpc-text>
+        <classification-cpc-text>A01L 351/00</classification-cpc-text>
+        <classification-cpc-text>A01L 351/02</classification-cpc-text>
+        <classification-cpc-text>A01L 351/026</classification-cpc-text>
+        <classification-cpc-text>A01L 351/023</classification-cpc-text>
+        <classification-cpc-text>B65G 69/28</classification-cpc-text>
+    </us-field-of-classification-search>
+    <figures>
+        <number-of-drawing-sheets>38</number-of-drawing-sheets>
+        <number-of-figures>48</number-of-figures>
+    </figures>
+    <us-related-documents>
+        <continuation-in-part>
+            <relation>
+                <parent-doc>
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>14294129</doc-number>
+                        <date>20140602</date>
+                    </document-id>
+                    <parent-grant-document>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>9894825</doc-number>
+                        </document-id>
+                    </parent-grant-document>
+                </parent-doc>
+                <child-doc>
+                    <document-id>
+                        <country>US</country>
+                        <doc-number>15900792</doc-number>
+                    </document-id>
+                </child-doc>
+            </relation>
+        </continuation-in-part>
+        <related-publication>
+            <document-id>
+                <country>US</country>
+                <doc-number>20200146197</doc-number>
+                <kind>A1</kind>
+                <date>20200514</date>
+            </document-id>
+        </related-publication>
+    </us-related-documents>
+    <us-parties>
+        <us-applicants>
+            <us-applicant sequence="001" app-type="applicant" designation="us-only">
+                <addressbook>
+                    <last-name>Jensen</last-name>
+                    <first-name>Philip</first-name>
+                    <address>
+                        <city>Fowler</city>
+                        <state>CO</state>
+                        <country>US</country>
+                    </address>
+                </addressbook>
+                <residence>
+                    <country>US</country>
+                </residence>
+            </us-applicant>
+        </us-applicants>
+        <inventors>
+            <inventor sequence="001" designation="us-only">
+                <addressbook>
+                    <last-name>Jensen</last-name>
+                    <first-name>Philip</first-name>
+                    <address>
+                        <city>Fowler</city>
+                        <state>CO</state>
+                        <country>US</country>
+                    </address>
+                </addressbook>
+            </inventor>
+        </inventors>
+    </us-parties>
+    <examiners>
+        <primary-examiner>
+            <last-name>Behrens</last-name>
+            <first-name>Adam J</first-name>
+            <department>3671</department>
+        </primary-examiner>
+    </examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+    <p id="p-0001" num="0000">A middle mounted implement tractor utilizes a movable frame design in order to provide for middle mounting of implements on a tractor that can drive up to the implement, raise its front portion in the air, drive forward over the implement, and then lower the front portion to the ground and attach the middle mounted implement. This is accomplished utilizing a front frame assembly pivotably connected to a mounting frame assembly which mounts the implement; a frame mover mechanism that lifts the front frame and mounting frame; a middle frame which connects the cab, frame mover mechanism and related components; and a rear frame which attaches rear wheels, caster wheels, engine, etc. The front wheels can turn one hundred and eighty degrees and the tractor can easily interchange consumables via a carriage system that allows simple loading and unloading of tanks, etc.</p>
+</abstract>
+<drawings id="DRAWINGS">
+    <figure id="Fig-EMI-D00000" num="00000">
+        <img id="EMI-D00000" he="58.42mm" wi="158.75mm" file="US11147203-20211019-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00001" num="00001">
+        <img id="EMI-D00001" he="226.48mm" wi="156.13mm" orientation="landscape" file="US11147203-20211019-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00002" num="00002">
+        <img id="EMI-D00002" he="205.99mm" wi="150.54mm" orientation="landscape" file="US11147203-20211019-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00003" num="00003">
+        <img id="EMI-D00003" he="211.24mm" wi="151.98mm" orientation="landscape" file="US11147203-20211019-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00004" num="00004">
+        <img id="EMI-D00004" he="187.20mm" wi="160.78mm" file="US11147203-20211019-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00005" num="00005">
+        <img id="EMI-D00005" he="173.91mm" wi="161.21mm" file="US11147203-20211019-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00006" num="00006">
+        <img id="EMI-D00006" he="201.42mm" wi="156.97mm" orientation="landscape" file="US11147203-20211019-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00007" num="00007">
+        <img id="EMI-D00007" he="217.42mm" wi="163.49mm" file="US11147203-20211019-D00007.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00008" num="00008">
+        <img id="EMI-D00008" he="218.44mm" wi="162.39mm" file="US11147203-20211019-D00008.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00009" num="00009">
+        <img id="EMI-D00009" he="226.74mm" wi="163.41mm" file="US11147203-20211019-D00009.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00010" num="00010">
+        <img id="EMI-D00010" he="211.67mm" wi="158.16mm" file="US11147203-20211019-D00010.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00011" num="00011">
+        <img id="EMI-D00011" he="217.34mm" wi="158.75mm" file="US11147203-20211019-D00011.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00012" num="00012">
+        <img id="EMI-D00012" he="209.89mm" wi="158.92mm" file="US11147203-20211019-D00012.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00013" num="00013">
+        <img id="EMI-D00013" he="184.49mm" wi="120.73mm" file="US11147203-20211019-D00013.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00014" num="00014">
+        <img id="EMI-D00014" he="212.43mm" wi="148.93mm" file="US11147203-20211019-D00014.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00015" num="00015">
+        <img id="EMI-D00015" he="208.11mm" wi="153.33mm" file="US11147203-20211019-D00015.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00016" num="00016">
+        <img id="EMI-D00016" he="223.60mm" wi="156.63mm" file="US11147203-20211019-D00016.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00017" num="00017">
+        <img id="EMI-D00017" he="183.13mm" wi="126.66mm" file="US11147203-20211019-D00017.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00018" num="00018">
+        <img id="EMI-D00018" he="207.94mm" wi="119.97mm" file="US11147203-20211019-D00018.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00019" num="00019">
+        <img id="EMI-D00019" he="221.83mm" wi="123.27mm" file="US11147203-20211019-D00019.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00020" num="00020">
+        <img id="EMI-D00020" he="208.03mm" wi="164.08mm" file="US11147203-20211019-D00020.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00021" num="00021">
+        <img id="EMI-D00021" he="192.11mm" wi="150.54mm" file="US11147203-20211019-D00021.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00022" num="00022">
+        <img id="EMI-D00022" he="229.95mm" wi="131.32mm" orientation="landscape" file="US11147203-20211019-D00022.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00023" num="00023">
+        <img id="EMI-D00023" he="226.91mm" wi="141.99mm" orientation="landscape" file="US11147203-20211019-D00023.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00024" num="00024">
+        <img id="EMI-D00024" he="220.98mm" wi="159.68mm" orientation="landscape" file="US11147203-20211019-D00024.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00025" num="00025">
+        <img id="EMI-D00025" he="197.70mm" wi="87.97mm" file="US11147203-20211019-D00025.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00026" num="00026">
+        <img id="EMI-D00026" he="210.23mm" wi="162.56mm" orientation="landscape" file="US11147203-20211019-D00026.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00027" num="00027">
+        <img id="EMI-D00027" he="204.81mm" wi="162.31mm" orientation="landscape" file="US11147203-20211019-D00027.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00028" num="00028">
+        <img id="EMI-D00028" he="185.25mm" wi="158.41mm" orientation="landscape" file="US11147203-20211019-D00028.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00029" num="00029">
+        <img id="EMI-D00029" he="194.73mm" wi="157.99mm" orientation="landscape" file="US11147203-20211019-D00029.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00030" num="00030">
+        <img id="EMI-D00030" he="187.96mm" wi="158.33mm" orientation="landscape" file="US11147203-20211019-D00030.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00031" num="00031">
+        <img id="EMI-D00031" he="201.51mm" wi="155.70mm" orientation="landscape" file="US11147203-20211019-D00031.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00032" num="00032">
+        <img id="EMI-D00032" he="200.66mm" wi="158.41mm" orientation="landscape" file="US11147203-20211019-D00032.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00033" num="00033">
+        <img id="EMI-D00033" he="185.08mm" wi="160.87mm" orientation="landscape" file="US11147203-20211019-D00033.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00034" num="00034">
+        <img id="EMI-D00034" he="165.69mm" wi="149.10mm" file="US11147203-20211019-D00034.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00035" num="00035">
+        <img id="EMI-D00035" he="219.37mm" wi="160.27mm" file="US11147203-20211019-D00035.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00036" num="00036">
+        <img id="EMI-D00036" he="219.71mm" wi="163.32mm" file="US11147203-20211019-D00036.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00037" num="00037">
+        <img id="EMI-D00037" he="217.76mm" wi="161.71mm" file="US11147203-20211019-D00037.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+    <figure id="Fig-EMI-D00038" num="00038">
+        <img id="EMI-D00038" he="215.39mm" wi="191.01mm" file="US11147203-20211019-D00038.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+    </figure>
+</drawings>
+<description id="description">
+    <?BRFSUM description="Brief Summary" end="lead"?>
+    <heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATIONS</heading>
+    <p id="p-0002" num="0001">This application claims the benefit of U.S. patent application Ser. No. 14/294,129 filed on Jun. 2, 2014 and entitled MIDDLE MOUNTED IMPLEMENT TRACTOR, and any related applications cited thereby, which are specifically incorporated by reference herein for all that they disclose and teach.</p>
+    <heading id="h-0002" level="1">TECHNICAL FIELD</heading>
+    <p id="p-0003" num="0002">The present invention relates generally to the field of agricultural equipment; more particularly, to the field of tractors; and, more particularly still, to a tractor having a middle implement mount.</p>
+    <heading id="h-0003" level="1">BACKGROUND</heading>
+    <p id="p-0004" num="0003">Since the early days of agriculture, farmers have toiled to increase their productivity and the amount of crops they can produce. Although there have been many major improvements along the way, perhaps one of the most significant has been the development of the tractor. This multi-function machine has freed farmers from the limitations of horses, oxen, etc., and greatly increased the productivity of farmers.</p>
+    <p id="p-0005" num="0004">Over time, tractors gradually replaced horses and oxen for pulling agricultural machines or &#x201c;implements&#x201d; through the fields. Most such implements where initially &#x201c;rear-mounted&#x201d; as it was much easier for a horse or ox to pull, rather than push, a machine through the field, and so tractors initially pulled such rear-mounted implements as well. However, as tractors&#x2014;and the agricultural equipment industry as a whole&#x2014;developed, it became apparent that implements no longer had to remain rear-mounted. Ingenious new designs appeared that allowed implements to be mounted to the front of a tractor and be effectively &#x201c;pushed&#x201d; through the fields. Although such mounting means can still be found, others chose to mount implements in a middle or &#x201c;belly&#x201d; configuration in which the implement is located between the front and rear wheels of the tractor. This middle mounting has the same primary advantage that front mounting had over rear mounting: the operator or driver of the tractor can view the implement working the field; make adjustments immediately as they are needed; and, at the same time, he can see the upcoming features of the field ahead. With a rear mounted implement, the driver can either view the upcoming field or can turn around and watch the implement. Additionally, middle mounting avoids some of the problems of front mounting, namely: gauge wheels on the implement are not necessary, better depth (or height) control can be achieved, the weight of the implement and implement-work-forces are more evenly distributed between the front and rear tractor wheels, and a middle mounting tractor can get the implement closer to ditch banks or fences when pulling forward to them or when backing up to them and pulling away.</p>
+    <p id="p-0006" num="0005">Although a number of middle mounting systems exist in the art, they have limitations and deficiencies that have caused such systems to remain niche applications with the vast majority of tractors and implements utilizing the rear and/or front mounting systems. For example, one major deficiency present in the art is that there is no easy way to change middle mounted implements. Such implements can be disconnected from a tractor, but then have to be slid to the left or right of the tractor in order to avoid the tractor's wheels. Similarly, to attach a new implement, the implement has to be slid into place from the side. As implements can often be big, bulky, heavy, generally unwieldy and difficult to move, this has been a serious limitation in the art. What is needed is a tractor that can be driven directly into position over a middle mounted implement, thereby removing the need to slide the implement into position under the tractor.</p>
+    <p id="p-0007" num="0006">Another need that this invention addresses is that of a tractor designed to carry one or more material tanks so that an operator may apply bulk seed, pesticides, or fertilizer while using various implements. Currently available farm tractors are good at carrying or pulling farm implements, but tanks must be &#x201c;added on&#x201d; in the form of saddle tanks and front or rear extended tanks. Alternatively, many currently available self-propelled sprayers do have tanks inherently built into their design, but theses vehicles do not have the capability to use implements. The current invention has embodiments that can accomplish either or both: easily loading and unloading of a plurality of consumables carriages for handling material tank(s), while also having the ability to handle a variety of implements in a middle mounted fashion while providing for simply and easy mounting/unmounting.</p>
+    <?BRFSUM description="Brief Summary" end="tail"?>
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+    <description-of-drawings>
+        <heading id="h-0004" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+        <p id="p-0008" num="0007"><figref idref="DRAWINGS">FIG. 1</figref> illustrates a perspective view of an exemplary embodiment of a middle mounted implement tractor, highlighting the frame assemblies;</p>
+        <p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 2</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the frame assemblies and an implement connection bar with a movable frame in a lowered, wheels-down position;</p>
+        <p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 3</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the frame assemblies and an implement connection bar with a movable frame in a raised, wheels-down position;</p>
+        <p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 4</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor, highlighting the front wheel assembly;</p>
+        <p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 5</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor, highlighting the front wheel assembly;</p>
+        <p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 6</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor, highlighting the frame assemblies;</p>
+        <p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 7A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, showing the tractor preparing to approach a middle mounted implement;</p>
+        <p id="p-0015" num="0014"><figref idref="DRAWINGS">FIG. 7B</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, showing the tractor having lowered its dolly wheels and with a movable frame in a raised, wheels-up position to attach a middle mounted implement thereto;</p>
+        <p id="p-0016" num="0015"><figref idref="DRAWINGS">FIG. 8A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, showing the tractor having lowered its dolly wheels and with a movable frame in a raised, wheels-up position approaching a middle mounted implement;</p>
+        <p id="p-0017" num="0016"><figref idref="DRAWINGS">FIG. 8B</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, showing the tractor having raised its dolly wheels and with a movable frame in a lowered, wheels-down position having attached a middle mounted implement;</p>
+        <p id="p-0018" num="0017"><figref idref="DRAWINGS">FIG. 9A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting front and rear attachment bars locked into place;</p>
+        <p id="p-0019" num="0018"><figref idref="DRAWINGS">FIG. 9B</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting alternative front and rear attachment bars locked into place;</p>
+        <p id="p-0020" num="0019"><figref idref="DRAWINGS">FIG. 9C</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting disconnected front and rear attachment bars;</p>
+        <p id="p-0021" num="0020"><figref idref="DRAWINGS">FIG. 10</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left side dolly wheels assembly in a raised position;</p>
+        <p id="p-0022" num="0021"><figref idref="DRAWINGS">FIG. 11</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left side dolly wheels in a partially lowered position;</p>
+        <p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 12</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left side dolly wheels in a lowered position;</p>
+        <p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 13</figref> illustrates a front elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the cab interior configuration showing the fold-down nature of the main dash;</p>
+        <p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 14</figref> illustrates a left side perspective view of an exemplary embodiment of a middle mounted implement tractor, highlighting the main dash in a deployed configuration;</p>
+        <p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 15A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left rear caster wheel;</p>
+        <p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 15B</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left rear caster wheel;</p>
+        <p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 15C</figref> illustrates a rear elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left rear caster wheel;</p>
+        <p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 16A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage, highlighting a consumables carriage assembly and the left rear caster wheel;</p>
+        <p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 16B</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor, highlighting the rear caster wheels;</p>
+        <p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 17</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting a frame mover mechanism with the movable frame in a raised position;</p>
+        <p id="p-0032" num="0031"><figref idref="DRAWINGS">FIG. 18</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting a swinging motion of a left cab door;</p>
+        <p id="p-0033" num="0032"><figref idref="DRAWINGS">FIG. 19</figref> illustrates a rear elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting a swinging motion of a rear cab door;</p>
+        <p id="p-0034" num="0033"><figref idref="DRAWINGS">FIG. 20</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage, highlighting a loaded consumables carriage with a closed loading ramp;</p>
+        <p id="p-0035" num="0034"><figref idref="DRAWINGS">FIG. 21</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage, highlighting a loaded consumables carriage with an open loading ramp;</p>
+        <p id="p-0036" num="0035"><figref idref="DRAWINGS">FIG. 22</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage, highlighting an open loading ramp and a truck carrying a consumables carriage ready to be loaded;</p>
+        <p id="p-0037" num="0036"><figref idref="DRAWINGS">FIG. 23</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage, highlighting a consumables carriage being loaded;</p>
+        <p id="p-0038" num="0037"><figref idref="DRAWINGS">FIG. 24</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage, highlighting a first consumables carriage being loaded and a second consumables carriage awaiting loading;</p>
+        <p id="p-0039" num="0038"><figref idref="DRAWINGS">FIG. 25</figref> illustrates a rear perspective view of an exemplary embodiment of a front, right side knee assembly for a front wheel;</p>
+        <p id="p-0040" num="0039"><figref idref="DRAWINGS">FIG. 26</figref> illustrates a side elevation view of an embodiment that utilizes a type of integrated pallet fork mechanism instead of a consumables carriage approaching a flatbed truck containing pallets of consumables;</p>
+        <p id="p-0041" num="0040"><figref idref="DRAWINGS">FIG. 27</figref> illustrates a side elevation view of an embodiment that utilizes a type of integrated pallet fork mechanism instead of a consumables carriage abutting a flatbed truck containing pallets of consumables;</p>
+        <p id="p-0042" num="0041"><figref idref="DRAWINGS">FIG. 28</figref> illustrates the pallet fork mechanism lifting and moving two pallets from the truck to the tractor;</p>
+        <p id="p-0043" num="0042"><figref idref="DRAWINGS">FIG. 29</figref> illustrates the pallet fork mechanism lifting and moving two pallets from the truck to the tractor;</p>
+        <p id="p-0044" num="0043"><figref idref="DRAWINGS">FIG. 30</figref> illustrates the pallet fork mechanism lifting and moving two pallets from the truck to the tractor;</p>
+        <p id="p-0045" num="0044"><figref idref="DRAWINGS">FIG. 31</figref> illustrates the pallet fork mechanism in a stowed configuration with two pallets recently loaded onto the tractor;</p>
+        <p id="p-0046" num="0045"><figref idref="DRAWINGS">FIG. 32</figref> is a top plan view illustrating the pallet fork mechanism;</p>
+        <p id="p-0047" num="0046"><figref idref="DRAWINGS">FIG. 33</figref> is a top plan view illustrating the pallet fork mechanism;</p>
+        <p id="p-0048" num="0047"><figref idref="DRAWINGS">FIG. 34</figref> illustrates components of the pallet fork mechanism;</p>
+        <p id="p-0049" num="0048"><figref idref="DRAWINGS">FIGS. 35A and 35B</figref> illustrate components of the pallet fork mechanism;</p>
+        <p id="p-0050" num="0049"><figref idref="DRAWINGS">FIGS. 36A and 36B</figref> illustrate components of the pallet fork mechanism;</p>
+        <p id="p-0051" num="0050"><figref idref="DRAWINGS">FIGS. 37A and 37B</figref> illustrate components of the pallet fork mechanism; and</p>
+        <p id="p-0052" num="0051"><figref idref="DRAWINGS">FIG. 38</figref> illustrates components of the pallet fork mechanism.</p>
+    </description-of-drawings>
+    <?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+    <?DETDESC description="Detailed Description" end="lead"?>
+    <heading id="h-0005" level="1">DETAILED DESCRIPTION</heading>
+    <p id="p-0053" num="0052">In the following discussion, numerous specific details are set forth to provide a thorough understanding of the present disclosure. However, those skilled in the art will appreciate that embodiments may be practiced without such specific details. Furthermore, lists and/or examples are often provided and should be interpreted as exemplary only and in no way limiting embodiments to only those examples.</p>
+    <p id="p-0054" num="0053">Exemplary embodiments are described below in the accompanying Figures. The following detailed description provides a comprehensive review of the drawing Figures in order to provide a thorough understanding of, and an enabling description for, these embodiments. One having ordinary skill in the art will understand that in some cases well-known structures and functions have not been shown or described in detail to avoid unnecessarily obscuring the description of the embodiments.</p>
+    <p id="p-0055" num="0054">Referring now to the drawings, <figref idref="DRAWINGS">FIG. 1</figref> illustrates a perspective view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the frame assemblies: the front frame assembly <b>100</b>, the mounting frame assembly <b>200</b>, the middle frame assembly <b>300</b>, and the rear frame assembly <b>400</b>. The front frame assembly <b>100</b> and the mounting frame assembly <b>200</b> together comprise the movable frame assembly <b>250</b>.</p>
+    <p id="p-0056" num="0055">The front frame assembly <b>100</b> comprises the fixed forward frame assembly and associated frame components: the front wheel assembly, two sets of parallel pivoting arms, and the first and second front wheels <b>2</b> and <b>3</b>. The front wheel assembly pivots on a pivot point <b>108</b> at the center of the width of the machine. This pivot point <b>108</b> allows the front axle to &#x201c;float&#x201d; side to side, meaning the right tire <b>3</b> can travel vertically up or down over uneven ground while the left tire <b>2</b> can travel the opposite way, thus allowing the tractor to maintain all four main wheels on the ground while traversing rough terrain.</p>
+    <p id="p-0057" num="0056">Two sets of parallel pivoting arms on each side of the tractor connect the front frame assembly <b>100</b> to the mounting frame assembly <b>200</b>. The first set on each side are called the W arms. On the left side are the first top W arm <b>113</b> and the first bottom W arm <b>114</b>, and on the right side are the second top W arm <b>115</b> and the second bottom W arm <b>116</b>. These arms are responsible for bearing the weight of the movable frame assembly <b>250</b> when in the lowered, wheel-down position and they also serve as the connecting point for the hydraulic cylinders (not shown in <figref idref="DRAWINGS">FIG. 1</figref>) which raise and lower the front frame assembly <b>100</b> relative to the mounting frame assembly <b>200</b>.</p>
+    <p id="p-0058" num="0057">The second sets of parallel pivoting arms on each side of the tractor are called the stabilizing arms, or &#x201c;S&#x201d; arms. On the left side are the first top S arm <b>121</b> and the first bottom S arm <b>122</b>, and on the right side are the second top S arm <b>123</b> and the second bottom S arm <b>124</b>. These S arms <b>121</b>, <b>122</b>, <b>123</b>, and <b>124</b> provide strength and support for the pivotal axle frame <b>107</b> and wheel knees <b>105</b> and <b>106</b> (<b>105</b> is not visible in <figref idref="DRAWINGS">FIG. 1</figref>, see <figref idref="DRAWINGS">FIG. 4</figref>). The S arms are not designed to carry the weight of the tractor; instead, they work to keep the wheel knees <b>105</b> and <b>106</b> vertical and counteract any rearwards force experienced by the knees <b>105</b> and <b>106</b>. The connections between the S arms and the knees need to be able to pivot; thus, a ball joint, or other multi-axis pivot, is preferred between these components. The S arms and many other components can be attached using pins or any other suitable connector(s).</p>
+    <p id="p-0059" num="0058">The fixed forward frame assembly <b>109</b> is located near the very front of the tractor, above the axle frame <b>107</b> and attached to it at the pivot point <b>108</b>. It extends laterally to either side of the pivot point <b>108</b> and upwards to first and second Weight-bearing arms, or &#x201c;W&#x201d; arms, attachment devises <b>111</b> and <b>112</b>. Each W arm attachment clevis <b>111</b> and <b>112</b> locates two pivot points for the forward end of a pair of parallel pivoting W arms <b>113</b>/<b>114</b> and <b>115</b>/<b>116</b>. The W arms are responsible for bearing the weight of the front portion of the movable frame <b>250</b> and any implement attached thereto. A secondary responsibility of the W arms is to maintain the stability of the fixed forward frame assembly <b>109</b>.</p>
+    <p id="p-0060" num="0059">The second set of parallel arms, the S arms, in conjunction with the pivotal point <b>108</b> maintains the strength and position of the axle frame <b>107</b> and the knees <b>105</b> and <b>106</b>. The knees connect to the spindles and ultimately the front wheels <b>2</b> and <b>3</b>. By using parallel S arms that pivot at their forward and rearward ends, the front axle will float side-to-side about the center pivot point <b>108</b>. One purpose of these arms is to provide strength members when the tractor is moved forward or backward. For example, as the tractor is moving forward and the operator turns the steering wheel sharply to the right or left without simultaneously applying the necessary amount of individual rear wheel brake, the tractor, instead of turning may tend to go forward with the front tires &#x201c;plowing&#x201d; or skidding. Of course, simply applying an appropriate rear brake (left rear if turning left, right rear if turning right) during the turn will cause the front end to turn with the front tires carving the turn in the desired direction. Without the S arms, when plowing occurs during a turn, a large amount of force is applied to the knees <b>105</b> and <b>106</b>, axle frame <b>107</b>, pivot point <b>108</b>, and onwards through the front frame assembly <b>100</b> to the devises <b>111</b> and <b>112</b>, the W arms, and back to the movable frame assembly <b>250</b>. By including the S arms, the same force that occurs during a plowing episode will travel directly from the knees <b>105</b> and <b>106</b> to the movable frame assembly <b>250</b>, eliminating all the stresses on the other parts mentioned above.</p>
+    <p id="p-0061" num="0060">The forward ends of the S arms are pivotally connected to vertical extensions <b>118</b> and <b>119</b>, which are attached to the knees <b>105</b> and <b>106</b>, respectively (see also <figref idref="DRAWINGS">FIG. 4</figref>). The S arms are located just to the inside of the W arms on both the left and right sides of the tractor. It is important to note that the vertical extensions <b>118</b> and <b>119</b> of the knees <b>105</b> and <b>106</b> are located to the outside of the steering bell cranks <b>189</b> and <b>190</b>, respectively (see <figref idref="DRAWINGS">FIG. 5</figref>), so as not to interfere with the steering mechanism. The rear of each S arm is pivotally connected to the mounting frame assembly <b>200</b> using pins that allow each S arm to pivot up and down. These same pivot pins can be used to mount the W arms to the mounting frame assembly <b>200</b> as well.</p>
+    <p id="p-0062" num="0061">The mounting frame <b>200</b> comprises the attachment mounts for the middle mounted implements, extendable frame components, and movable frame assemblies. The middle frame <b>300</b> comprises the vertical frame attachment components for the movable frame assemblies and associated frame components that tie the cab <b>360</b>, rear wheels <b>4</b> and <b>5</b>, and rear frame <b>400</b> to the movable frame <b>250</b>.</p>
+    <p id="p-0063" num="0062"><figref idref="DRAWINGS">FIG. 2</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the frame assemblies <b>100</b>, <b>200</b>, <b>250</b>, <b>300</b>, and <b>400</b> and an implement connection bar <b>540</b> with a movable frame assembly <b>250</b> in a lowered, wheels-down position. Notice that the bottom portion of the front wheel <b>2</b> is at approximately the same ground level as the bottom portion of the rear wheel <b>4</b>. Because of the pivoting mounting pins connecting the W arms and S arms to the mounting frame assembly <b>200</b>, the front wheels hydraulic lift system <b>160</b> can raise or lower the front wheels <b>2</b> and <b>3</b> to: (i) adjust the angle at which the entire tractor rides relative to the ground, or (ii) account for the raising or lowering of the entire movable frame assembly <b>250</b>. The front wheels hydraulic lift system <b>160</b> comprises a front frame assembly connector <b>161</b>, a mounting frame assembly connector <b>163</b>, and a front wheels lift hydraulic cylinder <b>162</b> therebetween. In other embodiments, a second front wheels hydraulic lift system is employed in tandem with the first <b>160</b> on the right side of the tractor <b>1000</b>.</p>
+    <p id="p-0064" num="0063"><figref idref="DRAWINGS">FIG. 3</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the frame assemblies <b>100</b>, <b>200</b>, <b>250</b>, <b>300</b>, and <b>400</b> and an implement connection bar <b>540</b> with a movable frame in a raised, wheels-down position. By comparing <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, it should be apparent that one of the features of the instant invention is that the tractor operator can easily control how high the movable frame assembly is positioned relative to the ground. Thus, if a particular implement is taller than another implement, the operator can adjust the tractor to handle either implement simply by raising or lowering the movable frame assembly <b>250</b> and then raising or lowering the front wheel assembly <b>100</b> accordingly.</p>
+    <p id="p-0065" num="0064">Also shown in <figref idref="DRAWINGS">FIG. 3</figref> are the first implement attachment point <b>221</b> and the second implement attachment point <b>223</b>. On the other side of the tractor are corresponding third and fourth attachment points. See <figref idref="DRAWINGS">FIGS. 9A and 9B</figref> as well as <figref idref="DRAWINGS">FIGS. 7A-B</figref> and <b>8</b>A-B for more information concerning implement attachment.</p>
+    <p id="p-0066" num="0065"><figref idref="DRAWINGS">FIG. 4</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the front wheel assembly <b>100</b>. The steering is designed to pivot the front wheels <b>2</b> and <b>3</b> a full ninety degrees to the left and right (one hundred and eighty degrees total); this motion can be powered by first and second hydraulic cylinders <b>197</b> and <b>198</b> located on both sides. In another embodiment, a single cylinder powers both sides. In yet another embodiment, a motive source besides hydraulics is used. On the machine's left is the first steering hydraulic cylinder <b>197</b>; it is connected to a first idler arm <b>195</b> (a second steering hydraulic cylinder <b>198</b>, and a second idler arm <b>196</b> are mirrored on the right side). The idler arms <b>195</b> and <b>196</b> are connected to a first and second link <b>191</b> and <b>192</b> at a steering pivot point <b>193</b> and <b>194</b>, respectively. The first and second links <b>191</b> and <b>192</b> are connected at their other ends to a first and second bell cranks <b>189</b> and <b>190</b> (see <figref idref="DRAWINGS">FIG. 5</figref>) using a first and second knee pivot point <b>187</b> and <b>188</b> (see <figref idref="DRAWINGS">FIG. 5</figref>). Each bell crank <b>189</b> and <b>190</b> sits atop a rotating shaft <b>185</b> and <b>186</b>, respectively, that are each attached to the front spindles <b>104</b> and <b>103</b> (see <figref idref="DRAWINGS">FIG. 25</figref> for a view of <b>104</b>; <b>103</b> is the spindle on the opposite side).</p>
+    <p id="p-0067" num="0066"><figref idref="DRAWINGS">FIG. 25</figref> illustrates a perspective view from the rear showing the front right knee assembly. As can be seen in close-up in <figref idref="DRAWINGS">FIG. 25</figref>, the rotating shaft <b>186</b> fits within the wheel knee <b>106</b>. The pivotal axle frame <b>107</b> is attached to the wheel knee <b>106</b> as is the vertical extension <b>119</b>. The rotating shaft <b>186</b> can turn within the wheel knee <b>106</b>. Since the spindle <b>104</b> is attached to the rotating shaft <b>186</b>, it should be clear that by turning the shaft <b>186</b>, the operator also rotates the spindle <b>104</b>. And as the spindle <b>104</b> is attached to the front wheel <b>3</b>, the wheel <b>3</b> is consequently turned as well.</p>
+    <p id="p-0068" num="0067">When the first and second steering hydraulic cylinders are actuated (they operate oppositely: when one pushes out, the other retracts in, and vice-versa), they operate on their respective front wheel assembly <b>100</b> components in order to turn the front wheels. In one embodiment, the components are adjusted so that when a wheel is the inside wheel of a turn, it has a slightly tighter turn radius than the outer wheel and vice-versa.</p>
+    <p id="p-0069" num="0068">The front wheels may be powered, either hydraulically or otherwise, to provide front wheel drive and/or all wheel drive. In one embodiment, hydraulic motors using planetary gears are emplaced within both front wheel housings and hydraulic lines running to each wheel provide power. The fixed forward frame assembly can have grill work, lights, etc. on the front and may have provisions for one or more saddles for additional sprayer tanks and/or other items. In another embodiment, extendable axels or spindles can be incorporated into the front wheels to increase or decrease the distance between the front wheels. Furthermore, the front frame assembly <b>100</b> and any cross frame members in the other frame assemblies <b>200</b>, <b>250</b>, <b>300</b> and <b>400</b> could be constructed using telescoping components or sliding components such that the overall width of the tractor <b>1000</b> could be increased or decreased as desired. Similarly, in another embodiment, the pivotal axle frame <b>107</b> could be split into two components, each having its own pivot point <b>108</b>, and each component mounted to one half of a similarly split forward frame assembly <b>109</b> and then these two halves of the front assembly could be drawn together or expanded by the use of hydraulics or other means.</p>
+    <p id="p-0070" num="0069"><figref idref="DRAWINGS">FIG. 5</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the front wheel assembly. This view highlights a few different components from <figref idref="DRAWINGS">FIG. 4</figref>, specifically: the first and second links <b>191</b> and <b>192</b> are connected at their other ends to first and second bell cranks <b>189</b> and <b>190</b> using first and second knee pivot points <b>187</b> and <b>188</b>. Each bell crank <b>189</b> and <b>190</b> sits atop a rotating shaft <b>185</b> and <b>186</b>, respectively, that are each attached to the front spindles.</p>
+    <p id="p-0071" num="0070"><figref idref="DRAWINGS">FIG. 6</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the frame assemblies <b>100</b>, <b>200</b>, <b>250</b>, <b>300</b>, and <b>400</b>. The connection points between the movable frame assembly <b>250</b> and the middle frame <b>300</b>, as well as the middle frame's components can be seen more clearly in this view.</p>
+    <p id="p-0072" num="0071">The mounting frame assembly <b>200</b> comprises a pair of forwardly extendable beams <b>211</b> and <b>212</b> that attach to the front frame assembly <b>100</b> at their forward ends. The opposite ends of extendable beams <b>211</b> and <b>212</b> fit inside of receiving beams <b>213</b> and <b>214</b>. Although not shown, extension hydraulics could be attached between the extendable beams and the receiving beams in order to move the extendable beams in and out of the receiving beams <b>213</b> and <b>214</b>. This extension feature of the current invention is helpful in configuring the tractor to accommodate middle mounted implements of various lengths without having them interfere with the front frame assembly <b>100</b>. By retracting the extendable beams within the receiving beams, the overall length and wheel base of the tractor can be reduced, allowing for tighter turning radii and smaller parking/storage areas. Also, because the implement attachment points (see <figref idref="DRAWINGS">FIG. 3</figref>, items <b>221</b> and <b>223</b>) are mounted on either side of the extension point, implements can have varying distances between their mounting bars and still be compatible with the instant invention. The adjustment beams <b>215</b> and <b>216</b> are used to narrow the frame assembly and as attachment points for the vertical sliders <b>217</b> and <b>218</b>. The sliders surround the main vertical beams <b>311</b> and <b>312</b> of the middle frame <b>300</b>. When the operator chooses to raise or lower the movable frame assembly <b>250</b>, the sliders <b>217</b> and <b>218</b> roll on bearings <b>220</b> up and down the main vertical beams <b>311</b> and <b>312</b>. Although only a single set of bearings <b>220</b> is shown in <figref idref="DRAWINGS">FIG. 6</figref>, it is contemplated that at least four sets of bearings <b>220</b> could be used on each vertical slider <b>217</b> and <b>218</b>: one on each slider pin <b>232</b> and <b>234</b> located on either side of the vertical beam, and two more on the second set of pins below the top set (see <figref idref="DRAWINGS">FIG. 17</figref> for possible location of additional pins). Note that this is for the right slider <b>218</b>, but it would also apply to the left slider <b>217</b> (see pins <b>231</b> and <b>233</b>, for example).</p>
+    <p id="p-0073" num="0072">Also shown in <figref idref="DRAWINGS">FIG. 6</figref> are additional middle frame components <b>310</b>, <b>312</b>, <b>314</b> and <b>318</b>.</p>
+    <p id="p-0074" num="0073"><figref idref="DRAWINGS">FIG. 7A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, showing the tractor preparing to approach a middle mounted implement <b>500</b>. Note that the dolly wheel assembly <b>700</b> is visible in the cut-out box described by the dashed lines. The dolly wheel assembly <b>700</b> is shown in its folded position. A large upward pointing arrow shows the direction in which the movable frame <b>250</b> will be displaced in order to raise the frame above the middle mounted implement <b>500</b>. Similarly, a large downward pointing arrow shows the direction in which the dolly wheel assembly will be extended to support the front half of the tractor as the movable frame is raised off the ground.</p>
+    <p id="p-0075" num="0074"><figref idref="DRAWINGS">FIG. 7B</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, showing the tractor having lowered its dolly wheels <b>700</b> and with a movable frame <b>250</b> in a raised, wheels-up position to attach a middle mounted implement <b>500</b>. The large forwards pointing arrow shows the direction in which the tractor will move in order to put the middle mounted implement in correct position for attachment to the tractor.</p>
+    <p id="p-0076" num="0075"><figref idref="DRAWINGS">FIG. 8A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, showing the tractor having lowered its dolly wheels <b>700</b> and with a movable frame <b>250</b> in a raised, wheels-up position approaching a middle mounted implement <b>500</b> in the direction indicated by the large arrow.</p>
+    <p id="p-0077" num="0076"><figref idref="DRAWINGS">FIG. 8B</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, showing the tractor having raised its dolly wheels (they are now hidden from view) and with a movable frame <b>250</b> in a lowered, wheels-down position having attached a middle mounted implement <b>500</b> thereto.</p>
+    <p id="p-0078" num="0077"><figref idref="DRAWINGS">FIG. 9A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting front and rear attachment bars <b>530</b> and <b>540</b> locked into place. The locking mechanism for the front attachment bar <b>530</b> utilizes a front lock <b>531</b> shaped so as to engage the front attachment bar <b>530</b> and lock it into place against the front attachment point <b>221</b>. This is accomplished via the forward pushing action of a front lock hydraulic <b>535</b>, transfer of that motion through a front lock transfer bar <b>533</b> via a transfer bar pin <b>534</b>, causing the bottom of the transfer bar <b>533</b> to move rearward. The bottom of the transfer bar <b>533</b> is attached to a front lock link <b>532</b> which is itself attached to the front lock <b>531</b>. Thus, when the bottom of the transfer bar is moved rearwards, it pulls the link <b>532</b> and the front lock <b>531</b> rearwards as well, engaging the front attachment bar <b>530</b> between the front lock <b>531</b> and the front attachment point <b>221</b>.</p>
+    <p id="p-0079" num="0078">Once the front attachment point <b>221</b> is locked in place, the operator of the tractor can retract the extendable beam <b>211</b> into the receiving beam <b>213</b>, thereby engaging the rear attachment bar <b>530</b> against the rear attachment point <b>223</b>. A rear lock <b>543</b> can then be placed on the rear attachment bar <b>540</b> to ensure it stays in place. In the embodiment shown in <figref idref="DRAWINGS">FIG. 9A</figref> a chain is shown, in other embodiments, other locking means are contemplated.</p>
+    <p id="p-0080" num="0079">Although <figref idref="DRAWINGS">FIG. 9A</figref> only shows the left side of the tractor, a similar apparatus can be utilized on the right side. It is also important to understand that, in one embodiment, the attachment bars <b>530</b> and <b>540</b> are built onto or pre-attached to each implement that is to be used with the tractor <b>1000</b>. In another embodiment, the attachment bars <b>530</b> and <b>540</b> are not permanently affixed to the implements but can instead be interchanged. In any case, since the bars <b>530</b> and <b>540</b> serve as the means of connection between implements and the tractor, they must be built to withstand extreme forces and punishment. In yet other embodiments, other means of connecting the implements to the tractor are contemplated.</p>
+    <p id="p-0081" num="0080"><figref idref="DRAWINGS">FIG. 9B</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting alternatively shaped and sized front and rear attachment bars <b>530</b> and <b>540</b> locked into place. Notice that the shapes and sizes of the attachment bars <b>530</b> and <b>540</b> can vary and yet remain compatible with the attachment components shown in <figref idref="DRAWINGS">FIG. 9A</figref>.</p>
+    <p id="p-0082" num="0081"><figref idref="DRAWINGS">FIG. 9C</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting disconnected front and rear attachment bars <b>530</b> and <b>540</b>. In this view, it is apparent that the front lock <b>531</b> has been unlocked and swung forward to disconnect the front attachment bar <b>530</b> from the front attachment point <b>221</b>. The front lock link <b>532</b> allows the front lock <b>531</b> to swivel such that the entire front lock <b>531</b> can be swung downwards, far away from the front attachment bar <b>530</b> to allow plenty of working-room when positioning the tractor relative to the middle mounted implement in order to mount the implement thereon.</p>
+    <p id="p-0083" num="0082"><figref idref="DRAWINGS">FIG. 10</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the left side dolly wheels assembly <b>700</b> in a raised position. The right side dolly wheels could be a mirror image or a duplicate.</p>
+    <p id="p-0084" num="0083">The dolly wheels assembly <b>700</b> utilizes dolly wheels <b>701</b> and <b>702</b> on an axle <b>705</b>. Retainer pins <b>707</b> and <b>709</b> retain the wheels on the axle (other wheel retention mechanisms are contemplated). The lower strut <b>711</b> connects the axle to the rest of the assembly. As can be seen by the dashed-line continuation of the lower strut <b>711</b>, a significant portion of the lower strut <b>711</b> is retained inside the upper strut <b>715</b> when the dolly wheels assembly <b>700</b> is in a raised position.</p>
+    <p id="p-0085" num="0084">As the dolly hydraulic cylinder <b>713</b> extends, the force is transferred to extend the lower strut <b>711</b> by swinging down the upper extension members <b>731</b> and <b>741</b> which are attached to the dolly cylinder <b>713</b> via the cylinder cross member <b>735</b>. The lower extension members <b>733</b> and <b>743</b> are attached to the upper extension members <b>731</b> and <b>741</b> which are attached at their other ends to the dolly side beams <b>314</b> and <b>717</b>, respectively. The beams <b>314</b> and <b>717</b> are a part of the middle frame assembly <b>300</b>. All of the aforesaid connections are pivotally attached via pins, or some similar method that allows the attachment points to pivot. Thus, as the hydraulic cylinder <b>713</b> extends, the upper extension members <b>731</b> and <b>741</b> and lower extension members <b>733</b> and <b>743</b> are forced to scissor open. This scissoring action causes the extension members to extend downwards, causing the lower strut <b>711</b> to be drawn out of the upper strut <b>715</b>, thereby extending the dolly wheels <b>701</b> and <b>703</b> downwards and forwards. It is important to note that the upper strut <b>715</b> is attached to the frame of the tractor with a pivot pin <b>721</b> as well.</p>
+    <p id="p-0086" num="0085"><figref idref="DRAWINGS">FIG. 11</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the left side dolly wheels in a partially lowered position. Some of the components of the dolly wheels described above are illustrated in this view. Specifically, the scissoring action of the upper extension member <b>731</b> relative to the lower extension member <b>733</b> is apparent as they extend partially downwards.</p>
+    <p id="p-0087" num="0086"><figref idref="DRAWINGS">FIG. 12</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the left side dolly wheels in a lowered position. Some of the components of the dolly wheels described above are illustrated in this view. Specifically, the scissoring action of the upper extension member <b>731</b> relative to the lower extension member <b>733</b> is apparent when comparing this view to <figref idref="DRAWINGS">FIG. 12</figref> as the extension members <b>731</b> and <b>733</b> are fully extended downwards here.</p>
+    <p id="p-0088" num="0087">The dolly wheel assemblies <b>700</b> are provided to allow the operator to detach an implement and attach another one without having to slide the implement under the movable main frame assemble from the side or zigzagging the tractor over the implement from the side. The dolly wheels consist of left and right side pairs that may be raised and lowered using hydraulic cylinders. They are located underneath the front area of the cab floor and are connected to the frame. Similar to retractable landing gear on aircraft, these wheels are normally in the raised position; tucked up underneath the cab. They are lowered using a scissor and sliding action so that they touch the ground just in front of the cab as seen in <figref idref="DRAWINGS">FIG. 12</figref> and will support the weight of the entire front portion of the tractor.</p>
+    <p id="p-0089" num="0088">For normal operations, the dolly wheels remain in the upper position. The lowering operation begins with the extension of the hydraulic cylinder which is pivotally connected at its rearward end to the rear main frame. As the forward end of the cylinder extends, it causes a scissor action extension with parallel arms which are pivotally connected. Note that the forward ends of the extension members <b>731</b> and <b>741</b> are pivotally connected to the middle frame assembly <b>300</b>. The forward ends of the extension members <b>733</b> and <b>743</b> are pivotally connected to a lower strut <b>711</b>. This action begins to lower both struts which telescope towards the front and downwards, allowing the double pairs of dolly wheels to contact the ground below and slightly ahead of the cab. Retracting the cylinder reverses this motion raising the dolly wheels.</p>
+    <p id="p-0090" num="0089"><figref idref="DRAWINGS">FIG. 13</figref> illustrates a front elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the cab interior configuration showing the fold-down nature of the main dash <b>800</b>. The broken line shows the main dash <b>800</b> in its stored position while the double-ended arrow depicts the directions of movement for the unfolding/folding motions. The result of unfolding is the main dash <b>800</b> shown in its fully deployed position in <figref idref="DRAWINGS">FIG. 13</figref>. Also shown are the operator and passenger seats <b>880</b> and <b>882</b>. In other embodiments, more conventional, non-folding dash components may be utilized.</p>
+    <p id="p-0091" num="0090"><figref idref="DRAWINGS">FIG. 14</figref> illustrates a left side perspective view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the main dash <b>800</b> in a deployed configuration. There are a number of representative switches, gauges, controls, etc., that are shown as potential environmental variables. The main dash <b>800</b> could itself employ any number of configurations of controls, dials, gauges, etc. In one embodiment, the main dash <b>800</b> may contain an electronic touch screen computer <b>810</b> and a first and second steering wheel <b>820</b> and <b>825</b> (preferably slaved to one another so that if either is turned the other turns as well) for turning the front wheels. The electronic touch screen computer <b>810</b> can include readouts of all important tractor systems, characteristics, use statistics, etc. It can be actuated by touch to change readouts and perform functions throughout the tractor, implements, consumables carriage, etc. Possible display items include, but are not limited to: miles per hour, fuel level, fuel use per hour, engine temperature, hydraulic fluid temperature, ambient temperature, GPS coordinates, auto-drive control and alignment systems, implement controls (such as setting the depth the implement works the soil), spraying metrics (such as coverage, rate of use, remaining amounts), video images from one or more cameras mounted on the tractor and/or implements, etc. A dash hinge <b>805</b> is visible as is the dash support <b>803</b> and dash lock <b>801</b>.</p>
+    <p id="p-0092" num="0091">A unique main dash <b>800</b> can be positioned forward of the operator's seat <b>880</b> and might be described as a lap console. This console can pivot at a point <b>805</b> on its right side to facilitate raising it to allow the operator to be seated or to leave the seat. When the operator is seated, the lap console can be pivotally lowered to a position which can span across the operator's lap, just above his legs to allow for comfortable movement. When this console is lowered it will click into a horizontal position with a dash lock <b>801</b> that can be similar to a seat belt type connector. This connection can also be part of a larger automatic seat belt restraining mechanism located underneath the lap console and continuing down both sides of the seat. Such a system would employ a seat belt that will remain loose above the operator (underneath the console) until it will be actuated (and thus tightened) in the event of a crash or rollover.</p>
+    <p id="p-0093" num="0092">The lap console contains two small steering wheels <b>820</b> and <b>825</b> in place of a conventional single large steering wheel normally positioned directly in front of the operator. In one embodiment, the two small steering wheels&#x2014;one for the left hand and one for the right hand&#x2014;can be placed in front of the arm rests on each side of the operator's seat <b>880</b>. These steering wheels can be linked together so the operator may steer with either hand (or both) at any time. An electronic touch screen computer <b>810</b> can be placed between the steering wheels directly in front of the operator. This touch screen can be used for controlling many of the tractor's functions as well as all currently available &#x201c;apps&#x201d; or applications, such as GPS guidance, sprayer setup and information systems, browsing the Internet, communications, video images from one or more cameras mounted on the tractor and/or implements, and telemetry. Also contained in the lap console can be a plurality of switches <b>830</b> for controlling the tractor functions such as lifting and lowering the moveable frame and dolly wheels and controlling functions of a sprayer, planter, etc. Sensors/positioners can be attached throughout the tractor <b>1000</b> and automated responses can be programmed in based on readings/conditions/alerts or the system can provide data back to the operator so he can respond manually. The system can also employ GPS to assist the operator in guiding the tractor during field operations.</p>
+    <p id="p-0094" num="0093"><figref idref="DRAWINGS">FIG. 15A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left rear caster wheel assembly <b>555</b>. Load bearing caster wheels <b>551</b> are positioned in the rear of the tractor on both sides and follow the same wheel tracks as the rear tires. The caster wheels <b>551</b> are located to the rear of an elongated arm <b>560</b> which pivots up and down at a point <b>561</b> on a shaft <b>562</b> connected to the rear main frame. The weight of the rear of the tractor, and in particular, the weight of the consumables carriage carried thereon, is transmitted to the caster wheels through an adjustable air bag <b>570</b> placed near the center of the elongated arm. Air bags are chosen over a coil spring so that the operator may adjust the amount of weight that is placed on the caster wheels with the remainder of the weight being placed on the rear wheels. This adjustment can be accomplished by switches, valves, and gauges from the cab.</p>
+    <p id="p-0095" num="0094"><figref idref="DRAWINGS">FIG. 15B</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left rear caster wheel assembly <b>555</b>. The same components as in <b>15</b>A are shown, except for the addition of the shaft <b>562</b>. The shaft <b>562</b> can be an axle-like rod that extends out from the frame. This leads out to a pivot point <b>561</b> that has a lynch pin or large cotter pin. The wheel <b>551</b> itself can be a simple wheel and tire, as known in the industry. In another embodiment, standard aircraft tires, for example, fifteen or sixteen ply, can be used. The caster wheel pin that goes up through the elongated arm <b>560</b> can have a keeper pin. The wheel can spin through 360 degrees+ like a typical caster.</p>
+    <p id="p-0096" num="0095"><figref idref="DRAWINGS">FIG. 15C</figref> illustrates a rear elevation view of an exemplary embodiment of a middle mounted implement tractor, highlighting the left rear caster wheel assembly <b>555</b>. In one embodiment, the air bags <b>570</b> are able to displace the rear frame assembly up to fifteen inches vertically in height, or more.</p>
+    <p id="p-0097" num="0096"><figref idref="DRAWINGS">FIG. 16A</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage <b>1000</b>, highlighting a consumables carriage <b>1200</b> and the left rear caster wheel assembly <b>555</b>. The consumables carriage <b>1200</b> is shown in <figref idref="DRAWINGS">FIG. 16A</figref> as already loaded onto the tractor <b>1000</b>. Given that one, two, or more carriages can be loaded on the rear frame assembly <b>400</b> of the tractor <b>1000</b>, and, depending on the carriages' contents, they can weigh hundreds to thousands of pounds each, the utility of the castor wheel assemblies <b>555</b> becomes more apparent.</p>
+    <p id="p-0098" num="0097"><figref idref="DRAWINGS">FIG. 16B</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting the rear caster wheels <b>555</b>. Note that the height of each caster wheel <b>551</b> relative to the rear frame <b>400</b> can be adjustable independently. Furthermore, either or both of the assemblies can be easily removable.</p>
+    <p id="p-0099" num="0098"><figref idref="DRAWINGS">FIG. 17</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting a frame mover mechanism <b>1100</b> with the movable frame <b>250</b> in a raised position. The moveable frame <b>250</b> is movable up or down with respect to the rear frame assembly <b>400</b> and the ground below. In the up or raised position, the movable main frame <b>250</b> is designed to &#x201c;carry&#x201d; an implement above the ground for transporting or turning at the end of the field. When lowered, the movable frame <b>250</b> allows the implement to assume its &#x201c;in the ground&#x201d; working position.</p>
+    <p id="p-0100" num="0099">In order to effect movement of the moveable frame <b>250</b> via the frame mover mechanism <b>1100</b>, a number of subcomponents can be employed as follows. The movable frame <b>250</b> can be connected, via one or more chains <b>1135</b> or other stout but flexible means, to a pivoting mount <b>1142</b> on the middle frame assembly <b>300</b> near the rear of vertical beams <b>311</b> and <b>312</b> (note, only one apparatus is shown in <figref idref="DRAWINGS">FIG. 17</figref>, however, a second similar apparatus (or more than two) can be emplaced on the middle frame <b>300</b> as desired). Located to the outside and rearward of the vertical beam <b>311</b> is a mounted hydraulic cylinder <b>1138</b>. Atop this cylinder is a roller chain idler sprocket <b>1139</b>. A roller chain <b>1135</b> passes over this sprocket and its rearward end is connected to the middle frame assembly <b>300</b> while its forward end is connected to the rear of the moveable frame assembly <b>250</b>. When the one or more cylinders <b>1138</b> extend, the moveable frame <b>250</b> will rise. Similarly, when they retract, the movable frame <b>250</b> will be lowered. Although the frame mover mechanism <b>1100</b> is illustrated in <figref idref="DRAWINGS">FIG. 17</figref> as being positioned in close proximity to the vertical beams <b>311</b> and <b>312</b>, it can be placed further back on the middle frame <b>300</b> (requiring, of course, that the rear end of the moveable frame assembly also be extended past the vertical beams <b>311</b> and <b>312</b>) in order to take advantage of principles of leverage, as needed.</p>
+    <p id="p-0101" num="0100">Additionally, the movable frame <b>250</b> can be repositionable via direct hydraulic action or any other suitable means. Because of the potentially large weight of the movable frame <b>250</b> and attached assemblages and implements, a system of counterweights may also be attached further back from the vertical beams <b>311</b> and <b>312</b> on the movable frame <b>250</b>. In such a case, the cylinder assembly can be repositioned inboard or outboard to avoid any needed rearward extension of the movable frame <b>250</b>. In the embodiment illustrated in <figref idref="DRAWINGS">FIG. 17</figref>, the movable frame <b>250</b> is connected to the middle frame <b>300</b>. In alternate embodiments, because the middle frame <b>300</b> can be fixedly connected to the rear frame <b>400</b>, the frame mover mechanism <b>1100</b> can be connected to the rear frame <b>400</b> instead of or in addition to the middle frame <b>300</b>.</p>
+    <p id="p-0102" num="0101">The embodiment of the frame mover mechanism <b>1100</b> illustrated in <figref idref="DRAWINGS">FIG. 17</figref> is adapted to allow the movable frame <b>250</b> (and any middle mounted implement attached thereto) to float as the tractor moves. Thus, if a middle mounted implement where to impact concrete, bedrock, or another similarly non-giving impediment, the entire movable frame <b>250</b> would rise up and allow the implement to traverse over the impediment without causing the entire tractor to be violently flung upwards.</p>
+    <p id="p-0103" num="0102"><figref idref="DRAWINGS">FIG. 18</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting a swinging motion of a left cab door <b>362</b> on the cab <b>360</b>.</p>
+    <p id="p-0104" num="0103">The cab door <b>362</b> is shown in <figref idref="DRAWINGS">FIG. 18</figref> in the closed position. To open the door, a handle or other actuator (not shown) is used to free the door from the surrounding cab, and then the door <b>362</b> swings or slides front to rear without needing to employ a track. Instead, long swing arms <b>364</b> and <b>365</b> are used. They pivot at points near their top ends <b>361</b> and <b>363</b> and their bottom ends, and being attached to the door <b>362</b>, they carry the door backwards as they swing back. The broken lines in <figref idref="DRAWINGS">FIG. 18</figref> illustrate the position of the swing arms <b>364</b> and <b>365</b> when the door <b>362</b> is in the open position.</p>
+    <p id="p-0105" num="0104"><figref idref="DRAWINGS">FIG. 19</figref> illustrates a rear elevation view of an exemplary embodiment of a middle mounted implement tractor <b>1000</b>, highlighting a swinging motion of a rear cab door <b>366</b>. The rear cab door <b>366</b> can open by swinging to the right to provide access in and out of the rear of the cab. This door can be located to the rear of the second seat <b>882</b> which can pivot forward at its floor mount, thereby providing a pathway to the rear door <b>366</b>. This rear door not only provides an egress but also access to the consumables carriages (particularly any sprayer tanks, associated valves, etc.). In a similar fashion as the main cab door <b>362</b> in <figref idref="DRAWINGS">FIG. 18</figref>, the rear door <b>366</b> can be hung using two parallel bars <b>367</b> and <b>368</b> which pivot at points <b>373</b> and <b>374</b>. When the door opens, it swings slightly downwards and then goes back into the same level position, but offset a considerable distance to the right.</p>
+    <p id="p-0106" num="0105"><figref idref="DRAWINGS">FIG. 20</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage <b>1000</b>, highlighting a loaded consumables carriage assembly <b>1200</b> with a closed loading ramp <b>1250</b>. The consumables carriage <b>1210</b> rides on track rails <b>1220</b> mounted on the rear frame <b>400</b>. When the loading ramp <b>1250</b> is in its upright, closed position, the carriage <b>1210</b> is secured onto the tractor <b>1000</b>. In the embodiment shown in <figref idref="DRAWINGS">FIG. 20</figref>, only one consumables carriage is shown; in other embodiments, two, three, or more carriages are contemplated. The carriages can carry tanks, sprays, seeds, or any other agricultural product (or similar items) as needed.</p>
+    <p id="p-0107" num="0106">For example, the consumables carriage assembly <b>1200</b> can include a choice of different containers. In <figref idref="DRAWINGS">FIG. 20</figref>, a dry container <b>1230</b> for seed or dry fertilizer is shown. Additionally, liquid tanks such as tank <b>1236</b>, may contain water, liquid fertilizer, or sprayer solutions. Another option would be pressurized tanks for materials such as anhydrous ammonia. As contemplated in the embodiment of <figref idref="DRAWINGS">FIG. 20</figref>, two consumables carriages <b>1210</b> are placed side-by-side behind the cab <b>360</b>. The side-by-side configuration allows for more flexibility as the carriages can be loaded separately onto the track rails <b>1220</b>.</p>
+    <p id="p-0108" num="0107">The carriage system allows an operator to transfer the whole system at once from a flatbed trailer or truck onto the tractor. The consumables carriage <b>1210</b> comprises a flat, pallet-like top on rollers and can be constructed to be interchangeable and easily swapped in and out. An air system or other means for moving seeds, sprays, and other consumables can be placed underneath the carriage assembly <b>1200</b> to move the seeds and other consumables to the middle mounted implement (or other locations). For example, the implement can be a sprayer boom and liquids are transferred from the consumables carriage tank <b>1236</b> to the sprayer boom.</p>
+    <p id="p-0109" num="0108"><figref idref="DRAWINGS">FIG. 21</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage <b>1000</b>, highlighting a loaded consumables carriage assembly <b>1200</b> with an open loading ramp <b>1250</b>. The ramp has a hinge <b>1251</b> that allows it to be swung downward by retraction of the ramp hydraulics <b>1257</b> that are attached to the ramp <b>1250</b> by a ramp arm <b>1255</b>. The ramp hydraulics <b>1257</b> can be attached to the rear frame <b>400</b> by a ramp clevis and pin <b>1259</b> or by other means. It is contemplated that manual and/or automated locking mechanisms can be used to lock the ramp in various positions as well as to lock/unlock the carriages <b>1210</b> to/from the tractor <b>1000</b>.</p>
+    <p id="p-0110" num="0109"><figref idref="DRAWINGS">FIG. 22</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage <b>1000</b>, highlighting an open loading ramp <b>1250</b> and a truck <b>1300</b> carrying a consumables carriage <b>1210</b> ready to be loaded.</p>
+    <p id="p-0111" num="0110">The consumables can be transferred to and from a flatbed truck or trailer to the tractor using a plurality of roller-equipped transfer carriages <b>1210</b>. Since the transfer system is automated, an operator may quickly exchange empty tanks for full ones, or change to a different type of tank without leaving the field.</p>
+    <p id="p-0112" num="0111">In a working operation, the truck or flatbed trailer, etc., with carriages secured to the bed would travel to a location such as a seed dealer or fertilizer distributor and they would place the prefilled material tanks (such as the seed, fertilizer, etc.) on top of the carriages with a forklift (which is necessary for all customers buying pallets of items). After the material tanks are secured to the carriages, the driver proceeds to the field and approaches the rear of the tractor <b>1000</b>. The tractor operator then reverses the tractor to the side of the trailer as in <figref idref="DRAWINGS">FIG. 22</figref> and lowers the loading ramps <b>1250</b> with the ramp hydraulics <b>1257</b> (only one cylinder is shown in <figref idref="DRAWINGS">FIG. 22</figref>, but each ramp can be equipped with a cylinder, or two or more ramps could be actuated using a single cylinder). Aligning the lowered ramps with the rollers on the carriage <b>1210</b>, the operator allows the rearward end of the ramps to rest on the flatbed just touching the first roller <b>1211</b> and then uses the loading system to move the carriages <b>1210</b> onto the tractor <b>1000</b>. Although not shown in <figref idref="DRAWINGS">FIG. 22</figref>, it is contemplated that the entire carriage assembly <b>1200</b> on the back of the tractor <b>1000</b> may be constructed such that it can slide left and right in order to easily line up the heavy carriages on the truck <b>1300</b> with the loading ramps <b>1250</b>. Alternatively, the track rails <b>1220</b> and loading ramps <b>1250</b> can be the only components that shift side-to-side.</p>
+    <p id="p-0113" num="0112">Built into the tractor is a means to hydraulically move the carriages <b>1210</b> from the flatbed trailer or truck <b>1300</b> onto the rear frame <b>400</b> of the tractor and then back to the truck <b>1300</b> when necessary. The loading means comprises a hydraulic loading cylinder <b>1270</b> and a load hook <b>1272</b>. Built into the carriages <b>1210</b> are a serious of hook pins <b>1212</b>. In order to load a carriage <b>1210</b> from a truck <b>1300</b> to the tractor <b>1000</b>, the load cylinder <b>1270</b> is extended and the load hook <b>1272</b> is placed around a hook pin <b>1212</b>. The cylinder is then retracted, thereby pulling the carriage and its load up onto the loading ramp <b>1250</b>. As shown in <figref idref="DRAWINGS">FIG. 23</figref>, multiple iterations of retracting the cylinder and moving the load hook to progressively more distant hook pins <b>1212</b> may be necessary to load the carriage completely onto the tractor <b>1000</b>. In another embodiment, winches may be utilized to pull the carriages onto the tractor.</p>
+    <p id="p-0114" num="0113">In order to ensure that the carriages <b>1210</b> do not roll backwards, automatic brakes can be built into the wheel systems they use such that any unwanted down or back motion is restricted while loading. It is contemplated that multiple carriages <b>1210</b> can be loaded onto the tractor <b>1000</b>. Additional hydraulic loading cylinders <b>1270</b>, ramps <b>1250</b>, etc. may be utilized.</p>
+    <p id="p-0115" num="0114"><figref idref="DRAWINGS">FIG. 23</figref> illustrates a left side elevation view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage <b>1000</b>, highlighting a consumables carriage <b>1210</b> being loaded. As noted in the <figref idref="DRAWINGS">FIG. 22</figref> description above, multiple iterations of moving the loading cylinder <b>1270</b> and load hook <b>1272</b> to more distant load pins <b>1212</b> may be necessary to move the carriage <b>1210</b> all the way onto or off of the tractor <b>1000</b>. In <figref idref="DRAWINGS">FIG. 23</figref>, the carriage <b>1210</b> has been moved almost completely off the truck and onto the load ramp <b>1250</b>. Further retraction of the load cylinder <b>1270</b> should move the carriage almost halfway onto the track rails <b>1220</b> and then only a single additional iteration should be required to finish the load process. As can be seen by the angle at which the tanks, etc. are placed while the carriage is being loaded, the materials on the carriages should be strapped down prior to attempting to load them onto the tractor <b>1000</b>.</p>
+    <p id="p-0116" num="0115">Once the carriages are in place on the tractor, the operator makes the necessary connections to allow the consumable products to move to the implement. In the case of a dry product such as seed or fertilizer, the operator opens the door on the bottom of the material tank, letting the product flow into a funnel type receiver built into the tractor. From there, perhaps using an air transfer method, the material can be moved forward through piping to the implement in the center of the tractor. Liquid material can be transferred using currently available pumping and piping to a sprayer boom or implement such as a liquid fertilizer applicator.</p>
+    <p id="p-0117" num="0116">It should be noted that when the carriages are in place on the rear of the tractor, they are positioned above the mechanical parts of the tractor which include the engine, transmission, hydraulic pumps, etc. None of these components are illustrated in the drawing Figures for clarity in illustrating the other components.</p>
+    <p id="p-0118" num="0117"><figref idref="DRAWINGS">FIG. 24</figref> illustrates a top plan view of an exemplary embodiment of a middle mounted implement tractor and a consumables carriage <b>1000</b>, highlighting a first consumables carriage <b>1210</b> being loaded and a second consumables carriage <b>1410</b> awaiting loading. As can be seen in this top plan view, each carriage <b>1210</b>/<b>1410</b> can utilize two loading ramps <b>1250</b>. In a standard configuration, there is room for four loading ramps and two carriages on the rear frame <b>400</b> of the tractor <b>1000</b>. In other configurations, a single carriage or three or more can be loaded.</p>
+    <p id="p-0119" num="0118">The first carriage <b>1210</b> that is being loaded in <figref idref="DRAWINGS">FIG. 24</figref> is utilizing a pair of loading cylinders <b>1270</b>. In other embodiments, a single loading cylinder may be used. Also shown in <figref idref="DRAWINGS">FIG. 24</figref> is a third loading cylinder <b>1270</b> attached to the waiting carriage <b>1410</b>. Once the middle loading cylinder <b>1270</b> has finished loading the first carriage <b>1210</b>, it can be retasked to assist in the loading of the waiting carriage <b>1410</b>.</p>
+    <p id="p-0120" num="0119"><figref idref="DRAWINGS">FIG. 25</figref> illustrates a perspective view from the rear showing the front right knee assembly. As can be seen in close-up in <figref idref="DRAWINGS">FIG. 25</figref>, the rotating shaft <b>186</b> fits within the wheel knee <b>106</b>. The pivotal axle frame <b>107</b> is attached to the wheel knee <b>106</b> as is the vertical extension <b>119</b>. The rotating shaft <b>186</b> can turn within the wheel knee <b>106</b>. Since the spindle <b>104</b> is attached to the rotating shaft <b>186</b>, it should be clear that by turning the shaft <b>186</b>, the operator also rotates the spindle <b>104</b>. And as the spindle <b>104</b> is attached to the front wheel <b>3</b>, the wheel <b>3</b> is consequently turned as well (see <figref idref="DRAWINGS">FIGS. 4 and 5</figref> for more information).</p>
+    <p id="p-0121" num="0120"><figref idref="DRAWINGS">FIG. 26</figref> illustrates a side elevation view of an embodiment that utilizes a type of integrated pallet fork mechanism instead of a consumables carriage approaching a flatbed truck containing pallets of consumables;</p>
+    <p id="p-0122" num="0121"><figref idref="DRAWINGS">FIG. 27</figref> illustrates a side elevation view of an embodiment that utilizes a type of integrated pallet fork mechanism instead of a consumables carriage abutting a flatbed truck containing pallets of consumables;</p>
+    <p id="p-0123" num="0122"><figref idref="DRAWINGS">FIG. 28</figref> illustrates the pallet fork mechanism lifting and moving two pallets from the truck to the tractor;</p>
+    <p id="p-0124" num="0123"><figref idref="DRAWINGS">FIG. 29</figref> illustrates the pallet fork mechanism lifting and moving two pallets from the truck to the tractor;</p>
+    <p id="p-0125" num="0124"><figref idref="DRAWINGS">FIG. 30</figref> illustrates the pallet fork mechanism lifting and moving two pallets from the truck to the tractor;</p>
+    <p id="p-0126" num="0125"><figref idref="DRAWINGS">FIG. 31</figref> illustrates the pallet fork mechanism in a stowed configuration with two pallets recently loaded onto the tractor;</p>
+    <p id="p-0127" num="0126"><figref idref="DRAWINGS">FIG. 32</figref> is a top plan view illustrating the pallet fork mechanism;</p>
+    <p id="p-0128" num="0127"><figref idref="DRAWINGS">FIG. 33</figref> is a top plan view illustrating the pallet fork mechanism;</p>
+    <p id="p-0129" num="0128"><figref idref="DRAWINGS">FIG. 34</figref> illustrates components of the pallet fork mechanism;</p>
+    <p id="p-0130" num="0129"><figref idref="DRAWINGS">FIGS. 35A and 35B</figref> illustrate components of the pallet fork mechanism;</p>
+    <p id="p-0131" num="0130"><figref idref="DRAWINGS">FIGS. 36A and 36B</figref> illustrate components of the pallet fork mechanism;</p>
+    <p id="p-0132" num="0131"><figref idref="DRAWINGS">FIGS. 37A and 37B</figref> illustrate components of the pallet fork mechanism; and</p>
+    <p id="p-0133" num="0132"><figref idref="DRAWINGS">FIG. 38</figref> illustrates components of the pallet fork mechanism.</p>
+    <p id="p-0134" num="0133">While particular embodiments of the invention have been described and disclosed in the present application, it should be understood that any number of permutations, modifications, or embodiments may be made without departing from the spirit and scope of this invention. Accordingly, it is not the intention of this application to limit this invention in any way except as by the appended claims.</p>
+    <p id="p-0135" num="0134">Particular terminology used when describing certain features or aspects of the invention should not be taken to imply that the terminology is being redefined herein to be restricted to any specific characteristics, features, or aspects of the invention with which that terminology is associated. In general, the terms used in the following claims should not be construed to limit the invention to the specific embodiments disclosed in the specification, unless the above &#x201c;Detailed Description&#x201d; section explicitly defines such terms. Accordingly, the actual scope of the invention encompasses not only the disclosed embodiments, but also all equivalent ways of practicing or implementing the invention.</p>
+    <p id="p-0136" num="0135">The above detailed description of the embodiments of the invention is not intended to be exhaustive or to limit the invention to the precise embodiment or form disclosed herein or to the particular field of usage mentioned in this disclosure. While specific embodiments of, and examples for, the invention are described above for illustrative purposes, various equivalent modifications are possible within the scope of the invention, as those skilled in the relevant art will recognize. Also, the teachings of the invention provided herein can be applied to other systems, not necessarily the system described above. The elements and acts of the various embodiments described above can be combined to provide further embodiments.</p>
+    <p id="p-0137" num="0136">In light of the above &#x201c;Detailed Description,&#x201d; the Inventor may make changes to the invention. While the detailed description outlines possible embodiments of the invention and discloses the best mode contemplated, no matter how detailed the above appears in text, the invention may be practiced in a myriad of ways. Thus, implementation details may vary considerably while still being encompassed by the spirit of the invention as disclosed by the inventor. As discussed herein, specific terminology used when describing certain features or aspects of the invention should not be taken to imply that the terminology is being redefined herein to be restricted to any specific characteristics, features, or aspects of the invention with which that terminology is associated.</p>
+    <p id="p-0138" num="0137">While certain aspects of the invention are presented below in certain claim forms, the inventor contemplates the various aspects of the invention in any number of claim forms. Accordingly, the inventor reserves the right to add additional claims after filing the application to pursue such additional claim forms for other aspects of the invention.</p>
+    <p id="p-0139" num="0138">The above specification, examples and data provide a description of the structure and use of exemplary implementations of the described systems, articles of manufacture and methods. It is important to note that many implementations can be made without departing from the spirit and scope of the disclosure.</p>
+    <?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+    <claim id="CLM-00001" num="00001">
+        <claim-text>1. A middle mounted implement tractor, comprising:
+            <claim-text>a front frame assembly having a fixed forward frame assembly, a front wheel assembly, a left plurality of pivoting stabilizing arms and a right plurality of pivoting stabilizing arms;</claim-text>
+            <claim-text>the front wheel assembly having a left front wheel assembly including a left front wheel and a right front wheel assembly including a right front wheel;</claim-text>
+            <claim-text>a mounting frame assembly pivotably attached to the front frame assembly, the mounting frame assembly adapted to mount a middle mounted implement;</claim-text>
+            <claim-text>wherein the front frame assembly is adapted to pivotably raise and lower relative to the mounting frame assembly such that the left and right front wheels can be raised and lowered relative to the mounting frame assembly;</claim-text>
+            <claim-text>a movable frame assembly comprising the front frame assembly and the mounting frame assembly;</claim-text>
+            <claim-text>a middle frame assembly movably attached to the mounting frame assembly and configured such that the movable frame assembly can be raised and lowered relative to the middle frame assembly;</claim-text>
+            <claim-text>a rear frame assembly attached to the middle frame assembly and having a left rear wheel and a right rear wheel;</claim-text>
+            <claim-text>wherein the front wheel assembly pivots on a pivot point attached at a center of the fixed forward frame assembly;</claim-text>
+            <claim-text>a left plurality of weight bearing arms pivotably connects a fixed forward frame assembly left portion to a mounting frame assembly left portion and a right plurality of weight bearing arms pivotably connects a fixed forward frame assembly right portion to a mounting frame assembly right portion;</claim-text>
+            <claim-text>the left plurality of pivoting stabilizing arms are pivotably attached to the mounting frame assembly left portion and the right plurality of pivoting stabilizing arms are pivotably attached to the mounting frame assembly right portion;</claim-text>
+            <claim-text>wherein the mounting frame comprises a first implement attachment point and a second implement attachment point which are adapted to removably attach a middle mounted implement to the tractor;</claim-text>
+            <claim-text>the middle frame comprises a tractor cab, a plurality of dolly wheels, and a vertical frame attachment assembly adapted to vertically raise and lower the movable frame assembly relative to the middle frame;</claim-text>
+            <claim-text>wherein the rear frame further comprises a pallet fork assembly to allow loading and unloading of a loaded pallet or container with a pallet style base from a flatbed trailer onto the rear frame of the tractor;</claim-text>
+            <claim-text>the pallet fork assembly comprising: a pair of extended forks supported on a tractor mounted load bearing fixed track by load bearing rollers which can be hydraulically raised or lowered by a fork lifting mechanism;</claim-text>
+            <claim-text>a hydraulic mechanism utilized to move the pair of extended forks from a rear of the tractor along the load bearing fixed track onto a flat surface such as the bed of a trailer and then return to the rear of the tractor;</claim-text>
+            <claim-text>the fork lifting mechanism capable of raising or lowering the pair of extended forks when on the flat surface or when on the load bearing fixed track; and</claim-text>
+            <claim-text>a load securing fence at the rear of the fixed track to secure the pair of extended forks and the loaded pallet or container with a pallet style base on the rear of the tractor.</claim-text>
+        </claim-text>
+    </claim>
+    <claim id="CLM-00002" num="00002">
+        <claim-text>2. The middle mounted implement tractor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+            <claim-text>the left front wheel assembly further comprising a left spindle, a left rotating shaft fitted within a left wheel knee, and a left vertical extension;</claim-text>
+            <claim-text>the right front wheel assembly including a right spindle, a right rotating shaft fitted within a right wheel knee, and a right vertical extension;</claim-text>
+            <claim-text>the left plurality of stabilizing arms are pivotably connected to the left vertical extension and are adapted to keep the left wheel knee vertical; and</claim-text>
+            <claim-text>the right plurality of stabilizing arms are pivotably connected to the right vertical extension and area adapted to keep the right wheel knee vertical.</claim-text>
+        </claim-text>
+    </claim>
+    <claim id="CLM-00003" num="00003">
+        <claim-text>3. The middle mounted implement tractor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising:
+            <claim-text>the left plurality of weight bearing arms pivotably attach to a left plurality of weight bearing arm attachment clevises on the fixed forward frame assembly left portion;</claim-text>
+            <claim-text>the right plurality of weight bearing arms pivotably attach to a right plurality of weight bearing arm attachment clevises on the fixed forward frame assembly right portion; and</claim-text>
+            <claim-text>wherein the left and right pluralities of weight bearing arms are adapted to bear a weight of a front portion of the tractor and any middle mounted implement attached thereto.</claim-text>
+        </claim-text>
+    </claim>
+    <claim id="CLM-00004" num="00004">
+        <claim-text>4. The middle mounted implement tractor of <claim-ref idref="CLM-00002">claim 2</claim-ref>, further comprising:
+            <claim-text>the left plurality of weight bearing arms pivotably attach to a left plurality of weight bearing arm attachment clevises on the fixed forward frame assembly left portion;</claim-text>
+            <claim-text>the right plurality of weight bearing arms pivotably attach to a right plurality of weight bearing arm attachment clevises on the fixed forward frame assembly right portion; and</claim-text>
+            <claim-text>wherein the left and right pluralities of weight bearing arms are adapted to bear a weight of a front portion of the tractor and any middle mounted implement attached thereto.</claim-text>
+        </claim-text>
+    </claim>
+    <claim id="CLM-00005" num="00005">
+        <claim-text>5. The middle mounted implement tractor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the left front wheel and the right front wheel can turn one hundred and eighty degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00006" num="00006">
+        <claim-text>6. The middle mounted implement tractor of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the left front wheel and the right front wheel can turn one hundred and eighty degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00007" num="00007">
+        <claim-text>7. The middle mounted implement tractor of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein the left front wheel and the right front wheel can turn one hundred and eighty degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00008" num="00008">
+        <claim-text>8. The middle mounted implement tractor of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the left front wheel and the right front wheel can turn one hundred and eighty degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00009" num="00009">
+        <claim-text>9. The middle mounted implement tractor of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00010" num="00010">
+        <claim-text>10. The middle mounted implement tractor of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00011" num="00011">
+        <claim-text>11. The middle mounted implement tractor of <claim-ref idref="CLM-00003">claim 3</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00012" num="00012">
+        <claim-text>12. The middle mounted implement tractor of <claim-ref idref="CLM-00004">claim 4</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00013" num="00013">
+        <claim-text>13. The middle mounted implement tractor of <claim-ref idref="CLM-00005">claim 5</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00014" num="00014">
+        <claim-text>14. The middle mounted implement tractor of <claim-ref idref="CLM-00006">claim 6</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00015" num="00015">
+        <claim-text>15. The middle mounted implement tractor of <claim-ref idref="CLM-00007">claim 7</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00016" num="00016">
+        <claim-text>16. The middle mounted implement tractor of <claim-ref idref="CLM-00008">claim 8</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+    <claim id="CLM-00017" num="00017">
+        <claim-text>17. A middle mounted implement tractor, comprising:
+            <claim-text>a front frame assembly pivotably connected to a mounting frame assembly;</claim-text>
+            <claim-text>a movable frame assembly comprising the front frame assembly and the mounting frame assembly;</claim-text>
+            <claim-text>a middle frame assembly movably attached to the mounting frame assembly and configured such that the movable frame assembly can be raised and lowered relative to the middle frame assembly;</claim-text>
+            <claim-text>a rear frame assembly attached to the middle frame assembly and having a left rear wheel and a right rear wheel;</claim-text>
+            <claim-text>the front frame assembly having a fixed forward frame assembly, a front wheel assembly, a left plurality of pivoting stabilizing arms and a right plurality of pivoting stabilizing arms;</claim-text>
+            <claim-text>the front wheel assembly having a left front wheel assembly including a left front wheel and a right front wheel assembly including a right front wheel;</claim-text>
+            <claim-text>wherein the front frame assembly is adapted to pivotably raise and lower relative to the mounting frame assembly such that the left and right front wheels can be raised and lowered relative to the mounting frame assembly;</claim-text>
+            <claim-text>wherein the front wheel assembly pivots on a pivot point attached at a center of the fixed forward frame assembly,</claim-text>
+            <claim-text>a left plurality of weight bearing arms pivotably connects a fixed forward frame assembly left portion to a mounting frame assembly left portion and a right plurality of weight bearing arms pivotably connects a fixed forward frame assembly right portion to a mounting frame assembly right portion;</claim-text>
+            <claim-text>the left plurality of pivoting stabilizing arms are pivotably attached to the mounting frame assembly left portion and the right plurality of pivoting stabilizing arms are pivotably attached to the mounting frame assembly right portion;</claim-text>
+            <claim-text>the mounting frame assembly further comprises a first implement attachment point and a second implement attachment point which are adapted to removably attach a middle mounted implement to the tractor;</claim-text>
+            <claim-text>the middle frame comprises a vertical frame attachment assembly adapted to vertically raise and lower the movable frame assembly relative to the middle frame;</claim-text>
+            <claim-text>the left wheel assembly further comprising a left front spindle, a left rotating shaft fitted within a left wheel knee, and a left vertical extension; the right front wheel assembly including a right front spindle, a right rotating shaft fitted within a right wheel knee, and a right vertical extension; the left plurality of stabilizing arms are pivotably connected to the left vertical extension and are adapted to keep the left wheel knee vertical; the right plurality of stabilizing arms are pivotably connected to the right vertical extension and area adapted to keep the right wheel knee vertical;</claim-text>
+            <claim-text>and wherein the rear frame further comprises a first caster wheel, a second caster wheel, and</claim-text>
+            <claim-text>a pallet fork assembly to allow loading and unloading of a loaded pallet or container with a pallet style base from a flatbed trailer onto the rear frame of the tractor;</claim-text>
+            <claim-text>the pallet fork assembly comprising: a pair of extended forks supported on a tractor mounted load bearing fixed track by load bearing rollers which can be hydraulically raised or lowered by a fork lifting mechanism;</claim-text>
+            <claim-text>a hydraulic mechanism utilized to move the pair of extended forks from a rear of the tractor along the load bearing fixed track onto a flat surface such as the bed of a trailer and then return to the rear of the tractor;</claim-text>
+            <claim-text>the fork lifting mechanism capable of raising or lowering the pair of extended forks when on the flat surface or when on the load bearing fixed track; and</claim-text>
+            <claim-text>a load securing fence at the rear of the fixed track to secure the pair of extended forks and the loaded pallet or container with a pallet style base on the rear of the tractor.</claim-text>
+        </claim-text>
+    </claim>
+    <claim id="CLM-00018" num="00018">
+        <claim-text>18. The middle mounted implement tractor of <claim-ref idref="CLM-00017">claim 17</claim-ref>, further comprising:
+            <claim-text>the left plurality of weight bearing arms pivotably attach to a left plurality of weight bearing arm attachment clevises on the fixed forward frame assembly left portion;</claim-text>
+            <claim-text>the right plurality of weight bearing arms pivotably attach to a right plurality of weight bearing arm attachment clevises on the fixed forward frame assembly right portion; and</claim-text>
+            <claim-text>wherein the left and right pluralities of weight bearing arms are adapted to bear a weight of a front portion of the tractor and any middle mounted implement attached thereto.</claim-text>
+        </claim-text>
+    </claim>
+    <claim id="CLM-00019" num="00019">
+        <claim-text>19. The middle mounted implement tractor of <claim-ref idref="CLM-00018">claim 18</claim-ref>, wherein the left front wheel and the right front wheel can turn one hundred and eighty degrees.</claim-text>
+    </claim>
+    <claim id="CLM-00020" num="00020">
+        <claim-text>20. The middle mounted implement tractor of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the vertical frame attachment assembly comprises a frame mover mechanism utilized to vertically raise and lower the movable frame relative to the middle frame, and wherein the frame mover mechanism is adapted to allow the movable frame to float upwards relative to the rest of the tractor when the middle mounted implement encounters an impediment.</claim-text>
+    </claim>
+</claims>
+</us-patent-grant>

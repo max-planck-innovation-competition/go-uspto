@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v40-2004-12-02.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.0 2004-12-02" file="US20050004655A2-20050106.XML" status="PARALLEL-RUN" id="us-patent-application" country="US" date-produced="20041222" date-publ="20050106">
+    <us-bibliographic-data-application lang="EN" country="US">
+        <publication-reference>
+            <document-id>
+                <country>US</country>
+                <doc-number>20050004655</doc-number>
+                <kind>A2</kind>
+                <date>20050106</date>
+            </document-id>
+        </publication-reference>
+        <application-reference appl-type="utility">
+            <document-id>
+                <country>US</country>
+                <doc-number>10743857</doc-number>
+                <date>20031222</date>
+            </document-id>
+        </application-reference>
+        <us-application-series-code>10</us-application-series-code>
+        <us-publication-filing-type>
+            <us-republication-amended/>
+        </us-publication-filing-type>
+        <priority-claims>
+            <priority-claim sequence="01" kind="national">
+                <country>DE</country>
+                <doc-number>19840645.2</doc-number>
+                <date>19980905</date>
+            </priority-claim>
+        </priority-claims>
+        <classification-ipc>
+            <edition>07</edition>
+            <main-classification>A61F002/06</main-classification>
+        </classification-ipc>
+        <classification-national>
+            <country>US</country>
+            <main-classification>623001160</main-classification>
+        </classification-national>
+        <invention-title id="d0e80">METHODS AND APPARATUS FOR A STENT HAVING AN EXPANDABLE WEB STRUCTURE</invention-title>
+        <us-related-documents>
+            <continuation>
+                <relation>
+                    <parent-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>09/742,144</doc-number>
+                            <date>20001219</date>
+                        </document-id>
+                        <parent-status>GRANTED</parent-status>
+                        <parent-grant-document>
+                            <document-id>
+                                <country>US</country>
+                                <doc-number>6682554</doc-number>
+                                <date>20040127</date>
+                            </document-id>
+                        </parent-grant-document>
+                    </parent-doc>
+                    <child-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>10743857</doc-number>
+                            <kind>A2</kind>
+                            <date>20031222</date>
+                        </document-id>
+                    </child-doc>
+                </relation>
+            </continuation>
+            <continuation-in-part>
+                <relation>
+                    <parent-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>09/582,318</doc-number>
+                            <date>20000623</date>
+                        </document-id>
+                        <parent-status>GRANTED</parent-status>
+                        <parent-grant-document>
+                            <document-id>
+                                <country>US</country>
+                                <doc-number>6602285</doc-number>
+                                <date>20030805</date>
+                            </document-id>
+                        </parent-grant-document>
+                        <parent-pct-document>
+                            <document-id>
+                                <country>EP</country>
+                                <doc-number>PCTEP9906456</doc-number>
+                                <date>19990902</date>
+                            </document-id>
+                        </parent-pct-document>
+                    </parent-doc>
+                    <child-doc>
+                        <document-id>
+                            <country>US</country>
+                            <doc-number>09/742,144</doc-number>
+                            <date>20001219</date>
+                        </document-id>
+                    </child-doc>
+                </relation>
+            </continuation-in-part>
+            <related-publication>
+                <document-id>
+                    <country>US</country>
+                    <doc-number>0193250</doc-number>
+                    <kind>A1</kind>
+                    <date>20040930</date>
+                </document-id>
+            </related-publication>
+        </us-related-documents>
+        <parties>
+            <applicants>
+                <applicant sequence="00" app-type="applicant-inventor" designation="us-only">
+                    <addressbook>
+                        <last-name>Von Oepen</last-name>
+                        <first-name>Randolf</first-name>
+                        <address>
+                            <address-1>12360 Hilltop Drive</address-1>
+                            <city>Los Altos Hills</city>
+                            <state>CA</state>
+                            <postcode>94024</postcode>
+                            <country>US</country>
+                        </address>
+                    </addressbook>
+                    <nationality>
+                        <country>DE</country>
+                    </nationality>
+                    <residence>
+                        <country>DE</country>
+                    </residence>
+                </applicant>
+                <applicant sequence="01" app-type="applicant-inventor" designation="us-only">
+                    <addressbook>
+                        <last-name>Seibold</last-name>
+                        <first-name>Gerd</first-name>
+                        <address>
+                            <address-1>Achalmstrasse 9</address-1>
+                            <city>Ammerbuch</city>
+                            <postcode>D72118</postcode>
+                            <country>DE</country>
+                        </address>
+                    </addressbook>
+                    <nationality>
+                        <country>DE</country>
+                    </nationality>
+                    <residence>
+                        <country>DE</country>
+                    </residence>
+                </applicant>
+            </applicants>
+            <correspondence-address>
+                <addressbook>
+                    <name>LUCE, FORWARD, HAMILTON &#x26; SCRIPPS LLP</name>
+                    <address>
+                        <address-1>11988 EL CAMINO REAL, SUITE 200</address-1>
+                        <city>SAN DIEGO</city>
+                        <state>CA</state>
+                        <postcode>92130</postcode>
+                        <country>US</country>
+                    </address>
+                </addressbook>
+            </correspondence-address>
+        </parties>
+        <assignees>
+            <assignee>
+                <addressbook>
+                    <orgname>Abbott Labortories Vascular Enterprises Limited</orgname>
+                    <role>02</role>
+                    <address>
+                        <address-1>Mervue Business Park</address-1>
+                        <city>Galway</city>
+                        <country>IE</country>
+                    </address>
+                </addressbook>
+            </assignee>
+        </assignees>
+    </us-bibliographic-data-application>
+    <abstract id="abstract">
+        <p id="CONV-d0e425" num="none">Abstract of the Disclosure</p>
+        <p id="A-0001" num="none">
+            <i/>
+            The present invention provides a stent comprising a tubular flexible body having a wall with a web structure that is expandable from a contracted delivery configuration to deployed configuration.  The web structure comprises a plurality of neighboring web patterns, where each web patterns is composed of adjoining webs, and the web patterns are interconnected.  Each adjoining web comprises a central section interposed between two lateral sections to form concave or convex configurations.</p>
+    </abstract>
+</us-patent-application>

@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PATDOC SYSTEM "ST32-US-Grant-025xml.dtd" [
+<!ENTITY US06530116-20030311-D00000.TIF SYSTEM "US06530116-20030311-D00000.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00001.TIF SYSTEM "US06530116-20030311-D00001.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00002.TIF SYSTEM "US06530116-20030311-D00002.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00003.TIF SYSTEM "US06530116-20030311-D00003.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00004.TIF SYSTEM "US06530116-20030311-D00004.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00005.TIF SYSTEM "US06530116-20030311-D00005.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00006.TIF SYSTEM "US06530116-20030311-D00006.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00007.TIF SYSTEM "US06530116-20030311-D00007.TIF" NDATA TIF>
+<!ENTITY US06530116-20030311-D00008.TIF SYSTEM "US06530116-20030311-D00008.TIF" NDATA TIF>
+]>
+<PATDOC DTD="2.5" STATUS="Build 20030116">
+<SDOBI>
+<B100>
+<B110><DNUM><PDAT>06530116</PDAT></DNUM></B110>
+<B130><PDAT>B2</PDAT></B130>
+<B140><DATE><PDAT>20030311</PDAT></DATE></B140>
+<B190><PDAT>US</PDAT></B190>
+</B100>
+<B200>
+<B210><DNUM><PDAT>09782496</PDAT></DNUM></B210>
+<B211US><PDAT>09</PDAT></B211US>
+<B220><DATE><PDAT>20010213</PDAT></DATE></B220>
+</B200>
+<B500>
+<B510>
+<B511><PDAT>A47L  514</PDAT></B511>
+<B516><PDAT>7</PDAT></B516>
+</B510>
+<B520>
+<B521><PDAT> 15328</PDAT></B521>
+<B522><PDAT> 153276</PDAT></B522>
+<B522><PDAT> 15326</PDAT></B522>
+<B522><PDAT> 15412</PDAT></B522>
+</B520>
+<B540><STEXT><PDAT>Vacuum cleaner with muffled detachable blower exhaust</PDAT></STEXT></B540>
+<B560>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>2276844</PDAT></DNUM>
+<DATE><PDAT>19420300</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Holm-Hansen</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15330</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>2335031</PDAT></DNUM>
+<DATE><PDAT>19431100</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Stevens</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153272</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>2884185</PDAT></DNUM>
+<DATE><PDAT>19590400</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Dolan</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-EXAMINER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>3732667</PDAT></DNUM>
+<DATE><PDAT>19730500</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Fromknecht et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15323</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>3909219</PDAT></DNUM>
+<DATE><PDAT>19750900</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Fromknecht</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 55378</PDAT></PNC></PCIT><CITED-BY-EXAMINER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4120616</PDAT></DNUM>
+<DATE><PDAT>19781000</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Dwyer et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4330899</PDAT></DNUM>
+<DATE><PDAT>19820500</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Miller et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4512713</PDAT></DNUM>
+<DATE><PDAT>19850400</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Berfield</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4538971</PDAT></DNUM>
+<DATE><PDAT>19850900</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Miller et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15413</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4735555</PDAT></DNUM>
+<DATE><PDAT>19880400</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Erickson, Jr.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT>417244</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4797072</PDAT></DNUM>
+<DATE><PDAT>19890100</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Berfield et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4836753</PDAT></DNUM>
+<DATE><PDAT>19890600</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Berfield et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT>417236</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4845793</PDAT></DNUM>
+<DATE><PDAT>19890700</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Meyer</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15328</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>4880364</PDAT></DNUM>
+<DATE><PDAT>19891100</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Berfield et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT>4174231</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5005251</PDAT></DNUM>
+<DATE><PDAT>19910400</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>McLeod et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15328</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5159738</PDAT></DNUM>
+<DATE><PDAT>19921100</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Sunagawa et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-EXAMINER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5183982</PDAT></DNUM>
+<DATE><PDAT>19930200</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Smith et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT>200 6185</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5353470</PDAT></DNUM>
+<DATE><PDAT>19941000</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Bartlett</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15328</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5365633</PDAT></DNUM>
+<DATE><PDAT>19941100</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Sunagawa et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5388301</PDAT></DNUM>
+<DATE><PDAT>19950200</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Bosyj et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153271</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5404614</PDAT></DNUM>
+<DATE><PDAT>19950400</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Stephens</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153272</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5412837</PDAT></DNUM>
+<DATE><PDAT>19950500</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>W&ouml;rwag</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153276</PDAT></PNC></PCIT><CITED-BY-EXAMINER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5455983</PDAT></DNUM>
+<DATE><PDAT>19951000</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Crouser et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15353</PDAT></PNC></PCIT><CITED-BY-EXAMINER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5528794</PDAT></DNUM>
+<DATE><PDAT>19960600</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Tomasiak</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15323</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5535500</PDAT></DNUM>
+<DATE><PDAT>19960700</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Stephens et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153272</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5548868</PDAT></DNUM>
+<DATE><PDAT>19960800</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Berfield et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15339</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5567127</PDAT></DNUM>
+<DATE><PDAT>19961000</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Wentz</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT>417312</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5606769</PDAT></DNUM>
+<DATE><PDAT>19970300</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Tomasiak et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153276</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>5611107</PDAT></DNUM>
+<DATE><PDAT>19970300</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Tomasiak et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153272</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>6055700</PDAT></DNUM>
+<DATE><PDAT>20000500</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Holsten et al.</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153272</PDAT></PNC></PCIT><CITED-BY-OTHER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>6158083</PDAT></DNUM>
+<DATE><PDAT>20001200</PDAT></DATE>
+<KIND><PDAT>A</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Holsten</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 153276</PDAT></PNC></PCIT><CITED-BY-EXAMINER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>6192551</PDAT></DNUM>
+<DATE><PDAT>20010200</PDAT></DATE>
+<KIND><PDAT>B1</PDAT></KIND>
+</DOC>
+<PARTY-US>
+<NAM><SNM><STEXT><PDAT>Roth</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+<PNC><PDAT> 15326</PDAT></PNC></PCIT><CITED-BY-EXAMINER/>
+</B561>
+<B561>
+<PCIT>
+<DOC><DNUM><PDAT>461861</PDAT></DNUM>
+<DATE><PDAT>19491200</PDAT></DATE>
+<CTRY><PDAT>CA</PDAT></CTRY>
+</DOC>
+</PCIT>
+<CITED-BY-OTHER/>
+</B561>
+<B562><NCIT><STEXT><PDAT>Owner&apos;s Manual, Hoover Wet/Dry Vac with Portable Blower and Exclusive two tank system (on information and belief 1993). </PDAT></STEXT></NCIT><CITED-BY-OTHER/></B562>
+<B562><NCIT><STEXT><PDAT>Color photographs, Hoover Wet/Dry Vac with Portiable Blower (on information and belief 1993). </PDAT></STEXT></NCIT><CITED-BY-OTHER/></B562>
+<B562><NCIT><STEXT><PDAT>Brochure, Genie Wet/Dry Vac (on information and belief 1993). </PDAT></STEXT></NCIT><CITED-BY-OTHER/></B562>
+<B562><NCIT><STEXT><PDAT>Photographs (4) of vacuum cleaner wooden model (Apr. 1999).</PDAT></STEXT></NCIT><CITED-BY-OTHER/></B562>
+</B560>
+<B570>
+<B577><PDAT>20</PDAT></B577>
+<B578US><PDAT>1</PDAT></B578US>
+</B570>
+<B580>
+<B582><PDAT> 15328</PDAT></B582>
+<B582><PDAT> 153276</PDAT></B582>
+<B582><PDAT> 15353</PDAT></B582>
+<B582><PDAT> 15326</PDAT></B582>
+<B582><PDAT> 15412</PDAT></B582>
+</B580>
+<B590><B595><PDAT>8</PDAT></B595><B596><PDAT>8</PDAT></B596><B597US/>
+</B590>
+</B500>
+<B600>
+<B690US>
+<DOC>
+<DNUM><PDAT>20020108205</PDAT></DNUM>
+<DATE><PDAT>20020815</PDAT></DATE>
+<CTRY><PDAT>US</PDAT></CTRY>
+<KIND><PDAT>A1</PDAT></KIND>
+</DOC>
+</B690US>
+</B600>
+<B700>
+<B720>
+<B721>
+<PARTY-US>
+<NAM><FNM><PDAT>Robert C.</PDAT></FNM><SNM><STEXT><PDAT>Berfield</PDAT></STEXT></SNM></NAM>
+<ADR>
+<CITY><PDAT>Jersey Shore</PDAT></CITY>
+<STATE><PDAT>PA</PDAT></STATE>
+</ADR>
+</PARTY-US>
+</B721>
+<B721>
+<PARTY-US>
+<NAM><FNM><PDAT>Ronald</PDAT></FNM><SNM><STEXT><PDAT>Griffin</PDAT></STEXT></SNM></NAM>
+<ADR>
+<CITY><PDAT>Williamsport</PDAT></CITY>
+<STATE><PDAT>PA</PDAT></STATE>
+</ADR>
+</PARTY-US>
+</B721>
+<B721>
+<PARTY-US>
+<NAM><FNM><PDAT>Craig</PDAT></FNM><SNM><STEXT><PDAT>Seasholtz</PDAT></STEXT></SNM></NAM>
+<ADR>
+<CITY><PDAT>Avis</PDAT></CITY>
+<STATE><PDAT>PA</PDAT></STATE>
+</ADR>
+</PARTY-US>
+</B721>
+</B720>
+<B730>
+<B731>
+<PARTY-US>
+<NAM><ONM><STEXT><PDAT>Shop Vac Corporation</PDAT></STEXT></ONM></NAM>
+<ADR><CITY><PDAT>Williamsport</PDAT></CITY><STATE><PDAT>PA</PDAT></STATE></ADR>
+</PARTY-US>
+</B731>
+<B732US>
+<PDAT>02</PDAT>
+</B732US>
+</B730>
+<B745>
+<B746>
+<PARTY-US>
+<NAM><FNM><PDAT>Theresa T.</PDAT></FNM><SNM><STEXT><PDAT>Snider</PDAT></STEXT></SNM></NAM>
+</PARTY-US>
+</B746>
+<B748US><PDAT>1744</PDAT></B748US>
+</B745>
+</B700>
+</SDOBI>
+<SDOAB>
+<BTEXT>
+<PARA ID="P-00001" LVL="0"><PTEXT><PDAT>A vacuum cleaner includes a housing having a housing passage with a passage inlet, air entering through the passage inlet flowing in a first direction and the housing passage directing air flowing therethrough in a second direction which is more than 90 degrees different from the first direction. The vacuum cleaner also includes a blower adapted to be used separately from the vacuum cleaner, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller. The blower is detachably secured to the housing with the blower outlet disposed in communication with the passage inlet.</PDAT></PTEXT></PARA>
+</BTEXT>
+</SDOAB>
+<SDODE>
+<BRFSUM>
+<BTEXT>
+<H LVL="1"><STEXT><PDAT>FIELD OF THE INVENTION</PDAT></STEXT></H>
+<PARA ID="P-00002" LVL="0"><PTEXT><PDAT>The present invention is directed to a vacuum cleaner with a detachable blower, and, in particular, a vacuum cleaner with a structure for reducing the exhaust noise from a detachable blower when the detachable blower is attached to the vacuum cleaner.</PDAT></PTEXT></PARA>
+<H LVL="1"><STEXT><PDAT>BACKGROUND OF THE INVENTION</PDAT></STEXT></H>
+<PARA ID="P-00003" LVL="0"><PTEXT><PDAT>Vacuum cleaners with detachable motor/impeller units, commonly referred to as blowers, are known in the art. When attached to a vacuum cleaner tank, the blower functions as part of the vacuum cleaner assembly. When detached from the vacuum cleaner tank, the blower may be used separately to provide a directable air column for the removal of leaves or other debris from a surface, for example.</PDAT></PTEXT></PARA>
+<PARA ID="P-00004" LVL="0"><PTEXT><PDAT>Detachable blowers can be quite noisy, both when attached and detached from the vacuum cleaner tank. Conventionally, the problem with noise is addressed by changing the shape and configuration of the flow paths within the blower. One problem with such a strategy is that the noise reduction capabilities, performance characteristics, and size of the blower are interrelated. Striking a balance between these three concerns can present a sizeable challenge, and may result in compromised blower performance and/or increased blower size in exchange for reduced blower noise.</PDAT></PTEXT></PARA>
+<H LVL="1"><STEXT><PDAT>SUMMARY OF THE INVENTION</PDAT></STEXT></H>
+<PARA ID="P-00005" LVL="0"><PTEXT><PDAT>According to an aspect of the invention, a vacuum cleaner includes a housing having a housing passage with a passage inlet, the air entering through the passage inlet flowing in a first direction and the housing passage directing the air flowing therethrough in a second direction which is more than 90 degrees different from the first direction. The vacuum cleaner also includes a blower adapted to be used separately from the vacuum cleaner, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller. The blower is detachably secured to the housing with the blower outlet disposed in communication with the passage inlet.</PDAT></PTEXT></PARA>
+<PARA ID="P-00006" LVL="0"><PTEXT><PDAT>According to another aspect of the invention, a vacuum cleaner includes a housing having a housing passage with a passage inlet, the air entering through the passage inlet flowing in a first direction and the housing passage directing the air flowing therethrough in a second direction which is about 180 degrees different from the first direction. The vacuum cleaner also includes a blower adapted to be used separately from the vacuum cleaner, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller. The blower is detachably secured to the housing with the blower outlet disposed in communication with the passage inlet.</PDAT></PTEXT></PARA>
+<PARA ID="P-00007" LVL="0"><PTEXT><PDAT>According to a further aspect of the invention, a vacuum cleaner includes a housing having a housing passage with a passage inlet. The vacuum cleaner also includes a blower adapted to be used separately from the vacuum cleaner, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller. The blower is detachably secured to the housing with the blower outlet disposed in communication with the passage inlet and air entering the passage inlet from the blower output in a first direction. The housing passage is constructed to substantially limit the movement of the air in the first direction at least in a section of the passage adjacent the passage inlet.</PDAT></PTEXT></PARA>
+</BTEXT>
+</BRFSUM>
+<DRWDESC>
+<BTEXT>
+<H LVL="1"><STEXT><PDAT>BRIEF DESCRIPTION OF THE DRAWINGS</PDAT></STEXT></H>
+<PARA ID="P-00008" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> is a perspective view of a vacuum cleaner according to an embodiment of the present invention;</PDAT></PTEXT></PARA>
+<PARA ID="P-00009" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 2</PDAT></FGREF><PDAT> is a sectional view of the vacuum cleaner of </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> taken along line </PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL><PDAT>&mdash;</PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL><PDAT>;</PDAT></PTEXT></PARA>
+<PARA ID="P-00010" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 3</PDAT></FGREF><PDAT> is a partial sectional view of the vacuum cleaner of </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> taken along line </PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL><PDAT>&mdash;</PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL><PDAT>;</PDAT></PTEXT></PARA>
+<PARA ID="P-00011" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 4</PDAT></FGREF><PDAT> is an enlarged, partial sectional view of the vacuum cleaner of </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> taken along line </PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL><PDAT>&mdash;</PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL></PTEXT></PARA>
+<PARA ID="P-00012" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 5</PDAT></FGREF><PDAT> is a sectional view of the vacuum cleaner of </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> taken along line </PDAT><HIL><BOLD><PDAT>5</PDAT></BOLD></HIL><PDAT>&mdash;</PDAT><HIL><BOLD><PDAT>5</PDAT></BOLD></HIL><PDAT>;</PDAT></PTEXT></PARA>
+<PARA ID="P-00013" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 6</PDAT></FGREF><PDAT> is a sectional view of the vacuum cleaner of </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> taken along line </PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL><PDAT>&mdash;</PDAT><HIL><BOLD><PDAT>2</PDAT></BOLD></HIL><PDAT> with the blower removed;</PDAT></PTEXT></PARA>
+<PARA ID="P-00014" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 7</PDAT></FGREF><PDAT> is a partial sectional view of the vacuum cleaner of </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> with the blower removed; and</PDAT></PTEXT></PARA>
+<PARA ID="P-00015" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 8</PDAT></FGREF><PDAT> is a rear view of the vacuum cleaner of </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> with the blower removed.</PDAT></PTEXT></PARA>
+</BTEXT>
+</DRWDESC>
+<DETDESC>
+<BTEXT>
+<H LVL="1"><STEXT><PDAT>DETAILED DESCRIPTION OF THE EMBODIMENTS</PDAT></STEXT></H>
+<PARA ID="P-00016" LVL="0"><PTEXT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT> shows an embodiment of a vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> according to the present invention. The vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> is of a tank-type variety, but the embodiments of the present invention are not so limited, and may include all manner of vacuum cleaners, as will be recognized.</PDAT></PTEXT></PARA>
+<PARA ID="P-00017" LVL="0"><PTEXT><PDAT>The vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> includes a tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> mounted on wheels </PDAT><HIL><BOLD><PDAT>24</PDAT></BOLD></HIL><PDAT>. The tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> has an open end </PDAT><HIL><BOLD><PDAT>26</PDAT></BOLD></HIL><PDAT> which is covered by a lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT>. The lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT> includes a lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> and latches </PDAT><HIL><BOLD><PDAT>32</PDAT></BOLD></HIL><PDAT> (one of which is shown in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 1</PDAT></FGREF><PDAT>, and both of which are shown in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIGS. 5 and 8</PDAT></FGREF><PDAT>) to secure the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> to the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT>. The vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> also includes a detachable blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> which may be detachably secured to the lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT> by additional latches (not shown).</PDAT></PTEXT></PARA>
+<PARA ID="P-00018" LVL="0"><PTEXT><PDAT>Referring now to </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 2</PDAT></FGREF><PDAT>, it will be recognized that the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> has an opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT> which is in communication with the interior </PDAT><HIL><BOLD><PDAT>38</PDAT></BOLD></HIL><PDAT> of the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT>. The lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> also includes a lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> having a lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> and lid passage outlets </PDAT><HIL><BOLD><PDAT>44</PDAT></BOLD></HIL><PDAT> (one shown in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 2</PDAT></FGREF><PDAT>, both shown in FIG. </PDAT><HIL><BOLD><PDAT>8</PDAT></BOLD></HIL><PDAT>). The lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> is shaped such that air flowing in the lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> must change direction more than 90 degrees (preferably about 180 degrees) at least once between the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> and the lid passage outlets </PDAT><HIL><BOLD><PDAT>44</PDAT></BOLD></HIL><PDAT>. The lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> also includes a chamber or plenum </PDAT><HIL><BOLD><PDAT>45</PDAT></BOLD></HIL><PDAT> into which the air entering through the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> initially enters and expands. A substantial distance is traveled by the air as it passes through the lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> between the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> and the lid passage outlets </PDAT><HIL><BOLD><PDAT>44</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00019" LVL="0"><PTEXT><PDAT>As also seen in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 2</PDAT></FGREF><PDAT>, the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> has a blower inlet </PDAT><HIL><BOLD><PDAT>46</PDAT></BOLD></HIL><PDAT>, a blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT> and a passage </PDAT><HIL><BOLD><PDAT>50</PDAT></BOLD></HIL><PDAT> which extends between and connects the blower inlet </PDAT><HIL><BOLD><PDAT>46</PDAT></BOLD></HIL><PDAT> and the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT>. The blower inlet </PDAT><HIL><BOLD><PDAT>46</PDAT></BOLD></HIL><PDAT> is in communication with the opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT>, and the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT> is in communication with the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT>. The blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> also includes an impeller </PDAT><HIL><BOLD><PDAT>52</PDAT></BOLD></HIL><PDAT> which is driven by a motor </PDAT><HIL><BOLD><PDAT>54</PDAT></BOLD></HIL><PDAT>. The motor </PDAT><HIL><BOLD><PDAT>54</PDAT></BOLD></HIL><PDAT> drives the impeller </PDAT><HIL><BOLD><PDAT>52</PDAT></BOLD></HIL><PDAT> to draw air through the opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT> and blower inlet </PDAT><HIL><BOLD><PDAT>46</PDAT></BOLD></HIL><PDAT> and to exhaust that air through the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT> into the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00020" LVL="0"><PTEXT><PDAT>By permitting the air exhausted from the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT> to expand through the passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> and exit the vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> via the lid passage outlets </PDAT><HIL><BOLD><PDAT>44</PDAT></BOLD></HIL><PDAT>, it is believed that a significant reduction in the noise level may be achieved. Particularly, the initial chamber </PDAT><HIL><BOLD><PDAT>45</PDAT></BOLD></HIL><PDAT> of the passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT>, providing for rapid expansion and redirection of the air flow, is believed to provide a reduction in noise. The length of the remainder of the passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> is believed to provide additional and separate reductions in noise level. Further, these reductions in noise level are achieved without modifying the design of the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00021" LVL="0"><PTEXT><PDAT>The vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> is now discussed in greater detail with reference to </PDAT><FGREF ID="DRAWINGS"><PDAT>FIGS. 1-8</PDAT></FGREF><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00022" LVL="0"><PTEXT><PDAT>Turning again to </PDAT><FGREF ID="DRAWINGS"><PDAT>FIGS. 1 and 2</PDAT></FGREF><PDAT>, it will be noted that the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> is generally cylindrical in nature having a side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> and a bottom wall </PDAT><HIL><BOLD><PDAT>58</PDAT></BOLD></HIL><PDAT>. The side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> and the bottom wall </PDAT><HIL><BOLD><PDAT>58</PDAT></BOLD></HIL><PDAT> form a closed end </PDAT><HIL><BOLD><PDAT>60</PDAT></BOLD></HIL><PDAT>, thereby enclosing the interior space </PDAT><HIL><BOLD><PDAT>38</PDAT></BOLD></HIL><PDAT> of the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT>. An upper rim </PDAT><HIL><BOLD><PDAT>62</PDAT></BOLD></HIL><PDAT> of the side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> defines the open end </PDAT><HIL><BOLD><PDAT>26</PDAT></BOLD></HIL><PDAT> referred to previously.</PDAT></PTEXT></PARA>
+<PARA ID="P-00023" LVL="0"><PTEXT><PDAT>Disposed into the side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> is a nozzle </PDAT><HIL><BOLD><PDAT>64</PDAT></BOLD></HIL><PDAT>, which may be attached to all manner of vacuum cleaner implements as will readily be recognized. Also provided in the side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> is a drain opening </PDAT><HIL><BOLD><PDAT>66</PDAT></BOLD></HIL><PDAT> which is closed by a plug </PDAT><HIL><BOLD><PDAT>68</PDAT></BOLD></HIL><PDAT>. The drain opening </PDAT><HIL><BOLD><PDAT>66</PDAT></BOLD></HIL><PDAT> is provided in the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> to permit the exhaust of fluid from the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> when the vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> is used in its so-called &ldquo;wet vac&rdquo; mode. Also attached to the side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> are handles </PDAT><HIL><BOLD><PDAT>70</PDAT></BOLD></HIL><PDAT>. The handles </PDAT><HIL><BOLD><PDAT>70</PDAT></BOLD></HIL><PDAT> are spaced about the circumference of the side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> so as to permit the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> to be tipped to remove the contents thereof, particularly when the vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> is used to collect dry materials, such as sawdust, in its so-called &ldquo;dry vac&rdquo; mode.</PDAT></PTEXT></PARA>
+<PARA ID="P-00024" LVL="0"><PTEXT><PDAT>As previously alluded to, the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> is mounted on wheels </PDAT><HIL><BOLD><PDAT>24</PDAT></BOLD></HIL><PDAT>. The wheels </PDAT><HIL><BOLD><PDAT>24</PDAT></BOLD></HIL><PDAT> are particularly useful when the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> becomes filled with either liquid or dry material, which can make the vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> quite heavy and difficult to move or lift. Optionally, a tool caddy </PDAT><HIL><BOLD><PDAT>74</PDAT></BOLD></HIL><PDAT> with holders </PDAT><HIL><BOLD><PDAT>76</PDAT></BOLD></HIL><PDAT> for receiving vacuum cleaner tools or implements (not shown) is attached to the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT>, as can be best seen in FIG. </PDAT><HIL><BOLD><PDAT>8</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00025" LVL="0"><PTEXT><PDAT>As mentioned previously, the open end </PDAT><HIL><BOLD><PDAT>26</PDAT></BOLD></HIL><PDAT> of the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> is covered by the lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT>. Particularly, as seen best in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 4</PDAT></FGREF><PDAT>, the lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT> has a cup-shaped channel </PDAT><HIL><BOLD><PDAT>77</PDAT></BOLD></HIL><PDAT> which extends about the periphery of the lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT>. The channel </PDAT><HIL><BOLD><PDAT>77</PDAT></BOLD></HIL><PDAT> cooperates with the rim </PDAT><HIL><BOLD><PDAT>62</PDAT></BOLD></HIL><PDAT> of the side wall </PDAT><HIL><BOLD><PDAT>56</PDAT></BOLD></HIL><PDAT> to form an air-tight seal.</PDAT></PTEXT></PARA>
+<PARA ID="P-00026" LVL="0"><PTEXT><PDAT>Attached to the underside of the lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT>, and more particularly the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT>, is a filter assembly </PDAT><HIL><BOLD><PDAT>78</PDAT></BOLD></HIL><PDAT>. The filter assembly </PDAT><HIL><BOLD><PDAT>78</PDAT></BOLD></HIL><PDAT> includes a cage </PDAT><HIL><BOLD><PDAT>80</PDAT></BOLD></HIL><PDAT> which surrounds the opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT>, a filter </PDAT><HIL><BOLD><PDAT>82</PDAT></BOLD></HIL><PDAT> disposed on the cage </PDAT><HIL><BOLD><PDAT>80</PDAT></BOLD></HIL><PDAT>, and a float </PDAT><HIL><BOLD><PDAT>84</PDAT></BOLD></HIL><PDAT> disposed within the cage </PDAT><HIL><BOLD><PDAT>80</PDAT></BOLD></HIL><PDAT>. The filter </PDAT><HIL><BOLD><PDAT>82</PDAT></BOLD></HIL><PDAT> removes any materials which may become entrained in the air flow drawn into the opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT>, to prevent those materials from coming in contact with the impeller </PDAT><HIL><BOLD><PDAT>52</PDAT></BOLD></HIL><PDAT>. The float </PDAT><HIL><BOLD><PDAT>84</PDAT></BOLD></HIL><PDAT> is provided to cover the opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT> if the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> becomes so filled with liquid that there is a risk that the liquid would enter the opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT> and reach the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00027" LVL="0"><PTEXT><PDAT>Also as referred to previously, the lid assembly </PDAT><HIL><BOLD><PDAT>28</PDAT></BOLD></HIL><PDAT> includes the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> and latches </PDAT><HIL><BOLD><PDAT>32</PDAT></BOLD></HIL><PDAT>, which detachably secure the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> to the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT> at the open end </PDAT><HIL><BOLD><PDAT>26</PDAT></BOLD></HIL><PDAT> of the tank </PDAT><HIL><BOLD><PDAT>22</PDAT></BOLD></HIL><PDAT>. The lid (or housing) </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> is itself an assembly </PDAT><HIL><BOLD><PDAT>86</PDAT></BOLD></HIL><PDAT> of a cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and a base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT>. The cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> are preferably polypropylene, but other materials may be used as will be recognized. The cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> includes the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> and the lid passage outlets </PDAT><HIL><BOLD><PDAT>44</PDAT></BOLD></HIL><PDAT>, while the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> includes the opening </PDAT><HIL><BOLD><PDAT>36</PDAT></BOLD></HIL><PDAT>. With the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> secured to the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT>, facing surfaces </PDAT><HIL><BOLD><PDAT>92</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>94</PDAT></BOLD></HIL><PDAT> of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> cooperate to define the lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00028" LVL="0"><PTEXT><PDAT>More particularly, as seen in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 3</PDAT></FGREF><PDAT>, a raised wall </PDAT><HIL><BOLD><PDAT>96</PDAT></BOLD></HIL><PDAT> of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> defines the chamber </PDAT><HIL><BOLD><PDAT>45</PDAT></BOLD></HIL><PDAT> in communication with the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT>. The facing surfaces </PDAT><HIL><BOLD><PDAT>92</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>94</PDAT></BOLD></HIL><PDAT> subsequently cooperate, as best seen in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 7</PDAT></FGREF><PDAT>, to define at least a section </PDAT><HIL><BOLD><PDAT>100</PDAT></BOLD></HIL><PDAT> of lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> which is disposed substantially about the circumference of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT>, which are themselves substantially circular in shape. The facing surfaces </PDAT><HIL><BOLD><PDAT>92</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>94</PDAT></BOLD></HIL><PDAT> then define a flattened section </PDAT><HIL><BOLD><PDAT>102</PDAT></BOLD></HIL><PDAT> of the lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT> through which the air passes before passing through the lid passage outlets </PDAT><HIL><BOLD><PDAT>44</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00029" LVL="0"><PTEXT><PDAT>As the air initially enters the chamber </PDAT><HIL><BOLD><PDAT>45</PDAT></BOLD></HIL><PDAT>, the air applies considerable force to the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> so as to attempt to drive the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> apart. As best seen in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIGS. 4 and 5</PDAT></FGREF><PDAT>, to prevent the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> from being driven apart, cooperating rims </PDAT><HIL><BOLD><PDAT>104</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>106</PDAT></BOLD></HIL><PDAT> are formed along forward edges </PDAT><HIL><BOLD><PDAT>108</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>110</PDAT></BOLD></HIL><PDAT> of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT>, respectively. The rim </PDAT><HIL><BOLD><PDAT>104</PDAT></BOLD></HIL><PDAT> is seated in the rim </PDAT><HIL><BOLD><PDAT>106</PDAT></BOLD></HIL><PDAT> with the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> secured to the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT>, and as the air acts over the surfaces </PDAT><HIL><BOLD><PDAT>92</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>94</PDAT></BOLD></HIL><PDAT>, the rims </PDAT><HIL><BOLD><PDAT>104</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>106</PDAT></BOLD></HIL><PDAT> react so as to provide an even firmer air-tight seal </PDAT><HIL><BOLD><PDAT>112</PDAT></BOLD></HIL><PDAT> along these edges </PDAT><HIL><BOLD><PDAT>108</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>110</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00030" LVL="0"><PTEXT><PDAT>Returning to </PDAT><FGREF ID="DRAWINGS"><PDAT>FIGS. 2 and 3</PDAT></FGREF><PDAT>, the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> includes a housing </PDAT><HIL><BOLD><PDAT>114</PDAT></BOLD></HIL><PDAT> which defines the blower inlet </PDAT><HIL><BOLD><PDAT>46</PDAT></BOLD></HIL><PDAT>, the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT>, and the blower passage </PDAT><HIL><BOLD><PDAT>50</PDAT></BOLD></HIL><PDAT>. The housing </PDAT><HIL><BOLD><PDAT>114</PDAT></BOLD></HIL><PDAT> also mounts the motor </PDAT><HIL><BOLD><PDAT>54</PDAT></BOLD></HIL><PDAT> which is coupled to the impeller </PDAT><HIL><BOLD><PDAT>52</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00031" LVL="0"><PTEXT><PDAT>The housing </PDAT><HIL><BOLD><PDAT>114</PDAT></BOLD></HIL><PDAT> of the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> has a central hub section </PDAT><HIL><BOLD><PDAT>116</PDAT></BOLD></HIL><PDAT> from which depend a nozzle </PDAT><HIL><BOLD><PDAT>118</PDAT></BOLD></HIL><PDAT> and handles </PDAT><HIL><BOLD><PDAT>120</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>122</PDAT></BOLD></HIL><PDAT>. The housing </PDAT><HIL><BOLD><PDAT>114</PDAT></BOLD></HIL><PDAT> is shaped to be symmetrical about an axis such that the handles </PDAT><HIL><BOLD><PDAT>120</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>122</PDAT></BOLD></HIL><PDAT> may be used interchangeably by the user. As best seen in </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 3</PDAT></FGREF><PDAT>, the central hub </PDAT><HIL><BOLD><PDAT>116</PDAT></BOLD></HIL><PDAT> of the housing </PDAT><HIL><BOLD><PDAT>114</PDAT></BOLD></HIL><PDAT> also has a protrusion </PDAT><HIL><BOLD><PDAT>124</PDAT></BOLD></HIL><PDAT> which houses the impeller </PDAT><HIL><BOLD><PDAT>52</PDAT></BOLD></HIL><PDAT>. The protrusion </PDAT><HIL><BOLD><PDAT>124</PDAT></BOLD></HIL><PDAT> is received in a depression </PDAT><HIL><BOLD><PDAT>126</PDAT></BOLD></HIL><PDAT> formed in the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00032" LVL="0"><PTEXT><PDAT>The housing </PDAT><HIL><BOLD><PDAT>114</PDAT></BOLD></HIL><PDAT> further includes a shoulder </PDAT><HIL><BOLD><PDAT>128</PDAT></BOLD></HIL><PDAT> which cooperates with a mating shoulder </PDAT><HIL><BOLD><PDAT>130</PDAT></BOLD></HIL><PDAT> of the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> to form a substantially air-tight seal </PDAT><HIL><BOLD><PDAT>132</PDAT></BOLD></HIL><PDAT> between the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> and the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT>. Specifically, the shoulder </PDAT><HIL><BOLD><PDAT>130</PDAT></BOLD></HIL><PDAT> of the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> is defined by an annular wall </PDAT><HIL><BOLD><PDAT>134</PDAT></BOLD></HIL><PDAT> of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT>. The wall </PDAT><HIL><BOLD><PDAT>134</PDAT></BOLD></HIL><PDAT> has a first annular groove </PDAT><HIL><BOLD><PDAT>136</PDAT></BOLD></HIL><PDAT> in a first side </PDAT><HIL><BOLD><PDAT>138</PDAT></BOLD></HIL><PDAT> of the wall </PDAT><HIL><BOLD><PDAT>134</PDAT></BOLD></HIL><PDAT> to cooperate with a wall </PDAT><HIL><BOLD><PDAT>140</PDAT></BOLD></HIL><PDAT> of the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> to form a tongue-and-groove joint </PDAT><HIL><BOLD><PDAT>142</PDAT></BOLD></HIL><PDAT> between the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT>. The wall </PDAT><HIL><BOLD><PDAT>134</PDAT></BOLD></HIL><PDAT> also may have a second annular groove </PDAT><HIL><BOLD><PDAT>144</PDAT></BOLD></HIL><PDAT> in a second side </PDAT><HIL><BOLD><PDAT>146</PDAT></BOLD></HIL><PDAT> of the wall </PDAT><HIL><BOLD><PDAT>134</PDAT></BOLD></HIL><PDAT>. Optionally, a gasket (not shown) may be disposed in the second annular groove </PDAT><HIL><BOLD><PDAT>144</PDAT></BOLD></HIL><PDAT> between the shoulder </PDAT><HIL><BOLD><PDAT>128</PDAT></BOLD></HIL><PDAT> of the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> and the shoulder </PDAT><HIL><BOLD><PDAT>130</PDAT></BOLD></HIL><PDAT> of the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> to enhance the tightness of the seal </PDAT><HIL><BOLD><PDAT>132</PDAT></BOLD></HIL><PDAT> between the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> and the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00033" LVL="0"><PTEXT><PDAT>The cooperation of the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> (the protrusion </PDAT><HIL><BOLD><PDAT>124</PDAT></BOLD></HIL><PDAT>) and the lid </PDAT><HIL><BOLD><PDAT>30</PDAT></BOLD></HIL><PDAT> (the depression </PDAT><HIL><BOLD><PDAT>126</PDAT></BOLD></HIL><PDAT>) snugly sites the nozzle </PDAT><HIL><BOLD><PDAT>118</PDAT></BOLD></HIL><PDAT>, or more particularly a rim </PDAT><HIL><BOLD><PDAT>148</PDAT></BOLD></HIL><PDAT> of a ferrule </PDAT><HIL><BOLD><PDAT>150</PDAT></BOLD></HIL><PDAT> disposed in the nozzle </PDAT><HIL><BOLD><PDAT>118</PDAT></BOLD></HIL><PDAT> which defines the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT>, against the raised wall </PDAT><HIL><BOLD><PDAT>96</PDAT></BOLD></HIL><PDAT> of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT>. The snug abutment of the rim </PDAT><HIL><BOLD><PDAT>148</PDAT></BOLD></HIL><PDAT> against the raised wall </PDAT><HIL><BOLD><PDAT>96</PDAT></BOLD></HIL><PDAT> provides a substantially air-tight seal </PDAT><HIL><BOLD><PDAT>152</PDAT></BOLD></HIL><PDAT> between the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT> and the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT>. It will be also noted from </PDAT><FGREF ID="DRAWINGS"><PDAT>FIG. 7</PDAT></FGREF><PDAT> that the raised wall </PDAT><HIL><BOLD><PDAT>96</PDAT></BOLD></HIL><PDAT> of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> includes a U-shaped saddle </PDAT><HIL><BOLD><PDAT>154</PDAT></BOLD></HIL><PDAT> adjacent the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> in which the nozzle </PDAT><HIL><BOLD><PDAT>118</PDAT></BOLD></HIL><PDAT> of the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT> is disposed with the blower outlet </PDAT><HIL><BOLD><PDAT>48</PDAT></BOLD></HIL><PDAT> in communication with the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00034" LVL="0"><PTEXT><PDAT>As discussed above, it is believed that by providing the chamber </PDAT><HIL><BOLD><PDAT>45</PDAT></BOLD></HIL><PDAT> adjacent the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> so as to permit rapid expansion and redirection of the air, the noise of the vacuum cleaner </PDAT><HIL><BOLD><PDAT>20</PDAT></BOLD></HIL><PDAT> may be reduced. Moreover, as noted, the rims </PDAT><HIL><BOLD><PDAT>104</PDAT></BOLD></HIL><PDAT>, </PDAT><HIL><BOLD><PDAT>106</PDAT></BOLD></HIL><PDAT> of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> cooperate to resist the tendency of the cover </PDAT><HIL><BOLD><PDAT>88</PDAT></BOLD></HIL><PDAT> and the base </PDAT><HIL><BOLD><PDAT>90</PDAT></BOLD></HIL><PDAT> to separate in the vicinity of the chamber </PDAT><HIL><BOLD><PDAT>45</PDAT></BOLD></HIL><PDAT> given the significant forces involved. A further reduction in noise may be achieved as the air flows through the lid passage </PDAT><HIL><BOLD><PDAT>40</PDAT></BOLD></HIL><PDAT>, especially given the substantial distance over which the air passes between the lid passage inlet </PDAT><HIL><BOLD><PDAT>42</PDAT></BOLD></HIL><PDAT> and the lid passage outlets </PDAT><HIL><BOLD><PDAT>44</PDAT></BOLD></HIL><PDAT>. Additionally, these reductions in noise maybe achieved without the necessity of modifying the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT>, and is thus useful without concern for the design of the blower </PDAT><HIL><BOLD><PDAT>34</PDAT></BOLD></HIL><PDAT>.</PDAT></PTEXT></PARA>
+<PARA ID="P-00035" LVL="0"><PTEXT><PDAT>Other aspects, objects, and advantages of the present invention will be obtained from a study of the specification, drawings and appended claims.</PDAT></PTEXT></PARA>
+</BTEXT>
+</DETDESC>
+</SDODE>
+<SDOCL>
+<H LVL="1"><STEXT><PDAT>We claim: </PDAT></STEXT></H>
+<CL>
+<CLM ID="CLM-00001">
+<PARA ID="P-00036" LVL="0"><PTEXT><PDAT>1. A vacuum cleaner comprising:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a housing having a housing passage with a passage inlet, air entering through the passage inlet flowing in a first direction and the housing passage directing air flowing therethrough in a second direction which is more than 90 degrees different from the first direction; and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a blower adapted to be used separately from the housing, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the blower detachably secured to the housing with the blower outlet disposed in substantially direct communication with the passage inlet. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00002">
+<PARA ID="P-00037" LVL="0"><PTEXT><PDAT>2. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00001"><PDAT>claim 1</PDAT></CLREF><PDAT>, wherein the housing is substantially circular in shape and at least a portion of the housing passage is defined substantially about the circumference of the housing.</PDAT></PTEXT></PARA>
+</CLM>
+<CLM ID="CLM-00003">
+<PARA ID="P-00038" LVL="0"><PTEXT><PDAT>3. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00001"><PDAT>claim 1</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing comprises a cover and a base, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover secured to the base to define the housing passage therebetween. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00004">
+<PARA ID="P-00039" LVL="0"><PTEXT><PDAT>4. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00003"><PDAT>claim 3</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover includes a cover sealing rim about at least a section of its circumference, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the base includes a base sealing rim about at least a section of its circumference complementary to the cover sealing rim, and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover and base sealing rims cooperate with the cover secured to the base to form a substantially air-tight seal therebetween. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00005">
+<PARA ID="P-00040" LVL="0"><PTEXT><PDAT>5. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00003"><PDAT>claim 3</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover and base are substantially circular in shape, and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>facing surfaces of the cover and the base cooperate to define at least a section of the housing passage which is disposed substantially about the circumference of the cover and the base with the cover secured to the base. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00006">
+<PARA ID="P-00041" LVL="0"><PTEXT><PDAT>6. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00003"><PDAT>claim 3</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover has a raised wall which depends away from the base with the cover secured to the base, the raised wall having the passage inlet therethrough, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the wall defining a chamber along the housing passage adjacent the passage inlet. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00007">
+<PARA ID="P-00042" LVL="0"><PTEXT><PDAT>7. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00006"><PDAT>claim 6</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the blower housing having a central hub and an nozzle which depends from the central hub; and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the raised wall includes a U-shaped saddle adjacent the passage inlet in which the nozzle of the blower is disposed with the blower outlet in substantially direct communication with the passage inlet. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00008">
+<PARA ID="P-00043" LVL="0"><PTEXT><PDAT>8. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00006"><PDAT>claim 6</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the base has a depression formed therein, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the blower housing has a rim which defines the blower outlet, and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the rim abuts the wall about the passage inlet to maintain the blower outlet in substantially air-tight substantially direct communication with the passage inlet with the blower at least partially seated within the depression. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00009">
+<PARA ID="P-00044" LVL="0"><PTEXT><PDAT>9. A vacuum cleaner comprising:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a housing having a housing passage with a passage inlet, air entering through the passage inlet flowing in a first direction and the housing passage directing air flowing therethrough in a second direction which is about 180 degrees different from the first direction; and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a blower adapted to be used separately from the housing, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the blower detachably secured to the housing with the blower outlet disposed in substantially direct communication with the passage inlet. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00010">
+<PARA ID="P-00045" LVL="0"><PTEXT><PDAT>10. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00009"><PDAT>claim 9</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing is substantially circular in shape and at least a portion of the housing passage is defined substantially about the circumference of the housing. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00011">
+<PARA ID="P-00046" LVL="0"><PTEXT><PDAT>11. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00009"><PDAT>claim 9</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing comprises a cover and a base, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover secured to the base to define the housing passage therebetween. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00012">
+<PARA ID="P-00047" LVL="0"><PTEXT><PDAT>12. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00011"><PDAT>claim 11</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover includes a cover sealing rim about at least a section of its circumference, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the base includes a base sealing rim about at least a section of its circumference complementary to the cover sealing rim, and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover and base sealing rims cooperate with the cover secured to the base to form a substantially air-tight seal therebetween. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00013">
+<PARA ID="P-00048" LVL="0"><PTEXT><PDAT>13. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00011"><PDAT>claim 11</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover and base are substantially circular in shape, and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>facing surfaces of the cover and the base cooperate to define at least a section of the housing passage which is disposed substantially about the circumference of the cover and the base with the cover secured to the base. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00014">
+<PARA ID="P-00049" LVL="0"><PTEXT><PDAT>14. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00011"><PDAT>claim 11</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover has a raised wall which depends away from the base with the cover secured to the base, the raised wall having the passage inlet therethrough, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the wall defining a chamber along the housing passage adjacent the passage inlet. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00015">
+<PARA ID="P-00050" LVL="0"><PTEXT><PDAT>15. A vacuum cleaner comprising:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a housing having a housing passage with a passage inlet, air entering through the passage inlet flowing in a first direction and the housing passage directing air flowing therethrough in a second direction which is about 180 degrees different from the first direction; </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a tank having a wall defining an interior space, an open end, and a closed end, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing having an opening therethrough and detachably secured to the tank at the open end with the opening in communication with the interior space of the tank; and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a blower adapted to be used separately from the housing, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the blower detachably secured to the housing with the blower inlet disposed in communication with the opening and with the blower outlet disposed in communication with the passage inlet. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00016">
+<PARA ID="P-00051" LVL="0"><PTEXT><PDAT>16. A vacuum cleaner comprising:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a housing having a housing passage with a passage inlet; and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>a blower adapted to be used separately from the housing, the blower having a blower housing with a blower inlet, a blower outlet, and defining a blower passage between the blower inlet and the blower outlet, an impeller disposed in the blower passage to move air between the blower inlet and the blower outlet and a motor mounted to the blower housing and coupled to the impeller to move the impeller, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the blower detachably secured to the housing with the blower outlet disposed in communication with the passage inlet such that air entering the passage inlet from the blower outlet moves in a first direction, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing passage constructed to substantially limit the movement of the air in the first direction at least in a section of the passage adjacent the passage inlet. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00017">
+<PARA ID="P-00052" LVL="0"><PTEXT><PDAT>17. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00016"><PDAT>claim 16</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing comprises a cover and a base, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover secured to the base to define the housing passage therebetween. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00018">
+<PARA ID="P-00053" LVL="0"><PTEXT><PDAT>18. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00017"><PDAT>claim 17</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover includes a cover sealing rim about at least a section of its circumference, </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the base includes a base sealing rim about at least a section of its circumference complementary to the cover sealing rim, and </PDAT></PTEXT></CLMSTEP>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the cover and base sealing rims cooperate with the cover secured to the base to form a substantially air-tight seal therebetween. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00019">
+<PARA ID="P-00054" LVL="0"><PTEXT><PDAT>19. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00016"><PDAT>claim 16</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing passage directs the air flowing therethrough in a second direction which is about 180 degrees different from the first direction. </PDAT></PTEXT></CLMSTEP>
+</CLM>
+<CLM ID="CLM-00020">
+<PARA ID="P-00055" LVL="0"><PTEXT><PDAT>20. The vacuum cleaner according to </PDAT><CLREF ID="CLM-00016"><PDAT>claim 16</PDAT></CLREF><PDAT>, wherein:</PDAT></PTEXT></PARA>
+<CLMSTEP LVL="2"><PTEXT><PDAT>the housing is substantially circular in shape and at least a portion of the housing passage is defined substantially about the circumference of the housing.</PDAT></PTEXT></CLMSTEP>
+</CLM>
+</CL>
+</SDOCL>
+<SDODR ID="DRAWINGS">
+<EMI ID="EMI-D00000" ALT="embedded image" FILE="US06530116-20030311-D00000.TIF"/>
+<EMI ID="EMI-D00001" ALT="embedded image" FILE="US06530116-20030311-D00001.TIF"/>
+<EMI ID="EMI-D00002" ALT="embedded image" FILE="US06530116-20030311-D00002.TIF"/>
+<EMI ID="EMI-D00003" ALT="embedded image" FILE="US06530116-20030311-D00003.TIF"/>
+<EMI ID="EMI-D00004" ALT="embedded image" FILE="US06530116-20030311-D00004.TIF"/>
+<EMI ID="EMI-D00005" ALT="embedded image" FILE="US06530116-20030311-D00005.TIF"/>
+<EMI ID="EMI-D00006" ALT="embedded image" FILE="US06530116-20030311-D00006.TIF"/>
+<EMI ID="EMI-D00007" ALT="embedded image" FILE="US06530116-20030311-D00007.TIF"/>
+<EMI ID="EMI-D00008" ALT="embedded image" FILE="US06530116-20030311-D00008.TIF"/>
+</SDODR>
+</PATDOC>
