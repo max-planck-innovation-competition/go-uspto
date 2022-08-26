@@ -108,7 +108,7 @@ func TestProcessXMLSimpleVersion45B1(t *testing.T) {
 	ass.Empty(patDoc.Inventors[0].Street)
 	ass.Equal("Gaither, Geoffrey D.", patDoc.Inventors[0].Name)
 	ass.Equal("Gaither", patDoc.Inventors[0].LastName)
-	ass.Equal("Geoffrey D.", patDoc.Inventors[0].FirsName)
+	ass.Equal("Geoffrey D.", patDoc.Inventors[0].FirstName)
 
 	// representatives
 	ass.Equal("Snell & Wilmer LLP", patDoc.Representatives[0].Name)
@@ -293,7 +293,7 @@ func TestProcessXMLSimpleVersion45B2(t *testing.T) {
 	ass.Empty(patDoc.Inventors[0].Street)
 	ass.Equal("Ng, Yeow", patDoc.Inventors[0].Name)
 	ass.Equal("Ng", patDoc.Inventors[0].LastName)
-	ass.Equal("Yeow", patDoc.Inventors[0].FirsName)
+	ass.Equal("Yeow", patDoc.Inventors[0].FirstName)
 	ass.Equal("KS", patDoc.Inventors[0].State)
 
 	// representatives

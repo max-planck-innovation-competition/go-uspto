@@ -97,7 +97,7 @@ func TestProcessXMLSimpleVersion25B1(t *testing.T) {
 	ass.Equal("Fukuoka", patDoc.Inventors[0].City)
 	ass.Empty(patDoc.Inventors[0].Street)
 	ass.Equal("Osamu\n                            \n                            \n                                \n                                    Tokunaga", patDoc.Inventors[0].Name)
-	ass.Equal("Osamu", patDoc.Inventors[0].FirsName)
+	ass.Equal("Osamu", patDoc.Inventors[0].FirstName)
 	ass.Equal("Tokunaga", patDoc.Inventors[0].LastName)
 
 	ass.NotEmpty(patDoc.Inventors[1])
@@ -105,7 +105,7 @@ func TestProcessXMLSimpleVersion25B1(t *testing.T) {
 	ass.Equal("Fukuoka", patDoc.Inventors[0].City)
 	ass.Empty(patDoc.Inventors[1].Street)
 	ass.Equal("Hideyuki\n                            \n                            \n                                \n                                    Hasebe", patDoc.Inventors[1].Name)
-	ass.Equal("Hideyuki", patDoc.Inventors[1].FirsName)
+	ass.Equal("Hideyuki", patDoc.Inventors[1].FirstName)
 	ass.Equal("Hasebe", patDoc.Inventors[1].LastName)
 
 	ass.NotEmpty(patDoc.Inventors[2])
@@ -113,7 +113,7 @@ func TestProcessXMLSimpleVersion25B1(t *testing.T) {
 	ass.Equal("Fukuoka", patDoc.Inventors[0].City)
 	ass.Empty(patDoc.Inventors[2].Street)
 	ass.Equal("Sigemiti\n                            \n                            \n                                \n                                    Inada", patDoc.Inventors[2].Name)
-	ass.Equal("Sigemiti", patDoc.Inventors[2].FirsName)
+	ass.Equal("Sigemiti", patDoc.Inventors[2].FirstName)
 	ass.Equal("Inada", patDoc.Inventors[2].LastName)
 
 	// owners
@@ -262,21 +262,21 @@ func TestProcessXMLSimpleVersion25B2(t *testing.T) {
 	ass.Equal("Jersey Shore", patDoc.Inventors[0].City)
 	ass.Empty(patDoc.Inventors[0].Street)
 	ass.Equal("Robert C.Berfield", patDoc.Inventors[0].Name)
-	ass.Equal("Robert C.", patDoc.Inventors[0].FirsName)
+	ass.Equal("Robert C.", patDoc.Inventors[0].FirstName)
 	ass.Equal("Berfield", patDoc.Inventors[0].LastName)
 
 	ass.NotEmpty(patDoc.Inventors[1])
 	ass.Equal("Williamsport", patDoc.Inventors[1].City)
 	ass.Empty(patDoc.Inventors[1].Street)
 	ass.Equal("RonaldGriffin", patDoc.Inventors[1].Name)
-	ass.Equal("Ronald", patDoc.Inventors[1].FirsName)
+	ass.Equal("Ronald", patDoc.Inventors[1].FirstName)
 	ass.Equal("Griffin", patDoc.Inventors[1].LastName)
 
 	ass.NotEmpty(patDoc.Inventors[2])
 	ass.Equal("Avis", patDoc.Inventors[2].City)
 	ass.Empty(patDoc.Inventors[2].Street)
 	ass.Equal("CraigSeasholtz", patDoc.Inventors[2].Name)
-	ass.Equal("Craig", patDoc.Inventors[2].FirsName)
+	ass.Equal("Craig", patDoc.Inventors[2].FirstName)
 	ass.Equal("Seasholtz", patDoc.Inventors[2].LastName)
 
 	// owners
