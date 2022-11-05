@@ -18,6 +18,7 @@ import (
 
 var regexFile = regexp.MustCompile(`file="([A-Z0-9-.]+)"`)
 
+// ProcessBulkFile processes a uspto zip file
 func ProcessBulkFile(sourceFile, destinationFolder string) (err error) {
 	logger := log.WithField("zipFile", sourceFile)
 	logger.Info("reading file")
