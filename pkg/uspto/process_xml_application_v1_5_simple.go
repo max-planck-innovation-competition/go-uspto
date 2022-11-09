@@ -88,8 +88,11 @@ func ProcessApplicationXML15Simple(doc *goquery.Document) (patentDoc UsptoPatent
 		Language: strings.TrimSpace("en"),
 	})
 
-	// todo inventors
-	// todo classifications
+	// generate aliases
+	patentDoc.GenerateAliases()
+
+	// todo: inventors
+	// todo: classifications
 
 	return
 }

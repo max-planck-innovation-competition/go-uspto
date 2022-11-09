@@ -200,5 +200,9 @@ func ProcessApplicationXML40Simple(doc *goquery.Document) (patentDoc UsptoPatent
 		patentDoc.Classifications = append(patentDoc.Classifications, item)
 		sequenceCounter++
 	})
+
+	// generate aliases
+	patentDoc.GenerateAliases()
+
 	return
 }

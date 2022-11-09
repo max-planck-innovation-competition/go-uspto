@@ -298,5 +298,8 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 		patentDoc.Representatives = append(patentDoc.Representatives, rep)
 	})
 
+	// generate aliases
+	patentDoc.GenerateAliases()
+
 	return
 }
