@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/sirupsen/logrus"
+	"io"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -80,12 +81,19 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	// start 2nd process
 	go fileWriter(ctx, destinationFolder, &wg, chContent, chFilename, chFileEnd)
 	// scan file
-	scanner := bufio.NewScanner(fc)
-	buf := make([]byte, 0, 64*1024)
-	scanner.Buffer(buf, 1024*1024)
+	reader := bufio.NewReader(fc)
 	counter := 1
-	for scanner.Scan() {
-		line := scanner.Text()
+	for {
+		l, _, errLine := reader.ReadLine()
+		if errLine != nil {
+			if errLine == io.EOF {
+				break
+			}
+			err = errLine
+			logger.WithError(err).Error("can not read file")
+			ctx.Done()
+		}
+		line := string(l)
 		switch strings.TrimSpace(line) {
 		// identify the last line of the file
 		case
@@ -154,14 +162,6 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 		}
 		logger.Trace("wait")
 		wg.Wait()
-	}
-	// scanner error
-	if err = scanner.Err(); err != nil {
-		msg := "failed to scan file %s line by line: %s"
-		err = fmt.Errorf(msg, file.Name, err)
-		logger.Error(err)
-		ctx.Done()
-		return
 	}
 	return
 }

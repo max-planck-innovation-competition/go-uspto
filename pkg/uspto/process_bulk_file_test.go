@@ -6,11 +6,11 @@ import (
 )
 
 func TestReadPatentXMLZip(t *testing.T) {
-	skipTest(t)
+	//skipTest(t)
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)
 	err := ProcessBulkFile(
-		"./test-data/ipg211019.zip", "./test-data/xml")
+		"./test-data/test.zip", "./test-data/xml")
 	ass.NoError(err)
 }
 
