@@ -37,7 +37,7 @@ func TestApplicationProcessXMLSimpleVersion40A1(t *testing.T) {
 	// inventors
 	ass.NotEmpty(patDoc.Inventors[0])
 	ass.Equal("Goldkind, Tina", patDoc.Inventors[0].Name)
-	ass.Equal("Tina", patDoc.Inventors[0].FirsName)
+	ass.Equal("Tina", patDoc.Inventors[0].FirstName)
 	ass.Equal("Goldkind", patDoc.Inventors[0].LastName)
 	ass.Equal("St. James", patDoc.Inventors[0].City)
 	ass.Equal("NY", patDoc.Inventors[0].State)
@@ -94,7 +94,7 @@ func TestApplicationProcessXMLSimpleVersion40A2(t *testing.T) {
 	// inventors
 	ass.NotEmpty(patDoc.Inventors[0])
 	ass.Equal("Von Oepen, Randolf", patDoc.Inventors[0].Name)
-	ass.Equal("Randolf", patDoc.Inventors[0].FirsName)
+	ass.Equal("Randolf", patDoc.Inventors[0].FirstName)
 	ass.Equal("Von Oepen", patDoc.Inventors[0].LastName)
 	ass.Equal("Los Altos Hills", patDoc.Inventors[0].City)
 	ass.Equal("CA", patDoc.Inventors[0].State)
@@ -103,7 +103,7 @@ func TestApplicationProcessXMLSimpleVersion40A2(t *testing.T) {
 
 	ass.NotEmpty(patDoc.Inventors[1])
 	ass.Equal("Seibold, Gerd", patDoc.Inventors[1].Name)
-	ass.Equal("Gerd", patDoc.Inventors[1].FirsName)
+	ass.Equal("Gerd", patDoc.Inventors[1].FirstName)
 	ass.Equal("Seibold", patDoc.Inventors[1].LastName)
 	ass.Equal("Ammerbuch", patDoc.Inventors[1].City)
 	ass.Equal(Country("DE"), patDoc.Inventors[1].Country)

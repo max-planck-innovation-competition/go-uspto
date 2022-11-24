@@ -68,9 +68,10 @@ type Inventor struct {
 	Street  string
 	Name    string
 	// USPTO
-	FirsName string
-	LastName string
-	State    string
+	// FirsName string # here was a typo, should be FirstName
+	FirstName string
+	LastName  string
+	State     string
 }
 
 type Owner struct {
