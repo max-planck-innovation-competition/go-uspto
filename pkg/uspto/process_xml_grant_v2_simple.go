@@ -250,13 +250,13 @@ func ProcessXML2Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumentSimp
 	B721s.Each(func(i int, c *goquery.Selection) {
 		// do not use trim here
 		inventor := Inventor{
-			Country:  Country(strings.TrimSpace(strings.ToUpper(c.Find("PARTY-US ADR CTRY").Text()))),
-			City:     strings.TrimSpace(c.Find("PARTY-US ADR CITY").Text()),
-			Street:   strings.TrimSpace(c.Find("PARTY-US ADR STR").Text()),
-			Name:     strings.TrimSpace(c.Find("PARTY-US NAM").Text()),
-			FirsName: strings.TrimSpace(c.Find("PARTY-US NAM FNM").Text()),
-			LastName: strings.TrimSpace(c.Find("PARTY-US NAM SNM").Text()),
-			State:    "",
+			Country:   Country(strings.TrimSpace(strings.ToUpper(c.Find("PARTY-US ADR CTRY").Text()))),
+			City:      strings.TrimSpace(c.Find("PARTY-US ADR CITY").Text()),
+			Street:    strings.TrimSpace(c.Find("PARTY-US ADR STR").Text()),
+			Name:      strings.TrimSpace(c.Find("PARTY-US NAM").Text()),
+			FirstName: strings.TrimSpace(c.Find("PARTY-US NAM FNM").Text()),
+			LastName:  strings.TrimSpace(c.Find("PARTY-US NAM SNM").Text()),
+			State:     "",
 		}
 		patentDoc.Inventors = append(patentDoc.Inventors, inventor)
 	})

@@ -156,9 +156,9 @@ func ProcessGrantXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentDocumen
 			Street:  strings.TrimSpace(c.Find("adr str").Text()),
 			Name:    strings.TrimSpace(c.Find("addressbook last-name").Text() + ", " + c.Find("addressbook first-name").Text()),
 			// USPTO
-			State:    strings.TrimSpace(c.Find("addressbook address state").Text()),
-			FirsName: strings.TrimSpace(c.Find("addressbook first-name").Text()),
-			LastName: strings.TrimSpace(c.Find("addressbook last-name").Text()),
+			State:     strings.TrimSpace(c.Find("addressbook address state").Text()),
+			FirstName: strings.TrimSpace(c.Find("addressbook first-name").Text()),
+			LastName:  strings.TrimSpace(c.Find("addressbook last-name").Text()),
 		})
 	})
 	// owners
