@@ -8,7 +8,6 @@ import (
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
 	log "github.com/sirupsen/logrus"
-	"io"
 	"os"
 	"path/filepath"
 	"regexp"
@@ -17,7 +16,8 @@ import (
 	"sync"
 )
 
-var regexFile = regexp.MustCompile(`file="([A-Z0-9-.]+)"`)
+// regexFileName is used to extract the filename from the xml file
+var regexFileName = regexp.MustCompile(`file="([A-Z0-9-.]+)"`)
 
 // ProcessBulkFile processes a uspto zip file
 func ProcessBulkFile(sourceFile, destinationFolder string) (err error) {
@@ -81,19 +81,12 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	// start 2nd process
 	go fileWriter(ctx, destinationFolder, &wg, chContent, chFilename, chFileEnd)
 	// scan file
-	reader := bufio.NewReader(fc)
+	scanner := bufio.NewScanner(fc)
+	buf := make([]byte, 0, 64*1024)
+	scanner.Buffer(buf, 1024*1024) // 10MB
 	counter := 1
-	for {
-		l, _, errLine := reader.ReadLine()
-		if errLine != nil {
-			if errLine == io.EOF {
-				break
-			}
-			err = errLine
-			logger.WithError(err).Error("can not read file")
-			ctx.Done()
-		}
-		line := string(l)
+	for scanner.Scan() {
+		line := scanner.Text()
 		switch strings.TrimSpace(line) {
 		// identify the last line of the file
 		case
@@ -120,14 +113,14 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 				logger.Trace("us-patent-grant filename")
 				// if there is a line which contains the beginning of the document xml tag
 				// extract the filename
-				res := regexFile.FindAllStringSubmatch(line, -1)
-				if len(res) != 1 && len(res[0]) != 1 {
+				regexExtractionResults := regexFileName.FindAllStringSubmatch(line, -1)
+				if len(regexExtractionResults) != 1 && len(regexExtractionResults[0]) != 1 {
 					msg := "failed extract filename"
 					err = fmt.Errorf(msg)
 					logger.Error(err)
 					return
 				}
-				filename := res[0][1]
+				filename := regexExtractionResults[0][1]
 				logger.WithField("xmlFile", filename).Info("start")
 				// send the filename
 				wg.Add(1)
