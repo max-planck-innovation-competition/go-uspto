@@ -1,8 +1,8 @@
 package uspto
 
 import (
+	"crypto/tls"
 	log "github.com/sirupsen/logrus"
-	"net"
 	"net/http"
 	"net/url"
 	"os"
@@ -14,14 +14,12 @@ import (
 // the http client uses these
 func NewHttpClient() http.Client {
 	c := http.Client{
+		Timeout: 1 * time.Minute,
 		Transport: &http.Transport{
-			Dial: (&net.Dialer{
-				Timeout:   60 * time.Second,
-				KeepAlive: 60 * time.Second,
-			}).Dial,
 			TLSHandshakeTimeout:   20 * time.Second,
 			ResponseHeaderTimeout: 20 * time.Second,
 			ExpectContinueTimeout: 3 * time.Second,
+			TLSClientConfig:       &tls.Config{InsecureSkipVerify: true},
 		},
 	}
 
@@ -40,15 +38,13 @@ func NewHttpClient() http.Client {
 			log.Fatal(err)
 		}
 		c = http.Client{
+			Timeout: 1 * time.Minute,
 			Transport: &http.Transport{
-				Dial: (&net.Dialer{
-					Timeout:   30 * time.Second,
-					KeepAlive: 30 * time.Second,
-				}).Dial,
 				TLSHandshakeTimeout:   10 * time.Second,
 				ResponseHeaderTimeout: 10 * time.Second,
 				ExpectContinueTimeout: 1 * time.Second,
 				Proxy:                 http.ProxyURL(proxyUrl),
+				TLSClientConfig:       &tls.Config{InsecureSkipVerify: true},
 			},
 		}
 		log.Info("proxy http client")
