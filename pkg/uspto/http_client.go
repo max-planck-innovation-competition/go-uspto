@@ -14,7 +14,7 @@ import (
 // the http client uses these
 func NewHttpClient() http.Client {
 	c := http.Client{
-		Timeout: 1 * time.Minute,
+		Timeout: 20 * time.Minute,
 		Transport: &http.Transport{
 			TLSHandshakeTimeout:   20 * time.Second,
 			ResponseHeaderTimeout: 20 * time.Second,
@@ -38,7 +38,7 @@ func NewHttpClient() http.Client {
 			log.Fatal(err)
 		}
 		c = http.Client{
-			Timeout: 1 * time.Minute,
+			Timeout: 20 * time.Minute,
 			Transport: &http.Transport{
 				TLSHandshakeTimeout:   10 * time.Second,
 				ResponseHeaderTimeout: 10 * time.Second,
