@@ -83,7 +83,7 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	// scan file
 	scanner := bufio.NewScanner(fc)
 	buf := make([]byte, 0, 64*1024)
-	scanner.Buffer(buf, 1024*1024) // 10MB
+	scanner.Buffer(buf, 1024*1024*1000) // 1GB
 	counter := 1
 	for scanner.Scan() {
 		line := scanner.Text()
@@ -107,6 +107,9 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 			counter++
 			break
 		default:
+			if strings.Contains(line, `</us-patent-grant>`) {
+				logger.WithField("line", line).Panic("found end of file")
+			}
 			// extract filename from xml file
 			if strings.Contains(line, `<us-patent-grant `) || strings.Contains(line, `<us-patent-application `) {
 				// version 4.0
