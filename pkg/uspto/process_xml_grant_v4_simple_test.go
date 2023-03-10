@@ -56,6 +56,122 @@ func TestProcessXMLSimpleVersion40B2(t *testing.T) {
 
 }
 
+// files that couldn't be processed
+func TestProcessXMLSimpleVersion41B2(t *testing.T) {
+	ass := assert.New(t)
+	data, err := ioutil.ReadFile("./test-data/grant/US07057742-20060606.xml")
+	ass.NoError(err)
+	patDoc, err := ProcessXMLSimple(data)
+	ass.NoError(err)
+
+	ass.Equal("07057742", patDoc.ID)
+	ass.Equal("US07057742-20060606.XML", patDoc.File)
+	ass.Equal("EN", patDoc.Lang)
+	ass.Equal(Country("US"), patDoc.Country)
+	ass.Equal("07057742", patDoc.DocNumber)
+	ass.Equal("B2", patDoc.Kind)
+	ass.Equal("PRODUCTION", patDoc.Status)
+	ass.False(patDoc.DatePubl.IsZero())
+	ass.Equal("20060606", patDoc.DatePubl.Format(layoutDatePubl))
+	ass.Equal("v4.1 2005-08-25", patDoc.DtdVersion)
+
+	// title
+	ass.NotEmpty(patDoc.Title)
+	ass.Equal("Frequency-scanning interferometer with non-specular reference surface", patDoc.Title[0].Text)
+	ass.Equal("en", patDoc.Title[0].Language)
+
+	// abstract
+	ass.NotEmpty(patDoc.Abstract)
+	ass.Equal(479, len(patDoc.Abstract[0].Text))
+	ass.Equal("en", patDoc.Abstract[0].Language)
+
+	// claims
+	ass.NotEmpty(patDoc.Claims)
+	ass.Equal(1, len(patDoc.Claims))
+	ass.Equal(18578, len(patDoc.Claims[0].Text))
+	ass.Equal("en", patDoc.Claims[0].Language)
+	ass.Equal("claims", patDoc.Claims[0].Id)
+
+	// description
+	ass.Equal(57774, len(patDoc.Description[0].Text))
+	ass.Equal("en", patDoc.Description[0].Language)
+
+	// citations
+	ass.NotEmpty(patDoc.Citations)
+	ass.Equal(22, len(patDoc.Citations))
+
+	ass.Equal("4725144", patDoc.Citations[0].DocNumber)
+	ass.Equal(Country("US"), patDoc.Citations[0].Country)
+	ass.Equal("A", patDoc.Citations[0].Kind)
+
+	// representatives
+	ass.Equal("Ryan, Thomas B.", patDoc.Representatives[0].Name)
+	ass.Equal(Country("unknown"), patDoc.Representatives[0].Country) // ok?
+	ass.Equal("", patDoc.Representatives[0].Street)
+	ass.Equal("", patDoc.Representatives[0].City)
+	ass.Equal("Shaw, Esq., Brian B.", patDoc.Representatives[1].Name)
+	ass.Equal("Harter, Secrest & Emery LLP", patDoc.Representatives[2].Name)
+
+}
+
+func TestProcessXMLSimpleVersion411B2(t *testing.T) {
+	ass := assert.New(t)
+	data, err := ioutil.ReadFile("./test-data/grant/US07062920-20060620.xml")
+	ass.NoError(err)
+	patDoc, err := ProcessXMLSimple(data)
+	ass.NoError(err)
+
+	ass.Equal("07062920", patDoc.ID)
+	ass.Equal("US07062920-20060620.XML", patDoc.File)
+	ass.Equal("EN", patDoc.Lang)
+	ass.Equal(Country("US"), patDoc.Country)
+	ass.Equal("07062920", patDoc.DocNumber)
+	ass.Equal("B2", patDoc.Kind)
+	ass.Equal("PRODUCTION", patDoc.Status)
+	ass.False(patDoc.DatePubl.IsZero())
+	ass.Equal("20060620", patDoc.DatePubl.Format(layoutDatePubl))
+	ass.Equal("v4.1 2005-08-25", patDoc.DtdVersion)
+
+	// title
+	ass.NotEmpty(patDoc.Title)
+	ass.Equal("Combustor dome assembly of a gas turbine engine having a free floating swirler", patDoc.Title[0].Text)
+	ass.Equal("en", patDoc.Title[0].Language)
+
+	// abstract
+	ass.NotEmpty(patDoc.Abstract)
+	ass.Equal(839, len(patDoc.Abstract[0].Text))
+	ass.Equal("en", patDoc.Abstract[0].Language)
+
+	// claims
+	ass.NotEmpty(patDoc.Claims)
+	ass.Equal(1, len(patDoc.Claims))
+	ass.Equal(4435, len(patDoc.Claims[0].Text))
+	ass.Equal("en", patDoc.Claims[0].Language)
+	ass.Equal("claims", patDoc.Claims[0].Id)
+
+	// description
+	ass.Equal(12891, len(patDoc.Description[0].Text))
+	ass.Equal("en", patDoc.Description[0].Language)
+
+	// citations
+	ass.NotEmpty(patDoc.Citations)
+	ass.Equal(13, len(patDoc.Citations))
+
+	ass.Equal("3703259", patDoc.Citations[0].DocNumber)
+	ass.Equal(Country("US"), patDoc.Citations[0].Country)
+	ass.Equal("A", patDoc.Citations[0].Kind)
+
+	// representatives
+	ass.Equal("Andes, William Scott", patDoc.Representatives[0].Name)
+	ass.Equal(Country("unknown"), patDoc.Representatives[0].Country) // ok?
+	ass.Equal("", patDoc.Representatives[0].Street)
+	ass.Equal("", patDoc.Representatives[0].City)
+	ass.Equal("Davidson, Esq., James P.", patDoc.Representatives[1].Name)
+
+}
+
+//---------------------------------
+
 func TestProcessXMLSimpleVersion45B1(t *testing.T) {
 	ass := assert.New(t)
 	data, err := ioutil.ReadFile("./test-data/grant/v4-5-B1.xml")

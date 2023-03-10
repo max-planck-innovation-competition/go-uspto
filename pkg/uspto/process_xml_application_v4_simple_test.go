@@ -60,10 +60,10 @@ func TestApplicationProcessXMLSimpleVersion44A1(t *testing.T) {
 	for i := 0; i <= 3; i++ {
 		ass.Equal(IPC, patDoc.Classifications[i].System)
 		ass.Equal(i+1, patDoc.Classifications[i].Sequence)
-		ass.Equal("20060101", patDoc.Classifications[0].Version)
+		ass.Equal("20060101", patDoc.Classifications[i].Version)
 		ass.Equal("A", patDoc.Classifications[i].ClassificationLevel)
 		ass.Equal("I", patDoc.Classifications[i].ClassificationValue)
-		ass.Equal("20210902", patDoc.Classifications[0].ActionDate)
+		ass.Equal("20210902", patDoc.Classifications[i].ActionDate)
 		ass.Equal("B", patDoc.Classifications[i].OriginalOrReclassified)
 		ass.Equal("H", patDoc.Classifications[i].Source)
 		ass.Equal("US", patDoc.Classifications[i].GeneratingOffice)
@@ -432,3 +432,182 @@ func TestApplicationProcessXMLSimpleVersion45A2(t *testing.T) {
 	ass.Equal("US", patDoc.Classifications[3].GeneratingOffice)
 
 }
+
+// files that couldn't be processed ----
+func TestApplicationProcessXMLSimpleVersion46A1(t *testing.T) {
+	ass := assert.New(t)
+	data, err := ioutil.ReadFile("./test-data/application/US20220240350A1-20220728.XML")
+	ass.NoError(err)
+	patDoc, err := ProcessXMLSimple(data)
+	ass.NoError(err)
+
+	ass.Equal("20220240350", patDoc.ID)
+	ass.Equal("US20220240350A1-20220728.XML", patDoc.File)
+	ass.Equal("EN", patDoc.Lang)
+	ass.Equal(Country("US"), patDoc.Country)
+	ass.Equal("20220240350", patDoc.DocNumber)
+	ass.Equal("A1", patDoc.Kind)
+	ass.False(patDoc.DatePubl.IsZero())
+	ass.Equal("20220728", patDoc.DatePubl.Format(layoutDatePubl))
+	ass.Equal("PRODUCTION", patDoc.Status)
+	ass.Equal("v4.6 2022-02-17", patDoc.DtdVersion)
+
+	// title
+	ass.NotEmpty(patDoc.Title)
+	ass.Equal("APPARATUS, SYSTEM AND METHOD OF PROVIDING A CONFORMABLE HEATER IN WEARABLES", patDoc.Title[0].Text)
+	ass.Equal("en", patDoc.Title[0].Language)
+
+	// abstract
+	ass.NotEmpty(patDoc.Abstract)
+	ass.Equal(903, len(patDoc.Abstract[0].Text))
+	ass.Equal("en", patDoc.Abstract[0].Language)
+
+	// claims
+	ass.NotEmpty(patDoc.Claims)
+	ass.Equal(3838, len(patDoc.Claims[0].Text))
+	ass.Equal("en", patDoc.Claims[0].Language)
+	ass.Equal("claims", patDoc.Claims[0].Id)
+
+	// description
+	ass.NotEmpty(patDoc.Description)
+	ass.Equal(41407, len(patDoc.Description[0].Text))
+	ass.Equal("en", patDoc.Description[0].Language)
+
+	ass.Empty(patDoc.Citations)
+
+	// inventors
+	ass.NotEmpty(patDoc.Inventors[0])
+	ass.Equal(Country("US"), patDoc.Inventors[0].Country)
+	ass.Equal("St. Petersburg", patDoc.Inventors[0].City)
+	ass.Empty(patDoc.Inventors[0].Street)
+	ass.Equal("RETA, Arnoldo", patDoc.Inventors[0].Name)
+	ass.Equal("Arnoldo", patDoc.Inventors[0].FirstName)
+	ass.Equal("RETA", patDoc.Inventors[0].LastName)
+	ass.Equal("FL", patDoc.Inventors[0].State)
+
+	// Classifications
+	ass.Equal(7, len(patDoc.Classifications))
+	// IPC
+	ass.Equal(ClassificationSystem("IPC"), patDoc.Classifications[0].System)
+	ass.Equal(1, patDoc.Classifications[0].Sequence)
+	ass.Equal("H", patDoc.Classifications[0].Section)
+	ass.Equal("05", patDoc.Classifications[0].Class)
+	ass.Equal("B", patDoc.Classifications[0].SubClass)
+	ass.Equal("1", patDoc.Classifications[0].MainGroup)
+	ass.Equal("02", patDoc.Classifications[0].SubGroup)
+	ass.Equal("20060101", patDoc.Classifications[0].Version)
+	ass.Equal("A", patDoc.Classifications[0].ClassificationLevel)
+	ass.Equal("F", patDoc.Classifications[0].FirstLater)
+	ass.Equal("I", patDoc.Classifications[0].ClassificationValue)
+	ass.Equal("20220728", patDoc.Classifications[0].ActionDate)
+	ass.Equal("B", patDoc.Classifications[0].OriginalOrReclassified)
+	ass.Equal("H", patDoc.Classifications[0].Source)
+	ass.Equal("US", patDoc.Classifications[0].GeneratingOffice)
+
+	ass.Equal(ClassificationSystem("IPC"), patDoc.Classifications[1].System)
+	ass.Equal(2, patDoc.Classifications[1].Sequence)
+	ass.Equal("H", patDoc.Classifications[1].Section)
+	ass.Equal("05", patDoc.Classifications[1].Class)
+	ass.Equal("B", patDoc.Classifications[1].SubClass)
+	ass.Equal("3", patDoc.Classifications[1].MainGroup)
+	ass.Equal("14", patDoc.Classifications[1].SubGroup)
+	ass.Equal("20060101", patDoc.Classifications[1].Version)
+	ass.Equal("A", patDoc.Classifications[1].ClassificationLevel)
+	ass.Equal("L", patDoc.Classifications[1].FirstLater)
+	ass.Equal("I", patDoc.Classifications[1].ClassificationValue)
+	ass.Equal("20220728", patDoc.Classifications[1].ActionDate)
+	ass.Equal("B", patDoc.Classifications[1].OriginalOrReclassified)
+	ass.Equal("H", patDoc.Classifications[1].Source)
+	ass.Equal("US", patDoc.Classifications[1].GeneratingOffice)
+
+}
+
+func TestApplicationProcessXMLSimpleVersion461A1(t *testing.T) {
+	ass := assert.New(t)
+	data, err := ioutil.ReadFile("./test-data/application/US20220240351A1-20220728.XML")
+	ass.NoError(err)
+	patDoc, err := ProcessXMLSimple(data)
+	ass.NoError(err)
+
+	ass.Equal("20220240351", patDoc.ID)
+	ass.Equal("US20220240351A1-20220728.XML", patDoc.File)
+	ass.Equal("EN", patDoc.Lang)
+	ass.Equal(Country("US"), patDoc.Country)
+	ass.Equal("20220240351", patDoc.DocNumber)
+	ass.Equal("A1", patDoc.Kind)
+	ass.False(patDoc.DatePubl.IsZero())
+	ass.Equal("20220728", patDoc.DatePubl.Format(layoutDatePubl))
+	ass.Equal("PRODUCTION", patDoc.Status)
+	ass.Equal("v4.6 2022-02-17", patDoc.DtdVersion)
+
+	// title
+	ass.NotEmpty(patDoc.Title)
+	ass.Equal("SELF-REGULATING ELECTRIC HEATING FILM AND PREPARATION METHOD AND USE THEREOF", patDoc.Title[0].Text)
+	ass.Equal("en", patDoc.Title[0].Language)
+
+	// abstract
+	ass.NotEmpty(patDoc.Abstract)
+	ass.Equal(649, len(patDoc.Abstract[0].Text))
+	ass.Equal("en", patDoc.Abstract[0].Language)
+
+	// claims
+	ass.NotEmpty(patDoc.Claims)
+	ass.Equal(2973, len(patDoc.Claims[0].Text))
+	ass.Equal("en", patDoc.Claims[0].Language)
+	ass.Equal("claims", patDoc.Claims[0].Id)
+
+	// description
+	ass.NotEmpty(patDoc.Description)
+	ass.Equal(43630, len(patDoc.Description[0].Text))
+	ass.Equal("en", patDoc.Description[0].Language)
+
+	ass.Empty(patDoc.Citations)
+
+	// inventors
+	ass.NotEmpty(patDoc.Inventors[0])
+	ass.Equal(Country("CN"), patDoc.Inventors[0].Country)
+	ass.Equal("Beijing", patDoc.Inventors[0].City)
+	ass.Empty(patDoc.Inventors[0].Street)
+	ass.Equal("CHEN, Huawei", patDoc.Inventors[0].Name)
+	ass.Equal("Huawei", patDoc.Inventors[0].FirstName)
+	ass.Equal("CHEN", patDoc.Inventors[0].LastName)
+	ass.Equal("", patDoc.Inventors[0].State)
+
+	// Classifications
+	ass.Equal(13, len(patDoc.Classifications))
+	// IPC
+	ass.Equal(ClassificationSystem("IPC"), patDoc.Classifications[0].System)
+	ass.Equal(1, patDoc.Classifications[0].Sequence)
+	ass.Equal("H", patDoc.Classifications[0].Section)
+	ass.Equal("05", patDoc.Classifications[0].Class)
+	ass.Equal("B", patDoc.Classifications[0].SubClass)
+	ass.Equal("1", patDoc.Classifications[0].MainGroup)
+	ass.Equal("02", patDoc.Classifications[0].SubGroup)
+	ass.Equal("20060101", patDoc.Classifications[0].Version)
+	ass.Equal("A", patDoc.Classifications[0].ClassificationLevel)
+	ass.Equal("F", patDoc.Classifications[0].FirstLater)
+	ass.Equal("I", patDoc.Classifications[0].ClassificationValue)
+	ass.Equal("20220728", patDoc.Classifications[0].ActionDate)
+	ass.Equal("B", patDoc.Classifications[0].OriginalOrReclassified)
+	ass.Equal("H", patDoc.Classifications[0].Source)
+	ass.Equal("US", patDoc.Classifications[0].GeneratingOffice)
+
+	ass.Equal(ClassificationSystem("IPC"), patDoc.Classifications[1].System)
+	ass.Equal(2, patDoc.Classifications[1].Sequence)
+	ass.Equal("H", patDoc.Classifications[1].Section)
+	ass.Equal("01", patDoc.Classifications[1].Class)
+	ass.Equal("C", patDoc.Classifications[1].SubClass)
+	ass.Equal("7", patDoc.Classifications[1].MainGroup)
+	ass.Equal("02", patDoc.Classifications[1].SubGroup)
+	ass.Equal("20060101", patDoc.Classifications[1].Version)
+	ass.Equal("A", patDoc.Classifications[1].ClassificationLevel)
+	ass.Equal("L", patDoc.Classifications[1].FirstLater)
+	ass.Equal("I", patDoc.Classifications[1].ClassificationValue)
+	ass.Equal("20220728", patDoc.Classifications[1].ActionDate)
+	ass.Equal("B", patDoc.Classifications[1].OriginalOrReclassified)
+	ass.Equal("H", patDoc.Classifications[1].Source)
+	ass.Equal("US", patDoc.Classifications[1].GeneratingOffice)
+
+}
+
+//--------------------------------------

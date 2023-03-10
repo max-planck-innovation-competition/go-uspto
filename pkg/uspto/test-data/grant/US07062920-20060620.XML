@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-grant SYSTEM "v41-2005-08-25.dtd" [ ]>
+<us-patent-grant lang="EN" dtd-version="v4.1 2005-08-25" file="US07062920-20060620.XML" status="PRODUCTION" id="us-patent-grant" country="US" date-produced="20060602" date-publ="20060620">
+<us-bibliographic-data-grant>
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>07062920</doc-number>
+<kind>B2</kind>
+<date>20060620</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>10638597</doc-number>
+<date>20030811</date>
+</document-id>
+</application-reference>
+<us-application-series-code>10</us-application-series-code>
+<us-term-of-grant>
+<us-term-extension>199</us-term-extension>
+</us-term-of-grant>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>F</section>
+<class>23</class>
+<subclass>R</subclass>
+<main-group>3</main-group>
+<subgroup>60</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20060620</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classification-national>
+<country>US</country>
+<main-classification> 60800</main-classification>
+<further-classification> 60748</further-classification>
+</classification-national>
+<invention-title id="d0e53">Combustor dome assembly of a gas turbine engine having a free floating swirler</invention-title>
+<references-cited>
+<citation>
+<patcit num="00001">
+<document-id>
+<country>US</country>
+<doc-number>3703259</doc-number>
+<kind>A</kind>
+<name>Sturgess et al.</name>
+<date>19721100</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 60748</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00002">
+<document-id>
+<country>US</country>
+<doc-number>4763482</doc-number>
+<kind>A</kind>
+<name>Wehner</name>
+<date>19880800</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60746</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00003">
+<document-id>
+<country>US</country>
+<doc-number>5865024</doc-number>
+<kind>A</kind>
+<name>Kress et al.</name>
+<date>19990200</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 60748</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00004">
+<document-id>
+<country>US</country>
+<doc-number>5916142</doc-number>
+<kind>A</kind>
+<name>Snyder et al.</name>
+<date>19990600</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60748</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00005">
+<document-id>
+<country>US</country>
+<doc-number>6134877</doc-number>
+<kind>A</kind>
+<name>Alkabie</name>
+<date>20001000</date>
+</document-id>
+</patcit>
+<category>cited by examiner</category>
+<classification-national><country>US</country><main-classification> 60800</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00006">
+<document-id>
+<country>US</country>
+<doc-number>6314739</doc-number>
+<kind>B1</kind>
+<name>Howell et al.</name>
+<date>20011100</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60748</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00007">
+<document-id>
+<country>US</country>
+<doc-number>6363726</doc-number>
+<kind>B1</kind>
+<name>Durbin et al.</name>
+<date>20020400</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60748</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00008">
+<document-id>
+<country>US</country>
+<doc-number>6381964</doc-number>
+<kind>B1</kind>
+<name>Pritchard, Jr. et al.</name>
+<date>20020500</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60746</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00009">
+<document-id>
+<country>US</country>
+<doc-number>6418726</doc-number>
+<kind>B1</kind>
+<name>Foust et al.</name>
+<date>20020700</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60776</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00010">
+<document-id>
+<country>US</country>
+<doc-number>6427435</doc-number>
+<kind>B1</kind>
+<name>Patterson et al.</name>
+<date>20020800</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60 3932</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00011">
+<document-id>
+<country>US</country>
+<doc-number>6453671</doc-number>
+<kind>B1</kind>
+<name>Leen et al.</name>
+<date>20020900</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60748</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00012">
+<document-id>
+<country>US</country>
+<doc-number>6484489</doc-number>
+<kind>B1</kind>
+<name>Foust et al.</name>
+<date>20021100</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60 3906</main-classification></classification-national>
+</citation>
+<citation>
+<patcit num="00013">
+<document-id>
+<country>US</country>
+<doc-number>6571559</doc-number>
+<kind>B1</kind>
+<name>Fortuna et al.</name>
+<date>20030600</date>
+</document-id>
+</patcit>
+<category>cited by other</category>
+<classification-national><country>US</country><main-classification> 60748</main-classification></classification-national>
+</citation>
+</references-cited>
+<number-of-claims>15</number-of-claims>
+<us-exemplary-claim>1</us-exemplary-claim>
+<us-field-of-classification-search>
+<classification-national>
+<country>US</country>
+<main-classification> 60748</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 60756</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 60799</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 60800</main-classification>
+</classification-national>
+<classification-national>
+<country>US</country>
+<main-classification> 60804</main-classification>
+</classification-national>
+</us-field-of-classification-search>
+<figures>
+<number-of-drawing-sheets>6</number-of-drawing-sheets>
+<number-of-figures>6</number-of-figures>
+</figures>
+<us-related-documents>
+<related-publication>
+<document-id>
+<country>US</country>
+<doc-number>20050034460</doc-number>
+<kind>A1</kind>
+<date>20050217</date>
+</document-id>
+</related-publication>
+</us-related-documents>
+<parties>
+<applicants>
+<applicant sequence="001" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>McMasters</last-name>
+<first-name>Marie Ann</first-name>
+<address>
+<city>Mason</city>
+<state>OH</state>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+<applicant sequence="002" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Thompson</last-name>
+<first-name>James Edward</first-name>
+<address>
+<city>Middletown</city>
+<state>OH</state>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+<applicant sequence="003" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Cimmarusti</last-name>
+<first-name>Gregory Allen</first-name>
+<address>
+<city>Mason</city>
+<state>OH</state>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+<applicant sequence="004" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Cooper</last-name>
+<first-name>James Neil</first-name>
+<address>
+<city>Hamilton</city>
+<state>OH</state>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+<applicant sequence="005" app-type="applicant-inventor" designation="us-only">
+<addressbook>
+<last-name>Wiehe</last-name>
+<first-name>Glenn Edward</first-name>
+<address>
+<city>Cincinnati</city>
+<state>OH</state>
+<country>US</country>
+</address>
+</addressbook>
+<nationality>
+<country>omitted</country>
+</nationality>
+<residence>
+<country>US</country>
+</residence>
+</applicant>
+</applicants>
+<agents>
+<agent sequence="01" rep-type="attorney">
+<addressbook>
+<last-name>Andes</last-name>
+<first-name>William Scott</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+<agent sequence="02" rep-type="attorney">
+<addressbook>
+<last-name>Davidson, Esq.</last-name>
+<first-name>James P.</first-name>
+<address>
+<country>unknown</country>
+</address>
+</addressbook>
+</agent>
+</agents>
+</parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>General Electric Company</orgname>
+<role>02</role>
+<address>
+<city>Schenectady</city>
+<state>NY</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+<examiners>
+<primary-examiner>
+<last-name>Casaregola</last-name>
+<first-name>Louis J.</first-name>
+<department>3746</department>
+</primary-examiner>
+</examiners>
+</us-bibliographic-data-grant>
+<abstract id="abstract">
+<p id="p-0001" num="0000">A combustor dome assembly for a gas turbine engine having a longitudinal centerline axis extending therethrough, including: an annular dome plate having an inner portion, an outer portion, a forward surface and a plurality of circumferentially spaced openings formed therein, wherein a radial section is defined between adjacent openings; an annular outer cowl connected to the outer portion of the dome plate; an annular inner cowl connected to the inner portion of the dome plate; and, a swirler located between the forward surface of the dome plate and the inner and outer cowls in substantial alignment with each of the openings in the dome plate. Each swirler further includes a forward portion and an aft portion and is retained by at least one tab member located upstream thereof so as to be movable in a radial and axial direction.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="179.24mm" wi="143.76mm" file="US07062920-20060620-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="229.70mm" wi="204.89mm" file="US07062920-20060620-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="193.21mm" wi="172.72mm" file="US07062920-20060620-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="249.94mm" wi="184.66mm" file="US07062920-20060620-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="247.65mm" wi="185.42mm" file="US07062920-20060620-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="192.02mm" wi="183.13mm" file="US07062920-20060620-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="215.98mm" wi="176.11mm" file="US07062920-20060620-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?BRFSUM description="Brief Summary" end="lead"?>
+<heading id="h-0001" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0002" num="0001">The present invention relates generally to a combustor dome assembly for a gas turbine engine and, in particular, to a combustor dome assembly having a plurality of free floating swirlers which are retained in position between the dome plate and the inner and outer cowls so that each swirler is able to receive a fuel nozzle and be movable radially and axially in conjunction therewith.</p>
+<p id="p-0003" num="0002">It is well known within the combustor art of gas turbine engines that a dome portion, in conjunction with inner and outer liners, serves to form the boundary of a combustion chamber. A mixture of fuel and air is ignited and burned in such combustion chamber so that the products thereof are able to interface with the blades of turbines and produce work through one or more shafts. The annular combustor dome also serves to position a plurality of mixers in a circumferential manner so that a fuel/air mixture is provided to the combustion chamber in a desired manner.</p>
+<p id="p-0004" num="0003">Gas turbine combustors typically require a floating ferrule or primary swirler to prevent air leakage into the combustor and still allow for thermal growths of the combustor, combustion casing and fuel nozzles. This requirement has oftentimes been accomplished by brazing a secondary swirler or pad into the dome and using a welded retainer to hold the floating ferrule or primary swirler in place. It will be appreciated that the location of such components is critical to the combustor performance and functionality. Examples of such an arrangement are disclosed in U.S. Pat. No. 6,427,435 to Patterson et al. and U.S. Pat. No. 6,314,739 to Howell et al.</p>
+<p id="p-0005" num="0004">While the typical combustor arrangement has adequate space between swirler cups to incorporate features to enhance the spectacle plate structure (e.g., the addition of ribs, cooling holes and the like), certain geometric restrictions have been introduced by current combustor designs which run lean so as to minimize emissions. As disclosed in U.S. Pat. No. 6,381,964 to Pritchard, Jr. et al., one particular fuel/air mixer configuration includes a fuel nozzle which contains a pilot mixer therein. The fuel nozzle is then located within a main mixer. Accordingly, the size of the fuel nozzle and the corresponding swirler assembly associated therewith, has increased significantly from those previously utilized and thereby reduced the distance between adjacent swirler cups. Utilization of an annular dome plate having a greater diameter would serve to increase the weight of the engine and require modification of components interfacing therewith. Thus, the openings in the dome plate have been enlarged and thereby lessened the circumferential distance between adjacent openings.</p>
+<p id="p-0006" num="0005">Thus, in light of the foregoing, it would be desirable for a combustor dome assembly to be developed which accommodates minimum spacing between adjacent swirler cups. It would also be desirable to simplify such a combustor dome assembly and reduce the amount of components needed while maintaining its intended functionality. Improvements in the area of producibility, maintainability and serviceability are likewise desired.</p>
+<heading id="h-0002" level="1">BRIEF SUMMARY OF THE INVENTION</heading>
+<p id="p-0007" num="0006">In a first exemplary embodiment of the invention, a combustor dome assembly for a gas turbine engine is disclosed as having a longitudinal centerline axis extending therethrough. The combustor assembly includes: an annular dome plate having an inner portion, an outer portion, a forward surface and a plurality of circumferentially spaced openings formed therein, wherein a radial section is defined between adjacent openings; an annular outer cowl connected to the outer portion of the dome plate; an annular inner cowl connected to the inner portion of the dome plate; and, a swirler located between the forward surface of the dome plate and the inner and outer cowls in substantial alignment with each of the openings in the dome plate. Each swirler further includes a forward portion and an aft portion and is retained by at least one tab member located upstream thereof so as to be movable in a radial and axial direction.</p>
+<p id="p-0008" num="0007">In a second exemplary embodiment of the invention, an annular cowl for a gas turbine engine combustor having a longitudinal centerline axis therethrough is disclosed, where the combustor includes an annular dome plate having an inner portion, an outer portion, a forward surface and a plurality of circumferentially spaced openings formed therein. The cowl includes a downstream end connected to one of the inner and outer portions of the dome plate, an upstream end positioned upstream of the forward surface for the dome plate, and a plurality of circumferentially spaced tab members extending from an inner surface of the upstream end. The tab members serve to retain a corresponding swirler between the cowl and the dome plate in a free floating manner while maintaining substantial alignment with one of the openings in the dome plate.</p>
+<?BRFSUM description="Brief Summary" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0003" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0009" num="0008"><figref idref="DRAWINGS">FIG. 1</figref> is a cross-sectional view of a gas turbine engine combustor including a combustor dome assembly of the present invention;</p>
+<p id="p-0010" num="0009"><figref idref="DRAWINGS">FIG. 2</figref> is an enlarged, partial cross-sectional view of the combustor dome assembly depicted in <figref idref="DRAWINGS">FIG. 1</figref>;</p>
+<p id="p-0011" num="0010"><figref idref="DRAWINGS">FIG. 3</figref> is an enlarged, partial aft view of the inner and outer cowls of the combustor dome assembly depicted in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>;</p>
+<p id="p-0012" num="0011"><figref idref="DRAWINGS">FIG. 4</figref> is an enlarged, partial aft view of the swirlers and the inner and outer cowls of the combustor dome assembly depicted in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>;</p>
+<p id="p-0013" num="0012"><figref idref="DRAWINGS">FIG. 5</figref> is an enlarged, partial aft view of the dome plate for the combustor dome assembly depicted in <figref idref="DRAWINGS">FIGS. 1 and 2</figref>; and,</p>
+<p id="p-0014" num="0013"><figref idref="DRAWINGS">FIG. 6</figref> is an enlarged, partial cross-sectional view of an alternative embodiment for the combustor dome assembly of the present invention.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?DETDESC description="Detailed Description" end="lead"?>
+<heading id="h-0004" level="1">DETAILED DESCRIPTION OF THE INVENTION</heading>
+<p id="p-0015" num="0014">Referring now to the drawings in detail, wherein identical numerals indicate the same elements throughout the figures, <figref idref="DRAWINGS">FIG. 1</figref> depicts an exemplary gas turbine engine combustor <b>10</b> having a longitudinal centerline axis <b>12</b> extending therethrough. Combustor <b>10</b> includes a combustion chamber <b>14</b> defined by an outer liner <b>16</b>, an inner liner <b>18</b>, and a dome plate <b>20</b> located at an upstream end thereof. It will be understood that a plurality of fuel/air mixers <b>22</b> are circumferentially spaced within dome plate <b>20</b> so as to introduce a mixture of fuel and air into combustion chamber <b>14</b>, where it is ignited by an igniter (not shown) and combustion gases are formed which are utilized to drive one or more turbines downstream thereof. More specifically, each air/fuel mixer <b>22</b> preferably includes a fuel nozzle <b>24</b>, a swirler <b>26</b>, and a deflector plate <b>28</b>.</p>
+<p id="p-0016" num="0015">More specifically, it will be understood that dome plate <b>20</b> is annular in configuration and includes an inner portion <b>30</b>, an outer portion <b>32</b>, a forward surface <b>34</b> and a plurality of circumferentially spaced openings <b>36</b> formed therein (see <figref idref="DRAWINGS">FIG. 5</figref>). Accordingly, a radial section <b>37</b> is defined between each adjacent opening <b>36</b> in dome plate <b>20</b>. An annular outer cowl <b>38</b> is preferably affixed to outer portion <b>32</b> of dome plate <b>20</b> at a downstream end <b>39</b>, as well as to outer liner <b>16</b>, by means of a plurality of connections <b>40</b> (e.g., bolts and nuts). Similarly, an annular inner cowl <b>44</b> is preferably affixed to inner portion <b>30</b> of dome plate <b>20</b> at a downstream end <b>45</b>, as well as to inner liner <b>18</b>, by means of a plurality of connections <b>46</b> (bolts and nuts).</p>
+<p id="p-0017" num="0016">Each swirler <b>26</b> is located between forward surface <b>34</b> of dome plate <b>20</b> and upstream ends <b>47</b> and <b>49</b> of outer and inner cowls <b>38</b> and <b>44</b>, respectively, so as to be in substantial alignment with an opening <b>36</b> in dome plate <b>20</b>. Further, each swirler <b>26</b> preferably includes a forward portion <b>50</b> and an aft portion <b>52</b>. It will be appreciated that swirlers <b>26</b> are not fixed or attached to any other component of air/fuel mixer <b>22</b>, but are permitted to float freely in both a radial and axial direction with respect to a centerline axis <b>53</b> through each opening <b>36</b>. Each swirler <b>26</b> preferably includes vanes <b>48</b> therein which are oriented to provide swirl in a substantially radial direction with respect to centerline axis <b>53</b>.</p>
+<p id="p-0018" num="0017">It is desirable, however, that swirlers <b>26</b> be retained in position between dome plate <b>20</b> and cowl upstream ends <b>47</b> and <b>49</b> so that fuel nozzles <b>24</b> may be desirably received therein. Accordingly, at least one tab member is provided upstream of each swirler <b>26</b> to restrict radial and axial movement thereof to a predetermined amount. Preferably, it will be noted that a first tab member <b>54</b> and a second tab member <b>56</b> are located upstream of each swirler <b>26</b> at approximately a radially outer position and a radially inner position, respectively. As seen in <figref idref="DRAWINGS">FIGS. 1&#x2013;4</figref>, first tab members <b>54</b> are preferably associated with a surface <b>35</b> of outer cowl <b>38</b>. Likewise, second tab members <b>56</b> are preferably associated with a surface <b>43</b> of inner cowl <b>44</b>. In such case, first and second tab members <b>54</b> and <b>56</b> may be attached to their respective cowl (e.g., via brazing or the like) and/or formed integrally therewith (via forging and machining operations). It will be appreciated that the presence of tab members <b>54</b> and <b>56</b> and the spacing therebetween functions to detune cowls <b>38</b> and <b>44</b>, respectively, and thereby improve the frequency margin thereof.</p>
+<p id="p-0019" num="0018">As best seen in <figref idref="DRAWINGS">FIGS. 2 and 3</figref>, first tab members <b>54</b> and second tab members <b>56</b> preferably include an axial surface <b>62</b> and <b>64</b>, respectively, associated therewith for accommodating a predetermined amount of radial growth and movement by swirler forward portion <b>50</b> therebetween. First and second tab members <b>54</b> and <b>56</b> also preferably include a radial surface <b>66</b> and <b>68</b>, respectively, associated therewith and spaced from dome plate forward surface <b>34</b> a predetermined amount for accommodating axial growth and movement by swirler <b>26</b>. It will be appreciated that the amount of axial movement is limited to prevent swirlers <b>26</b> from wedging themselves in a position which is misaligned with their respective dome plate opening <b>36</b>. In this regard, it will be seen that swirler forward portion <b>50</b> preferably includes a radial flange <b>70</b> which moves between axial surfaces <b>62</b> and <b>64</b> of first and second tabs <b>54</b> and <b>56</b> and interfaces with radial surfaces <b>66</b> and <b>68</b>. Swirler forward portion <b>50</b> also preferably includes an axial section <b>72</b> which receives fuel nozzle <b>24</b> in an inner surface <b>73</b> thereof.</p>
+<p id="p-0020" num="0019">Alternatively, as seen in <figref idref="DRAWINGS">FIG. 6</figref>, separate tab members <b>58</b> may be connected to dome plate outer portion <b>32</b>, outer liner <b>16</b>, and outer cowl downstream end <b>39</b> via connectors <b>40</b>. Similarly, tab members <b>60</b> may be connected to dome plate inner portion <b>30</b>, inner liner <b>18</b>, and inner cowl downstream end <b>45</b> via connectors <b>46</b>. Tab members <b>58</b> and <b>60</b> each preferably include an axial surface <b>59</b> and <b>61</b>, respectively, as well as a radial surface <b>63</b> and <b>65</b>, which function as described above with respect to tab members <b>54</b> and <b>56</b>.</p>
+<p id="p-0021" num="0020">Swirler aft portion <b>52</b> preferably includes a flange <b>74</b> which is able to slide radially along a boss portion <b>75</b> of dome plate forward surface <b>34</b>. A lip <b>76</b> is connected to flange <b>74</b> and is preferably oriented substantially perpendicular to flange <b>74</b> so that it is substantially parallel to centerline axis <b>53</b>. It will be noted that lip <b>76</b> extends aft of dome plate forward surface <b>34</b> so that it interfaces with deflector plate <b>28</b> to limit radial movement of swirler aft portion <b>52</b>.</p>
+<p id="p-0022" num="0021">Fuel nozzle <b>24</b> is preferably of the type disclosed in U.S. Pat. No. 6,381,964 to Pritchard, Jr. et al., which is hereby incorporated by reference. It will be appreciated that fuel nozzle <b>24</b> is larger than typical fuel nozzles and therefore requires larger openings in dome plate <b>20</b>. It will be understood that one feature of free floating swirlers <b>26</b> is the ability to move with fuel nozzles <b>24</b> during operation of the gas turbine engine. Further, swirlers <b>26</b> are able to be adjusted when fuel nozzles <b>24</b> are inserted therein. In this regard, tab members <b>54</b> and <b>56</b> are configured to provide an adequate clearance with fuel nozzles <b>24</b>.</p>
+<p id="p-0023" num="0022">Other advantages are also associated with the combustor dome assembly of the present invention. For example, producibility of the combustor dome assembly is improved since a braze and weld operation at each swirler is eliminated. Moreover, inspection of the braze joint connecting deflector plates <b>28</b> to dome plate <b>20</b> is enhanced. Since the number of components in the combustor dome assembly is reduced, maintainability of swirlers <b>26</b> is improved. Because swirlers <b>26</b> can be removed simply by unbolting one of cowls <b>38</b> or <b>44</b> via connectors <b>40</b> or <b>46</b>, respectively, the time and effort required for performing maintenance and the like is reduced.</p>
+<p id="p-0024" num="0023">Having shown and described the preferred embodiment of the present invention, further adaptations of the combustor and the dome thereof can be accomplished by appropriate modifications by one of ordinary skill in the art without departing from the scope of the invention.</p>
+<?DETDESC description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text>1. A combustor dome assembly for a gas turbine engine having a longitudinal centerline axis extending therethrough, comprising:
+<claim-text>(a) an annular dome plate having an inner portion, an outer portion, a forward surface and a plurality of circumferentially spaced openings formed therein, wherein a radial section is defined between each adjacent opening;</claim-text>
+<claim-text>(b) an annular outer cowl connected to said outer portion of said dome plate;</claim-text>
+<claim-text>(c) an annular inner cowl connected to said inner portion of said dome plate; and,</claim-text>
+<claim-text>(d) a swirler located between said forward surface of said dome plate and said inner and outer cowls in substantial alignment with each of said openings in said dome plate; said swirler including:
+<claim-text>(1) a forward portion and an aft portion; and,</claim-text>
+<claim-text>(2) at least one tab located upstream of each said swirler for retaining said swirler with respect to said dome plate;</claim-text>
+</claim-text>
+</claim-text>
+<claim-text>wherein each said swirler is retained in a manner so as to be movable it a radial and axial direction.</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text>2. The combustor dome assembly of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a first tab and a second tab located upstream of each said swirler for retaining said swirler with respect to said dome plate.</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text>3. The combustor dome assembly of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein said first tabs are connected to said outer cowl and said second tabs are connected to said inner cowl.</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text>4. The combustor dome assembly of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein said first tabs are formed integrally with said outer cowl and said second tabs are formed integrally with said inner cowl.</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text>5. The combustor dome assembly of <claim-ref idref="CLM-00002">claim 2</claim-ref>, wherein said first tabs are connected to said dome plate outer portion and said second tabs are connected to said dome plate inner portion.</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text>6. The combustor dome assembly of <claim-ref idref="CLM-00002">claim 2</claim-ref>, said first and second tabs each including an axial surface associated therewith for accommodating a predetermined amount of radial growth and movement by each said swirler forward portion therebetween.</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text>7. The combustor dome assembly of <claim-ref idref="CLM-00002">claim 2</claim-ref>, said first and second tabs each including an radial surface associated therewith and spaced from said dome plate forward surface for accommodating a predetermined amount of axial growth and movement by each said swirler.</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text>8. A combustor dome assembly for a gas turbine engine having a longitudinal centerline axis extending therethrough, comprising:
+<claim-text>(a) an annular dome plate having an inner portion, an outer portion, a forward surface and a plurality of circumferentially spaced openings formed therein, wherein a radial section is defined between each adjacent opening;</claim-text>
+<claim-text>(b) an annular outer cowl connected to said outer portion of said dome plate;</claim-text>
+<claim-text>(c) an annular inner cowl connected to said inner portion of said dome plate;</claim-text>
+<claim-text>(d) a swirler located between said forward surface of said dome plate and said inner arid outer cowls in substantial alignment with each of said openings in said dome plate, said swirler including a forward portion and an aft portion, wherein each said swirler is retained in a manner so as to be movable in a radial and axial direction; and</claim-text>
+<claim-text>(e) a deflector plate connected to and positioned within each opening in said dome plate, each said swirler aft portion including a lip which limits radial movement of each said swirler by engaging said deflector plate.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text>9. The combustor dome assembly of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising a fuel nozzle positioned within a surface of each swirler, wherein each said swirler moves in conjunction with said fuel nozzle.</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text>10. The combustor dome assembly of <claim-ref idref="CLM-00001">claim 1</claim-ref>, said swirler aft portion including a flange which moves radially along said forward surface of said dome plate.</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text>11. The combustor dome assembly of <claim-ref idref="CLM-00001">claim 1</claim-ref>, wherein each said swirler includes vanes therein which are oriented to provide swirl in a substantially radial direction with respect to centerline axis through its associated dome plate opening.</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text>12. The combustor dome assembly of <claim-ref idref="CLM-00002">claim 2</claim-ref>, said swirler forward portion including a radial section which moves between said first and second tabs.</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text>13. The combustor dome assembly of <claim-ref idref="CLM-00002">claim 2</claim-ref>, said swirler forward portion including an axial section for receiving a fuel nozzle.</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text>14. The combustor dome assembly of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising an outer line connected to said dome plate outer portion and said outer cowl.</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text>15. The combustor dome assembly of <claim-ref idref="CLM-00001">claim 1</claim-ref>, further comprising an inner liner connected to said dome plate inner portion and said inner cowl.</claim-text>
+</claim>
+</claims>
+</us-patent-grant>

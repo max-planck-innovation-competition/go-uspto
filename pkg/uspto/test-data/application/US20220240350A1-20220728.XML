@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v46-2022-02-17.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.6 2022-02-17" file="US20220240350A1-20220728.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20220713" date-publ="20220728">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>20220240350</doc-number>
+<kind>A1</kind>
+<date>20220728</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>17718024</doc-number>
+<date>20220411</date>
+</document-id>
+</application-reference>
+<us-application-series-code>17</us-application-series-code>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>05</class>
+<subclass>B</subclass>
+<main-group>1</main-group>
+<subgroup>02</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220728</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>05</class>
+<subclass>B</subclass>
+<main-group>3</main-group>
+<subgroup>14</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220728</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>H</section>
+<class>05</class>
+<subclass>B</subclass>
+<main-group>3</main-group>
+<subgroup>34</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220728</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>05</class>
+<subclass>B</subclass>
+<main-group>1</main-group>
+<subgroup>0272</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220728</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>A</section>
+<class>41</class>
+<subclass>D</subclass>
+<main-group>13</main-group>
+<subgroup>0051</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20220728</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>05</class>
+<subclass>B</subclass>
+<main-group>3</main-group>
+<subgroup>34</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220728</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>H</section>
+<class>05</class>
+<subclass>B</subclass>
+<main-group>3</main-group>
+<subgroup>145</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20220728</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e43">APPARATUS, SYSTEM AND METHOD OF PROVIDING A CONFORMABLE HEATER IN WEARABLES</invention-title>
+<us-related-documents>
+<continuation>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>15689611</doc-number>
+<date>20170829</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>11304263</doc-number>
+</document-id>
+</parent-grant-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>17718024</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</continuation>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="00" app-type="applicant" designation="us-only">
+<addressbook>
+<orgname>JABIL INC.</orgname>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+<residence>
+<country>US</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="00" designation="us-only">
+<addressbook>
+<last-name>RETA</last-name>
+<first-name>Arnoldo</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="01" designation="us-only">
+<addressbook>
+<last-name>AVUTHU</last-name>
+<first-name>Sai Guruva</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="02" designation="us-only">
+<addressbook>
+<last-name>GILL</last-name>
+<first-name>MaryAlice</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="03" designation="us-only">
+<addressbook>
+<last-name>GHALIB</last-name>
+<first-name>Nabel M.</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="04" designation="us-only">
+<addressbook>
+<last-name>SUSSMAN</last-name>
+<first-name>Mark Edward</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="05" designation="us-only">
+<addressbook>
+<last-name>RETA</last-name>
+<first-name>Arnoldo</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="06" designation="us-only">
+<addressbook>
+<last-name>AVUTHU</last-name>
+<first-name>Sai Guruva</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="07" designation="us-only">
+<addressbook>
+<last-name>GILL</last-name>
+<first-name>MaryAlice</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="08" designation="us-only">
+<addressbook>
+<last-name>GHALIB</last-name>
+<first-name>Nabel M.</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="09" designation="us-only">
+<addressbook>
+<last-name>SUSSMAN</last-name>
+<first-name>Mark Edward</first-name>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+<assignees>
+<assignee>
+<addressbook>
+<orgname>JABIL INC.</orgname>
+<role>02</role>
+<address>
+<city>St. Petersburg</city>
+<state>FL</state>
+<country>US</country>
+</address>
+</addressbook>
+</assignee>
+</assignees>
+</us-bibliographic-data-application>
+<abstract id="abstract">
+<p id="p-0001" num="0000">The disclosure provides an apparatus, system and method for a flexible heater suitable for embedding in a wearable. The flexible heater comprises a conformable substrate; a matched function ink set, printed onto at least one substantially planar face of the substrate to form at least a conductive layer capable of receiving current flow from at least one power source; a resistive layer electrically associated with the at least one conductive layer and comprising a plurality of heating elements capable of generating heat upon receipt of the current flow; and a dielectric layer capable of at least partially insulating the at least one resistive layer, wherein the matched ink set is matched to preclude detrimental interactions between the printed inks of each of the at least one conductive, resistive and dielectric layers, and to preclude detrimental interactions with the conformable substrate.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="166.79mm" wi="158.75mm" file="US20220240350A1-20220728-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="202.01mm" wi="176.11mm" file="US20220240350A1-20220728-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="156.13mm" wi="172.13mm" file="US20220240350A1-20220728-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="241.13mm" wi="157.99mm" file="US20220240350A1-20220728-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="165.52mm" wi="67.39mm" file="US20220240350A1-20220728-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="216.15mm" wi="141.14mm" file="US20220240350A1-20220728-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="142.32mm" wi="141.14mm" file="US20220240350A1-20220728-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="lead"?>
+<heading id="h-0001" level="1">CROSS-REFERENCE TO RELATED APPLICATIONS </heading>
+<p id="p-0002" num="0001">This application is a Continuation Application of U.S. spplication Ser. No. 15/689,611, filed Aug. 29, 20217, entitled &#x201c;Apparatus, System and Method of Providing a Conformable Heater in Wearables&#x201d; which is hereby incorporated by reference. </p>
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="tail"?>
+<?summary-of-invention description="Summary of Invention" end="lead"?>
+<heading id="h-0002" level="1">BACKGROUND </heading>
+<heading id="h-0003" level="1">Field of the Disclosure </heading>
+<p id="p-0003" num="0002">The disclosure relates generally to printed electronics and, more particularly, to a conformable heater, such as for use in wearables. </p>
+<heading id="h-0004" level="1">Description of the Background </heading>
+<p id="p-0004" num="0003">Printed electronics uses printing, or &#x201c;additive,&#x201d; methods to create electrical (and other) devices on various substrates. Printing typically defines patterns on various substrate materials, such as using screen printing, flexography, gravure, offset lithography, and inkjet. Electrically functional electronic or optical inks are deposited on the substrate using one or more of these printing techniques, thus creating active or passive devices, such as transistors, capacitors, resistors and inductive coils. </p>
+<p id="p-0005" num="0004">Printed electronics may use inorganic or organic inks. These ink materials may be deposited by solution-based, vacuum-based, or other processes. Ink layers may be applied one atop another. Printed electronic features may include be or include semiconductors, metallic conductors, nanoparticles, nanotubes, etc. </p>
+<p id="p-0006" num="0005">Rigid substrates, such as glass and silicon, may be used to print electronics. Poly(ethylene terephthalate)-foil (PET) is a common substrate, in part due to its low cost and moderately high temperature stability. Poly(ethylene naphthalate)-(PEN) and poly(imide)-foil (PI) are alternative substrates. Alternative substrates include paper and textiles, although high surface roughness and high absorbency in such substrates may present issues in printing electronics thereon. In short, it is typical that a suitable printed electronics substrate preferably has minimal roughness, suitable wettability, and low absorbency. </p>
+<p id="p-0007" num="0006">Printed electronics provide a low-cost, high-volume volume fabrication. The lower cost enables use in many applications but generally with decreased performance over &#x201c;conventional electronics.&#x201d; Further, the fabrication methodologies onto various substrates allow for use of electronics in heretofore unknown ways, at least without substantial increased costs. For example, printing on flexible substrates allows electronics to be placed on curved surfaces, without the extraordinary expense that the use of conventional electronics in such a scenario would require. </p>
+<p id="p-0008" num="0007">Moreover, conventional electronics typically have lower limits on feature size. In contrast, higher resolution and smaller structures may be provided using printed electronics, thus providing variability in circuit density, precision layering, and functionality not available using conventional electronics.</p>
+<p id="p-0009" num="0008">Control of thickness, holes, and material compatibility are essential in printing electronics. In fact, the selection of the printing method(s) used may be determined by requirements related to the printed layers, layer characteristics, and the properties of the printed materials, such as the aforementioned thicknesses, holes, and material types, as well as by the economic and technical considerations of a final, printed product. </p>
+<p id="p-0010" num="0009">Typically, sheet-based inkjet and screen printing are best for low-volume, high-precision printed electronics. Gravure, offset and flexographic printing are more common for high-volume production. Offset and flexographic printing are often used for both inorganic and organic conductors and dielectrics, while gravure printing is highly suitable for quality-sensitive layers, such as within transistors, due to the high layer quality provided thereby. </p>
+<p id="p-0011" num="0010">Inkjets are very versatile, but generally offer a lower throughput and are better suited for low-viscosity, soluble materials due to possible nozzle clogging. Screen printing is often used to produce patterned, thick layers from paste-like materials. Aerosol jet printing atomizes the ink, and uses a gas flow to focus printed droplets into a tightly collimated beam. </p>
+<p id="p-0012" num="0011">Evaporation printing combines high precision screen printing with material vaporization. Materials are deposited through a high precision stencil that is &#x201c;registered&#x201d; to the substrate. Other methods of printing may be used, such as microcontact printing and lithography, such as nano-imprint lithography.</p>
+<p id="p-0013" num="0012">Electronic functionality and printability may counter-balance one other, mandating optimization to allow for best results. By way of example, a higher molecular weight in polymers enhances conductivity, but diminishes solubility. Further, viscosity, surface tension and solids content must be tightly selected and controlled in printing. Cross-layer interactions, as well as post-deposition procedures and layers, also affect the characteristics of the final product. </p>
+<p id="p-0014" num="0013">Printed electronics may provide patterns having features ranging from 3-10 or less in width, and layer thicknesses from tens of nanometers to more than 10 &#x3bc;m or more. Once printing and patterning is complete, post treatment of the substrate may be needed to attain final electrical and mechanical properties. Post-treatment may be driven more by the specific ink and substrate combination.</p>
+<p id="p-0015" num="0014">Typical heaters for use in wearables, such as in garments or accessories, are manufactured using conventional electronics techniques and manual labor. For example, rigid, thick, and bulky heaters are typically provided, such as in association with printed circuit boards and the like. The wiring that allows for operation of these thick, bulky heaters is typically sewn into the wearables, such as between fabric layers, to enclose the heating elements into the fabrics.</p>
+<p id="p-0016" num="0015">Moreover, less bulky heaters that are fabricated using atypical types of processing are typically expensive, in part because of the complex fabrication steps needed to create such heaters. Hence, these heaters are not applicable for wearable applications. Further, either of the foregoing atypical or conventional types of heaters necessitates an extraordinary level of encapsulation if the wearable associated with the heater is, for example, to be laundered. This is particularly the case if the wearable is to be laundered many times over its life cycle. That is, the limiting factor in the life cycle of the wearable should not be the heater provided in association with the wearable.</p>
+<p id="p-0017" num="0016">Therefore, a heater for use in wearables that may be assembled using in-line and/or high throughput processes, such as additive printing processes, and which is thus less complex in its fabrication resulting in more cost-efficient manufacturing, longer use life of the heater and the wearable, and other distinct advantages, is needed. Such a heater should be formed in a thin, less bulky, more conformable and flexible format, and on a wearable-moldable substrate, to not only address the foregoing concerns, but also to allow for integration into more diverse types of wearables.</p>
+<heading id="h-0005" level="1">SUMMARY</heading>
+<p id="p-0018" num="0017">Thus, the disclosure provides at least an apparatus, system and method for a flexible heater suitable for embedding in a wearable. The flexible heater comprises a conformable substrate; a matched function ink set, printed onto at least one substantially planar face of the substrate to form at least a conductive layer capable of receiving current flow from at least one power source; a resistive layer electrically associated with the at least one conductive layer and comprising a plurality of heating elements capable of generating heat upon receipt of the current flow; and a dielectric layer capable of at least partially insulating the at least one resistive layer, wherein the matched ink set is matched to preclude detrimental interactions between the printed inks of each of the at least one conductive, resistive and dielectric layers, and to preclude detrimental interactions with the conformable substrate.</p>
+<p id="p-0019" num="0018">The flexible heater may additionally include an encapsulation that at least partially seals at least the conformable substrate having the matched function ink set thereon from environmental factors. The flexible heater may additionally be integrated into the wearable of the conformable substrate having the matched ink set thereon.</p>
+<p id="p-0020" num="0019">The flexible heater may further comprise a driver circuit connectively associated with the at least one conductive layer. The driver circuit may comprise a control system, and wherein an amount of heat delivered by the heating elements is controlled by the control system.</p>
+<p id="p-0021" num="0020">Thus, the disclosure provides a heater for use in wearables that may be assembled using in-line and/or high throughput processes, such as additive printing processes, and which is thus less complex in its fabrication resulting in more cost-efficient manufacturing, longer use life of the heater and the wearable, and other distinct advantages. </p>
+<?summary-of-invention description="Summary of Invention" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0006" level="1">BRIEF DESCRIPTION OF THE DRAWINGS </heading>
+<p id="p-0022" num="0021">The exemplary compositions, systems, and methods shall be described hereinafter with reference to the attached drawings, which are given as non-limiting examples only, in which:</p>
+<p id="p-0023" num="0022"><figref idref="DRAWINGS">FIG. 1</figref> is a schematic and block diagram illustrating a heater according to the embodiments;</p>
+<p id="p-0024" num="0023"><figref idref="DRAWINGS">FIG. 2</figref> is a schematic and block diagram illustrating a heater according to the embodiments;</p>
+<p id="p-0025" num="0024"><figref idref="DRAWINGS">FIG. 3</figref> is an exemplary implementation of the embodiments having a conductor layer with contact points at the top right and bottom left of the heating system;</p>
+<p id="p-0026" num="0025"><figref idref="DRAWINGS">FIG. 4</figref> is an exemplary implementation of a conductive and resistive layer heating system;</p>
+<p id="p-0027" num="0026"><figref idref="DRAWINGS">FIG. 5</figref> is an exemplary implementation of an embodiment having an enhanced size of the conductive layer associated with the contact pads at the top of the device;</p>
+<p id="p-0028" num="0027"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an exemplary implementation of a heating system enclosed in an encapsulation layer;</p>
+<p id="p-0029" num="0028"><figref idref="DRAWINGS">FIG. 7</figref> illustrates an exemplary implementation in which the heating system is laminated to a textile;</p>
+<p id="p-0030" num="0029"><figref idref="DRAWINGS">FIG. 8</figref> is a flow diagram illustrating an exemplary method of providing a conformable heater, such as for use in a wearable; and</p>
+<p id="p-0031" num="0030"><figref idref="DRAWINGS">FIG. 9</figref> is a flow diagram illustrating a method of using a conformable heater system within a wearable.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?detailed-description description="Detailed Description" end="lead"?>
+<heading id="h-0007" level="1">DETAILED DESCRIPTION </heading>
+<p id="p-0032" num="0031">The figures and descriptions provided herein may have been simplified to illustrate aspects that are relevant for a clear understanding of the herein described apparatuses, systems, and methods, while eliminating, for the purpose of clarity, other aspects that may be found in typical similar devices, systems, and methods. Those of ordinary skill may thus recognize that other elements and/or operations may be desirable and/or necessary to implement the devices, systems, and methods described herein. But because such elements and operations are known in the art, and because they do not facilitate a better understanding of the present disclosure, for the sake of brevity a discussion of such elements and operations may not be provided herein. However, the present disclosure is deemed to nevertheless include all such elements, variations, and modifications to the described aspects that would be known to those of ordinary skill in the art. </p>
+<p id="p-0033" num="0032">Embodiments are provided throughout so that this disclosure is sufficiently thorough and fully conveys the scope of the disclosed embodiments to those who are skilled in the art. Numerous specific details are set forth, such as examples of specific components, devices, and methods, to provide a thorough understanding of embodiments of the present disclosure. Nevertheless, it will be apparent to those skilled in the art that certain specific disclosed details need not be employed, and that embodiments may be embodied in different forms. As such, the embodiments should not be construed to limit the scope of the disclosure. As referenced above, in some embodiments, well-known processes, well-known device structures, and well-known technologies may not be described in detail.</p>
+<p id="p-0034" num="0033">The terminology used herein is for the purpose of describing particular embodiments only and is not intended to be limiting. For example, as used herein, the singular forms &#x201c;a&#x201d;, &#x201c;an&#x201d; and &#x201c;the&#x201d; may be intended to include the plural forms as well, unless the context clearly indicates otherwise. The terms &#x201c;comprises,&#x201d; &#x201c;comprising,&#x201d; &#x201c;including,&#x201d; and &#x201c;having,&#x201d; are inclusive and therefore specify the presence of stated features, integers, steps, operations, elements, and/or components, but do not preclude the presence or addition of one or more other features, integers, steps, operations, elements, components, and/or groups thereof. The steps, processes, and operations described herein are not to be construed as necessarily requiring their respective performance in the particular order discussed or illustrated, unless specifically identified as a preferred or required order of performance. It is also to be understood that additional or alternative steps may be employed, in place of or in conjunction with the disclosed aspects.</p>
+<p id="p-0035" num="0034">When an element or layer is referred to as being &#x201c;on&#x201d;, &#x201c;upon&#x201d;, &#x201c;connected to&#x201d; or &#x201c;coupled to&#x201d; another element or layer, it may be directly on, upon, connected or coupled to the other element or layer, or intervening elements or layers may be present, unless clearly indicated otherwise. In contrast, when an element or layer is referred to as being &#x201c;directly on,&#x201d; &#x201c;directly upon&#x201d;, &#x201c;directly connected to&#x201d; or &#x201c;directly coupled to&#x201d; another element or layer, there may be no intervening elements or layers present. Other words used to describe the relationship between elements should be interpreted in a like fashion (e.g., &#x201c;between&#x201d; versus &#x201c;directly between,&#x201d; &#x201c;adjacent&#x201d; versus &#x201c;directly adjacent,&#x201d; etc.). Further, as used herein the term &#x201c;and/or&#x201d; includes any and all combinations of one or more of the associated listed items.</p>
+<p id="p-0036" num="0035">Yet further, although the terms first, second, third, etc. may be used herein to describe various elements, components, regions, layers and/or sections, these elements, components, regions, layers and/or sections should not be limited by these terms. These terms may be only used to distinguish one element, component, region, layer or section from another element, component, region, layer or section. Terms such as &#x201c;first,&#x201d; &#x201c;second,&#x201d; and other numerical terms when used herein do not imply a sequence or order unless clearly indicated by the context. Thus, a first element, component, region, layer or section discussed below could be termed a second element, component, region, layer or section without departing from the teachings of the embodiments.</p>
+<p id="p-0037" num="0036">Historically and as discussed throughout, the formation of many small aspects of devices or small devices has generally integrated the processes of deposition and etching. That is, traces, such as conductive traces, dielectric traces, insulating traces, and the like, which include formation of device features such as wave guides, vias, connectors, and the like, have generally been formed by subtractive processes, i.e., by creating layers which were later etched to remove portions of those layers to form the desired topologies and features of a device.</p>
+<p id="p-0038" num="0037">Additive printing processes have been developed whereby device features and aspects are additively formed, i.e., are formed by &#x201c;printing&#x201d; the desired feature at the desired location and in the desired shape. This has allowed for many devices and elements of devices that were previously formed using subtractive processes to be formed via additive processes, including, but not limited to, printed transistors, carbon-resistive heating elements, piezo-elements and audio elements, photodetectors and emitters, and devices for medical use, such as glucose strips and ECG straps.</p>
+<p id="p-0039" num="0038">In short, the printing of such devices is dependent on a number of factors, including matching deposited materials, such as inks, to substrates for particular applications. This ability to use a variety of substrates may afford unique properties to printed devices that was previously unknown in etched devices, such as the ability for devices to stretch and bend, and to be used in previously unknown or inhospitable environments, such as use as conformable heaters in wearables that are to be laundered. By way of non-limiting example, the ability to print electronic traces on plasticized substrates allows for those substrates to be conformed after printing has occurred.</p>
+<p id="p-0040" num="0039">However, known additive properties do present limitations over the properties previously available using subtractive processing. For example, it is typical that conductive traces formed using additive processes have more limited conductivity than the conductive traces previously formed using subtractive processes. This is, in part, because pure copper traces provided using subtractive processes are presently unavailable to be printed using modern additive processing. Accordingly, some devices and elements thereof, such as heaters, may be subjected to substantial modification in order to accommodate the modified properties available using printed traces in additive processes, as compared to the use of conventional electronics-formation techniques.</p>
+<p id="p-0041" num="0040">In the embodiments, a large number of factors must be balanced in each unique application in order to best arrive at properties that most closely approximate those properties previously available only in subtractive processes. For example, in the disclosed devices and processes for creating those devices, compatibility must be assessed as between a substrate for printing and the receptivity of such substrate, the inks employed and the conductivity thereof, the fineness of the printed traces used, the pitch, density and consistency of the printed inks, the type of printing performed, i.e., screen printing versus other types of printing, the thickness of the printed layers, and the like. Moreover, because multiple inks may be employed in order to create the disclosed heating elements, the compatibility of the inks used with one another is also an aspect of the embodiments. For example, chemical reactions between inks, different curing methodologies between inks, and the manner of deposition as between inks must all be assessed for all inks within a given ink set. Also of note, the skilled artisan will appreciate, in light of the discussion herein, that different inks within an ink set may have variable characteristics even after deposition. For example, certain inks may suffer from a valley effect in the center of a deposited trace of that ink, while peaks are created at the outer part of traces using that ink. Accordingly, because the thickness of a trace deposited using such an ink may allow for alleviation or heightening of the foregoing effect, the manner and consistency of application of each ink within an ink set is noteworthy in the embodiments.</p>
+<p id="p-0042" num="0041">In the known art of incorporated heaters, printed circuit boards needed to be mechanically integrated, and hence accounted for, within each product. However, the ability to use printed electronics with flexible substrates and substrates having uneven topologies may allow for printed electronics to be integrated as part of a product, instead of necessitating a mechanical integration of the electronics into the finished product. Needless to say, this may include the use of printed electronics onto substrates unsuitable for accepting electronics created using subtractive processes, such as fabrics, plastics that do not provide &#x201c;sticky&#x201d; surfaces, organic substrates, and the like. This may occur, for example, because additive processes allow for different printing types within each subsequently printed layer of the printed device, and thereby the functionality provided by each layer, such as mechanical, electrical, structural, or other functionality, may be varied as between printed layers throughout a deposition process.</p>
+<p id="p-0043" num="0042">Various solutions to balance the foregoing factors may be provided using additive processing. For example, a flexible substrate may be provided, wherein printing occurs on one or both sides of the substrate. Thereby, traces may be produced on one or both sides of the substrate to form one heater, or series or parallel heaters. In such instances, one or more vias may be created between the sides of the substrate, thus producing one heating system, or multiple heat systems on opposing sides of the substrate which are connectible through the substrate.</p>
+<p id="p-0044" num="0043">More particularly, in the embodiments, a flexible heater for use in a wearable may be printed onto a flexible and conformable organic or inorganic substrate, such as using a &#x201c;matched function&#x201d; ink set. The flexible heater may be comprised of multiple layers of inks or substances forming the matched function set. For example, and as illustrated with respect to the heater <b>10</b> of <figref idref="DRAWINGS">FIG. 1</figref>, a conductive layer <b>12</b> may be printed onto substrate <b>14</b> to allow for current flow <b>16</b> to the heater. A resistive layer <b>18</b> may also or subsequently be printed to allow for the heating effect <b>20</b> to occur upon heating of the resistors due to the current flow <b>16</b> therethrough. Further, a dielectric layer <b>22</b> may be printed to insulate the resistive elements <b>18</b><i>a</i>, both from shorting onto one another because of the conformable, flexible nature of the substrate <b>14</b>, and to insulate the heat produced by the heating elements <b>18</b><i>a </i>to avoid localized overheating.</p>
+<p id="p-0045" num="0044">The substrate <b>14</b> onto which the layers <b>12</b>, <b>18</b>, <b>22</b> are printed may include both organic and inorganic substrates, subject to the limitation that substrates may be flexible and/or conformable to the wearable into or onto which the heater <b>10</b> is placed. Suitable substrates may include, but are not limited to PET, PC, TPU, nylon, glass, fabric, PEN, and ceramics.</p>
+<p id="p-0046" num="0045">As referenced above, various inks and ink sets may be used to form the layers <b>12</b>, <b>18</b>, <b>22</b>, or aspects thereof, in heater <b>10</b>, and inks within the set may be matched to one another so as to avoid undesired chemical interactions during deposition, curing, etc., and/or may be matched to the substrate onto which the inks are to be printed. By way of non-limiting example, conductive and resistive inks used may include silver, carbon, PEDOT:PSS, CNT, or a variety of other printable, conductive, dielectric and/or resistive materials that will be apparent to the skilled artisan in light of the discussion herein.</p>
+<p id="p-0047" num="0046">In certain wearables, particularly those exposed to the elements and/or intended for laundering, the heating system <b>10</b> may preferably be encapsulated in order to increase durability. In such cases, isolation from environmental conditions <b>30</b>, such as wet conditions, including rain, snow, or humidity, and/or insulation from wash and dry cycles and/or general robust handling, may be performed. In such cases, an encapsulation system <b>32</b>, such as a laminated pouch, may be optionally provided to enclose the heating system <b>10</b>, and, in such cases, the encapsulation <b>32</b> may include connectivity and/or pass-throughs to allow for the provision of power <b>40</b> through the encapsulation system <b>32</b> to the heating system <b>10</b>. Finally, the heating system <b>10</b>, such as including the encapsulation <b>32</b>, may be integrated into the wearable <b>50</b> via any known method, such as by sewing, lamination, or the like.</p>
+<p id="p-0048" num="0047">Thus, encapsulation <b>32</b> may provide waterproofing, airproofing, or the like in order to protect the heating system and associated systems from any adverse environmental factors <b>30</b>. To provide the encapsulation <b>32</b>, various known techniques may be employed. For example, acrylics may be laminated onto each side of the heater substrate <b>14</b>, such as to create a sealed lamination lip around the substrate <b>14</b>, with the only projections extending therefrom having the acrylic lamination seal therearound. Further, such a laminated pouch may be treated with, for example, ultra-violet radiation such that the lamination is sealed onto, and provides maximum protection of, the heating system <b>10</b>. Of note however, the more layers that are added to the heating system, such as including encapsulation <b>32</b>, the less conformable to the wearable the heating system will become, particularly in the case where added layers have significant thickness thereto.</p>
+<p id="p-0049" num="0048">In some embodiments, the encapsulation <b>32</b> that protects from environmental conditions <b>30</b> may not require any secondary effort beyond production of the heating system <b>10</b>. For example, substrate and ink combinations may be selected that are submersible and conformable, or only that portion of the substrate having printed electronics thereon to provide the heating system may be sealed, such as with a single acrylic laminate, from environmental conditions.</p>
+<p id="p-0050" num="0049">As referenced above, heating systems <b>10</b> with or without encapsulation <b>32</b> connect to one or more driving circuits <b>52</b>. In certain embodiments, interconnection <b>54</b> to, for example, driver circuit <b>52</b> and/or power <b>40</b>, may include a high contact surface area, such as to enable the heating system <b>10</b> to draw significant current <b>16</b> from the power source <b>40</b>. Also as referenced above, interconnection <b>54</b> may also include or comprise printed electronic surfaces. Such interconnections <b>54</b> may additionally include classical wiring, micro-connection, and/or electromechanical connection techniques, by way of non-limiting example.</p>
+<p id="p-0051" num="0050">The various interconnections <b>54</b>, such including those from the driver circuit <b>52</b> to external control systems, if any, and/or to the power supply <b>56</b>, may extend outwardly from the heating system <b>10</b>. These interconnections <b>54</b>, as well as data requirements and power requirements, may be dependent on the unique structure of a given heating system <b>10</b>. For example, different carbon inks applied in the formulation of the heating system <b>10</b> may have different power requirements, such as 5-15 volts, or more particularly 5, 9, or 12 volts, by way of non-limiting example.</p>
+<p id="p-0052" num="0051">Similarly, interconnects <b>54</b> may also be or include one or more universal connectors known in the art for connectivity to, for example, the aforementioned voltages. Further, such a universal connector may be or include other known connector types, such as USB, micro-USB, mini-USB, lightning connector, and other known interconnects. Additionally and alternatively, proprietary interconnects <b>54</b> may be provided in conjunction with the embodiments.</p>
+<p id="p-0053" num="0052">The aforementioned driving circuit <b>52</b> may or may not be in direct physical association with the heating system <b>10</b> and the interconnects <b>54</b>. By way of example, the driver circuit <b>52</b> may be included as a self-contained system in the electrical pathway between the power source <b>40</b> and the heating system <b>10</b>. The driver circuit <b>52</b> may include control systems <b>52</b><i>a </i>or connectivity to control systems <b>52</b><i>b</i>, such as to allow for remote and/or wireless control of the heating system <b>10</b>, and/or to provide limitations on the heating system, such as amount of heat delivered, amount of current delivered or power drawn, variation between different heat delivery levels, and the like. Such remote connectivity may include wireless connectivity, such as using NFC, blue tooth, WiFi, or cellular connectivity, such as to link to an app <b>60</b> on a user's mobile device <b>62</b>, by way of non-limiting example.</p>
+<p id="p-0054" num="0053">Of note, the control system(s) <b>52</b><i>a, b</i>, such as a Bluetooth-based control system, may allow for a change in temperature automatically or manually, as referenced herein. Accordingly, the control system(s) <b>52</b><i>a, b </i>may communicate, such as via Bluetooth, radio-frequency (RF), near-field communications (NFC), or the like, with a secondary controlling device, such as an app on a mobile device. The aforementioned change may occur only for a certain period of time, which may be brief, such as particularly if the control system indicates that significant power will be consumed on a desired setting. For example, it may be manually or automatically selected that a user has pre-set a heater to heat to 85 degrees for 90 seconds, such as only while the user briefly walks a dog outside in 10 degree weather, because it is understood that the user can recharge the system completely immediately after the short-term use. However, if a user is going on a one hour jog, and that jog is in the same 10 degree weather, the user may prefer that the heater operate at 45 degrees for 50 minutes of the hour before the charge is fully consumed.</p>
+<p id="p-0055" num="0054">The power source <b>40</b> that delivers power to the heating system <b>10</b>, such as through the driver circuit <b>52</b>, may preferably provide a battery life of, for example, 2-10 hours, or, more specifically, 4-8 hours. This power may be provided, for example, from a permanent power delivery system embedded in the garment, such as may use a rechargeable, removable, replaceable, or permanent battery, by way of non-limiting example, or by a secondary power source suitable to be plugged into the driver circuit system, such as may be embedded in or associated with a mobile device or other mobile power source, via a proprietary or non-proprietary connector, such as via a micro USB, lightning connector, or the like. As referenced, typical power provision elements may include batteries, such as rechargeable batteries, such as lithium ion batteries. Such batteries may typically provide high levels of heating very quickly, and then allow for a quick ramp-down in heat delivery to avoid unnecessary power use during the ramp-up or ramp-down phases of power provision.</p>
+<p id="p-0056" num="0055">Atypical power sources may additionally be used to provide the power source <b>40</b> for heating system <b>10</b>. For example, kinetic power sources, such as those that store power based on movement, and/or other similar magnetic and/or piezo-electric power systems, may be embedded in or connectable to the wearable in order to provide primary, secondary, permanent, or temporary power to the heating system <b>10</b> via the driver circuit <b>52</b>. Likewise, primary, secondary, and/or atypical power source(s) <b>40</b> may work together and in conjunction with the aforementioned system control, such as may be embedded in or communicatively associated with the driver circuit <b>52</b>, to deliver power only upon particular triggers. For example, a wearable equipped with heaters at multiple locations, such as in the elbow of a sweatshirt and in the upper back region, may allow individual ones of those locations to be activated only upon certain events indicated by on-board, such as printed electronic, sensors <b>70</b>, which may additionally be associated with the substrate <b>12</b>. For example, a kinetic sensor may sense movement, and during the movement phase may activate a heater in a given location, such as in the upper back region in the prior example. However, upon sensing by the kinetic sensor of the stoppage of movement, the heating element in the elbow of the sweatshirt may be activated. This may be done for any of a variety of reasons understood to the skilled artisan, such as for a pitcher who stops pitching between innings, but wishes to keep his or her elbow &#x201c;warm&#x201d; so as to avoid injury.</p>
+<p id="p-0057" num="0056">Such variations in heating elements may not only occur for wearables having multiple heaters, but may similarly include variable heater designs for different purposes. For example, smaller heaters consume appreciably less power than larger heaters, and thus necessitate a lower level power supply. Consequently, in the prior example of a sweatshirt for a pitcher, a small heater located only proximate to the pitcher's &#x201c;Tommy John&#x201d; ligament in his or her elbow may require little power for activation, but may nevertheless be enabled to deliver significant health impact to the wearer, such as to keep this oft-injured ligament warm after inactivity of more than 10 minutes has occurred.</p>
+<p id="p-0058" num="0057">Moreover, variability in heat levels, such as may be indicated by the driver circuit system, may be made manually by the user or automatically based on system characteristics. For example, lower levels of heat in a hand warmer heating system, such as may be embedded in the pockets of a sweatshirt or in a user's gloves, may be needed if the temperature is colder, i.e., only a particular temperature differential from environmental conditions may be necessary in order to make a user feel &#x201c;warm&#x201d;. That is, a user in an environment where the temperature is 10 degrees Fahrenheit may feel much warmer if the user's gloves are warmed to 40 degrees Fahrenheit, rather than warming the gloves all the way to a maximum heating level of 65 degrees. However, in the event the ambient temperature is 35 degrees, the user may need the heating element to go to 65 degrees in order for the user to feel the same level of &#x201c;warmth&#x201d;. </p>
+<p id="p-0059" num="0058">Additional considerations in power delivered to the heater and/or in the heat delivered may occur based on the use case of the wearable and of the heater. For example, in instances in which the heater might be in substantially direct contact with or very close to the user's skin, the control system associated with the driver circuit <b>52</b> discussed herein must limit the power such that the heating is not sufficient to burn, cause discomfort to, or otherwise harm the user. Such concerns may be addressed, in part, through the use of self-regulating inks to provide the heating elements in certain exemplary embodiments.</p>
+<p id="p-0060" num="0059">For example, a positive temperature coefficient (PTC) heater may provide a self-regulating heater. A self-regulating heater stabilizes at a specific temperature as current runs through the heater. That is, as temperature is increased the resistance of the self-regulating heater also increases, which causes reduced current flow and, accordingly, an inability of the heater to continue increasing in temperature. On the contrary, if the temperature is reduced, the resistance decreases, thereby allowing more current to pass through the device. In a typical embodiment, a self-regulating/PTC heater thus provides a stabilized temperature that is independent of the voltage applied to the heater.</p>
+<p id="p-0061" num="0060">Secondary systems <b>202</b> may be provided in conjunction with heating system <b>10</b>, such as to hold in warmth, as illustrated in <figref idref="DRAWINGS">FIG. 2</figref>. For example, in an embodiment having a laterally crossing pocket <b>204</b> in a sweatshirt, the single pocket across the sweatshirt may be lined <b>202</b> on the interior portion thereof, and may have the heating element provided interior to the lining of the pocket thereof, in order that the heat generated from the heating system <b>10</b> is held within the pocket <b>204</b> of the sweatshirt to the maximum extent possible.</p>
+<p id="p-0062" num="0061">As discussed throughout, it may be advantageous, particularly for certain types of wearables, that the heating system and/or the other systems associated therewith be conformable. This conformability may apply to the application of forces by the user or based on the activity, conformance to the physical profile of the wearable itself, or the like. Additional considerations may arise due to the conformability of the heating system and/or its associated systems. For example, delivered heat levels may vary based on the physical configuration of the heating elements, i.e., when the heating system is bent or partially folded, it may deliver greater or lesser heat in certain spots than is anticipated. Needless to say, some of this variability may be accounted for using a protective dielectric layer <b>22</b>, such as is referenced above.</p>
+<p id="p-0063" num="0062">As discussed throughout, additional sensors, integrated circuits, memory, and the like may also be associated with the discussed heating system <b>10</b>, may be printed on the substrate <b>14</b> thereof, and/or may be formed on or in systems associated therewith, and/or on the substrates thereof. It goes without saying that, in such embodiments, the associated electronics may be discrete from the heating system and those systems associated with the heating system, but may nevertheless be similarly conformable to the wearable, the substrate of the heating system, and so on. Further, those skilled in the art will appreciate that such other electronic circuits may or may not be formed by printing processes on the same substrate, or on a physically adjacent substrate, of the heating system.</p>
+<p id="p-0064" num="0063">Moreover, the embodiments may include additional layers (not shown) to those discussed above. For example, a heater substrate may be provided in the form of a highly adhesive sticker, wherein the sticker may or may not provide a substrate suitable for receiving printed electronics on one side of the &#x201c;sticker.&#x201d; In such an instance, the compatibly adhesive surface may be applied to the opposing face of the sticker, such as via additive process printing, lamination, deposition, or the like.</p>
+<p id="p-0065" num="0064"><figref idref="DRAWINGS">FIGS. 3, 4, and 5</figref> illustrate exemplary implementations of the disclosed embodiments. More particularly, <figref idref="DRAWINGS">FIG. 3</figref> illustrates a conductor layer <b>12</b> having contact points at the top right and bottom left of the heating system. Further illustrated are discreet heater elements <b>18</b><i>a </i>of the resistive layer <b>18</b>, shown in the blow up of <figref idref="DRAWINGS">FIG. 3</figref>.</p>
+<p id="p-0066" num="0065"><figref idref="DRAWINGS">FIG. 4</figref> illustrates an additional exemplary implementation of a conductive <b>12</b> and resistive layer <b>18</b> heating system. <figref idref="DRAWINGS">FIG. 5</figref> illustrates an additional embodiment, in which the current choke point <b>502</b> of <figref idref="DRAWINGS">FIG. 4</figref> is remedied by enhancements in the size of the conductive layer <b>12</b> associated with the contact pads at the top of the device. Of note, each of the embodiments of <figref idref="DRAWINGS">FIGS. 3, 4, and 5</figref> illustrate a dielectric layer <b>22</b> printed over the conductive <b>12</b> and resistive layers <b>18</b>, with the contact points extending beyond the dielectric layer <b>22</b> to allow for the interconnections <b>54</b> discussed herein.</p>
+<p id="p-0067" num="0066"><figref idref="DRAWINGS">FIG. 6</figref> illustrates an exemplary implementation of the heating system <b>10</b> of <figref idref="DRAWINGS">FIG. 5</figref> enclosed in an encapsulation layer <b>32</b>. As noted throughout, the encapsulation layer <b>32</b> may protect the heating system <b>10</b> from environmental conditions.</p>
+<p id="p-0068" num="0067"><figref idref="DRAWINGS">FIG. 7</figref> illustrates an exemplary implementation in which the heating system <b>10</b> has been laminated to a textile <b>702</b>. Available textiles may include, by way of non-limiting example, nylons, cottons, or the like.</p>
+<p id="p-0069" num="0068"><figref idref="DRAWINGS">FIG. 8</figref> is a flow diagram illustrating an exemplary method <b>800</b> of providing a conformable heater, such as for use in a wearable. At step <b>802</b>, an ink set is inter-matched for use to print compatible ink layers within the ink set, and is matched to a receiving organic or inorganic conformable substrate. At step <b>804</b>, a conductive layer formed of at least one ink from the ink set is printed on the substrate.</p>
+<p id="p-0070" num="0069">At step <b>806</b>, a resistive layer is printed from the ink set, wherein the resistive layer provides at least a plurality of heating elements in electrical communication with the conductive layer. At step <b>808</b>, a dielectric layer is printed from the ink set in order to insulate the conductive and resistive layers.</p>
+<p id="p-0071" num="0070">At optional step <b>810</b>, the substrate having at least the conductive layer and the resistive layer printed thereon is at least partially encapsulated. At optional step <b>812</b>, one or more sensors associated with the operation of the heater may be integrated with and/or printed on the substrate.</p>
+<p id="p-0072" num="0071">At step <b>814</b>, the heater is integrated with a wearable. Integrating may be by sewing, lamination, adhesion, or any like methodology. Moreover, at step <b>816</b>, the heater may be connectively associated with one or more driver circuits having control systems communicative therewith, and with one or more power source connections to allow for power to be supplied to the heating elements via the conductive layer. By way of example, step <b>816</b> may include the printing or other manner of interconnecting of one or more electrical interconnections to the heater.</p>
+<p id="p-0073" num="0072"><figref idref="DRAWINGS">FIG. 9</figref> is a flow diagram illustrating a method <b>900</b> of using a conformable heater system within a wearable. In the illustration, the conformable heater may be associated with a power source at step <b>902</b>. This association may include a permanent association, such as via recharging of a permanently embedded battery, or a removable association, such as wherein an external power source, such as a battery, a mobile device, or the like, may be removably associated with the heater.</p>
+<p id="p-0074" num="0073">At step <b>904</b>, the driver circuit that delivers power from the power source to the heater may be variably controlled. Optionally, at step <b>904</b><i>a</i>, wireless control may be via a wireless connection, such as from a mobile device to the driver circuit. This wireless, or a wired, connection may be controllable using a user interface provided by an &#x201c;app&#x201d; on the mobile device, by way of non-limiting example. The control provided thereby may be automated based on predetermined triggers or operational limitations, manual, or a combination thereof. Wireless control may be provided over any known type of wireless interface.</p>
+<p id="p-0075" num="0074">Optionally, at step <b>904</b><i>b</i>, wired control may be via a wired connection from a mobile device to the driver circuit, such as via a micro-USB connection to the heater. As will be understood by the skilled artisan, power may also be supplied via this connection in alternative embodiments.</p>
+<p id="p-0076" num="0075">Further, the descriptions of the disclosure are provided to enable any person skilled in the art to make or use the disclosed embodiments. Various modifications to the disclosure will be readily apparent to those skilled in the art, and the generic principles defined herein may be applied to other variations without departing from the spirit or scope of the disclosure. Thus, the disclosure is not intended to be limited to the examples and designs described herein, but rather is to be accorded the widest scope consistent with the principles and novel features disclosed herein.</p>
+<?detailed-description description="Detailed Description" end="tail"?>
+</description>
+<us-claim-statement>What is claimed is:</us-claim-statement>
+<claims id="claims">
+<claim id="CLM-01-18" num="01-18">
+<claim-text><b>1</b>.-<b>18</b>. (Cancelled)</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text><b>19</b>. A flexible heater suitable for embedding in a wearable, comprising:
+<claim-text>a substrate;</claim-text>
+<claim-text>a set of additively deposited inks selected, in combination, to achieve a particular fineness, pitch, density and consistency, the selection being by a matching of each additively deposited ink in the set to at least:
+<claim-text>a receptivity of the substrate to each of the additively deposited inks;</claim-text>
+<claim-text>a conductivity between the substrate to each of the additively deposited inks;</claim-text>
+<claim-text>a chemical reactivity as between the substrate and each of the additively deposited inks; and</claim-text>
+<claim-text>differing printing and curing methodologies as between each of the additively deposited inks;</claim-text>
+</claim-text>
+<claim-text>each of the additively deposited inks being printed in successive additively printed layers onto at least one substantially planar face of the substrate to form at least:
+<claim-text>at least one conductive layer capable of receiving current flow from at least one power source;</claim-text>
+<claim-text>at least one resistive layer electrically associated with the at least one conductive layer and comprising a plurality of heating elements capable of generating heat upon receipt of the current flow; and</claim-text>
+<claim-text>at least one dielectric layer capable of at least partially insulating the at least one resistive layer;</claim-text>
+</claim-text>
+<claim-text>the particular fineness, pitch, density and consistency being an approximation of subtractive processes when the substrate is unreceptive to the subtractive properties.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text><b>20</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the substrate comprises an inorganic substrate</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text><b>21</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the substrate comprises one selected from the group consisting of PET, PC, TPU, nylon, glass, fabric, PEN, and ceramic.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text><b>22</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein each of the additively deposited inks includes ones selected from the group consisting of silver, carbon, PEDOT:PSS, and CNT inks.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text><b>23</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein at least one of the additively deposited inks withstands environmental factors including at least moisture.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text><b>24</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, further comprising an encapsulation that at least partially seals at least the substrate having the each of the additively deposited inks thereon from environmental factors.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text><b>25</b>. The flexible heater of <claim-ref idref="CLM-00024">claim 24</claim-ref>, wherein the encapsulation comprises a laminated pouch.</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text><b>26</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, further comprising an integration into the wearable of the substrate.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text><b>27</b>. The flexible heater of <claim-ref idref="CLM-00026">claim 26</claim-ref>, wherein the integration comprises one selected from the group consisting of a sewing, a lamination, an adhesion.</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text><b>28</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, further comprising a driver circuit connectively associated with the at least one conductive layer.</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text><b>29</b>. The flexible heater of <claim-ref idref="CLM-00028">claim 28</claim-ref>, wherein the driver circuit comprises a control system, and wherein an amount of heat delivered by the heating elements is controlled by the control system.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text><b>30</b>. The flexible heater of <claim-ref idref="CLM-00029">claim 29</claim-ref>, wherein the control system comprises a wireless receiver.</claim-text>
+</claim>
+<claim id="CLM-00031" num="00031">
+<claim-text><b>31</b>. The flexible heater of <claim-ref idref="CLM-00030">claim 30</claim-ref>, wherein the wireless receiver comprises at least one of a Bluetooth, WiFi, NFC, cellular and RF receiver.</claim-text>
+</claim>
+<claim id="CLM-00032" num="00032">
+<claim-text><b>32</b>. The flexible heater of <claim-ref idref="CLM-00030">claim 30</claim-ref>, wherein a remote portion of the control system comprises a mobile device app.</claim-text>
+</claim>
+<claim id="CLM-00033" num="00033">
+<claim-text><b>33</b>. The flexible heater of <claim-ref idref="CLM-00030">claim 30</claim-ref>, further comprising at least one power source connectively associated with the driver circuit.</claim-text>
+</claim>
+<claim id="CLM-00034" num="00034">
+<claim-text><b>34</b>. The flexible heater of <claim-ref idref="CLM-00033">claim 33</claim-ref>, wherein the power source comprises a rechargeable battery.</claim-text>
+</claim>
+<claim id="CLM-00035" num="00035">
+<claim-text><b>35</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the dielectric layer insulates ones of the plurality of heating elements from shorting onto one another due to a conformability of the substrate.</claim-text>
+</claim>
+<claim id="CLM-00036" num="00036">
+<claim-text><b>36</b>. The flexible heater of <claim-ref idref="CLM-00019">claim 19</claim-ref>, wherein the dielectric layer insulates heat produced by the heating elements to avoid localized overheating.</claim-text>
+</claim>
+</claims>
+</us-patent-application>
