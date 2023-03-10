@@ -16,8 +16,10 @@ import (
 	"sync"
 )
 
-var regexFile = regexp.MustCompile(`file="([A-Z0-9-.]+)"`)
+// regexFileName is used to extract the filename from the xml file
+var regexFileName = regexp.MustCompile(`file="([A-Z0-9-.]+)"`)
 
+// ProcessBulkFile processes a uspto zip file
 func ProcessBulkFile(sourceFile, destinationFolder string) (err error) {
 	logger := log.WithField("zipFile", sourceFile)
 	logger.Info("reading file")
@@ -81,7 +83,7 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 	// scan file
 	scanner := bufio.NewScanner(fc)
 	buf := make([]byte, 0, 64*1024)
-	scanner.Buffer(buf, 1024*1024)
+	scanner.Buffer(buf, 1024*1024*1000) // 1GB
 	counter := 1
 	for scanner.Scan() {
 		line := scanner.Text()
@@ -105,20 +107,23 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 			counter++
 			break
 		default:
+			if strings.Contains(line, `</us-patent-grant>`) {
+				logger.WithField("line", line).Panic("found end of file")
+			}
 			// extract filename from xml file
 			if strings.Contains(line, `<us-patent-grant `) || strings.Contains(line, `<us-patent-application `) {
 				// version 4.0
 				logger.Trace("us-patent-grant filename")
 				// if there is a line which contains the beginning of the document xml tag
 				// extract the filename
-				res := regexFile.FindAllStringSubmatch(line, -1)
-				if len(res) != 1 && len(res[0]) != 1 {
+				regexExtractionResults := regexFileName.FindAllStringSubmatch(line, -1)
+				if len(regexExtractionResults) != 1 && len(regexExtractionResults[0]) != 1 {
 					msg := "failed extract filename"
 					err = fmt.Errorf(msg)
 					logger.Error(err)
 					return
 				}
-				filename := res[0][1]
+				filename := regexExtractionResults[0][1]
 				logger.WithField("xmlFile", filename).Info("start")
 				// send the filename
 				wg.Add(1)
@@ -153,14 +158,6 @@ func processZippedFiles(file *zip.File, destinationFolder string) (err error) {
 		}
 		logger.Trace("wait")
 		wg.Wait()
-	}
-	// scanner error
-	if err = scanner.Err(); err != nil {
-		msg := "failed to scan file %s line by line: %s"
-		err = fmt.Errorf(msg, file.Name, err)
-		logger.Error(err)
-		ctx.Done()
-		return
 	}
 	return
 }

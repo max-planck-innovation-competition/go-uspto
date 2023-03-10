@@ -6,11 +6,11 @@ import (
 )
 
 func TestReadPatentXMLZip(t *testing.T) {
-	skipTest(t)
+	//skipTest(t)
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)
 	err := ProcessBulkFile(
-		"./test-data/ipg211019.zip", "./test-data/xml")
+		"./test-data/test.zip", "./test-data/xml")
 	ass.NoError(err)
 }
 
@@ -37,15 +37,14 @@ func TestReadPatentApplicationsXMLZip15(t *testing.T) {
 	skipTest(t)
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)
-	err := ProcessBulkFile("./test-data/application/bulk/1-5-pab20010315_wk11.zip", "./test-data/xml-application")
+	err := ProcessBulkFile("./test-data/application/grant-bulk/1-5-pab20010315_wk11.zip", "./test-data/xml-application")
 	ass.NoError(err)
 }
 
-// 2022
-func TestReadPatentApplicationsXMLZip2022(t *testing.T) {
-	skipTest(t)
+// missing grant
+func TestReadPatentGrantXMLZip2022(t *testing.T) {
 	// log.SetLevel(log.TraceLevel)
 	ass := assert.New(t)
-	err := ProcessBulkFile("./test-data/ipa220203.zip", "./test-data/ipa220203")
+	err := ProcessBulkFile("./test-data/grant-bulk/ipg210803.zip", "./test-data/grant-bulk")
 	ass.NoError(err)
 }
