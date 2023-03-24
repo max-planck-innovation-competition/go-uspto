@@ -1,0 +1,2241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE us-patent-application SYSTEM "us-patent-application-v46-2022-02-17.dtd" [ ]>
+<us-patent-application lang="EN" dtd-version="v4.6 2022-02-17" file="US20230080311A1-20230316.XML" status="PRODUCTION" id="us-patent-application" country="US" date-produced="20230301" date-publ="20230316">
+<us-bibliographic-data-application lang="EN" country="US">
+<publication-reference>
+<document-id>
+<country>US</country>
+<doc-number>20230080311</doc-number>
+<kind>A1</kind>
+<date>20230316</date>
+</document-id>
+</publication-reference>
+<application-reference appl-type="utility">
+<document-id>
+<country>US</country>
+<doc-number>17931943</doc-number>
+<date>20220914</date>
+</document-id>
+</application-reference>
+<us-application-series-code>17</us-application-series-code>
+<priority-claims>
+<priority-claim sequence="01" kind="regional">
+<country>EP</country>
+<doc-number>16185466.6</doc-number>
+<date>20160824</date>
+</priority-claim>
+<priority-claim sequence="02" kind="regional">
+<country>EP</country>
+<doc-number>17167508.5</doc-number>
+<date>20170421</date>
+</priority-claim>
+</priority-claims>
+<classifications-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>9</main-group>
+<subgroup>10</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>36</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>9</main-group>
+<subgroup>88</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+<classification-ipcr>
+<ipc-version-indicator><date>20060101</date></ipc-version-indicator>
+<classification-level>A</classification-level>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>15</main-group>
+<subgroup>10</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+</classification-ipcr>
+</classifications-ipcr>
+<classifications-cpc>
+<main-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>9</main-group>
+<subgroup>1007</subgroup>
+<symbol-position>F</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</main-cpc>
+<further-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>Y</subclass>
+<main-group>201</main-group>
+<subgroup>01004</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>1</main-group>
+<subgroup>36</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>9</main-group>
+<subgroup>1085</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>9</main-group>
+<subgroup>88</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>N</subclass>
+<main-group>15</main-group>
+<subgroup>10</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>I</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>Y</subclass>
+<main-group>205</main-group>
+<subgroup>01048</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>Y</subclass>
+<main-group>403</main-group>
+<subgroup>01019</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>Y</subclass>
+<main-group>404</main-group>
+<subgroup>01001</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+<classification-cpc>
+<cpc-version-indicator><date>20130101</date></cpc-version-indicator>
+<section>C</section>
+<class>12</class>
+<subclass>Y</subclass>
+<main-group>404</main-group>
+<subgroup>01021</subgroup>
+<symbol-position>L</symbol-position>
+<classification-value>A</classification-value>
+<action-date><date>20230316</date></action-date>
+<generating-office><country>US</country></generating-office>
+<classification-status>B</classification-status>
+<classification-data-source>H</classification-data-source>
+<scheme-origination-code>C</scheme-origination-code>
+</classification-cpc>
+</further-cpc>
+</classifications-cpc>
+<invention-title id="d2e79">Method of improving methyltransferase activity</invention-title>
+<us-related-documents>
+<division>
+<relation>
+<parent-doc>
+<document-id>
+<country>US</country>
+<doc-number>16326974</doc-number>
+<date>20190221</date>
+</document-id>
+<parent-grant-document>
+<document-id>
+<country>US</country>
+<doc-number>11479758</doc-number>
+</document-id>
+</parent-grant-document>
+<parent-pct-document>
+<document-id>
+<country>WO</country>
+<doc-number>PCT/EP2017/071381</doc-number>
+<date>20170824</date>
+</document-id>
+</parent-pct-document>
+</parent-doc>
+<child-doc>
+<document-id>
+<country>US</country>
+<doc-number>17931943</doc-number>
+</document-id>
+</child-doc>
+</relation>
+</division>
+</us-related-documents>
+<us-parties>
+<us-applicants>
+<us-applicant sequence="00" app-type="applicant" designation="us-only" applicant-authority-category="assignee">
+<addressbook>
+<orgname>Danmarks Tekniske Universitet</orgname>
+<address>
+<city>Kongens Lyngby</city>
+<country>DK</country>
+</address>
+</addressbook>
+<residence>
+<country>DK</country>
+</residence>
+</us-applicant>
+</us-applicants>
+<inventors>
+<inventor sequence="00" designation="us-only">
+<addressbook>
+<last-name>Luo</last-name>
+<first-name>Hao</first-name>
+<address>
+<city>Kongens Lyngby</city>
+<country>DK</country>
+</address>
+</addressbook>
+</inventor>
+<inventor sequence="01" designation="us-only">
+<addressbook>
+<last-name>Hansen</last-name>
+<first-name>Anne Sofie Laerke</first-name>
+<address>
+<city>Kongens Lyngby</city>
+<country>DK</country>
+</address>
+</addressbook>
+</inventor>
+</inventors>
+</us-parties>
+</us-bibliographic-data-application>
+<abstract id="abstract">
+<p id="p-0001" num="0000">Methods for evolving cells or strains towards improved methyltransferase activity, particularly SAM-dependent methyltransferase activity, as well as to cells and strains useful in such methods and methods of using the evolved cells in the production of methylated products.</p>
+</abstract>
+<drawings id="DRAWINGS">
+<figure id="Fig-EMI-D00000" num="00000">
+<img id="EMI-D00000" he="107.10mm" wi="155.36mm" file="US20230080311A1-20230316-D00000.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00001" num="00001">
+<img id="EMI-D00001" he="118.70mm" wi="157.40mm" file="US20230080311A1-20230316-D00001.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00002" num="00002">
+<img id="EMI-D00002" he="205.91mm" wi="124.04mm" file="US20230080311A1-20230316-D00002.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00003" num="00003">
+<img id="EMI-D00003" he="209.47mm" wi="148.17mm" orientation="landscape" file="US20230080311A1-20230316-D00003.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00004" num="00004">
+<img id="EMI-D00004" he="98.81mm" wi="106.93mm" file="US20230080311A1-20230316-D00004.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00005" num="00005">
+<img id="EMI-D00005" he="179.58mm" wi="135.64mm" file="US20230080311A1-20230316-D00005.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+<figure id="Fig-EMI-D00006" num="00006">
+<img id="EMI-D00006" he="186.61mm" wi="135.81mm" file="US20230080311A1-20230316-D00006.TIF" alt="embedded image" img-content="drawing" img-format="tif"/>
+</figure>
+</drawings>
+<description id="description">
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="lead"?>
+<heading id="h-0001" level="1">CROSS REFERENCE TO RELATED APPLICATIONS</heading>
+<p id="p-0002" num="0001">In accordance with 37 C.F.R. &#xa7; 1.76, a claim of priority is included in an Application Data Sheet filed concurrently herewith. Accordingly, the present invention claims priority as a divisional of U.S. patent application Ser. No. 16/326,974, filed Feb. 21, 2019, which is a &#xa7; 371 of PCT/EP2017/071381, filed Aug. 24, 2017, which claims the benefit of the priority of European Patent Application No. 17167508.5, filed Apr. 21, 2017, and European Patent Application No. 16185466.6, filed Aug. 24, 2016, the contents of each are incorporated herein by reference.</p>
+<?cross-reference-to-related-applications description="Cross Reference To Related Applications" end="tail"?>
+<?summary-of-invention description="Summary of Invention" end="lead"?>
+<heading id="h-0002" level="1">REFERENCE TO AN ELECTRONIC SEQUENCE LISTING</heading>
+<p id="p-0003" num="0002">The contents of the electronic sequence listing (20843US01.xml; Size: 16K B; and Date of Creation: Sep. 12, 2022) is herein incorporated by reference in its entirety.</p>
+<heading id="h-0003" level="1">FIELD OF THE INVENTION</heading>
+<p id="p-0004" num="0003">The present invention relates to methods for evolving cells or strains towards improved methyltransferase activity as well as to the background host cells and strains useful in such methods and evolved, cells or strains obtainable or obtained using such methods.</p>
+<heading id="h-0004" level="1">BACKGROUND OF THE INVENTION</heading>
+<p id="p-0005" num="0004">Methyltransferases are an important group of enzymes which facilitate methylation events between methyl donors and acceptors. They can generally be divided into three classes, of which the most common one is that of S-adenosyl methionine- (SAM-) dependent methyltransferases, i.e., methyltransferases requiring the SAM molecule as a methyl donor, resulting in its conversion to S-adenosyl-L-homocysteine (SAH). The SAM-dependent methyltransferases are widely used for secondary metabolite synthesis, for example, in the biosynthesis of flavonoids plants, neurotransmitters in animals and antibiotics in bacteria. Metabolic engineering of organisms incorporating small-molecule SAM-dependent methyltransferases can be useful for a variety of applications ranging from industrial bioprocessing of flavourants and antibiotics to frontier research in biofuel production and bioremediation (Struck et al., 2012).</p>
+<p id="p-0006" num="0005">One application of particular interest is the biosynthesis of melatonin. In animals, melatonin is biosynthesized from the native metabolite L-tryptophan via the intermediates 5-hydroxy-L-tryptophan (5HTP), serotonin and N-acetyiserotonin. The last step is this pathway, the conversion of N-acetyiserotonin and SAM to melatonin and SAH, is catalyzed by acetylserotonin O-methyltransferase (ASMT). The SAH can then be converted back to SAM via a SAM cycle, an enzymatic pathway existing in all known organisms. Recombinant production of melatonin has been described, e.g., in WO 2013/127915 A1, WO 2015/032911 A1 and US 2014/134689 AA. Duchin et al, (2015) describes an in vitro assay for measuring methyltransferases catalyzing SAM-dependent methylation of proteins and DNA based on the coupling of SAH formation to NADP(H) oxidation through a 3-enzyme reaction including glutamate dehydrogenase.</p>
+<p id="p-0007" num="0006">Ye et al. (2017) describes that next to the enzyme activities of the CHO2 and OPI3 genes, the histone methyltransferases encoded by DOT1, SET1 and SET2 are major native SAM sink enzymes in yeast. Sadhu et al. (2014) describes yeast strains having deletions of MET17 (a.k.a. MET15) and CHO2.</p>
+<p id="p-0008" num="0007">U.S. Pat. No. 7,745,195 describes methods to evolve microorganisms under selection pressure, e.g., to improve methionine synthesis, using a background strain auxotrophic for methionine.</p>
+<p id="p-0009" num="0008">WO 2006/082252 A2 describes a method for the enzymatic production of alpha-ketobutyrate and its derivatives via activated homoserine.</p>
+<p id="p-0010" num="0009">There is still a need for improved SAM-dependent methyltransferase activity for biosynthetic applications, e.g., by it proving the SAM-dependent methyltransferase itself and/or the cells in which the reaction takes place.</p>
+<heading id="h-0005" level="1">SUMMARY OF THE INVENTION</heading>
+<p id="p-0011" num="0010">It has been found by the present inventor that an in vivo growth selection system can be used to improve SAM-dependent methyltransferase activity under selection pressure. The selection system utilizes background host cells which are genetically engineered to make the SAM cycle substantially the only source of homocysteine, with homocysteine being the precursor of one or more of cysteine, 2-oxobutanoate and isoleucine. The selection may then take place in the presence of methionine.</p>
+<p id="p-0012" num="0011">So, in one aspect, the present invention relates to a genetically modified cell which comprises
+<ul id="ul0001" list-style="none">
+    <li id="ul0001-0001" num="0000">
+    <ul id="ul0002" list-style="none">
+        <li id="ul0002-0001" num="0012">(a) a SAM-dependent methyltransferase;</li>
+        <li id="ul0002-0002" num="0013">(b) a biosynthetic pathway converting SAH to a metabolite via a homocysteine intermediate, wherein the metabolite is selected from cysteine, 2-oxobutanoate, isoleucine, or a combination of any thereof;</li>
+        <li id="ul0002-0003" num="0014">(c) one or more genetic modifications disrupting any endogenous H<sub>2</sub>S-dependent and/or cysteine-dependent biosynthesis of homocysteine in the cell,</li>
+        <li id="ul0002-0004" num="0015">wherein the growth of the cell is dependent on the production of the metabolite from the biosynthetic pathway in (b).</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0013" num="0016">In one aspect, the present invention relates to a genetically modified cell which comprises
+<ul id="ul0003" list-style="none">
+    <li id="ul0003-0001" num="0000">
+    <ul id="ul0004" list-style="none">
+        <li id="ul0004-0001" num="0017">(a) a SAM-dependent methyltransferase;</li>
+        <li id="ul0004-0002" num="0018">(b) a biosynthetic pathway converting SAH to cysteine via a homocysteine intermediate; and</li>
+        <li id="ul0004-0003" num="0019">(c) one or more genetic modifications reducing any endogenous H<sub>2</sub>S-dependent and/or cysteine-dependent biosynthesis of homocysteine in the cell,</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0014" num="0020">wherein the growth of the cell is dependent on the production of cysteine from the biosynthetic pathway in (b).</p>
+<p id="p-0015" num="0021">In one aspect, the invention relates to a genetically modified cell which comprises
+<ul id="ul0005" list-style="none">
+    <li id="ul0005-0001" num="0000">
+    <ul id="ul0006" list-style="none">
+        <li id="ul0006-0001" num="0022">(a) a SAM-dependent methyltransferase;</li>
+        <li id="ul0006-0002" num="0023">(b) a biosynthetic pathway converting SAH to isoleucine via a homocysteine intermediate; and</li>
+        <li id="ul0006-0003" num="0024">(c) one or more genetic modifications reducing any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell,</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0016" num="0025">wherein the growth of the cell of the cell is dependent on the production of isoleucine from the biosynthetic pathway in (b).</p>
+<p id="p-0017" num="0026">In one aspect, the invention relates to a genetically modified cell which comprises
+<ul id="ul0007" list-style="none">
+    <li id="ul0007-0001" num="0000">
+    <ul id="ul0008" list-style="none">
+        <li id="ul0008-0001" num="0027">(a) a SAM-dependent methyltransferase;</li>
+        <li id="ul0008-0002" num="0028">(b) a biosynthetic pathway converting SAH to 2-oxobutanoate via a homocysteine intermediate; and</li>
+        <li id="ul0008-0003" num="0029">(c) one or more genetic modifications reducing any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell,</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0018" num="0030">wherein the growth of the cell of the cell is dependent on the production of 2-oxobutanoate from the biosynthetic pathway in (b).</p>
+<p id="p-0019" num="0031">In a specific embodiment of any aspect herein, the SAM-dependent methyltransferase is expressed from a transgene, e.g., from a heterologous gene.</p>
+<p id="p-0020" num="0032">In one aspect, the invention relates to a genetically modified bacterial cell comprising a SAM-dependent methyltransferase, a heterologous cystathionine-beta-synthase, a heterologous cystathionine-gamma-lyase, and
+<ul id="ul0009" list-style="none">
+    <li id="ul0009-0001" num="0000">
+    <ul id="ul0010" list-style="none">
+        <li id="ul0010-0001" num="0033">(a) a downregulation or deletion of cysE;</li>
+        <li id="ul0010-0002" num="0034">(b) a downregulation or deletion of cysK and cysM;</li>
+        <li id="ul0010-0003" num="0035">(c) a downregulation or deletion of cysE and ilvA;</li>
+        <li id="ul0010-0004" num="0036">(d) a downregulation or deletion of cysE and tdcB;</li>
+        <li id="ul0010-0005" num="0037">(e) a downregulation or deletion of cysE, ilvA and tdcB;</li>
+        <li id="ul0010-0006" num="0038">(f) a downregulation or deletion of cysE, ilvA, tdcB, and metA;</li>
+        <li id="ul0010-0007" num="0039">(g) a downregulation or deletion of cysE, ilvA, tdcB, and metB;</li>
+        <li id="ul0010-0008" num="0040">(h) a downregulation or deletion of metA, ilvA and tdcB;</li>
+        <li id="ul0010-0009" num="0041">(i) a downregulation or deletion of metB, ilvA and tdcB;</li>
+        <li id="ul0010-0010" num="0042">(j) a downregulation or deletion of metC, malY, ilvA and tdcB;</li>
+        <li id="ul0010-0011" num="0043">(k) a downregulation or deletion of metC, malY, ilvA, tdcB and metA;</li>
+        <li id="ul0010-0012" num="0044">(l) a downregulation or deletion of metC, malY, ilvA, tdcB and metB; or</li>
+        <li id="ul0010-0013" num="0045">(m) any one of (a) to (l), further comprising a downregulation or deletion of cfa.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0021" num="0046">In one aspect, the invention relates to a genetically modified cell which is, or is derived from, an <i>Escherichia </i>cell and comprising a SAM-dependent methyltransferase, a heterologous cystathionine-beta-synthase, a heterologous cystathionine-gamma-lyase, and a downregulation or deletion of cysE and, optionally, cfa.</p>
+<p id="p-0022" num="0047">In one aspect, the invention relates to a genetically modified yeast cell comprising a SAM-dependent methyltransferase, optionally heterologous, and a downregulation or deletion of an endogenous gene encoding an acetylhomoserine sulfhydrylase, optionally MET17, a homoserine O-acetyltransferase, optionally MET2, a downregulation or deletion of an endogenous gene encoding a L-threonine/L-serine ammonia-lyase, optionally one or both of CHAT and ILV1, optionally wherein the cell further comprises a downregulation or deletion of one or more of MET6, ERG6, CHO2, OPI3, SET2, SET1 and DOT1.</p>
+<p id="p-0023" num="0048">In one aspect, the invention relates to a genetically modified <i>Saccharomyces </i>cell comprising a SAM-dependent methyltransferase which is heterologous or overexpressed as compared to the native <i>Saccharomyces </i>cell, and
+<ul id="ul0011" list-style="none">
+    <li id="ul0011-0001" num="0000">
+    <ul id="ul0012" list-style="none">
+        <li id="ul0012-0001" num="0049">(a) a downregulation or deletion of MET17;</li>
+        <li id="ul0012-0002" num="0050">(b) a downregulation or deletion of MET2;</li>
+        <li id="ul0012-0003" num="0051">(c) a downregulation or deletion of MET2 and MET17</li>
+        <li id="ul0012-0004" num="0052">(d) a downregulation or deletion of MET17, CHA1 and ILV1;</li>
+        <li id="ul0012-0005" num="0053">(e) downregulation or deletion of MET2, CHA1 and ILV1;</li>
+        <li id="ul0012-0006" num="0054">(f) a downregulation or deletion of MET17 MET2, CHA1 and ILV1; or</li>
+        <li id="ul0012-0007" num="0055">(g) any one of (a) to (f), further comprising a downregulation or deletion of MET6, or</li>
+        <li id="ul0012-0008" num="0056">(h) any one of (a) to (g), further comprising a downregulation or deletion of one or more native SAM-dependent methyltransferases, optionally selected from one or more of ERG6, CHO2, OPI3, SET2, SET1 and DOT1.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0024" num="0057">In one aspect, the invention relates to a genetically modified cell which is, or is derived from, a <i>Saccharomyces </i>cell and comprises a SAM-dependent methyltransferase expressed from a transgene and a downregulation or deletion of MET17 and/or MET2, optionally MET6 and, optionally, one or more of ERG6, CHO2, OPI3, SET1, SET1 and DOT1.</p>
+<p id="p-0025" num="0058">In one aspect, the invention relates to a composition comprising a plurality of the genetically modified cell according to the invention, optionally wherein the composition comprises a culture medium comprising methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source.</p>
+<p id="p-0026" num="0059">In one aspect, the invention relates to a method of evolving the SAM-dependent methyltransferase activity of a cell, comprising cultivating the genetically modified cell of any aspect or embodiment herein in a medium comprising an abundance of methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source.</p>
+<p id="p-0027" num="0060">In one aspect, the invention relates to a method of preparing a cell having an improved SAM-dependent methyltransferase activity, comprising the steps of:
+<ul id="ul0013" list-style="none">
+    <li id="ul0013-0001" num="0000">
+    <ul id="ul0014" list-style="none">
+        <li id="ul0014-0001" num="0061">(a) culturing a plurality of the genetically modified cell of any aspect or embodiment herein in a medium comprising an abundance of methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source; and</li>
+        <li id="ul0014-0002" num="0062">(b) selecting any cell having an increased growth rate as compared to the genetically modified cell or the composition prior to step (a) as a cell having an improved SAM-dependent methyltransferase activity.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0028" num="0063">In one aspect, the invention relates to a method of producing a cell having an improved SAM-dependent methyltransferase activity, comprising the steps of:
+<ul id="ul0015" list-style="none">
+    <li id="ul0015-0001" num="0000">
+    <ul id="ul0016" list-style="none">
+        <li id="ul0016-0001" num="0064">(a) generating a plurality of the genetically modified cell according to any aspect or embodiment herein;</li>
+        <li id="ul0016-0002" num="0065">(b) culturing the plurality of genetically modified cells in a medium comprising an abundance of methionine; and at least one substrate or substrate precursor of the SAM-dependent methyltransferase;</li>
+        <li id="ul0016-0003" num="0066">(c) selecting any cell having an increased growth rate as a cell having an improved SAM-dependent methyltransferase activity; and</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0029" num="0067">optionally, reversing the one or more genetic modifications in the cell.</p>
+<p id="p-0030" num="0068">In one aspect, the invention relates to a method of preparing a genetically modified microbial cell which is growth-dependent on a metabolite selected from cysteine, 2-oxobutanoate and isoleucine, or a combination of any thereof, comprising the steps of
+<ul id="ul0017" list-style="none">
+    <li id="ul0017-0001" num="0000">
+    <ul id="ul0018" list-style="none">
+        <li id="ul0018-0001" num="0069">(a) transforming a microbial cell with a nucleic acid encoding a SAM-dependent methyltransferase;</li>
+        <li id="ul0018-0002" num="0070">(b) optionally, transforming the cell with nucleic acids encoding cystathionine-beta-synthase and a cystathionine-gamma-lyase;</li>
+        <li id="ul0018-0003" num="0071">(c) reducing or disrupting the expression or activity of at least one enzyme in any endogenous pathway for H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell, and</li>
+        <li id="ul0018-0004" num="0072">(d) reducing or disrupting the expression or activity of at least one enzyme in any endogenous pathway for cysteine, 2-oxobutanoate or isoleucine, or a combination of any thereof;</li>
+        <li id="ul0018-0005" num="0073">wherein steps (a) to (d) are performed in any order. Optionally, the enzyme reduced or disrupted in (c) and (d) is the same enzyme.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0031" num="0074">In one aspect, the invention relates to a method of preparing a genetically modified microbial cell which is growth-dependent on cysteine; Isoleucine or both, comprising the steps of
+<ul id="ul0019" list-style="none">
+    <li id="ul0019-0001" num="0000">
+    <ul id="ul0020" list-style="none">
+        <li id="ul0020-0001" num="0075">(a) transforming a microbial cell with a nucleic acid encoding a SAM-dependent methyltransferase;</li>
+        <li id="ul0020-0002" num="0076">(b) optionally, transforming the cell with nucleic acids encoding cystathionine-beta-synthase and a cystathionine-gamma-lyase;</li>
+        <li id="ul0020-0003" num="0077">(c) reducing or disrupting the expression or activity of at least one enzyme in any endogenous pathway for H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell,</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0032" num="0078">wherein steps (a) to (c) are performed in any order.</p>
+<p id="p-0033" num="0079">In one aspect, the invention relates to a method of producing a methylated product from a substrate of a SAM-dependent methyltransferase, the method comprising the steps of:
+<ul id="ul0021" list-style="none">
+    <li id="ul0021-0001" num="0000">
+    <ul id="ul0022" list-style="none">
+        <li id="ul0022-0001" num="0080">(a) culturing a plurality of the genetically modified cell of any aspect or embodiment herein in a medium comprising an abundance of methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source;</li>
+        <li id="ul0022-0002" num="0081">(b) selecting any cell having an increased growth rate as compared to the genetically modified cell or composition prior to step (a) as a cell having an improved SAM-dependent methyltransferase activity;</li>
+        <li id="ul0022-0003" num="0082">(c) producing the methylated product by fermenting a cell selected in step (b) in a medium comprising methionine, the substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source; and</li>
+        <li id="ul0022-0004" num="0083">(d) optionally, retrieving the methylated product from the cell or fermentation medium.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0034" num="0084">In one aspect, the invention relates to a cell, such as an evolved cell, produced or identified by a method according to any aspect or embodiment described herein.</p>
+<p id="p-0035" num="0085">These and other aspects and embodiments are described in more detail below.</p>
+<?summary-of-invention description="Summary of Invention" end="tail"?>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="lead"?>
+<description-of-drawings>
+<heading id="h-0006" level="1">BRIEF DESCRIPTION OF THE DRAWINGS</heading>
+<p id="p-0036" num="0086"><figref idref="DRAWINGS">FIG. <b>1</b></figref>: Illustration of the SAM selection system using a melatonin biosynthesis pathway in <i>E. coli</i>. The melatonin pathway genes, encoding the enzymes TpH, DDC, AAI AT and ASMT, are heterologous to <i>E. coli</i>. MetK, MetE, MetH, LuxS and Mtn are native <i>E. coli </i>proteins involved in the SAM cycle. The cystathionine-beta-synthase (EC 4.2.1.22) and cystathionine-gamma-lyase (EC 4.4.1.1) are heterologous to <i>E. coli</i>. In <i>E. coli</i>, cysteine biosynthesis is dependent on CysE. The 2-oxobutanoate is a precursor to isoleucine biosynthesis and is produced by IlvA or TdcB from threonine.</p>
+<p id="p-0037" num="0087"><figref idref="DRAWINGS">FIG. <b>2</b></figref>: Natural SAM cycles. The formation of homocysteine is a two-step enzymatic conversion in SAM cycle I (A) while it requires only a single step in SAM cycle II (B). Most organisms operate with either cycle. <i>E. coli </i>operates with SAM cycle I while <i>S. cerevisiae </i>operates with SAM cycle II.</p>
+<p id="p-0038" num="0088"><figref idref="DRAWINGS">FIG. <b>3</b></figref>: Illustration of homocysteine biosynthesis pathways either via hydrogen sulfide (A) or cysteine (B).</p>
+<p id="p-0039" num="0089"><figref idref="DRAWINGS">FIG. <b>4</b></figref>: Melatonin production under selective conditions in small scale. HMP729 was a non-selection strain and HMP944 and HMP1235 were grown under SAM-cysteine and SAM-IC selective conditions.</p>
+<p id="p-0040" num="0090"><figref idref="DRAWINGS">FIG. <b>5</b></figref>: Growth of SCAH182 (B, C, D) and SCAH185 (A, C, D) in selective conditions in Delft medium supplied with histidine and uracil (HU), 1 mM choline chloride and 1 mM L-methionine with (A, B, D) and without (A, B, C) 1 mM theobromine. Growth curves represents an average of three replicates (N=3) grown in a 96-well flat-bottom microtiter plate. Measurements were taken in a BioTek ELx808 Absorbance Microplate Reader (BioTek)s every 30 minute.</p>
+</description-of-drawings>
+<?brief-description-of-drawings description="Brief Description of Drawings" end="tail"?>
+<?detailed-description description="Detailed Description" end="lead"?>
+<heading id="h-0007" level="1">DETAILED DISCLOSURE OF THE INVENTION</heading>
+<p id="p-0041" num="0091">According to the invention, the growth or growth rate of a host cell, herein referred to as a &#x201c;background&#x201d; host cell, can be made dependent on efficient SAM-dependent methyltransferase activity resulting in the conversion of SAM to SAH, which in turn allows for the selection of cells where this activity has been evolved, herein referred to as &#x201c;evolved&#x201d; cells, under selected conditions. These can typically be identified by an improved growth over the non-evolved cell. The evolved cell can then itself be used for biosynthetic purposes, optionally reversing one or more of the genetic modifications made to enable the selection. Additionally, the genomic and/or proteomic changes or mutations that occurred in the evolved cell can be identified by well-known analytical methods, and then transferred into another cell of choice, typically of the same or a similar genus, species or strain. Such changes may, for example, occur in the SAM-dependent methyltransferase itself or in one or more native metabolic pathways in the cell.</p>
+<p id="p-0042" num="0092">The Examples report the production of a SAM-selection background cell of the <i>E. coli </i>species, establishing the biosynthetic pathway converting SAH to cysteine or 2-oxobutanoate/isoleucine shown in <figref idref="DRAWINGS">FIG. <b>1</b></figref>. However, as described herein, the SAM selection system according to the present invention is applicable to any type of cells. For example, Example 4 describes the construction and testing of suitable <i>S. cerevisiae </i>background host cells, confirming that the introduced SAM-dependent methyltransferase provides a growth advantage. To enable the selection, de novo homocysteine biosynthesis is reduced, disrupted or eliminated so that homocysteine is only produced via SAM-dependent methylation events and a growth dependency on cysteine, 2-oxobutanoate and/or isoleucine is established.</p>
+<p id="p-0043" num="0093">As shown in <figref idref="DRAWINGS">FIG. <b>2</b></figref>, two SAM cycles, I and II, exist in nature and are used by different organisms (e.g., E call and <i>S. cerevisiae</i>). The SAH to homocysteine conversion is a part of both SAM cycles. The difference between SAM cycle I and cycle II is the number enzymatic steps required for SAH to homocysteine conversion. <i>E. coli </i>utilize SAM cycle I and transformation of SAH to homocysteine is taken place by SAH nucleotidase and S-ribosylhomocysteine lyase encoded by mtn and luxS, respectively. <i>S. cerevisiae </i>employ SAM cycle II and this conversion is a single step via SAH hydrolase encoded by SAH1.</p>
+<p id="p-0044" num="0094">As shown in <figref idref="DRAWINGS">FIG. <b>3</b></figref>, homocysteine can be de novo synthesized via two pathways depending on the sulphur source(s). The sulphur source can be either hydrogen sulphite (H<sub>2</sub>S) or L-cysteine. The majority of organisms shown in Table 1 contain both pathways endogenously while certain microorganisms, for example, E roll and <i>S. cerevisiae </i>only contain one pathway. As selected examples, the general strategy for preventing homocysteine biosynthesis (by another route than the SAM-cycle) and coupling growth selection to cysteine, 2-oxobutanoate/isoleucine or both is presented in Table 1 for some non-limiting examples of organisms. Other choices of reaction knockouts are possible, however, as similar effects can be achieved by removing any other related reaction nodes shown in <figref idref="DRAWINGS">FIG. <b>3</b></figref>. For example, preventing homocysteine biosynthesis from L-cys can also be effectively achieved by deleting cystathionine-beta-lyase (EC 4.4.1.8) instead of serine acetyltransferase (EC 2.3.1.30). Since these organisms are well-known and characterized, standard biotechnology techniques can be used to remove the relevant enzyme activity, e.g., by downregulating or deleting the endogenous gene(s) encoding the enzyme(s).</p>
+<p id="p-0045" num="0095">Another feature of the SAM selection system is that the cell has the ability to convert homocysteine to cysteine or 2-oxobutanoate, the latter of which being a precursor of isoleucine biosynthesis. This conversion can be catalyzed by, for example, cystathionine-beta-synthase and cystathionine-gamma-lyase. As shown in Table 2, many organisms carry the encoding genes naturally. Thus, the reaction knockouts listed in Table 1 is the only requirement to establish the selection system. For example, it only requires the deletion/inactivation of one or more of acetylserine/acetylhomoserine sulfhydrylase (MET17), homoserine O-acetyltransferase (MET2) and homocysteine methyltransferase (MET6) genes to enable the SAM selection with cysteine growth coupling in <i>S. cerevisiae</i>. Deletion of MET6 might be advantageous to prevent direct homocysteine synthesis from methionine. The Met6 enzyme catalyses the conversion of homocysteine and methionine, but the reversibility of the reaction may depend on the conditions.</p>
+<p id="p-0046" num="0096">In addition, the SAM-selection system comprises functional expression of a SAM-dependent methyltransferase, optionally from a transgene, converting SAM to SAH in the methylation reaction. The methyltransferase can be expressed from any type of nucleic acid, e.g., a plasmid, an expression vector, a chromosome or other form of nucleic acid.</p>
+<p id="p-0047" num="0000">
+<tables id="TABLE-US-00001" num="00001">
+<table frame="none" colsep="0" rowsep="0" pgwide="1">
+<tgroup align="left" colsep="0" rowsep="0" cols="1">
+<colspec colname="1" colwidth="308pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="1" rowsep="1">TABLE 1</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry namest="1" nameend="1" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>Examples of genes to downregulate or delete, e.g., knockout, in initial host cell for</entry>
+</row>
+<row>
+<entry>the purpose of preventing de novo homocysteine biosynthesis and coupling growth selection</entry>
+</row>
+<row>
+<entry>to cysteine, 2-oxobutanoate, isoleucine or a combination thereof in various species.</entry>
+</row>
+<row>
+<entry>All reactions are described in their EC number. There may be multiple genes to carry</entry>
+</row>
+<row>
+<entry>out the same reaction. Examples of genes encoding to the corresponding enzymes are</entry>
+</row>
+<row>
+<entry>indicated within parentheses. &#x201c;Other&#x201d; includes, e.g., native SAM sinks.</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="3">
+<colspec colname="offset" colwidth="203pt" align="left"/>
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="49pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>2-Oxo-</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>butanoate/</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="offset" colwidth="56pt" align="left"/>
+<colspec colname="1" colwidth="98pt" align="center"/>
+<colspec colname="2" colwidth="49pt" align="left"/>
+<colspec colname="3" colwidth="105pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>Homocysteine biosynthesis</entry>
+<entry>Cysteine</entry>
+<entry>Isoleucine</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="6">
+<colspec colname="1" colwidth="56pt" align="left"/>
+<colspec colname="2" colwidth="49pt" align="left"/>
+<colspec colname="3" colwidth="49pt" align="left"/>
+<colspec colname="4" colwidth="49pt" align="left"/>
+<colspec colname="5" colwidth="56pt" align="left"/>
+<colspec colname="6" colwidth="49pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry>Species</entry>
+<entry>H<sub>2</sub>S-</entry>
+<entry>L-Cys-</entry>
+<entry>selection</entry>
+<entry>selection</entry>
+<entry/>
+</row>
+<row>
+<entry>[SAM cycle]</entry>
+<entry>dependent</entry>
+<entry>dependent</entry>
+<entry>coupling</entry>
+<entry>coupling</entry>
+<entry>Other</entry>
+</row>
+<row>
+<entry namest="1" nameend="6" align="center" rowsep="1"/>
+</row>
+<row>
+<entry><i>E. coli</i></entry>
+<entry>n.a.</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 4.3.1.19</entry>
+<entry>EC 2.1.1.79</entry>
+</row>
+<row>
+<entry>[I]</entry>
+<entry/>
+<entry>(cysE)</entry>
+<entry>(cysE)</entry>
+<entry>(ilvA, tdcB)</entry>
+<entry>(cfa)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>EC 2.5.1.47<sup>a</sup></entry>
+<entry>EC 2.5.1.47<sup>a</sup></entry>
+<entry>EC 2.3.1.46<sup>b</sup></entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>(cysK, cysM)</entry>
+<entry>(cysK, cysM)</entry>
+<entry>(metA)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>EC 2.3.1.46<sup>a</sup></entry>
+<entry/>
+<entry>EC 4.3.1.&#x2014;<sup>b</sup></entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>(metA)</entry>
+<entry/>
+<entry>(metB)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>EC 2.5.1.48<sup>a</sup></entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>(metB)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>EC 4.4.1.8<sup>a</sup></entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>(metC, malY)</entry>
+</row>
+<row>
+<entry><i>S. cerevisiae</i></entry>
+<entry>EC 2.5.1.49</entry>
+<entry>n.a.</entry>
+<entry>EC 2.5.1.49</entry>
+<entry>EC 4.3.1.19</entry>
+<entry>EC 2.1.1.14</entry>
+</row>
+<row>
+<entry>[II]</entry>
+<entry>(MET17)</entry>
+<entry/>
+<entry>(MET17)</entry>
+<entry>(CHA1, ILV1)</entry>
+<entry>(MET6),</entry>
+</row>
+<row>
+<entry/>
+<entry>EC 2.3.1.31<sup>a</sup></entry>
+<entry/>
+<entry>EC 2.3.1.31<sup>a</sup></entry>
+<entry/>
+<entry>EC 2.1.1.41</entry>
+</row>
+<row>
+<entry/>
+<entry>(MET2)</entry>
+<entry/>
+<entry>(MET2)</entry>
+<entry/>
+<entry>(ERG6),</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>EC 2.1.1.17</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>(CHO2),</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>EC 2.1.1.71</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>(OPI3)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>EC 2.1.1.43</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>(SET1, SET2,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>DOT1)</entry>
+</row>
+<row>
+<entry><i>B. subtilis</i></entry>
+<entry>EC 2.5.1.49</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 4.3.1.19</entry>
+</row>
+<row>
+<entry>[I]</entry>
+<entry>(metI)</entry>
+<entry>(cysE)</entry>
+<entry>(cysE)</entry>
+<entry>(ilvA)</entry>
+</row>
+<row>
+<entry><i>C.</i></entry>
+<entry>EC 2.5.1.49</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 4.3.1.19</entry>
+<entry>EC 2.1.1.79</entry>
+</row>
+<row>
+<entry><i>glutamicum</i></entry>
+<entry>(metY)</entry>
+<entry>(cysE)</entry>
+<entry>(cysE)</entry>
+<entry>(ilvA, tdcB)</entry>
+<entry>(cma)</entry>
+</row>
+<row>
+<entry>[I and II]</entry>
+</row>
+<row>
+<entry><i>S. coelicolor</i></entry>
+<entry>n.a.</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 4.3.1.19</entry>
+</row>
+<row>
+<entry>[II]</entry>
+<entry/>
+<entry/>
+<entry/>
+<entry>(SCO4962,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>SCO7292,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>SCO0821)</entry>
+</row>
+<row>
+<entry><i>S. griseus</i></entry>
+<entry>EC 2.5.1.49</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 4.3.1.19</entry>
+</row>
+<row>
+<entry>[II]</entry>
+<entry>(SGR_6647)</entry>
+<entry>(metX)</entry>
+<entry>(metX)</entry>
+<entry>(SGR_2048,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>SGR_2568)</entry>
+</row>
+<row>
+<entry><i>R. eutropha</i></entry>
+<entry>EC 2.5.1.49</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 4.3.1.19</entry>
+</row>
+<row>
+<entry>[I]</entry>
+<entry>(metY1,</entry>
+<entry>(cysE)</entry>
+<entry>(cysE)</entry>
+<entry>(H16_B0620,</entry>
+</row>
+<row>
+<entry/>
+<entry>metY2)</entry>
+<entry/>
+<entry/>
+<entry>tdcB,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>H16_A0427),</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>EC 1.2.7.1</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>(H16_B1980,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry/>
+<entry>H16_A1255)</entry>
+</row>
+<row>
+<entry><i>C. acetobutylicum</i></entry>
+<entry>EC 2.5.1.49</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 2.3.1.30</entry>
+<entry>EC 4.3.1.19</entry>
+</row>
+<row>
+<entry>[I]</entry>
+<entry>(CA_C0102,</entry>
+<entry>(cysE)</entry>
+<entry>(cysE)</entry>
+<entry>EC 1.2.7.1</entry>
+</row>
+<row>
+<entry/>
+<entry>cysD)</entry>
+</row>
+<row>
+<entry><i>A. thaliana</i></entry>
+<entry/>
+<entry>EC 2.5.1.47</entry>
+<entry>EC 2.5.1.47</entry>
+<entry>EC 4.3.1.19</entry>
+</row>
+<row>
+<entry>[II]</entry>
+<entry/>
+<entry>(oasA1, oasB,</entry>
+<entry>(oasA1, oasB)</entry>
+<entry>(AT3G10050.1)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>AT3G61440.1)</entry>
+</row>
+<row>
+<entry namest="1" nameend="6" align="center" rowsep="1"/>
+</row>
+<row>
+<entry namest="1" nameend="6" align="left" id="FOO-00001">n.a.: not available</entry>
+</row>
+<row>
+<entry namest="1" nameend="6" align="left" id="FOO-00002"><sup>a</sup>alternative or supplementary to first-mentioned gene(s)</entry>
+</row>
+<row>
+<entry namest="1" nameend="6" align="left" id="FOO-00003"><sup>b</sup>enhanced selection gene(s)</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0048" num="0000">
+<tables id="TABLE-US-00002" num="00002">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="1">
+<colspec colname="1" colwidth="217pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="1" rowsep="1">TABLE 2</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry namest="1" nameend="1" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>Examples of cystathionine-gamma-lyase (EC 4.4.1.1) and cystathionine-</entry>
+</row>
+<row>
+<entry>beta-synthase (EC 4.2.1.22) activity in preferred species</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="1" colwidth="63pt" align="left"/>
+<colspec colname="2" colwidth="49pt" align="left"/>
+<colspec colname="3" colwidth="63pt" align="left"/>
+<colspec colname="4" colwidth="42pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>Heterologous</entry>
+</row>
+<row>
+<entry/>
+<entry>EC 4.4.1.1</entry>
+<entry>EC 4.2.1.22</entry>
+<entry>expression</entry>
+</row>
+<row>
+<entry>Species</entry>
+<entry>coding gene</entry>
+<entry>coding gene</entry>
+<entry>preferred</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+<row>
+<entry><i>E. coli</i><sup>a</sup></entry>
+<entry>n.a.</entry>
+<entry>n.a.</entry>
+<entry>Yes</entry>
+</row>
+<row>
+<entry><i>S. cerevisiae</i><sup>b</sup></entry>
+<entry>CYS3</entry>
+<entry>CYS4</entry>
+<entry>No</entry>
+</row>
+<row>
+<entry><i>B. subtilis</i><sup>c</sup></entry>
+<entry>mccB</entry>
+<entry>n.i.</entry>
+<entry>Yes (of</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>EC 4.2.1.22)</entry>
+</row>
+<row>
+<entry><i>C. glutamicum</i><sup>d</sup></entry>
+<entry>Cgl2786</entry>
+<entry>Cgl2136</entry>
+<entry>No</entry>
+</row>
+<row>
+<entry><i>S. coelicolor</i><sup>e</sup></entry>
+<entry>SCO3920</entry>
+<entry>SCO3077</entry>
+<entry>No</entry>
+</row>
+<row>
+<entry><i>S. griseus</i><sup>f</sup></entry>
+<entry>SGR_3660</entry>
+<entry>SGR_2592,</entry>
+<entry>No</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>SGR_3242,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>SGR_4452,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>SGR_4632,</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry>SGR_6231</entry>
+</row>
+<row>
+<entry><i>R. eutropha</i><sup>g</sup></entry>
+<entry>n.a.</entry>
+<entry>n.a.</entry>
+<entry>Yes</entry>
+</row>
+<row>
+<entry><i>C. acetobutylicum</i><sup>h</sup></entry>
+<entry>n.a.</entry>
+<entry>CA_C0931, cysK</entry>
+<entry>Yes</entry>
+</row>
+<row>
+<entry><i>A. thaliana</i><sup>i</sup></entry>
+<entry>AT5G28030.1</entry>
+<entry>AT1G55880.1</entry>
+<entry>Yes (of</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>EC 4.4.1.1)</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00004">n.a.: not available;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00005">n.i.: not identified;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00006"><sup>a</sup><i>E. coli </i>MG1655;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00007"><sup>b</sup><i>S. cerevisiae </i>S288C;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00008"><sup>c</sup><i>B. subtilis </i>168;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00009"><sup>d</sup><i>C. glutamicum </i>ATCC 13032;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00010"><sup>e</sup><i>S. coelicolor </i>A3(2);</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00011"><sup>f</sup><i>S. griseus </i>NBRC 13350;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00012"><sup>g</sup><i>R. eutropha </i>H16;</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00013"><sup>h</sup><i>C. acetobutylicum </i>ATCC 824 and</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00014"><sup>i</sup><i>A. thaliana </i>col</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<p id="p-0049" num="0097">As illustrated in Table 1, the SAM selection system can be established in different organisms. The genetic modifications to be introduced depend on the sulphur-donor for homocysteine biosynthesis (i.e. hydrogen sulphite or L-Cysteine, <figref idref="DRAWINGS">FIG. <b>3</b></figref>). In the case of <i>S. cerevisiae</i>, for example, deletion of the MET17 and/or MET2 gene(s) is sufficient to prevent hydrogen sulphite-dependent L-homocysteine biosynthesis. Furthermore, since L-Cysteine biosynthesis only takes place via the native cystathionine-beta-synthase and cystathionine-gamma-lyase enzymes from homocysteine, this automatically results in an L-Cysteine auxotroph upon MET17 and/or MET2 deletion and enables L-Cysteine coupled growth selection. Moreover, as already indicated above, deletion of METE can be beneficial since it may, under certain conditions, catalyse reversible methionine-homocysteine conversion, reducing or short-circuiting the methylation-dependent homocysteine biosynthesis.</p>
+<p id="p-0050" num="0098">A similar principle can be applied to <i>A. thaliana </i>col plant to achieve L-Cysteine coupled selection. For example, removal of EC 2.5.1.47 via inactivation of the oasA1, oasB, and AT3G61440.1 genes results not only in preventing L-homocysteine but also L-cysteine biosynthesis. However, although a native cystathionine-beta-synthase (AT1G55880.1) exists, for the purpose of improving L-Cysteine synthesis, it is preferred that cystathionine-beta-synthase and cystathionine-gamma-lyase are expressed from transgenes, transiently or otherwise.</p>
+<p id="p-0051" num="0099">It is also worth noting that the effectiveness of the SAM selection system can be influenced by native SAM- or methylation-sinks, i.e., native SAM-dependent methyltransferases such as Cfa in <i>E. coli</i>. Examples of SAM-sinks include, for example, membrane lipid methyltransferases such as Cfa of <i>E. coli</i>, and ERG6, CHO2, OPI3, SET2, SETT and DOT1 of <i>S. cerevisiae</i>. The cfa gene in <i>E. coli </i>is involved in cyclopropane fatty acid biosynthesis and ERGS is involved in ergosterol synthesis in yeast cells while CHO2 and OPI3 are part of the phospholipid phosphatidylethanolamine biosynthetic pathway. SET2, SET1, and DOT1 are involved in histone methylation in <i>S. cerevisiae</i>. Although the gene encoding a specific SAM sink may vary between organisms, a SAM sink can be easily determined by growth-adapting cells (prior to transforming the cells with a transgene expressing a methyltransferase of interest), followed by whole genome sequencing or transcriptome profiling for identification. See, e.g., Example 1. Alternatively, SAM sinks can be identified by knocking-down or -out selected methyltransferases in a background host cell and testing for growth in the presence of methionine (see, e.g., Example 4).</p>
+<p id="p-0052" num="0100">Predictability is a unique character of the SAM system according to the present invention. Using <i>E. coli</i>, for example, since the described SAM selection system is growth-coupled to cysteine formation and it is known there is about 87 &#x3bc;mol of cysteine per gram of dried cells according to Frederick et air. (1996), and since the molar ratio of intended methylation product formed (i.e., melatonin) and cysteine produced will be 1 to 1 (<figref idref="DRAWINGS">FIG. <b>1</b></figref>), one can easily deduce that the minimum amount of methylation required would be 87 &#x3bc;mol per gram of dried cells. A similar principle applies if growth selection is coupled to 2-oxobutanoate, which in turn leads to isoleucine biosynthesis. In case of <i>E. coli </i>growth, one can expect a further 3-fold increase in methylation activity, i.e., turnover, to a minimum amount of about 276 &#x3bc;mol per gram of dried cells (<figref idref="DRAWINGS">FIG. <b>1</b></figref>).</p>
+<heading id="h-0008" level="1">Definitions</heading>
+<p id="p-0053" num="0101">The term &#x201c;host cell&#x201d; refers to any cell into which an exogenous nucleic acid sequence can be introduced and expressed, typically via an expression vector. The host cell may, for example, be a wild-type cell isolated from its natural environment, a mutant cell identified by screening, a cell of a commercially available strain, or a genetically engineered cell or mutant cell, comprising one or more other exogenous and/or heterologous nucleic acid sequences than those of the invention. As used herein, the term &#x201c;host cell&#x201d; may refer to an individual host cell or, unless contradicted by context, to a strain or clone comprising a plurality of such host cells or the host cell species as such.</p>
+<p id="p-0054" num="0102">A &#x201c;recombinant&#x201d; cell or host cell as used herein refers to a host cell into which one or more transgenes have been introduced, typically via transformation of a host cell with a vector.</p>
+<p id="p-0055" num="0103">As used herein, &#x201c;exogenous&#x201d; means that the referenced item, such as a molecule, activity or pathway, is added to or introduced into the host cell. For example, an exogenous molecule such as a substrate or cofactor can be added to or introduced into the host cell, e.g., via adding the molecule to the media in or on which a host cell resides. An exogenous nucleic acid sequence can, for example, be introduced either as chromosomal genetic material by integration into a host chromosome or as non-chromosomal genetic material such as a plasmid. Such an exogenous nucleic acid sequence can also be referred to as a &#x201c;transgene&#x201d; and may encode an enzyme or enzyme activity which is either heterologous to the host cell in question or which is an endogenous enzyme or enzyme activity in the host cell. Typically, a transgene encoding an endogenous enzyme or enzyme activity provides for overexpression of the enzyme or enzyme activity as compared to the native or parent host cell, i.e., host cell prior to the introduction of the transgene.</p>
+<p id="p-0056" num="0104">In the present context the term &#x201c;heterologous&#x201d; means that the referenced item, such as a molecule, activity or pathway, does not normally appear in the host cell, strain or species in question. Typically, a heterologous pathway comprises at least one enzyme or other component which is heterologous to the host cell.</p>
+<p id="p-0057" num="0105">As used herein, the terms &#x201c;native&#x201d; or &#x201c;endogenous&#x201d; mean that the referenced item is normally present in or native to the host cell or species in question.</p>
+<p id="p-0058" num="0106">As used herein, a &#x201c;genetic modification&#x201d; refers to the introduction a genetically inherited change in the host cell genome. Examples of changes include mutations in genes and regulatory sequences, coding and non-coding DNA sequences. &#x201c;Mutations&#x201d; include deletions, substitutions and insertions of one or more nucleotides or nucleic acid sequences in the genome. Other genetic modifications include the introduction of heterologous genes or coding DNA sequences by recombinant techniques.</p>
+<p id="p-0059" num="0107">As used herein, &#x201c;upregulating&#x201d; an endogenous gene means increasing the transcription and/or translation of a gene present in the native host cell genome relative to a control, such as e.g. the unmodified host cell. Methods of upregulating genes are known in the art and include, e.g., introducing a non-native promoter increasing transcription, modifying the native promoter, deleting genes encoding repressor protein, introducing multiple copies of the gene of interest, etc.</p>
+<p id="p-0060" num="0108">&#x201c;Downregulating&#x201d; an endogenous gene as used herein means to reduce, optionally eliminate, the transcription or translation of an endogenous gene so that the levels of functional protein, such as an enzyme, encoded by the gene are significantly reduced in the host cell, typically by at least 50%, such as at least 75%, such as at least 90%, such as at least 95%, as compared to a control. Typically, when the reduced expression is obtained by a genetic modification in the host cell, the control is the unmodified host cell. Sometimes, e.g., in the case of gene deletion, the level of native mRNA and functional protein encoded by the gene is further reduced, effectively eliminated, by more than 95%, such as 99% or greater. Methods of downregulating, disrupting and deleting genes are known to those of skill in the art, and include, e.g., gene disruption or knock-out, site-directed mutagenesis, genomic modifications based on homologous recombination, RNA degradation based on CASS, etc.</p>
+<p id="p-0061" num="0109">In the present context, &#x201c;overexpressing&#x201d; refers to introducing an exogenous nucleic acid sequence, i.e., a transgene, encoding a protein, such as an enzyme, which is either heterologous or native to the host cell, and expressing the transgene to introduce or increase the levels of enzyme activity in the cell as compared to a control, e.g., a native host cell. This can particularly be useful if a host cell does not normally contain the enzymatic activity referred to, where the native enzymatic activity is insufficient, or the native enzyme is subjected to unwanted regulation. Overexpression of a nucleic acid sequence can be achieved by placing the nucleic acid sequence under the control of a promoter, e.g., strong promoter. Non-limiting examples of strong promoters suitable for, e.g., <i>E. coli </i>cells are J23101, Ptrc, Plac, PlacUV5, PT7, and PTrp.</p>
+<p id="p-0062" num="0110">Non-limiting examples of strong promoters suitable for, e.g., yeast cells are TEF1, PGK1, HXT7 and TDH3. Alternatively, at least for heterologous enzyme activities, a weak promoter can be used to achieve overexpression. Suitable weak promoters are exemplified elsewhere herein.</p>
+<p id="p-0063" num="0111">As used herein, a gene that is a &#x201c;homology&#x201d; or &#x201c;homologous&#x201d; to another gene is generally an ortholog (i.e., a descended from the same ancestral sequence but separated when a species diverges into two separate species) or a paralog (i.e., separated by gene duplication within a genome). Typically, homologous genes encode proteins with a moderate to high sequence identity (e.g., at least about 30%, such as at least about 50%, such as at least about 60%, such as at least about 70%, such as at least about 80%, such as at least about 90%, such as at least about 95%, such as at least about 99%, over at least the catalytically active portion, optionally over the full length) and/or can at least partially substitute for the other protein in terms of function, when transferred from one species into another. Homologs of a particular gene can be identified using publicly available and specialized biological databases, e.g., by the eggNOG, InParanoid, OrthoDB, OrthoMCL, OMA, Roundup, TreeFam, LOFT, Ortholuqe, EnsemblCompara GeneTrees and HomoloGene.</p>
+<p id="p-0064" num="0112">Unless otherwise stated, the term &#x201c;sequence identity&#x201d; for amino acid sequences as used herein refers to the sequence identity calculated as (n<sub>ref</sub>&#x2212;n<sub>dif</sub>)&#xb7;100/n<sub>ref</sub>, wherein n<sub>dif </sub>is the total number of non-identical residues in the two sequences when aligned and wherein n<sub>ref </sub>is the number of residues in one of the sequences. Hence, the amino acid sequence GSTDYTQNWA will have a sequence identity of 80% with the sequence GSTGYTQAWA (n<sub>dif</sub>=2 and n<sub>ref</sub>=10). The sequence identity can be determined by conventional methods, e.g., Smith and Waterman, (1981), Adv. Appl. Math. 2482, by the &#x2018;search for similarity&#x2019; method of Pearson &#x26; Lipman, (1988), Proc. Natl. Acad. Sci. USA 85:2444, using the CLUSTAL W algorithm of Thompson et al (1994), Nucleic Acids Res 22:467380, by computerized implementations of these algorithms (GAP, BESTFIT, FASTA, and TFASTA in the Wisconsin Genetics Software Package, Genetics Computer Group) The BLAST algorithm (Altschul et al, (1990), Mol. Biol. 215:403-10) for which software may be obtained through the National Center for Biotechnology. Information www.nrbi.nlm.nih.govf) may also be used. When using any of the aforementioned algorithms, the default parameters for &#x201c;Window&#x201d; length, gap penalty, etc., are used.</p>
+<p id="p-0065" num="0113">As used herein, &#x201c;vector&#x201d; refers to any genetic element capable of serving as a vehicle of genetic transfer, expression, or replication for an exogenous nucleic acid sequence in a host cell. For example, a vector may be an artificial chromosome or a plasmid, and may be capable of stable integration into a host cell genome, or it may exist as an independent genetic element (e.g., episome, plasmid). A vector may exist as a single nucleic acid sequence or as two or more separate nucleic acid sequences. Vectors may be single copy vectors or multicopy vectors when present in a host cell. Preferred vectors for use in the present invention are expression vector molecules in which one or more functional genes can be inserted into the vector molecule, in proper orientation and proximity to expression control elements resident in the expression vector molecule so as to direct expression of one or more proteins when the vector molecule resides in an appropriate host cell.</p>
+<p id="p-0066" num="0114">Standard recombinant DNA and molecular cloning techniques used here are well known in the art and are described by, e.g., Sambrook, J., Fritsch, E. F. and Maniatis, T. Molecular Cloning: A Laboratory Manual, 4<sup>th </sup>ed.; Cold Spring Harbor Laboratory: Cold Spring Harbor, N.Y., 2012; and by Silhavy, T. J., Berman, M. L, and Enquist, L. W. Experiments with Gene Fusions; Cold Spring Harbor Laboratory: Cold Spring Harbor, N.Y., 1984; and by Ausubel, F. M. et al., In Current Protocols in Molecular Biology, published by John Wiley &#x26; Sons (1995); and by Datsenko and Wanner (Proc. Natl. Acad. Sci. USA 2000; 97:6640-6645); and by Baba et al. (Mol Syst Biol 2:2006,0008. Epub 2006 Feb. 21); and by Thomason et al. (Curr Protoc Melee Biol 1.16 (2007) and Curr Protoc Melee Biol 1.17 (2007)), and references cited therein. Other useful references are cited elsewhere herein, e.g., in the Examples. Appropriate cells and vectors are available commercially through, for example, the American Type Culture Collection (ATCC), Rockville, Md.</p>
+<p id="p-0067" num="0115">The term &#x201c;substrate&#x201d; or &#x201c;precursor&#x201d;, as used herein in relation to a specific enzyme, refers to a molecule upon which the enzyme acts to form a product. When used in relation to an exogenous biometabolic pathway, the term &#x201c;substrate&#x201d; or &#x201c;precursor&#x201d; refers to the molecule(s) upon which the first enzyme of the referenced pathway acts. When referring to an enzyme-catalyzed reaction in a cell, an &#x201c;endogenous&#x201d; substrate or precursor is a molecule which is native to or biosynthesized by the cell, whereas an &#x201c;exogenous&#x201d; substrate or precursor is a molecule which is added to the cell, via a medium or the like.</p>
+<p id="p-0068" num="0116">Enzymes referred to herein can be classified on the basis of the handbook Enzyme Nomenclature from NC-IUBMB, 1992), see also the ENZYME site at the Internet: http://www.expasy.ch/enzyme/. This is a repository of information relative to the nomenclature of enzymes, and is primarily based on the recommendations of the Nomenclature Committee of the International Union of Biochemistry and Molecular Biology (IUB-MB). It describes each type of characterized enzyme for which an EC (Enzyme Commission) number has been provided (Bairoch A., The ENZYME database, 2000, Nucleic Acids Res 28:304-305). The IUBMB Enzyme nomenclature is based on the substrate specificity and occasionally on their molecular mechanism.</p>
+<p id="p-0069" num="0117">Specific Embodiments of the Invention</p>
+<p id="p-0070" num="0118">Additional details on the background host cells and SAM-election methods and other features are provided below.</p>
+<p id="p-0071" num="0119">Background Host Cells</p>
+<p id="p-0072" num="0120">In one aspect, the invention provides a background host cell which is growth-dependent on a metabolite selected from one or more of cysteine and 2-oxobutanoate/isoleucine and comprises a SAM-dependent methyltransferase; a biosynthetic pathway converting SAH to the metabolite via a homocysteine intermediate; and one or more genetic modifications reducing or disrupting any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell.</p>
+<p id="p-0073" num="0121">In one aspect, the invention provides a background host cell which is growth-dependent on cysteine and comprises a SAM-dependent methyltransferase; a biosynthetic pathway converting SAH to cysteine via a homocysteine intermediate; and one or more genetic modifications reducing or disrupting any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell.</p>
+<p id="p-0074" num="0122">In one aspect, the invention provides a background host cell which is growth-dependent on isoleucine and comprises a SAM-dependent methyltransferase; a biosynthetic pathway converting SAH to isoleucine via a homocysteine intermediate; and one or more genetic modifications reducing or disrupting any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell.</p>
+<p id="p-0075" num="0123">In one aspect, the invention provides a background host cell which is growth-dependent on 2-oxobutanoate and comprises a SAM-dependent methyltransferase; a biosynthetic pathway converting SAH to 2-oxobutanoate via a homocysteine intermediate; and one or more genetic modifications one or more genetic modifications reducing or disrupting any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell.</p>
+<p id="p-0076" num="0124">In any one of these or other aspects or embodiments described herein, the background host cell may be capable of converting methionine to SAM, e.g., via one or more SAM synthetases (EC 2.5.1.6, <figref idref="DRAWINGS">FIG. <b>2</b></figref>). The SAM synthetase may be a native enzyme (such as, e.g., MetK in <i>E. coli </i>and SAM1 and/or SAM2 in yeast) or a SAM synthetase that is heterologous to the host cell.</p>
+<p id="p-0077" num="0125">In any aspect described herein, to make the cell growth-dependent on the metabolite, the c may be genetically modified to disrupt any endogenous pathway for the biosynthesis of the metabolite other than that from SAH. In some embodiments, the one or more genetic modifications reducing or disrupting any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the cell and the one or more genetic modifications disrupting any endogenous pathway for the biosynthesis of the metabolite, are the same, e.g., in the case of a cysE deletion in <i>E. coli. </i></p>
+<p id="p-0078" num="0126">Typically, although not necessarily, the SAM-dependent methyltransferase is a particular enzyme of interest. The SAM-dependent methyltransferase can be heterologous or endogenous to the host cell, although it is typically expressed from a transgene. In one embodiment, the SAM-dependent methyltransferase is expressed from a heterologous gene. In one embodiment, the SAM-dependent methyltransferase is heterologous to the host cell. In one embodiment, the SAM-dependent methyltransferase is an overexpressed endogenous enzyme. To ensure sufficient expression levels, the expression of the SAM-dependent methyltransferase is preferably under the control of a strong promoter. Non-limiting examples of SAM-dependent methyltransferases that can be used in the SAM-selection systems of the invention include O-methyltransferase (i.e. ASMT), C-methyltransferase, N-methyltransferase and S-methyltransferase, SAM-dependent methyltransferases have been described and characterized, e.g., in Tengg et at (2012), Lyon and Jacobi (1982) and Attieh et al. (2002).</p>
+<p id="p-0079" num="0127">In particular embodiment, the SAM-dependent methyltransferase is an ASMT. In such embodiments, the host cell may further comprise a 5HTP decarboxylase and a serotonin acetyltransferase, thereby enabling the host cell to convert 5HTP to melatonin.
+<ul id="ul0023" list-style="none">
+    <li id="ul0023-0001" num="0000">
+    <ul id="ul0024" list-style="none">
+        <li id="ul0024-0001" num="0128">5HTP decarboxylase is an aromatic L-amino acid decarboxylase (AADC), typically classified as EC 4.1.1.28, which can catalyze the conversion of 5HTP to serotonin. Suitable 5HTP decarboxylases include any tryptophan decarboxylase (TLC) capable of catalyzing the referenced reaction (see, e.g., Park et al., Biosci. Biotechnol. Biocem. 2008; 72(9): 2456-2458.2008, and Gibson et al., J. Exp. Bot. 1972; 23(3):775-786).</li>
+        <li id="ul0024-0002" num="0129">Serotonin acetyltransferase, also known as serotonin -N-acetyltransferase, arylalkylamine N-acetyltransferase and AANAT, is typically classified as EC 2.3.1.87. AANAT catalyzes the conversion of acetyl- Examples of suitable sources of ASMT, 5HTP decarboxylase and AANAT are provided in Table 3. The ASMT, 5HTP decarboxylase and AANAT may each be either heterologous or endogenous to the host cell, and may optionally be overexpressed from a transgene, so long as they provide the desired activity in the host cell,</li>
+        <li id="ul0024-0003" num="0130">In another particular embodiment, the SAM-dependent methyltransferase is a caffeine synthase, e.g., caffeine synthase 1 (CCS1) from <i>Coffea arabica </i>(UniProtKB: Q8H0D3).</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0080" num="0131">The biosynthetic pathway converting S-adenosylhomocysteine (SAM) to cysteine preferably comprises one or more, preferably all of the following enzyme activities:
+<ul id="ul0025" list-style="none">
+    <li id="ul0025-0001" num="0000">
+    <ul id="ul0026" list-style="none">
+        <li id="ul0026-0001" num="0132">(a) a SAM nucleotidase (EC 3.2.2.9), an S-ribosylhomocysteine-lyase (EC 4.4.1.21), a cystathionine-beta-synthase (EC 4.2.1.22) and a cystathionine-gamma-lyase (EC 4.4.1.1); or</li>
+        <li id="ul0026-0002" num="0133">(b) a SAM hydrolase (EC 3.3.1.1), a cystathionine-beta-synthase (EC 4.2.1.22) and a cystathionine-gamma-lyase (EC 4.4.1.1).</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0081" num="0134">The SAM nucleotidase and S-ribosylhomocysteine-lyase or the SAM hydrolase catalyze the conversion of SAM to homocysteine (<figref idref="DRAWINGS">FIG. <b>1</b></figref> and <figref idref="DRAWINGS">FIG. <b>2</b></figref>). Since a SAM cycle is normally present in most cells, the enzymes endogenous to the host cell can be used. If desired, the endogenous genes may be unregulated or overexpressed from a transgene. Aiternatively, one or more heterologous genes or transgenes encoding the desired activity can be introduced.
+<ul id="ul0027" list-style="none">
+    <li id="ul0027-0001" num="0000">
+    <ul id="ul0028" list-style="none">
+        <li id="ul0028-0001" num="0135">The cystathionine-beta-synthase and cystathionine-gamma-lyase catalyze the conversion of homocysteine to cysteine (<figref idref="DRAWINGS">FIG. <b>1</b></figref>). For host cells where these enzymes are endogenous, e.g., <i>S. cerevisiae, C. glutamicum S. coelicolor </i>and <i>S. griseus </i>(see Table 2), the endogenous enzyme can be used, although the endogenous genes may optionally be upregulated or overexpressed. In cases where the initial host cell lacks one or both enzymes, such as, e.g., <i>E. coli, R. eutropha </i>and <i>C. acetylbutylicum</i>, heterologous enzymes can be introduced via transformation with transgenes to introduce the desired activity. In one embodiment, the transgenes encode one or both of <i>S. cerevisiae </i>cystathionine-beta-synthase (CYS3) and cystathionine-gamma-lyase (CYS4), which were also used in the Examples to introduce the activity into <i>E. coli </i>host cells. Examples of suitable sources of cystathionine-beta-synthase and cystathionine-gamma-lyase are provided in Table 3.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0082" num="0136">The background host cell further comprises one or more genetic modifications reducing or disrupting endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthetic pathways in the initial host cell. Thus, the biosynthetic pathway described above becomes the dominant or only significant source of homocysteine in the background host cell. Preferably, the genetic modifications comprise the downregulation or deletion of at least one endogenous gene encoding an enzyme of the H<sub>2</sub>S-dependent and/or L-cysteine-dependent pathway. Non-limiting examples of genes or enzyme activities to downregulate or delete, e.g., knock-out; in exemplary host cells are provided in Table 1 and <figref idref="DRAWINGS">FIG. <b>3</b></figref>. Other gene or genes to downregulate or delete, as well as homologs or orthologs of the gene in other species than those listed here, can be identified and, if needed, tested, by the skilled person according to known methods. For example, to determine whether a particular genetic modification reduces or disrupts endogenous homocysteine biosynthesis, a cysteine auxotrophic strain can be prepared. Cystathionine-beta and gamma enzymes-dependent growth would then be observed only upon external homocysteine feeding.
+<ul id="ul0029" list-style="none">
+    <li id="ul0029-0001" num="0000">
+    <ul id="ul0030" list-style="none">
+        <li id="ul0030-0001" num="0137">Preferably, the one or more genetic modifications reduce the amount or production rate of endogenous H<sub>2</sub>S- and/or L-cysteine-dependent biosynthesis of homocysteine by at least 80%, such as at least 90%, such as about 95% or more, as compared to a control. The one or more genetic modifications may additionally disrupt endogenous H<sub>2</sub>S- and/or L-cysteine-dependent biosynthesis, reducing the amount or production rate of endogenously biosynthesized homocysteine by more than 95%, such as about 98%, about 99% or more, such as about 100%, as compared to a control.</li>
+        <li id="ul0030-0002" num="0138">Whether one or more genetic modifications reduce and/or disrupt endogenous H<sub>2</sub>S- and/or L-cysteine-dependent biosynthesis of homocysteine can be assessed by, directly measuring the level of homocysteine in the genetically modified cell as compared to the control, e.g., the parent or native cell without the one or more genetic modifications, using standard analytical techniques as described by Bennett et al. (2009). Alternatively, the effect of one or more genetic modifications on homocysteine production can be evaluated indirectly by measuring the reduction in the growth rate of the genetically modified cell as compared to a control. Typically, in the absence of exogenously added homocysteine and metabolites (i.e., in the absence of exogenously added cysteine, 2-oxobutanoate and isoleucine) one or more genetic modifications resulting in a reduction in growth rate by at least 80%, such as at least 90%, such as about 95% or more, as compared to a control. In cases where the one or more genetic modifications disrupts endogenous H<sub>2</sub>S- and/or L-cysteine-dependent homocysteine biosynthesis, the growth rate may be reduced by more than 95%, such as about 98%, about 99% or more, such as nearly 100%, as compared to the control. The control may be, for example, the growth rate of the unmodified parent or native cell or the growth rate of the genetically modified cell in the presence of an externally added surplus of metabolites, i.e., homocysteine; homocysteine and cysteine; homocysteine, cysteine and 2-oxobutanoate; or homocysteine, cysteine, and isoleucine.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0083" num="0139">In one embodiment, the background host cell is, or is derived from, a bacterial cell and is growth-dependent on cysteine, the one or more genetic modifications comprising a downregulation or deletion of one or more endogenous genes encoding one or more of a serine acetyltransferase (EC 2.3.1.30), a cystathionine-beta-lyase (EC 4.4.1.8), acetylhomoserine sulfhydrylase (EC 2.5.1.49), a homoserine acetyltransferase (EC 2.3.1.31), a homoserine succinyltransferase (EC 2.3.1.46), a succinylhomoserine(thiol) lyase (EC 2.5.1.48) or a cysteine synthase (EC 2.5.1.47), or a combination thereof. In one embodiment, the one or more genetic modifications comprise a downregulation or deletion of an endogenous gene encoding a serine acetyltransferase (EC 2.3.1.30), such as cysE or metX; a cysteine synthase such as one or both of cysK and cysM; a homoserine succinyltransferase such as metA; a succirlyinomoserine(thiol)lyase such as metB; or a cystathionine-beta-lyase such as one or both of metA and malY. In a particular embodiment, the background host cell is, or is derived from, an <i>E. coli, B. glutamicum, R. eurotropha </i>or <i>C. acetobutylicum </i>cell wherein the one or more endogenous genes are downregulated or deleted, e.g., knocked-out. In a specific embodiment, the background host cell is an <i>E. coli </i>cell, growth-dependent on cysteine and comprising a downregulation or deletion, e.g., a knock-out, of cysE.</p>
+<p id="p-0084" num="0140">In one embodiment, the background host cell is also or alternatively growth-dependent on 2-oxobutanoate and/or isoleucine, and the one or more genetic modifications further comprise a downregulation or deletion of an endogenous gene encoding a threonine ammonia-lyase (4.3.1.19). In a particular embodiment, the background host cell is an <i>E. coli </i>cell growth-dependent on cysteine, 2-oxobutanoate and isoleucine, comprising a downregulation or deletion, e.g., a knock-out, of cysE and one or both of ilvA and tdcB. In another embodiment, the background host cell is an <i>E. coli </i>cell growth-dependent on cysteine, 2-oxobutanoate and isoleucine, comprising a downregulation or deletion, e.g., a knock-out, of cysE, ilvA and tdcB. In another embodiment, the background host cell is an <i>E. coli </i>cell growth-dependent on cysteine, 2-oxobutanoate and isoleucine, comprising a downregulation or deletion, e.g., a knock-out, of cysE, ilvA, tdcB and MetA. In another embodiment, the background host cell is an <i>E. coli </i>cell growth-dependent on cysteine, 2-oxobutanoate and isoleucine, composing a downregulation or deletion, e.g., a knock-out, of cysE, ilvA, tdcB and MetB. In another embodiment, the background host cell is an <i>E. coli </i>cell growth-dependent on cysteine, 2-oxobutanoate and isoleucine, comprising a downregulation or deletion, e.g., a knock-out, of cysE, ilvA, tdcB, MetA and MetB.</p>
+<p id="p-0085" num="0141">In one embodiment, the background host cell is a yeast cell and is growth-dependent on cysteine, the one or more genetic modifications comprising a downregulation or deletion of an endogenous gene encoding an acetylhomoserine sulfhydrylase (EC 2.5.1.49), optionally MET17, or a homoserine O-acetyltransferase (EC 2.3.1.31), optionally MET2, or a combination thereof. In a particular embodiment, the background host cell is an <i>S. cerevisiae </i>cell.</p>
+<p id="p-0086" num="0142">In one embodiment, the background host cell is a yeast cell also or alternatively growth-dependent on 2-oxobutanoate and/or isoleucine, and the one or more genetic modifications comprise a downregulation or deletion of one or both of an acetylhomoserine sulfhydrylase (EC 2.5.1.49), optionally MET17, or a homoserine O-acetyltransferase (EC 2.3.1.31), optionally. MET2, and one or both of a L-serine/L-threonine dehydratase, optionally CHA1, and a threonine dehydratase, optionally ILV1. In a particular embodiment, the yeast cell is a <i>S. cerevisiae </i>cell.</p>
+<p id="p-0087" num="0143">In one embodiment, the background host cell is a plant cell, and is growth-dependent on cysteine, the one or more genetic modifications comprising a downregulation or deletion of an endogenous gene encoding a cysteine synthase (EC 2.5.1.47), optionally one or more of oasA1, oasB, AT3G61440.1, such as both of oasA1 and oasB. In a particular embodiment, the background host cell is derived from an <i>A. thaliana </i>cell. In one embodiment, the background is also or alternatively growth-dependent on 2-oxobutanoate and/or isoleucine, and the one or more genetic modifications comprise a downregulation or deletion of a threonine ammonia-lyase (EC 4.3.1.19), optionally AT3G10050.1. In a particular embodiment, the background host cell is derived from an <i>A. thaliana </i>cell.</p>
+<p id="p-0088" num="0144">In further aspects, the background host cell may also comprise genetic modifications downregulating or deleting one or more endogenous SAM-dependent methyltransferases or other enzymes competing with the SAM-dependent methyltransferase present in the initial host cell. In one embodiment, the background host cell has further been modified so as to downregulate or delete a native gene encoding a cyclopropane fatty acyl phospholipid synthase. As indicated in Example 1, without being limited to theory, downregulating or deleting a gene corresponding to the cfa gene in a bacterial host cell improves SAM availability to the SAM-dependent methyltransferase of interest. The amino acid sequence of the Cfa protein and the location of the cfa gene in the <i>E. coli </i>genome are known in the art (see NCBI Reference Sequence: NP . . . 416178.1 and references cited therein). Orthologs to the cfa gene in a cell exist in, e.g., <i>C. glutamicum </i>ATCC 13032 (cma). Accordingly, cfa (<i>E. coli</i>) or cma (<i>C. glutamicum</i>) or homologs or orthologs thereof may be downregulated in bacterial host cells. Likewise, METE in <i>S. cerevisiae </i>or homocysteine methyltransferase homologs or orthologs in other yeast host cells may be downregulated or deleted. In another embodiment, one or more of ERG6, CHO2, OPI3, SET2, SET1 and DOT1 are also or alternatively deleted.</p>
+<p id="p-0089" num="0145">So, in separate and specific embodiments, a genetically modified bacterial cell comprises a SAM-dependent methyltransferase, a heterologous cystathionine-beta-synthase, a heterologous cystathionine-gamma-lyase, and
+<ul id="ul0031" list-style="none">
+    <li id="ul0031-0001" num="0000">
+    <ul id="ul0032" list-style="none">
+        <li id="ul0032-0001" num="0146">(a) a downregulation or deletion of cysE;</li>
+        <li id="ul0032-0002" num="0147">(b) a downregulation or deletion of cysK and cysM;</li>
+        <li id="ul0032-0003" num="0148">(c) a downregulation or deletion of cysE and ilvA;</li>
+        <li id="ul0032-0004" num="0149">(d) a downregulation or deletion of cysE and tdcB;</li>
+        <li id="ul0032-0005" num="0150">(e) a downregulation or deletion of cysE, ilvA and tdcB;</li>
+        <li id="ul0032-0006" num="0151">(f) a downregulation or deletion of cysE, ilvA, tdcB and metA;</li>
+        <li id="ul0032-0007" num="0152">(g) a downregulation or deletion of cysE, ilvA, tdcB and metB;</li>
+        <li id="ul0032-0008" num="0153">(h) a downregulation or deletion of metA ilvA and tdcB;</li>
+        <li id="ul0032-0009" num="0154">(i) a downregulation or deletion of metB, ilvA and tdcB;</li>
+        <li id="ul0032-0010" num="0155">(j) a downregulation or deletion of metC, malY, ilvA and tdcB;</li>
+        <li id="ul0032-0011" num="0156">(k) a downregulation or deletion of metC, malY, ilvA tdcB and metA;</li>
+        <li id="ul0032-0012" num="0157">(l) a downregulation or deletion of metC malY, ilvA, tdcB and meta; or</li>
+        <li id="ul0032-0013" num="0158">(m) any one of (a) to (l), further comprising a downregulation or deletion of cfa.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0090" num="0159">The background host cell may, for example, be a genetically modified cell derived from an <i>Escherichia </i>cell and comprising a SAM-dependent methyltransferase, a heterologous cystathionine-beta-synthase, a heterologous cystathionine-gamma lyase, and a downregulation or deletion of cysE and, optionally, cfa.</p>
+<p id="p-0091" num="0160">In another embodiment, the background host cell is a genetically modified cell derived from a <i>Saccharomyces </i>cell and comprising a SAM-dependent methyltransferase which is heterologous or overexpressed as compared to the native <i>Saccharomyces </i>cell and
+<ul id="ul0033" list-style="none">
+    <li id="ul0033-0001" num="0000">
+    <ul id="ul0034" list-style="none">
+        <li id="ul0034-0001" num="0161">(a) a downregulation or deletion of MET17;</li>
+        <li id="ul0034-0002" num="0162">(h) a downregulation or deletion of MET2;</li>
+        <li id="ul0034-0003" num="0163">(c) a downregulation or deletion of MET2 and MET17</li>
+        <li id="ul0034-0004" num="0164">(d) a downregulation or deletion of MET17, CHA1 and ILV1;</li>
+        <li id="ul0034-0005" num="0165">(e) a downregulation or deletion of MET2, CHA1 and ILV1;</li>
+        <li id="ul0034-0006" num="0166">(f) a downregulation or deletion of MET17, MET2, CHA1 and ILV1; or</li>
+        <li id="ul0034-0007" num="0167">(g) any one of (a) to (f), further comprising a downregulation or deletion of METE, sir</li>
+        <li id="ul0034-0008" num="0168">(h) any one of (a) to (g), further comprising a downregulation or deletion of one or more native SAM-dependent methyltransferases, optionally selected from one or more of ERG6, CHO2, OPI3, SET2, SET1 and DOT1.</li>
+    </ul>
+    </li>
+</ul>
+</p>
+<p id="p-0092" num="0169">For example, the native SAM-dependent methyltransferase(s) to downregulate or delete may comprise an enzyme selected from ERG6, CHO2, OPI3, SET2, SET1 and DOT1, or a combination of enzymes selected from CHO2, OPI3 and SET2; CHO2, OPI3, SET1 and SET2; OPI3, SET1 and SET2; CHO2, OPI3, SET2, SET1 and DOT1; ERG6, CHO2, OPI3 and SET2; ERG6, CHO2, OPI3, SET1 and SET2; ERG6, OPI3, SET1 and SET2; and ERG6, CHO2, OPI3, SET2, SET1 and DOT1. In one particular embodiment, the native SAM-dependent methyltransferase(s) to downregulate or delete is CHO2, OPI3 or a combination of both. In one particular embodiment, the native SAM-dependent methyltransferase(s) to downregulate or delete is or composes a histone methyltransferase.</p>
+<p id="p-0093" num="0170">Depending on which native SAM-dependent methyltransferase(s) is/are downregulated or deleted, it may be advantageous to provide the cell with one or more exogenous compounds to replace one or more metabolites synthesized by a pathway in which the downregulated or deleted SAM-dependent methyltransferase normally takes part. The compound(s) in question that is/are necessary for the growth of well-characterized cells such as <i>E. coli, S. cerevisiae</i>, etc. are typically known to a person of skill in the art, or can be determined experimentally. For example, for a yeast host cell in which CHO2 and/or OPI3 is downregulated or deleted, choline can be added to the growth or selection medium, e.g., at a concentration of about 0.1 mM, about 1 mM or about 10 mM. Similarly, for a yeast host cell in which ERG6 is downregulated or deleted, ergosterol can be added to the growth or selection medium, e.g., at a concentration of about 0.001 mM, about 0.01 mM, about 0.1 mM, about 1 mM or about 10 mM.</p>
+<p id="p-0094" num="0171">Provided are also vectors for the genetic transfer, expression, or replication of one, two or more transgenes to be expressed in a background host cell according to the invention.</p>
+<p id="p-0095" num="0172">The specific design of the vector(s) depends on, e.g., whether initial host cell already endogenously produces sufficient amounts of one or more of the enzymes expressed by the transgenes. For example, in an <i>S. cerevisiae </i>host cell, it may not be necessary to introduce a transgene encoding a cystathionine-gamma-lyase and/or a cystathionine-beta-synthase, in case sufficient amounts of the enzyme is expressed from the native gene or in case the endogenous gene is unregulated. Additionally, for transformation of a particular host cell, two or more vectors with different combinations of the enzymes used in the present invention can be applied. Accordingly, the nucleic acid sequences encoding the SAM-dependent methyltransferase and one or more of a SAH nucleotidase, an S-ribosylhomocysteine-lyase, a SAH hydrolase, a cystathionine-beta-synthase and a cystathionine-gamma-lyase may be located on the same vector, or on two or more different vectors. The vector can be a plasmid, phage vector, viral vector, episome, an artificial chromosome or other polynucleotide construct, and may, for example, include one or more selectable marker genes and appropriate expression control sequences.</p>
+<p id="p-0096" num="0173">Generally, regulatory control sequences are operably linked to the encoding nucleic acid sequences, and include constitutive, regulatory and inducible promoters, transcription enhancers, transcription terminators, and the like which are well known in the art. The encoding nucleic acid sequences can be operationally linked to one common expression control sequence or linked to different expression control sequences, such as one inducible promoter and one constitutive promoter.</p>
+<p id="p-0097" num="0174">The promoter sequence is typically one that is recognized by the intended host cell. For an <i>E. coli </i>host cell, suitable promoters include, but are not limited to, the lac promoter, the T7 promoter, pBAD, the tet promoter, the Lac promoter, the Trc promoter, the Trp promoter, the recA promoter, the &#x3bb; (lamda) promoter, and the PL promoter. Preferred promoters include the Trc promoter. For <i>Streptomyces </i>host cells, suitable promoters include that of <i>Streptomyces </i>coelicolor agarase (dagA). For a Bacillus host cell, suitable promoters include the sacB, amyL, amyM, amyQ, penP, xylA and xylB. Other promoters for bacterial cells include prokaryotic beta-lactamase (Villa-Kamaroff et al., 1978, Proceedings of the National Academy of Sciences USA 75: 3727-3731), and the tac promoter (DeBoer et al., 1983, Proceedings of the National Academy of Sciences USA 80: 21-25). For an <i>S. cerevisiae </i>host cell, useful promoters include, but are not limited to, the TEF1, HXT7, TDH3, RNR2, ENO-1, GAL1, RPL18B, PGI1, TRX2, REV1, RNR2, CYC1, ADH1, ADH2, GAP, TPI, CUP1, PHO5 and PGK, such as PGK1 promoters. Other useful promoters for yeast host cells are described by Romanos et al., 1992, Yeast 8: 423-486. Still other useful promoters for various host cells are described in &#x201c;Useful proteins from recombinant bacteria&#x201d; in Scientific American, 1980, 242: 74-94; and in Sambrook et al., 2012, supra.</p>
+<p id="p-0098" num="0175">In one specific embodiment, the host cell is an <i>E. coli </i>host cell and one or more or all of the transgenes is under the control of a strong promoter, e.g., each separately selected from) J23101, Trc, lac, lacUV5, Trp, T7, trac and PL promoter. In one specific embodiment, the host cell is an <i>S. cerevisiae </i>host cell and one or more or all of the transgenes is under the control of a strong promoter, e.g., each separately selected from PGK1, TEF1, HXT7 and TDH3, in one specific embodiment, the host cell is an <i>S. cerevisiae </i>host cell and one or more or all of the transgenes is under the control of a weak promoter, e.g., RNR2 or REV1.</p>
+<p id="p-0099" num="0176">The background host cell can be prepared according to the aspects and embodiments described herein. Typically, the host cell is prepared by genetically modifying the native or &#x201c;initial&#x201d; host cell cells as described and, optionally, introducing transgenes as described, e.g., via transformation with one or more vectors according to any preceding embodiment, using standard methods known in the art and cited elsewhere herein.</p>
+<p id="p-0100" num="0177">The genetic modifications to the host cell genome to reduce any endogenous H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine and/or reduce any endogenous can be made before, simultaneously or after the introduction of the vector(s). As used herein, a &#x201c;genetic modification&#x201d; refers to the introduction a genetically inherited change in the host cell genome, such as mutations in genes and regulatory sequences. Genetic modifications resulting in a reduced expression of a target gene/protein can include, e.g., a downregulation of the gene (e.g., a mutation in a promoter that results in reduced or disrupted gene expression), a deletion of the gene (e.g., a mutation or deletion of the gene that results in 95% or greater decrease in gene expression), a mutation or deletion in the coding sequence which results in the expression of non-functional protein, and/or the introduction of a nucleic acid sequence that reduces the expression of the target gene, e.g. a repressor that inhibits expression of the target or inhibitory nucleic acids (e.g. CRISPR etc.) that reduces the expression of the target gene.</p>
+<p id="p-0101" num="0178">The vector(s), once introduced, may be maintained as a chromosomal integrant or as a self-replicating extra-chromosomal vector. Preferably, for transformation of an <i>E. coli </i>or other bacterial host cell, the vectors are designed as follows: A promoter is used to control the expressions of a gene or an artificial operon containing up to three genes connected with a linker sequence, in order to express the genes at a suitable level so that the introduction of heterologous genes/pathways do not overdraw substrates or energy in the host cell. In one particular embodiment, the host cell, preferably derived from a bacterial cell, is transformed according to a strategy outlined in the Examples.</p>
+<p id="p-0102" num="0179">In one embodiment, for transformation of a yeast host cell such as <i>S. cerevisiae</i>, the heterologous genes are provided on a plasmid. In another embodiment, the heterologous genes are integrated onto the chromosome using homologous recombination. As compared with gene expression based on plasmids, the chromosomal integrated genes may be expressed with higher fidelity and resulted in better protein translation, in particular for multiple gene co-expression systems.</p>
+<p id="p-0103" num="0180">The transformation can be confirmed using methods well known in the art. Such methods include, for example, nucleic acid analysis such as Northern blots or polymerase chain reaction (PCR) amplification of mRNA, or immunoblotting for expression of gene products, or other suitable analytical methods to test the expression of an introduced nucleic acid sequence or its corresponding gene product, including those referred to above, e.g., relating to measurement of 5HTP production. Expression levels can further be optimized to obtain sufficient expression using methods well known in the art and as disclosed herein.</p>
+<p id="p-0104" num="0181">The background host cell may be prepared from any type of initial host cell, from a microbial, insect or plant host cell.</p>
+<p id="p-0105" num="0182">The initial host cell need not necessarily be a wild-type cell, i.e., it may already have some modification to the genome, e.g., expressing one or more transgenes or having some mutation in an endogenous gene. For example, the initial host cell may be a producer cell or cell line for a compound of interest and the SAM-selection system introduced to improve the SAM-dependent methyltransferase activity in the cell.</p>
+<p id="p-0106" num="0183">In one embodiment, the initial host cell is a microbial cell. The microbial host cell for use in the present invention is typically unicellular and can be, for example, a bacterial cell, a yeast host cell, a filamentous fungal cell, or an algal cell. Examples of suitable host cell genera include, but are not limited to, <i>Acinetobacter, Agrobacterium, Alcaligenes, Anabaena, Asperg/llus, Bifidobacterium, Brevibacterium, Candida, Chlorobium, Chromatium, Corynebacteria, Cytophaga, Deinococcus, Enterococcus, Erwinia, Erythrobacter, Escherichia, Flavobacterium, Hansenula, Klebsiella, Lactobacillus, Methanobacterium, Methylobacter, Methylococcus, Methylocystis, Methylomicrobium, Methylomonas, Methylosinus, Mycobacterium, Myxococcus, Pantoea, Phaffia, Pichia, Pseudomonas, Rhodobacter, Rhodococcus, Saccharomyces, Salmonella, Sphingomonas, Streptococcus, Streptomyces, Synechococcus, Synechocystis, Thiobacillus, Trichoderma, Yarrowia </i>and <i>Zymomonas. </i></p>
+<p id="p-0107" num="0184">In one embodiment, the initial host cell is bacterial cell, e.g., an <i>Escherichia </i>cell such as an <i>Escherichia </i>cog cell; a <i>Bacillus </i>cell such as a <i>Bacillus alkalophilus, Bacillus amyloliquefaciens, Bacillus brevis, Bacillus circulars, Bacillus clausii, Bacillus coagulans, Bacillus lautus, Bacillus lentus, Bacillus licheniformis, Bacillus megaterium, Bacillus stearothermophilus, Bacillus subtilis</i>, or a <i>Bacillus thuringiensis </i>cell; or a <i>Streptomyces </i>cell such as a <i>Streptomyces lividans </i>or <i>Streptomyces murinus </i>cell. In a particular embodiment, the background host cell is derived from cell of the <i>Escherichia </i>genus, such as an <i>Escherichia coli </i>cell. In another particular embodiment, the host cell is of an <i>E. coli </i>strain selected from the group consisting of K12.DH1 (Proc. Natl. Acad. Sci. USA, volume 60, 160 (1968)), JM101, JM103 (Nucleic Acids Research (1981), 9, 309), JA221 (J. Mol. Biol. (1978), 120, 517), HB101 (i. Mol. Biol. (1969), 41, 459) and C600 (Genetics, (1954), 39, 440).</p>
+<p id="p-0108" num="0185">In one embodiment, the initial host cell is a fungal cell, such as, e.g., a yeast cell. Exemplary yeast cells include <i>Candida, Hansenula, Kluyveromyces, Pichia, Saccharomyces, Schizosaccharomyces </i>and <i>Yarrowia </i>cells. In a particular embodiment, the host cell is an <i>S. cerevisiae </i>cell. In another particular embodiment, the host cell is of an <i>S. cerevisiae </i>strain selected from, but not limited to, the group consisting of <i>S. cerevisiae </i>KA31, AH22, AH22R-, NA87-11A, DKD-5D, 20B-12, AL1, AL3-h, CA1, CBS7960, CEN.PK113-7D, CLIB215, CLIB324, CLIB382, DBVPG1373, DBVPG1788, DBVPG6044, DBVPG6765, Ethanol Red, GDB 135-h, GDB 325, GDB 379, KK:Y52-h, L.1528, LUI250, NCYC110, PW5, RM11, S288c, SK1, T7, T73, UWOPS03-461.4, UWOPS05-217.3 UWOPS05-227.2, Y10, Y55, YJM269, YJM975, YJM978, YPS128 and YPS606, or a derivative of any thereof. Suitable examples of other yeast host cell strains include <i>S. pombe </i>NCYC1913 and NCYC2036 and <i>Pichia pastoris </i>KM71.</p>
+<p id="p-0109" num="0186">In one embodiment, the initial host cell is an <i>Escherichia, Saccharomyces</i>, a <i>Corynebacterium</i>, a <i>Bacillus</i>, a <i>Clostridium</i>, a <i>Ralstonia</i>, or a <i>Streptomyces </i>cell. In separate and specific embodiments, the host cell is an <i>E. coli S. cerevisiae, B. subtilis, C. glutamicum, S. coelicolor, S. griseus, R. eutropha </i>or <i>C. acetobutylicum </i>cell.</p>
+<p id="p-0110" num="0187">In one embodiment, the initial host cell is a plant cell, such as, e.g., ark <i>Arabidopsis thaliana </i>or <i>Medicago sativa </i>cell.</p>
+<p id="p-0111" num="0188">Also provided are compositions or a strain comprising a plurality of a bac background host cell according to any aspect or embodiment described herein.</p>
+<p id="p-0112" num="0189">Applications for the SAM-Selection System</p>
+<p id="p-0113" num="0190">The invention also relates to methods of using the background host cells according to the aspects and embodiments described herein to evolve the SAM-dependent methyltransferase activity of a background host cell under selection pressure (i.e., no supplementation with cysteine, 2-oxobutanoate and/or isoleucine, as applicable). These methods may further comprise selecting and/or producing evolved cells, identifying the genomic and/or proteomic changes that have occurred in the evolved cell so that these can be transferred to and tested in other host cells, and using the evolved cells in the production of methylated compounds.</p>
+<p id="p-0114" num="0191">The evolution of a background host cell preferably takes place in a minimal r medium supplemented with an abundance of methionine, a simple carbon source (e.g., glucose) and a substrate or substrate precursor of the SAM-dependent methyltransferase at culture conditions suitable for growth. Suitable temperatures are, for example, in the range of 30-37&#xb0; C.</p>
+<p id="p-0115" num="0192">Methionine may be added at, e.g., a concentration of at least about 0.05 g/l, such as at least about 0.1 g/l, such as at least about 0.15 g/l, at least about 0.2 g/l, at least about 0.5 g/l, or at least about 1 g/l. For example, the concentration of methionine may be in the range of about 0.05 g/l to about 1 g/l, such as in the range of about 0.1 g/l to about 0.5 g/l. Substrate or substrate precursor may be added at, e.g., a molar ratio with methionine ranging from about 1:2 to about 2:1, such as from about 1:1.5 to about 1.5:1, such as approximately 11 or equimolar concentrations. For example, if the SAM-dependent methyltransferase is an ASMT and the concentration of methionine is about 0.15 g/L, the substrate precursor SHIP can be included at a concentration of about 1 mM. Glucose may be included at a concentration of at least about 0.1% (w/v), such as at least about 0.2% (w/v), such as at least about 0.5% (w/v), such as at least about 1% (w/v), such as at least about 1.5% (w/v), such as at least about 2% (w/v) such as at least about 4% (w/v). For example, the concentration of glucose may be in the range of about 0.1% to about 4% (w/v), such as in the range of about 0.2% to about 2% (w/v). Specific, non-examples of suitable minimal media for bacterial cells include MO minimum media containing minimal salts, optionally vitamins, and 0.2% glucose (w/v). Specific, non-limiting examples of suitable minimal media for a yeast cell such as <i>S. cerevisiae </i>include yeast nitrogen base and Delft minimal media containing minimal trace metals, vitamins, and 2% glucose (w/v). The minimal medium is normally not supplemented with cysteine, 2-oxobutanoate and/or isoleucine during the evolution. However, as described elsewhere herein, compounds such as choline, ergosterol, etc. may also be added to the medium in order to replace metabolites no longer synthesized by the host cell because of a downregulation or deletion of a gene encoding a native SAM-dependent methyltransferase, i.e., a SAM-sink.</p>
+<p id="p-0116" num="0193">In some embodiments, prior to the evolution or other testing step, it may be advantageous to subject background host cells to &#x2018;starvation&#x2019; to ensure that any internal methionine, cysteine, isoleucine and/or 2-oxobutanoate etc. is depleted before the evolution or other testing. In such cases the host cell may, for example, be incubated in minimal medium for a period of about 0.5 h, about 1 h, about 6 h, about 12 h, about 24 h or more, e.g., about 27 h. In one embodiment, the host cells prepared for the starvation step are in growth phase, e.g., harvested in or near mid-log phase.</p>
+<p id="p-0117" num="0194">The evolution can be permitted to occur for any suitable period of time, e.g., 1 week, 2 weeks, 4 weeks, 8 weeks or more. An evolved cell or clone can then be identified as one having an increased growth rate.</p>
+<p id="p-0118" num="0195">Also provided are compositions comprising a genetically modified cell as described in any aspect or embodiment herein. In one embodiment there is provided a composition comprising a plurality of a genetically modified cell. In one embodiment, the composition comprises a culture medium comprising methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source. In one embodiment, the composition comprises methionine at a concentration of at least about 0.05 g/l, such as at least about 0.1 g/l, such as at least about 0.15 at least about 0.2 g/l, at least about 0.5 g/l, or at least about 1 g/l. For example, the concentration of methionine may be in the range of about 0.05 g/l to about 1 g/l, such as in the range of about 0.1 g/l to about 0.5 g/l. The concentration of substrate or substrate precursor may be at a molar ratio with methionine ranging from about 1:2 to about 2:1, such as from about 1:1.5 to about 1.5:1, such as approximately 1:1 or equimolar concentrations. For example, if the SAM-dependent methyltransferase is an ASMT and the concentration of methionine is about 0.15 g/L, the concentration of the substrate precursor <b>5</b><i>i</i>-ITP can be about 1 mM. In one embodiment, the carbon source is glucose at a concentration of at least about 0.1% (w/v), such as at least about 0.2% (w/v), such as at least about 0.5% (w/v), such as at least about 1% (w/v), such as at least about 1.5% (w/v), such as at least about 2% (w/v) such as at least about 4% (w/v). For example, the concentration of glucose may be in the range of about 0.1% to about 4% (w/v), such as in the range of about 0.2% to about 2% (w/v).</p>
+<p id="p-0119" num="0196">In one embodiment, the composition is substantially free of homocysteine, cysteine, 2-oxobutanoate and/or isoleucine.</p>
+<p id="p-0120" num="0197">Specifically, since the SAM-system is designed as a growth-selection method, an &#x201c;evolved&#x201d; or &#x201c;improved&#x201d; SAM-dependent methyltransferase activity of a cell means can be identified as having a growth (i.e., multiplication) which is increased as compared to a control, e.g., the background host cell prior to the evolution, which is usually barely able to grow in the absence of added cysteine, 2-oxobutanoate and/or isoleucine.</p>
+<p id="p-0121" num="0198">An increased growth rate can be, for example, at least 5%, such as at least 10%, such as at least 20%, such as at least 50%, such as at least 75% such as at least 100%, such as at least 200%, such as at least 300%, such as at least 400%, such as at least 500% higher than that of the control.</p>
+<p id="p-0122" num="0199">In one embodiment, an evolved cell is identified as having a growth rate of at least about 0.05 h<sup>&#x2212;1 </sup>such as at least about 0.1 h<sup>&#x2212;1</sup>, such as at least about 0.2 h<sup>&#x2212;1</sup>, such as at least about 0.3 h<sup>&#x2212;1</sup>, such as at least about 0.5 h<sup>&#x2212;1</sup>, such as about 0.7 h<sup>&#x2212;1 </sup>or higher, such as about 1.0 h<sup>&#x2212;1 </sup>or higher, such as between about 0.05 and about 1.0 h<sup>&#x2212;3</sup>, such as between about 0.05 and about 0.7 h<sup>&#x2212;1 </sup>under the evolution conditions described above, e.g., in minimal medium (e.g., M9 or Delft) supplemented with about 0.15 g/L of methionine, a simple carbon source (e.g., glucose at about 2 g/L) and a substrate or substrate precursor of the SAM-dependent methyltransferase at about equimolar concentrations with methionine, in batch culture at a temperature suitable for growth, e.g., about 30&#xb0; C. Preferably, the growth rate of evolved or improved cells is comparable to or higher than the growth rate of the prototrophic version of the background host strain or the wild-type growth rate (for example, about 0.7 h for wild-type <i>E. coli </i>and about 0.4 h for wild-type <i>S. cerevisiae</i>).</p>
+<p id="p-0123" num="0200">Alternatively, since the background host cell is usually barely able to grow in the absence of added cysteine, 2-oxobutanoate and/or isoleucine, an evolved or improved SAM-dependent methyltransferase activity can be identified by simply observing which cell cultures are capable of growing in the absence of added cysteine, 2-oxobutanoate and/or isoleucine after suitable period of time (see Examples).</p>
+<p id="p-0124" num="0201">As already described, once an evolved cell has been identified, the genomic and/or proteomic changes or mutations that occurred in the evolved cell can be identified by well-known analytical methods, and then transferred into another cell of choice, typically of the same or a similar genus, species or strain. This may, for example, be a producer cell where improved SAM-dependent methylation activity is desired.</p>
+<p id="p-0125" num="0202">Alternatively, the evolved cell may itself be directly applied for fermentation, where the improved SAM-dependent methylation can be exploited for production purposes. The use of the evolved cell for fermentation may indeed be advantageous. This because the operation of the SAM-cycle is resource-demanding, requiring one molecule of ATP and methionine per turnover (see <figref idref="DRAWINGS">FIG. <b>2</b></figref>). In an evolved cell, however, the cooperation between the intended heterologous pathway and the native metabolic networks has been fine-tuned. It is therefore typically only possible to reach the maximum turnover of the SAM-cycle under selective conditions; if the selection pressure was relieved, a sub-optimal turnover of the SAM-cycle could occur and hence reduce methylated product formation. Furthermore, production of methylated products is directly coupled to biomass production under selective conditions. Thus, fermentation optimization parameters can be simplified towards biomass formation rather than towards a specific production.</p>
+<p id="p-0126" num="0203">Fermentation using evolved cells under selective conditions preferably takes place in a fermentation medium supplemented with a sufficient amount of methionine, a simple carbon source (e.g., glucose, lactic acid and/or galactose) and a substrate or substrate precursor of the SAM-dependent methyltransferase, at suitable growth conditions (e.g., a temperature, pH and oxygen suitable for growth), e.g., at similar conditions as described for evolution in any one of the preceding embodiments,</p>
+<p id="p-0127" num="0000">
+<tables id="TABLE-US-00003" num="00003">
+<table frame="none" colsep="0" rowsep="0" pgwide="1">
+<tgroup align="left" colsep="0" rowsep="0" cols="1">
+<colspec colname="1" colwidth="273pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="1" rowsep="1">TABLE 3</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry namest="1" nameend="1" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>Sequence information</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="3">
+<colspec colname="1" colwidth="63pt" align="left"/>
+<colspec colname="2" colwidth="133pt" align="left"/>
+<colspec colname="3" colwidth="77pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry/>
+<entry>NCBI or UniProtKB</entry>
+</row>
+<row>
+<entry>Name (EC #)</entry>
+<entry>Species</entry>
+<entry>accession No. (SEQ ID)</entry>
+</row>
+<row>
+<entry namest="1" nameend="3" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>Cystathionine-</entry>
+<entry><i>S. cerevisiae </i>(CYS3)</entry>
+<entry>NP_009390.1NP (1)</entry>
+</row>
+<row>
+<entry>gamma-lyase (EC</entry>
+<entry><i>C</i>- <i>glutamicum</i></entry>
+<entry>WP_011014447.1 (2)</entry>
+</row>
+<row>
+<entry>4.4.1.1)</entry>
+<entry><i>S. coelicolor</i></entry>
+<entry>WP_011029309.1 (3)</entry>
+</row>
+<row>
+<entry/>
+<entry><i>S. griseus</i></entry>
+<entry>BAG20489.1 (4)</entry>
+</row>
+<row>
+<entry/>
+<entry><i>B. subtilis</i></entry>
+<entry>WP_003229810.1 (5)</entry>
+</row>
+<row>
+<entry/>
+<entry><i>H. sapiens</i></entry>
+<entry>P32929-1 (6)</entry>
+</row>
+<row>
+<entry>Cystathionine-</entry>
+<entry><i>S. cerevisiae </i>(CYS4)</entry>
+<entry>NP_011671.3NP (7)</entry>
+</row>
+<row>
+<entry>beta-synthase (EC</entry>
+<entry><i>S. coelicolor</i></entry>
+<entry>WP_011028755.1 (8)</entry>
+</row>
+<row>
+<entry>4.2.1.22)</entry>
+<entry><i>S. griseus</i></entry>
+<entry>WP_003968679.1 (9)</entry>
+</row>
+<row>
+<entry/>
+<entry><i>C. acetobutylicum</i></entry>
+<entry>WP_034580948.1 (10)</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Arabidopsis thaliana</i></entry>
+<entry>Q6NKY5 (11)</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Homo sapiens</i></entry>
+<entry>P35520-1 (12)</entry>
+</row>
+<row>
+<entry>L-tryptophan</entry>
+<entry><i>Oryctolagus cuniculus </i>TPH1</entry>
+<entry>P17290-1, v2</entry>
+</row>
+<row>
+<entry>hydroxylase (EC</entry>
+<entry><i>Homo sapiens </i>TPH1</entry>
+<entry>NP_004170.1</entry>
+</row>
+<row>
+<entry>1.14.16.4) (TPH)</entry>
+<entry><i>Homo sapiens </i>TPH2</entry>
+<entry>NP_775489.2</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Gallus gallus</i></entry>
+<entry>NP_990287.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Mus musculus</i></entry>
+<entry>NP_033440.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Equus caballus</i></entry>
+<entry>NP_001075252.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Schistosoma mansoni</i></entry>
+<entry>AAD01923.1</entry>
+</row>
+<row>
+<entry>acetylserotonin O-</entry>
+<entry><i>Homo sapiens</i></entry>
+<entry>P46597-1, v1</entry>
+</row>
+<row>
+<entry>methyltransferase</entry>
+<entry><i>Ocimum basilicum</i></entry>
+<entry>Q9XGV9-1, v1</entry>
+</row>
+<row>
+<entry>(EC 2.1.1.4)</entry>
+<entry><i>Bos taurus</i></entry>
+<entry>P10950-1, v2</entry>
+</row>
+<row>
+<entry>(ASMT)</entry>
+<entry><i>Takifugu rubripes</i></entry>
+<entry>XP_011609423.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Macaca mulatta</i></entry>
+<entry>NP_001028112.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Elephantulus edwardii</i></entry>
+<entry>XP_006902482.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Oryza sativa</i></entry>
+<entry>XP_015610997.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Rattus norvegicus</i></entry>
+<entry>NP_653360.2</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Gallus gallus</i></entry>
+<entry>NP_990674.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Chromobacterium violaceum</i></entry>
+<entry>WP_011135808.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Desulfotomaculum kuznetsovii </i>DSM 6115</entry>
+<entry>YP_004515712.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Xenopus </i>(<i>Silurana</i>) <i>tropicalis</i></entry>
+<entry>NP_001011409.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Pseudomonas fluorescens</i></entry>
+<entry>WP_019095725.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Candidatus Solibacter usitatus</i></entry>
+<entry>WP_011682595.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Fenneropenaeus chinensis</i></entry>
+<entry>AAZ66373.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Arabidopsis thaliana</i></entry>
+<entry>NP_200227.1</entry>
+</row>
+<row>
+<entry>5HTP</entry>
+<entry><i>Acidobacterium capsulatum</i></entry>
+<entry>WP_015898075.1</entry>
+</row>
+<row>
+<entry>decarboxylase (EC</entry>
+<entry><i>Rattus norwegicus</i></entry>
+<entry>XP_006251536.1</entry>
+</row>
+<row>
+<entry>4.1.1.28)</entry>
+<entry><i>Sus scrofa</i></entry>
+<entry>NP_999019.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Homo sapiens</i></entry>
+<entry>P20711-1, v2</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Capsicum annuum</i></entry>
+<entry>NP_001312016.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Drosophila caribiana</i></entry>
+<entry>AAM80956.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Maricaulis maris </i>(strain MCS10)</entry>
+<entry>ABI65701.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Oryza sativa </i>subsp. <i>Japonica</i></entry>
+<entry>XP_015648768.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Pseudomonas putida </i>S16</entry>
+<entry>WP_013972057.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Catharanthus roseus</i></entry>
+<entry>P17770-1, v1</entry>
+</row>
+<row>
+<entry>serotonin</entry>
+<entry><i>Chlamydomonas reinhardtii</i></entry>
+<entry>BAH10512.1</entry>
+</row>
+<row>
+<entry>acetyltransferase</entry>
+<entry><i>Bos Taurus</i>, optionally with A55P mutation</entry>
+<entry>DAA18183.1</entry>
+</row>
+<row>
+<entry>(EC 2.3.1.87 or</entry>
+<entry><i>Gallus gallus</i></entry>
+<entry>NP_990489.1</entry>
+</row>
+<row>
+<entry>2.3.1.5) (AANAT)</entry>
+<entry><i>Homo sapiens</i></entry>
+<entry>NP_001079.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Mus musculus</i></entry>
+<entry>XP_011246971.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Oryctolagus cuniculus</i></entry>
+<entry>XP_008249128.1</entry>
+</row>
+<row>
+<entry/>
+<entry><i>Ovis aries</i></entry>
+<entry>NP_001009461.1</entry>
+</row>
+<row>
+<entry>caffeine synthase</entry>
+<entry><i>Coffea arabica</i></entry>
+<entry>Q8H0D3</entry>
+</row>
+<row>
+<entry>cysE</entry>
+<entry><i>E. coli</i></entry>
+<entry>P0A9D4</entry>
+</row>
+<row>
+<entry>ilvA</entry>
+<entry><i>E. coli</i></entry>
+<entry>P04968</entry>
+</row>
+<row>
+<entry>tdcB</entry>
+<entry><i>E. coli</i></entry>
+<entry>P0AGF6</entry>
+</row>
+<row>
+<entry>metA</entry>
+<entry><i>E. coli</i></entry>
+<entry>P07623</entry>
+</row>
+<row>
+<entry>metB</entry>
+<entry><i>E. coli</i></entry>
+<entry>P00935</entry>
+</row>
+<row>
+<entry>cfa</entry>
+<entry><i>E. coli</i></entry>
+<entry>P0A9H7</entry>
+</row>
+<row>
+<entry>cysK</entry>
+<entry><i>E. coli</i></entry>
+<entry>P0ABK5</entry>
+</row>
+<row>
+<entry>cysM</entry>
+<entry><i>E. coli</i></entry>
+<entry>P16703</entry>
+</row>
+<row>
+<entry>metC</entry>
+<entry><i>E. coli</i></entry>
+<entry>P06721</entry>
+</row>
+<row>
+<entry>malY</entry>
+<entry><i>E. coli</i></entry>
+<entry>P23256</entry>
+</row>
+<row>
+<entry>MET2</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P08465</entry>
+</row>
+<row>
+<entry>MET17</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P06106</entry>
+</row>
+<row>
+<entry>CHA1</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P25379</entry>
+</row>
+<row>
+<entry>ILV1</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P00927</entry>
+</row>
+<row>
+<entry>MET6</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P05694</entry>
+</row>
+<row>
+<entry>ERG6</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P25087</entry>
+</row>
+<row>
+<entry>CHO2</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P05374</entry>
+</row>
+<row>
+<entry>OPI3</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P05375</entry>
+</row>
+<row>
+<entry>SET2</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P46995</entry>
+</row>
+<row>
+<entry>SET1</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>P38827</entry>
+</row>
+<row>
+<entry>DOT1</entry>
+<entry><i>S. cerevisiae</i></entry>
+<entry>Q04089</entry>
+</row>
+<row>
+<entry namest="1" nameend="3" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<heading id="h-0009" level="1">EXAMPLE 1</heading>
+<p id="p-0128" num="0204">Strains</p>
+<p id="p-0129" num="0205">The background strain HMP112 is derived from BW25113. When required, genomic modification was achieved by means of lambda red recombination or P1 transduction using KEIO collection strains as a genetic element donor,</p>
+<p id="p-0130" num="0206">Media and Growth Conditions</p>
+<p id="p-0131" num="0207">All strains were maintained at 37&#xb0; C., in LB (Lennox) Broth (Sigma-Aldrich), 2xYT or M9 minimum media containing 1&#xd7;M9 minimal salts (BD Difco&#x2122;), 2 mM MgSO<sub>4</sub>, 100 &#x3bc;M CaCl<sub>2</sub>, 500-fold diluted trace minerals (10 g/l FeCl<sub>3</sub>.6H<sub>2</sub>O, 2 g/l ZnSO<sub>4</sub>.7H<sub>2</sub>O, 0.4 g/l CuCl<sub>2</sub>.2H<sub>2</sub>O, 1 g/l MnSO<sub>4</sub>.H<sub>2</sub>O, 0.6 g/l CoCl<sub>2</sub>.6H<sub>2</sub>O, and 1.6 mM EDTA, pH 8.0), 1&#xd7;ATCC&#xae; Vitamin Supplement (ATCC MD-VS&#x2122;), and 0.2% glucose (w/v). When added, kanamycin, spectinomycin, and chloramphenicol was at 25, 50 and 25 mg/l, respectively.</p>
+<p id="p-0132" num="0208">Metabolite Analysis by LC-MS</p>
+<p id="p-0133" num="0209">LC-MS data was collected on OrbiTrap Fusion High Resolution Mass Spectrometer system coupled with an Ultimate 3000 UHPLC pump (Thermo, San Jose Ca). Samples were held in the autosampler at a temperature of 10.0&#xb0; C. during the analysis. 1 &#x3bc;L Injections of the sample were made onto a Thermo HyperSil Gold PFP HPLC column, with a 3 um particle size, 2.1 mm i.d. and 150 mm long. The column was held at a temperature of 35.0&#xb0; C. The solvent system used was Solvent A &#x201c;Water with 0.1% formic acid&#x201d; and Solvent B &#x201c;Acetonitrile with 0.1% formic&#x201d;. The Flow Rate was 1.000 mi/min with an Initial Solvent composition of % A=95, % B=5 held until 0.50 min, the solvent composition was then changed following a Linear Gradient until it reached % A=70.0 and % B=30.0 at 1.50 min. The solvent composition was then changed following a Linear Gradient until it reached % A=5.0 and % B=95.0 at 2.00 min This was held until 2.50 min when the solvent was returned to the initial conditions and the column was re-equilibrated until 3.00 min. The first 0.25 min of the run was diverted to waste using the divert valve, following which the column eluent flowed directly into the Heated ESI probe of the MS which was held at 325&#xb0; C. and a voltage of 3500 V. Data was collected in positive ion mode over the mass range 50 to 1000 m/z at a resolution of 15.000. The other MS settings were as follows, Sheath Gas Flow Rate of 60 units, Cone Gas Flow Rate of 20 units Cone Temp was 275&#xb0; C.</p>
+<p id="p-0134" num="0210">Designing a SAM-Selection System</p>
+<p id="p-0135" num="0211">L-Homocysteine and L-Cysteine Null <i>E. coli </i>Strain</p>
+<p id="p-0136" num="0212">To establish the SAM selection system of the invention, four features are needed. First of all, the strain is at least substantially unable to produce homocysteine from any other metabolic route except the SAM cycle (<figref idref="DRAWINGS">FIG. <b>1</b></figref>). Secondly, the strain is at least substantially auxotrophic for either cysteine or 2-oxobutanoate or both in order to couple the selection to cell growth. Third, there is functional expression of cystathionine-beta-synthase (EC 4.2.1.22) and cystathionine-gamma-lyase (EC 4.4.11). Lastly, the SAM-dependent methyltransferase of interest is functionally expressed.</p>
+<p id="p-0137" num="0213">To illustrate in <i>E. coli</i>, a deletion of the cysE gene (i.e., &#x394;CysE) was made. This deletion achieved two purposes: a) it resulted in a cysteine auxotrophic strain and b) it prevented de novo homocysteine biosynthesis from cysteine via the function of succinylhomoserine lyase (EC 2.5.1.4B, MetB) and cystathionine-beta-lyase (EC 4.4.1.8, MetC or MalY). The resulting strain of the &#x394;CysE strain was named HMP174. In an alternative design, a triple deletion of cysE, metE and metH (HMP221) was made. The additional metE and metH deletion was intended to prevent the reverse enzymatic reaction of methionine to homocysteine since methionine would be added to excess during the course of laboratory evolution; however, it was later found out MetE and MetH appeared to be an irreversible step. Accordingly, in an <i>E. coli </i>host cell, deletion of MetE and/or MetH is not necessary for the growth selection coupling system.</p>
+<p id="p-0138" num="0214">Cystathionine-Beta-Synthase and Cystathionine-Gamma-Lyase</p>
+<p id="p-0139" num="0215">Active expression of cystathionin-beta-synthase and cystathionin-gamma-lyase is among the features of a functional SAM selection system. A combination of both enzymes enables the conversion of homocysteine to cysteine, hence rescuing the growth defect of HMP174 or HMP221. In this study, the gene encoding for cystathionine-beta-synthase (EC 4.2.1.22) was CYS4 from <i>Saccharomyces cerevisiae</i>; however, it may also be selected from other sources such as <i>Rattus norvegicus</i>, and <i>Homo sapiens</i>. The gene encoding for cystathionine-gamma-lyase (EC 4.4.1.1) was CYS3, also from <i>Saccharomyces cerevisiae </i>although the enzyme could alternatively be from another species, e.g., <i>Rattus norvegicus, Homo sapiens</i>, or <i>Bacillus subtilis</i>. It was observed that the effectiveness of both genes could be influenced by their expression levels, so the chosen combination was to express both genes under the synthetic J23101 promoter as an operon harbored on a SC101 origin plasmid, thereafter referred to as pHM11.</p>
+<p id="p-0140" num="0216">Methyltransferase</p>
+<p id="p-0141" num="0217">An active SAM-dependent methyltransferase was chosen so that homocysteine could be produced via the SAM-cycle enzymes. As an example, acetylserotonin methyltransferase (ASMT) from <i>Homo sapiens</i>, which catalyzes methylation of acetylserotonin to form melatonin in a SAM-dependent manner, was used. The ASMT gene was cloned onto a P15A origin plasmid and was driven under the Ptrc promoter. In addition, two additional heterologous genes, dopa decarboxylase (DDC) and serotonin acetyltransferase (AANAT) were included on the same construct so that melatonin could be synthesized, directly from 5-hydroxytryptophan (5HTP). Similarly, both genes were placed under the Ptrc promoter and the final DNA vector was referred as pHM12.</p>
+<p id="p-0142" num="0218">Improving 5HTP to Melatonin Formation by Laboratory Evolution</p>
+<p id="p-0143" num="0219">5HTP-dependent growth of the HMP236 strain was observed upon transformation HMP221 with pHM11 and pHM12 in M9 with 100-mg/l of methionine and 5HTP. Initial growth of the transformed strain was weak and this indicated 5HTP to melatonin conversion was not optimal, implying that the turnover of introduced 5HTP-dependent melatonin pathway was not rapid enough to support the cellular demand for homocysteine and, hence, growth demand for cysteine. The HMP236 strain was subsequently subjected to laboratory evolution for further optimization and growth-adapted cells were isolated at the end of study,</p>
+<p id="p-0144" num="0220">Analysis of Evolved Strains</p>
+<p id="p-0145" num="0221">A total of 270 isolates were subject to analysis. The majority of the isolates were able to grow overnight at high density in MS supplemented with 100 mg/l methionine and 5HTP at 37&#xb0; C. This was in contrast to its parent strain HMP236, which was barely able to grow. In addition, most of the isolates produced melatonin from 5HTP, indicating methylation driven growth via ASMT. Strikingly, non-melatonin producing but growing cells were also identified indicating activation of native SAM-dependent methyltransferases for growth (i.e., native competing SAM sinks).</p>
+<p id="p-0146" num="0222">The melatonin producers could be further divided into two types. The type I producers were those that showed complete conversion of SHIP to melatonin without any intermediates such as serotonin and acetylserotonin detected in exo-metabolites. Those cells were in contrast to type II producers where accumulation of the intermediates was observed, implying a less efficient metabolic flow from SHIP to melatonin.</p>
+<p id="p-0147" num="0223">Genetic analysis was further applied. It was noted that all type I producers had accumulated mutations on the ASMT genes, G260D, T272A and A258E, respectively. Additional enzymatic analysis revealed these mutations led to improved ASMT catalytic activity from &#x2dc;1-3 fold. In the type II producers, mutations were observed on the promoter regions of DDC and AANAT genes, which were required for 5HTP to serotonin and to acetylserotonin synthesis.</p>
+<p id="p-0148" num="0224">Based on genetic information, mutations in the cfa gene became a possible cause for the non-melatonin producer strains. Since the cfa gene encodes for a SAM-dependent fatty acid synthase and the specific mutations occurred either within the initial coding region of cfa (e.g. C5S or C5Y) or its promoter region, it was reasoned that Cfa was up-regulated to promote SAM utilization and bypass ASMT requirement for melatonin biosynthesis in the non-melatonin producing cells. It was therefore concluded Cfa is a native SAM sink in <i>E. coli </i>and can be eliminated for a more efficient SAM selection system and to improve SAM availability to the methyltransferase of interest, such as ASMT.</p>
+<heading id="h-0010" level="1">Example 2</heading>
+<p id="p-0149" num="0225">Implementing SAM-coupled 2-oxobutanoate/isoleucine selection</p>
+<p id="p-0150" num="0226">The cystathionine-gamma-lyase (EC 4.4.1.1) converts cystathionine into L-cysteine and 2-oxobutanoate. Oxobutanoate is a precursor for isoleucine biosynthesis. Implementing a SAM-coupled isoleucine selection is beneficial since the cellular demand of isoleucine is three times larger than cysteine (276 vs 87 &#x3bc;mol/gm dry weight), hence achieving a three-time stronger selection.</p>
+<p id="p-0151" num="0227">The SAM-coupled isoleucine selection was constructed upon the SAM-coupled cysteine selection. The final background strain (HMP1072) was auxotrophic for both isoleucine/2-oxobutanoate and cysteine, hence the &#x201c;SAM-IC&#x201d; designation, HMP174 was the starting strain since &#x394;CysE was needed to prevent homocysteine biosynthesis. This was followed by &#x394;Cfa, &#x394;IlvA and &#x394;TdcB and insertion of melatonin pathway genes (DOC, AANAT and ASMT) into the genome. The cfa deletion was implemented to eliminate the native competing SAM-dependent methyltransferase as shown in Example 1. Both ilvA and tdcB deletions were required to prevent 2-oxobutanoate synthesis from threonine. Upon transforming pHM11 into HMP1072, the final resulting strain HMP1091 was subjected to laboratory evolution in the presence of 100 mg/I of 5HTP and methionine at 37&#xb0; C. in M9 medium.</p>
+<p id="p-0152" num="0228">Analysis of Evolved Strains</p>
+<p id="p-0153" num="0229">A total of 23 isolates were subjected to analysis. As shown in Table 4, nearly all had produced melatonin but only few isolates had approached the theoretical melatonin yield of 60 mg/gm dry cells. Mutation analysis indicated that mutations in the metA gene were common. This was interpreted as succinylhomoserine to 2-oxobutanoate conversion being carried out by a secondary activity of MetE or succinylhomoserine lyase and its precursor succinylhomoserine being directly synthesized by MetA. Thereby, reducing or eliminating MetA activity would favour SAM-IC selection, it was additionally confirmed that the HMP1233 and HMP1236 strains, which contains a metA (A28V) mutation, was non-autotrophic for methionine suggesting a reduced MetA activity.</p>
+<p id="p-0154" num="0000">
+<tables id="TABLE-US-00004" num="00004">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="1">
+<colspec colname="1" colwidth="217pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="1" rowsep="1">TABLE 4</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry namest="1" nameend="1" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>SAM-IC isolates</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="1" colwidth="42pt" align="left"/>
+<colspec colname="2" colwidth="42pt" align="center"/>
+<colspec colname="3" colwidth="49pt" align="center"/>
+<colspec colname="4" colwidth="84pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry/>
+<entry>Measured</entry>
+<entry>Theoretical</entry>
+<entry/>
+</row>
+<row>
+<entry/>
+<entry>melatonin</entry>
+<entry>melatonin</entry>
+</row>
+<row>
+<entry/>
+<entry>yield mg/gm</entry>
+<entry>yield mg/gm</entry>
+</row>
+<row>
+<entry>Isolates</entry>
+<entry>dry cells</entry>
+<entry>dry cells</entry>
+<entry>Genetic changes</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="4">
+<colspec colname="1" colwidth="42pt" align="left"/>
+<colspec colname="2" colwidth="42pt" align="char" char="."/>
+<colspec colname="3" colwidth="49pt" align="char" char="."/>
+<colspec colname="4" colwidth="84pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry>HMP1218</entry>
+<entry>45</entry>
+<entry>60</entry>
+<entry>metF(N168D) &#x394;metC</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>metA(R34L)</entry>
+</row>
+<row>
+<entry>HMP1219</entry>
+<entry>44</entry>
+<entry>60</entry>
+<entry>metF(N168D) metA(R34L)</entry>
+</row>
+<row>
+<entry>HMP1220</entry>
+<entry>46</entry>
+<entry>60</entry>
+<entry>metF(N168D) metA(R34L)</entry>
+</row>
+<row>
+<entry>HMP1221</entry>
+<entry>42</entry>
+<entry>60</entry>
+<entry>metF(N168D) &#x394;metC</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>metA(R34L)</entry>
+</row>
+<row>
+<entry>HMP1222</entry>
+<entry>30</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(R34L)</entry>
+</row>
+<row>
+<entry>HMP1223</entry>
+<entry>33</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(A28V)</entry>
+</row>
+<row>
+<entry>HMP1224</entry>
+<entry>0</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q)</entry>
+</row>
+<row>
+<entry>HMP1225</entry>
+<entry>32</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(R34L)</entry>
+</row>
+<row>
+<entry>HMP1226</entry>
+<entry>32</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(R34L)</entry>
+</row>
+<row>
+<entry>HMP1227</entry>
+<entry>32</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(R34S)</entry>
+</row>
+<row>
+<entry>HMP1228</entry>
+<entry>31</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(R34S)</entry>
+</row>
+<row>
+<entry>HMP1229</entry>
+<entry>31</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(R34S)</entry>
+</row>
+<row>
+<entry>HMP1230</entry>
+<entry>39</entry>
+<entry>60</entry>
+<entry>metA(A28V) metC(R372C)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>ilvH(G21C)</entry>
+</row>
+<row>
+<entry>HMP1231</entry>
+<entry>59</entry>
+<entry>60</entry>
+<entry>metA(A28V) metC(R372C)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>ilvH(G21C)</entry>
+</row>
+<row>
+<entry>HMP1233</entry>
+<entry>55</entry>
+<entry>60</entry>
+<entry>metA(A28V) metC(R372C)</entry>
+</row>
+<row>
+<entry/>
+<entry/>
+<entry/>
+<entry>ilvH(G21C)</entry>
+</row>
+<row>
+<entry>HMP1234</entry>
+<entry>33</entry>
+<entry>60</entry>
+<entry>metA(T297K) ilvH(G14S)</entry>
+</row>
+<row>
+<entry>HMP1235</entry>
+<entry>56</entry>
+<entry>60</entry>
+<entry>metA(A28V) ilvH(S17P)</entry>
+</row>
+<row>
+<entry>HMP1236</entry>
+<entry>59</entry>
+<entry>60</entry>
+<entry>metA(A28V) ilvH(S17P)</entry>
+</row>
+<row>
+<entry>HMP1237</entry>
+<entry>54</entry>
+<entry>60</entry>
+<entry>metA(A28V) ilvH(S17P)</entry>
+</row>
+<row>
+<entry>HMP1238</entry>
+<entry>22</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(S29P)</entry>
+</row>
+<row>
+<entry>HMP1239</entry>
+<entry>28</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(S29P)</entry>
+</row>
+<row>
+<entry>HMP1240</entry>
+<entry>0</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) thrB(R235C)</entry>
+</row>
+<row>
+<entry>HMP1241</entry>
+<entry>25</entry>
+<entry>60</entry>
+<entry>rpoC(K334Q) metA(S29P)</entry>
+</row>
+<row>
+<entry namest="1" nameend="4" align="center" rowsep="1"/>
+</row>
+<row>
+<entry namest="1" nameend="4" align="left" id="FOO-00015">Melatonin yields were measured by growing isolates in M9 with 100 mg/l 5HTP and methionine at 37&#xb0; C. for 16 h.</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<heading id="h-0011" level="1">Example 3</heading>
+<p id="p-0155" num="0230">Melatonin Production Under SAM-Selective Conditions in Small Scale</p>
+<p id="p-0156" num="0231">Melatonin production from 5HTP was measured under selective conditions. The three strains used were HMP729, HMP944 and HMP1236. Their genotypes are compared in Table 5. The HMP729 strain was a non-selective strain with, melatonin pathway genes fully integrated into the genome. The HMP944 strain was genetically similar to HMP729 except &#x394;CysE to enable SAM-cysteine selection. The HMP1236 strain was SAM-IC selection enabled with additional two gene copies of ASMT and one gene copy of AANAT, Cells were characterized in small scale, in M9 medium supplemented with 100 mg/l 5HTP and 150 mg/l methionine at 37&#xb0; C. As shown in <figref idref="DRAWINGS">FIG. <b>4</b></figref>, the results clearly showed that melatonin production was significantly improved under the selective conditions (i.e., HMP944 vs HMP729) and that the melatonin production increased as the selection pressure was increased (i.e., HMP1236 vs HMP944). Accordingly, it could be concluded that melatonin production under the selective conditions was beneficial,</p>
+<p id="p-0157" num="0000">
+<tables id="TABLE-US-00005" num="00005">
+<table frame="none" colsep="0" rowsep="0">
+<tgroup align="left" colsep="0" rowsep="0" cols="1">
+<colspec colname="1" colwidth="217pt" align="center"/>
+<thead>
+<row>
+<entry namest="1" nameend="1" rowsep="1">TABLE 5</entry>
+</row>
+</thead>
+<tbody valign="top">
+<row>
+<entry namest="1" nameend="1" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>strain genotypes</entry>
+</row>
+</tbody>
+</tgroup>
+<tgroup align="left" colsep="0" rowsep="0" cols="2">
+<colspec colname="1" colwidth="42pt" align="left"/>
+<colspec colname="2" colwidth="175pt" align="left"/>
+<tbody valign="top">
+<row>
+<entry>Isolates</entry>
+<entry>Genotype</entry>
+</row>
+<row>
+<entry namest="1" nameend="2" align="center" rowsep="1"/>
+</row>
+<row>
+<entry>HMP729</entry>
+<entry>FolE(T198I) YnbB(V197A) &#x394;TnaA &#x394;Cfa Tn7-ptrc-DDC-</entry>
+</row>
+<row>
+<entry/>
+<entry>ptrc-AANAT-Tn7 &#x394;trpR(PhhB-hsTpH(E2K, N97I, G99C)-</entry>
+</row>
+<row>
+<entry/>
+<entry>smTpH(&#x394;N)-ASMT(A258E))</entry>
+</row>
+<row>
+<entry>HMP944</entry>
+<entry>HMP729 &#x394;CysE [CP4-6<sup>&#x2212;</sup> E14<sup>&#x2212;</sup> gshA(Y241N)</entry>
+</row>
+<row>
+<entry/>
+<entry>relA(Q588K)]<sup>a</sup></entry>
+</row>
+<row>
+<entry>HMP1236</entry>
+<entry>HMP729 &#x394;CysE &#x394;IlvA &#x394;TdcB(ASMT(A258E))</entry>
+</row>
+<row>
+<entry/>
+<entry>&#x394;YddG(AANAT(D63G)- ASMT(A258E)) [metA(A28V)</entry>
+</row>
+<row>
+<entry/>
+<entry>ilvH(S17P) CP4-6<sup>&#x2212;</sup>]<sup>a</sup></entry>
+</row>
+<row>
+<entry namest="1" nameend="2" align="center" rowsep="1"/>
+</row>
+<row>
+<entry namest="1" nameend="2" align="left" id="FOO-00016"><sup>a</sup>mutations acquired post laboratory evolution</entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+</tables>
+</p>
+<heading id="h-0012" level="1">Example 4</heading>
+<p id="p-0158" num="0232">This example describes the construction of a background yeast host cell and application of the system to couple cellular growth and production of methylated products in <i>S. cerevisiae</i>, exemplified with production of caffeine from theobromine using the SAM-dependent methyltransferase caffeine synthase 1.</p>
+<p id="p-0159" num="0233">Strains</p>
+<p id="p-0160" num="0234">The laboratory strain <i>S. cerevisiae </i>CEN.PK102-5B (MATa ura3-52 his3&#x394;1 leu2-3/112 TRP1 MAL2-8<sup>C </sup>SUC2) (Peter Kotter, University of Frankfurt, Germany) was used as background strain for strain constructions. Marker-free gene deletions, met17&#x394; cho2&#x394; opi3&#x394; met2&#x394; set2&#x394;, were performed sequentially by means of CRTSPR/Cas9 genome editing and verified with colony PCR. In order to obtain complete gene knockouts, upstream and downstream homologous DNA parts with overhangs to flanking regions of the genes to be deleted were amplified and used as repair templates. This strain is referred to herein as SCAH168.</p>
+<p id="p-0161" num="0235">An active SAM-dependent methyltransferase, caffeine synthase 1 (CCS1) from <i>Coffea arabica </i>(UniProtKB: Q8H0D3), was chosen to allow efficient L-cysteine production via the native SAM-cycle enzymes from L-methionine. This enzyme can catalyze methylation of theobromine to form caffeine in a SAM-dependent manner in <i>S. cerevisiae </i>(McKeague et al., 2016). The CCS1 was codon optimized for <i>S. cerevisiae </i>and a stop codon was added. The gene was synthesized and cloned into a tADH1-tCYC1 USER cassette (Jensen et al., 2014) of the centromeric plasmid PL_01_C7 (CEN/ARS plasmid) by means of USER cloning (Geu-flores et al., 2006). PL_01_C7 originates from pRS415 (Sikorski, R. S. Hieter, 1989) and carries the native LEU2 gene as selection marker. Expression was driven under the native strong TDH3 promoter as well as a Kozak sequence (AAAACA) and with the native CYC1 terminator. The final DNA vector was referred as PL_01_D2. Strain SCAH182 was obtained from SCAH16B by transformation with PL_01_D2 by means of the lithium acetate/single-stranded carrier DNA/PEG protocol (Dietz and Schiest, 2007). In a similar manner, strain SCAH185 was obtained from SCAH16S by transformation with PL_01_C7 and used as control strain,</p>
+<p id="p-0162" num="0236">Media and Growth Conditions</p>
+<p id="p-0163" num="0237">All strains were maintained at 30&#xb0; C. in either YPD or SC (Synthetic Dropout Medium with Supplements) (Sigma-Aldrich) lacking appropriate amino acids, and characterized in the minimal medium Delft medium (pH 5.6) (Verduyn et al., 1992). Delft medium contained (per litre): 7.5 g (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, 14.4 g KH<sub>2</sub>PO<sub>4</sub>, 0.5 g MgSO<sub>4</sub>.7H<sub>2</sub>O, 2 mL trace metals solution, 1 mL vitamin solution, and 2% glucose (w/v). The trace metal solution contained (per litre): 4.5 g CaCl<sub>2</sub>.2H<sub>2</sub>O, 4.5 g ZnSO<sub>4</sub>.7H<sub>2</sub>O, 3 g FeSO<sub>4</sub>.7H<sub>2</sub>O, 1 g H<sub>3</sub>BO<sub>3</sub>, 1 g MnCl<sub>2</sub>.4H<sub>2</sub>O, 0.4 g Na<sub>2</sub>MoO<sub>4</sub>.2H<sub>2</sub>O, 0.3 g CoCl<sub>2</sub>.6H<sub>2</sub>O, 0.1 g CuSO<sub>4</sub>.5H<sub>2</sub>O, 0.1 g KI, 15 g EDTA. The trace metals solution was prepared by dissolving all components except EDTA in 900 ultra-pure water at pH 6. The solution was gently heated and EDTA was added. In the end, the pH was adjusted to 4, and the solution volume was adjusted to 1 L and autoclaved (121&#xb0; C. for 20 minutes). This solution was stored at 4&#xb0; C. The vitamin solution had (per litre): 50 mg biotin, 200 mg p-aminobenzoic acid, 1 g nicotinic acid, 1 g Ca-pantothenate, 1 g pyridoxine-HCl, 1 g thiamine-HCl, 25 g myo-inositol. Biotin was dissolved in 20 ml 0.1 M NaOH and 900 mL water is added, pH was adjusted to 6.5 with HCl and the rest of the vitamins were added, pH was re-adjusted to 6.5 just before and after adding m-inositol. The final volume was adjusted to 1 L and sterile-filtered before storage at 4&#xb0; C. All media, except YPD, was supplemented with a final concentration of 1 RIM choline chloride (Sigma-Aldrich).</p>
+<p id="p-0164" num="0238">Growth characterization of strain cell cultures was performed by measuring 00630 every 30 minute of a 96-well flat-bottom microtiter plate incubated in a microtiter plate reader BioTek ELx808 Absorbance Microplate Reader (BioTek) at 30&#xb0; C./fast horizontal agitation. Similarly and in parallel, cell cultures were grown in 96-well flat-bottom microtiter plates at 30&#xb0; C./300 rpm horizontal agitation for product quantification.</p>
+<p id="p-0165" num="0239">Product Quantification by LC-MS</p>
+<p id="p-0166" num="0240">For the analysis of theobromine and caffeine a HPLC system equipped with a binary pump, degasser and autosampler (Advance UHPLC system, Bruker Daltonics Inc., Fremont, Calif., USA) and a 100 mm C18 Acquity UPLC HSS T3 column (100 &#x212b;, 1.8 &#x3bc;m particle size, 2.1 mm i.d.; Waters, Milford, Mass., USA) with a phenomenex column filter (KrudKatcher, HPLC in-line filter, 0.5 &#x3bc;m&#xd7;0.004 in i.d.) was used. The column oven temperature was 40&#xb0; C. with an injection volume of 1 &#x3bc;L. The mobile phase consisted of 0.1% formic acid in Milli Q (solvent A) and 0.1% formic acid in acetonitrile (solvent B), delivered at a flow rate of 0.5 mL/min with a gradient of: 0.0-0.2 min: 10% B, 0.2-1.0 min: 10% B&#x2192;70% B, 1.0-1.3 min: 70% B, 1.3-1.35 min: 70% B&#x2192;10% B, 1.35-2.5 min: 10% B.</p>
+<p id="p-0167" num="0241">As detector a triple quadrupole mass spectrometer (EVOQ Final, Bruker Daltonics Inc., Fremont, Calif., USA) with electrospray ionization in positive mode with multiple reaction monitoring (MRM) was used. The instrument settings were as followed: spray voltage: 4.5 kV, cone temperature: 350&#xb0; C., cone gas flow 20, probe gas flow: 50, nebulizer gas flow: 50, heated probe temperature: 300&#xb0; C., exhaust gas: on, collision gas pressure: 1.5 mTorr. The MRM scan time was set to 100 ms with standard resolution for all transitions. The collision energy (CE) was optimized for each transition. The quantifiers used were m/z 195.1&#x2192;138 (CE: 15 eV) and m/z 181.0&#x2192;110 (CE; 20 eV) for caffeine (retention time: 1.2 min) and theobromine (retention time: 0.9 min), respectively. The qualifiers for caffeine were m/z 195.1&#x2192;123 (CE: 28 eV) and m/z 195.14110 (CE: 22 eV) and for theobromine m/z 181.0&#x2192;138 (CE: 15 eV).</p>
+<p id="p-0168" num="0242">Stock solutions were prepared in MilliQ-water and the calibration standard was prepared by appropriate dilutions in media and MilliQ-water for caffeine and theobromine analysis, respectively.</p>
+<p id="p-0169" num="0243">Culture broth from the 96-well flat-bottom microtiter plate was filtered by centrifugation using filter plates (96-well, for multiplexing, ArraPrep Advance from VWR) and the flow-through was injected undiluted and diluted 20 times with MilliQ-water for caffeine and theobromine analysis. Titers were corrected for background caffeine initially present in the medium with theobromine (control media).</p>
+<p id="p-0170" num="0244">Caffeine Production Under SAM-Selective Conditions in Small Scale</p>
+<p id="p-0171" num="0245">Growth characterization and caffeine production was measured under selective conditions using strains SCAH182 and SCAH185.</p>
+<p id="p-0172" num="0246">Prior to inoculation tor characterization, cells were grown from OD600 &#x2dc;0.01 to &#x2dc;2.0 (measured on a spectrophotometer, 1 cm pathlength) in SC medium lacking leucine supplied with 1 mM choline chloride, 2 ml was harvested and washed twice in sterile water, and re-incubated in Delft medium (final volume of 1.5&#xd7; the harvested volume) (prepared as described above) supplied with histidine, uracil and 1 mM choline chloride for another 27 hours incubation at 30&#xb0; C./250 rpm for sulphur amino acid starvation. After starvation, cells were characterized, as described above, in small scale in 96-well flat-bottom microtiter plates in 150 &#x3bc;L Delft medium (preparation as described above) supplemented with histidine, uracil, 1 mM choline chloride and 1 mM (0.15 g/L) L-methionine as well as in the presence or absence of the substrate 1 mM theobromine at 30&#xb0; C.</p>
+<p id="p-0173" num="0247">SCAH185 and SCAH182 were both still able ter grow in the presence of 1 mM L-methionine (<figref idref="DRAWINGS">FIG. <b>5</b></figref>). However, the growth rate was reduced and the lag time increased as compared to the native strain (data not shown). The genes for the native methyltransferases CHO2, OPI3 and SET2 had been deleted from both strains, so this growth was possibly due to active expression of other native SAM-dependent methyltransferases. Similar experiments were performed with <i>S. cerevisiae </i>strains having the deletions met17&#x394; cho2&#x394; opi3&#x394; met6&#x394; set2&#x394; set1&#x394;, met17&#x394; cho2&#x394; opi3&#x394; met6&#x394; set2&#x394; or met17&#x394; cho2&#x394; opi3&#x394; met6&#x394; set2&#x394; set1&#x394; dot1&#x394; (with SET1, SET2, DOT1 representing other native methyltransferases as well as METS), yielding similar results (data not shown).</p>
+<p id="p-0174" num="0248">As shown in <figref idref="DRAWINGS">FIG. <b>5</b></figref>, the CCS1-hearing strain, SCAH182, displayed a pronounced growth advantage when the substrate theobromine was supplemented in the media. This result was in contrast to the SCAH185 cells, a non-CCS1-bearing strain, where addition of theobromine offered no growth advantage. Moreover, caffeine production (average titer of 23.7&#xb1;2.6 mg/L at the end of &#x2dc;46 hs cultivation when OD630 was 0.57 measured directly on BioTek ELx808 Absorbance Microplate Reader (BioTek) (N=3)) was only detected for SCAH182 under the selective conditions when theobromine was added. Overall, these results concluded that the growth advantage of SCAH182 cells under theobromine-supplemented conditions had in fact benefited from L-cysteine formation via homocysteine of the SAM cycle, and hence achieved a functional methylation-dependent growth selection.</p>
+<heading id="h-0013" level="1">LIST OF REFERENCES</heading>
+<p id="p-0175" num="0000">
+<ul id="ul0035" list-style="none">
+    <li id="ul0035-0001" num="0249">Duchin et al., Epigenetics &#x26; Chromatin 2015; 8:56</li>
+    <li id="ul0035-0002" num="0250">Frederick et al., Chemical Composition of <i>Escherichia coli, Chapter </i>3, <i>Escherichia col/and Salmonella: cellular and molecular biology, </i>2<sup>nd </sup>edition, Vol 1. (1996) American Society of Microbiology Press.</li>
+    <li id="ul0035-0003" num="0251">Struck et al., Chemblochein. 2012 Dec. 21; 13(18):2642-55</li>
+    <li id="ul0035-0004" num="0252">Tengg et al., Journal of Molecular Catalysis B: Enzymatic 2012, 84:2-8</li>
+    <li id="ul0035-0005" num="0253">Lyon and Jakoby, J Biol Chem 1982; 257:7531-7535</li>
+    <li id="ul0035-0006" num="0254">Attieh et al., Plant Mol Biol 2002, 50:511-521</li>
+    <li id="ul0035-0007" num="0255">Bennett et al., Nat Chem Biol 2009, 5:593-599</li>
+    <li id="ul0035-0008" num="0256">Ye et al., Molecular Cell 2017, 66:1-14</li>
+    <li id="ul0035-0009" num="0257">Sadhu et al., Molecular Biology of the Cell 2014, 25:1653-65</li>
+    <li id="ul0035-0010" num="0258">McKeague et al., Metab. Eng. 38, 191-203 (2016)</li>
+    <li id="ul0035-0011" num="0259">Gietz and Schiest, Nat. Protoc, 2, 31-34 (2007)</li>
+    <li id="ul0035-0012" num="0260">Geu-flores et al., Nucleic Adds Res. 2007 April; 35(7): e55</li>
+    <li id="ul0035-0013" num="0261">Verduyn et al., Yeast 8, 501-17 (1992)</li>
+    <li id="ul0035-0014" num="0262">Sikorski and Hieter, Genetics 122(1), 19-27 (1989)</li>
+    <li id="ul0035-0015" num="0263">Jensen et al., <i>FEMS Yeast Res. </i>14, 238-248 (2014)</li>
+    <li id="ul0035-0016" num="0264">WO 2016/082252 (Metabolic Explorer)</li>
+    <li id="ul0035-0017" num="0265">U.S. Pat. No. 7,745,495 (Metabolic Explorer)</li>
+    <li id="ul0035-0018" num="0266">WO 2013/127915 A1 (Danmarks Tekniske Universitet)</li>
+    <li id="ul0035-0019" num="0267">WO 2015/032911 A1 (Danmarks Tekniske Universitet)</li>
+    <li id="ul0035-0020" num="0268">US 2014/134689 IA (University of California)</li>
+</ul>
+</p>
+<?detailed-description description="Detailed Description" end="tail"?>
+</description>
+<us-sequence-list-doc id="SEQLST-1">
+<sequence-list file="US20230080311A1-20230316-S00001.XML" carriers="internal-electronic" seq-file-type="ST.26"/>
+</us-sequence-list-doc>
+<claims id="claims">
+<claim id="CLM-00001" num="00001">
+<claim-text><b>1</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00002" num="00002">
+<claim-text><b>2</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00003" num="00003">
+<claim-text><b>3</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00004" num="00004">
+<claim-text><b>4</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00005" num="00005">
+<claim-text><b>5</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00006" num="00006">
+<claim-text><b>6</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00007" num="00007">
+<claim-text><b>7</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00008" num="00008">
+<claim-text><b>8</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00009" num="00009">
+<claim-text><b>9</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00010" num="00010">
+<claim-text><b>10</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00011" num="00011">
+<claim-text><b>11</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00012" num="00012">
+<claim-text><b>12</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00013" num="00013">
+<claim-text><b>13</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00014" num="00014">
+<claim-text><b>14</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00015" num="00015">
+<claim-text><b>15</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00016" num="00016">
+<claim-text><b>16</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00017" num="00017">
+<claim-text><b>17</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00018" num="00018">
+<claim-text><b>18</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00019" num="00019">
+<claim-text><b>19</b>. (canceled)</claim-text>
+</claim>
+<claim id="CLM-00020" num="00020">
+<claim-text><b>20</b>. A genetically modified yeast cell comprising an s-adenosyl methionine- (SAM-) dependent methyltransferase which is heterologous to the yeast cell and a downregulation or deletion of an endogenous gene encoding acetylhomoserine sulfhydrylase, a downregulation or deletion of an endogenous gene encoding homoserine O-acetyltransferase, or a downregulation or deletion of an endogenous gene encoding an L-threonine/L-serine ammonia-lyase, wherein the downregulation of a gene reduces the level of enzyme encoded by the gene by at least 95%.</claim-text>
+</claim>
+<claim id="CLM-00021" num="00021">
+<claim-text><b>21</b>. The genetically modified yeast cell of <claim-ref idref="CLM-00020">claim 20</claim-ref>, which is a <i>Saccharomyces, Candida, Hansenula, Kluyveromyces, Pichia, Schizosaccharomyces </i>or <i>Yarrowia </i>cell.</claim-text>
+</claim>
+<claim id="CLM-00022" num="00022">
+<claim-text><b>22</b>. The genetically modified yeast cell of <claim-ref idref="CLM-00021">claim 21</claim-ref>, which is a <i>Saccharomyces </i>cell.</claim-text>
+</claim>
+<claim id="CLM-00023" num="00023">
+<claim-text><b>23</b>. The genetically modified yeast cell of <claim-ref idref="CLM-00022">claim 22</claim-ref>, wherein the endogenous gene encoding acetylhomoserine sulfhydrylase is MET17, the homoserine O-acetyltransferase is MET2, and the L-threonine/L-serine ammonia-lyase is CHA1 or ILV1.</claim-text>
+</claim>
+<claim id="CLM-00024" num="00024">
+<claim-text><b>24</b>. The genetically modified yeast cell of <claim-ref idref="CLM-00020">claim 20</claim-ref>, wherein the SAM-dependent methyltransferase is selected from the group consisting of an O-methyltransferase, a C-methyltransferase, an N-methyltransferase and an S-methyltransferase.</claim-text>
+</claim>
+<claim id="CLM-00025" num="00025">
+<claim-text><b>25</b>. The genetically modified yeast cell of <claim-ref idref="CLM-00024">claim 24</claim-ref>, wherein the SAM-dependent methyltransferase is selected from the group consisting of an acetylserotonin O-methyltransferase (ASMT) and a caffeine synthase.</claim-text>
+</claim>
+<claim id="CLM-00026" num="00026">
+<claim-text><b>26</b>. The genetically modified yeast cell of <claim-ref idref="CLM-00025">claim 25</claim-ref>, wherein the SAM-dependent methyltransferase is Promo <i>sapiens </i>ASMT, <i>Ocimum basilicum </i>ASMT, <i>Bos taurus </i>ASMT, <i>Takifugu rubripes </i>ASMT, <i>Macaca mulatta </i>ASMT, <i>Elephantulus edwardii </i>ASMT, <i>Oryza sativa </i>ASMT, <i>Rattus norvegicus </i>ASMT, <i>Gallus gallus </i>ASMT, <i>Chromobacterium violaceum </i>ASMT, <i>Desulfotomaculum kuznetsovii </i>DSM 6115 ASMT, <i>Xenopus </i>(<i>Silurana</i>) <i>tropicalis </i>ASMT, <i>Pseudomonas fluorescens </i>ASMT, <i>Candidatus Solibacter usitatus </i>ASMT, <i>Fenneropenaeus chinensis </i>ASMT, <i>Arabidopsis thaiiana </i>ASMT, or <i>Coffea arabica </i>caffeine synthase.</claim-text>
+</claim>
+<claim id="CLM-00027" num="00027">
+<claim-text><b>27</b>. A genetically modified <i>Saccharomyces </i>cell comprising a SAM-dependent methyltransferase which is heterologous to the native <i>Saccharomyces </i>cell, and
+<claim-text>(a) a downregulation or deletion of MET17;</claim-text>
+<claim-text>(b) a downregulation or deletion of MET2;</claim-text>
+<claim-text>(c) a downregulation or deletion of MET2 and MET17</claim-text>
+<claim-text>(d) a downregulation or deletion of MET17, CHA1 and ILV1;</claim-text>
+<claim-text>(e) a downregulation or deletion of MET2, CHA1 and ILV1;</claim-text>
+<claim-text>(f) a downregulation or deletion of MET17, MET2, CHA1 and ILV1; or</claim-text>
+<claim-text>(g) any one of (a) to (f), further comprising a downregulation or deletion of METE, or</claim-text>
+<claim-text>(h) any one of (a) to (g), further comprising a downregulation or deletion of one or more native SAM-dependent methyltransferases, optionally selected from one or more of ERG6, CHO2, OPI3, SET2, SET1 and DOT1,
+<claim-text>wherein the downregulation of a gene reduces the level of enzyme encoded by the gene by at least 95%.</claim-text>
+</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00028" num="00028">
+<claim-text><b>28</b>. The genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00027">claim 27</claim-ref>, which comprises a downregulation or deletion of MET17 and/or MET2.</claim-text>
+</claim>
+<claim id="CLM-00029" num="00029">
+<claim-text><b>29</b>. The genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00028">claim 28</claim-ref>, which comprises a downregulation or deletion of MET17, MET2, CHO2, OPI3 and SET2.</claim-text>
+</claim>
+<claim id="CLM-00030" num="00030">
+<claim-text><b>30</b>. The genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00029">claim 29</claim-ref>, which is a <i>Saccharomyces cerevisiae </i>cell.</claim-text>
+</claim>
+<claim id="CLM-00031" num="00031">
+<claim-text><b>31</b>. The genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00030">claim 30</claim-ref>, wherein the SAM-dependent methyltransferase is selected from the group consisting of an O-methyltransferase, a C-methyltransferase, an N-methyltransferase and an S-methyltransferase.</claim-text>
+</claim>
+<claim id="CLM-00032" num="00032">
+<claim-text><b>32</b>. The genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00031">claim 31</claim-ref>, wherein the SAM-dependent methyltransferase is selected from the group consisting of an acetylserotonin O-methyltransferase (ASMT) and a caffeine synthase.</claim-text>
+</claim>
+<claim id="CLM-00033" num="00033">
+<claim-text><b>33</b>. The genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00032">claim 32</claim-ref>, wherein the SAM-dependent methyltransferase is <i>Homo sapiens </i>ASMT, <i>Ocimum basilicum </i>ASMT, <i>Bos taurus </i>ASMT, <i>Takifugu rubripes </i>ASMT, <i>Macaca mulatta </i>ASMT, <i>Elephantulus edwardii </i>ASMT, <i>Oryza sativa </i>ASMT, <i>Rattus norvegicus </i>ASMT, <i>Gallus gallus </i>ASMT, <i>Chromobacterium violaceum </i>ASMT, <i>Desulfotomaculum kuznetsovii </i>DSM 6115 ASMT, <i>Xenopus </i>(<i>Silurana</i>) <i>tropicalis </i>ASMT, <i>Pseudomonas fluorescens </i>ASMT, <i>Candidatus Solibacter usitatus </i>ASMT, <i>Fenneropenaeus chinensis </i>ASMT, <i>Arabidopsis thaliana </i>ASMT, or <i>Coffea arabica </i>caffeine synthase.</claim-text>
+</claim>
+<claim id="CLM-00034" num="00034">
+<claim-text><b>34</b>. A composition comprising a plurality of the genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00027">claim 27</claim-ref>.</claim-text>
+</claim>
+<claim id="CLM-00035" num="00035">
+<claim-text><b>35</b>. The composition of <claim-ref idref="CLM-00034">claim 34</claim-ref>, comprising a culture medium comprising methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source.</claim-text>
+</claim>
+<claim id="CLM-00036" num="00036">
+<claim-text><b>36</b>. A method of preparing a genetically modified yeast cell which is growth-dependent on a metabolite selected from cysteine, 2-oxobutanoate and isoleucine, or a combination of any thereof, comprising the steps of
+<claim-text>(a) transforming a yeast cell with a nucleic acid encoding a SAM-dependent methyltransferase;</claim-text>
+<claim-text>(b) optionally, transforming the yeast cell with nucleic acids encoding cystathionine-beta-synthase and a cystathionine-gamma-lyase;</claim-text>
+<claim-text>(c) reducing or disrupting the expression or activity of at least one enzyme in any endogenous pathway for H<sub>2</sub>S-dependent and/or L-cysteine-dependent biosynthesis of homocysteine in the yeast cell, and</claim-text>
+<claim-text>(d) reducing or disrupting the expression or activity of at least one enzyme in any endogenous pathway for cysteine, 2-oxobutanoate or isoleucine, or a combination of any thereof,</claim-text>
+</claim-text>
+<claim-text>wherein steps (a) to (d) are performed in any order.</claim-text>
+</claim>
+<claim id="CLM-00037" num="00037">
+<claim-text><b>37</b>. A method of evolving the SAM-dependent methyltransferase activity of a <i>Saccharomyces </i>cell, comprising cultivating the genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00027">claim 27</claim-ref> in a medium comprising an abundance of methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source.</claim-text>
+</claim>
+<claim id="CLM-00038" num="00038">
+<claim-text><b>38</b>. A method of preparing a <i>Saccharomyces </i>cell having an improved SAM-dependent methyltransferase activity, comprising the steps of:
+<claim-text>(a) culturing a plurality of the genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00027">claim 27</claim-ref> in a medium comprising an abundance of methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source; and</claim-text>
+<claim-text>(b) selecting any <i>Saccharomyces </i>cell having an increased growth rate as compared to the genetically modified <i>Saccharomyces </i>cell prior to step (a) as a <i>Saccharomyces </i>cell having an improved SAM-dependent methyltransferase activity.</claim-text>
+</claim-text>
+</claim>
+<claim id="CLM-00039" num="00039">
+<claim-text><b>39</b>. A method of producing a methylated product from a substrate of a SAM-dependent methyltransferase, the method comprising the steps of:
+<claim-text>(a) culturing a plurality of the genetically modified <i>Saccharomyces </i>cell of <claim-ref idref="CLM-00027">claim 27</claim-ref> in a medium comprising an abundance of methionine, at least one substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source;</claim-text>
+<claim-text>(b) selecting any <i>Saccharomyces </i>cell having an increased growth rate as compared to the genetically modified cell or composition prior to step (a) as a <i>Saccharomyces </i>cell having an improved SAM-dependent methyltransferase activity;</claim-text>
+<claim-text>(c) producing the methylated product by fermenting a <i>Saccharomyces </i>cell selected in step (b) in a medium comprising methionine, the substrate or substrate precursor of the SAM-dependent methyltransferase, and a carbon source; and</claim-text>
+<claim-text>(d) optionally, retrieving the methylated product from the cell or fermentation medium.</claim-text>
+</claim-text>
+</claim>
+</claims>
+</us-patent-application>
