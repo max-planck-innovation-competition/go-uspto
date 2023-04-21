@@ -15,7 +15,7 @@ func TestProcessXMLSimpleVersion40B2(t *testing.T) {
 
 	ass.Equal("06857133", patDoc.ID)
 	ass.Equal("US06857133-20050222.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("06857133", patDoc.DocNumber)
 	ass.Equal("B2", patDoc.Kind)
@@ -66,7 +66,7 @@ func TestProcessXMLSimpleVersion41B2(t *testing.T) {
 
 	ass.Equal("07057742", patDoc.ID)
 	ass.Equal("US07057742-20060606.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("07057742", patDoc.DocNumber)
 	ass.Equal("B2", patDoc.Kind)
@@ -123,7 +123,7 @@ func TestProcessXMLSimpleVersion411B2(t *testing.T) {
 
 	ass.Equal("07062920", patDoc.ID)
 	ass.Equal("US07062920-20060620.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("07062920", patDoc.DocNumber)
 	ass.Equal("B2", patDoc.Kind)
@@ -181,7 +181,7 @@ func TestProcessXMLSimpleVersion45B1(t *testing.T) {
 
 	ass.Equal("09358892", patDoc.ID)
 	ass.Equal("US09358892-20160607.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("09358892", patDoc.DocNumber)
 	ass.Equal("B1", patDoc.Kind)
@@ -366,7 +366,7 @@ func TestProcessXMLSimpleVersion45B2(t *testing.T) {
 
 	ass.Equal("11147202", patDoc.ID)
 	ass.Equal("US11147202-20211019.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("11147202", patDoc.DocNumber)
 	ass.Equal("B2", patDoc.Kind)

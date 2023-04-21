@@ -15,7 +15,7 @@ func TestApplicationProcessXMLSimpleVersion44A1(t *testing.T) {
 
 	ass.Equal("20210267109", patDoc.ID)
 	ass.Equal("US20210267109A1-20210902.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("20210267109", patDoc.DocNumber)
 	ass.Equal("A1", patDoc.Kind)
@@ -149,7 +149,7 @@ func TestApplicationProcessXMLSimpleVersion44A2(t *testing.T) {
 
 	ass.Equal("20150075015", patDoc.ID)
 	ass.Equal("US20150075015A2-20150319.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("20150075015", patDoc.DocNumber)
 	ass.Equal("A2", patDoc.Kind)
@@ -236,7 +236,7 @@ func TestApplicationProcessXMLSimpleVersion45A1(t *testing.T) {
 
 	ass.Equal("20220159901", patDoc.ID)
 	ass.Equal("US20220159901A1-20220526.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("20220159901", patDoc.DocNumber)
 	ass.Equal("A1", patDoc.Kind)
@@ -323,7 +323,7 @@ func TestApplicationProcessXMLSimpleVersion45A2(t *testing.T) {
 
 	ass.Equal("20220160114", patDoc.ID)
 	ass.Equal("US20220160114A2-20220526.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("20220160114", patDoc.DocNumber)
 	ass.Equal("A2", patDoc.Kind)
@@ -443,7 +443,7 @@ func TestApplicationProcessXMLSimpleVersion46A1(t *testing.T) {
 
 	ass.Equal("20220240350", patDoc.ID)
 	ass.Equal("US20220240350A1-20220728.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("20220240350", patDoc.DocNumber)
 	ass.Equal("A1", patDoc.Kind)
@@ -531,7 +531,7 @@ func TestApplicationProcessXMLSimpleVersion461A1(t *testing.T) {
 
 	ass.Equal("20220240351", patDoc.ID)
 	ass.Equal("US20220240351A1-20220728.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("20220240351", patDoc.DocNumber)
 	ass.Equal("A1", patDoc.Kind)
@@ -619,7 +619,7 @@ func TestApplicationProcessXMLSimpleVersion462A1(t *testing.T) {
 
 	ass.Equal("20230080311", patDoc.ID)
 	ass.Equal("US20230080311A1-20230316.XML", patDoc.File)
-	ass.Equal("EN", patDoc.Lang)
+	ass.Equal("en", patDoc.Lang)
 	ass.Equal(Country("US"), patDoc.Country)
 	ass.Equal("20230080311", patDoc.DocNumber)
 	ass.Equal("A1", patDoc.Kind)
