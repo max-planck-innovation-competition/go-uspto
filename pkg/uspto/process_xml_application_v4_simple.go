@@ -17,7 +17,7 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 		return
 	}
 
-	patentDoc.Lang, _ = root.Attr("lang")
+	patentDoc.Lang = strings.ToLower(root.AttrOr("lang", ""))
 	patentDoc.DtdVersion, _ = root.Attr("dtd-version")
 	patentDoc.File, _ = root.Attr("file")
 	patentDoc.Status, _ = root.Attr("status")
@@ -63,7 +63,7 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 	title := biblio.Find("title-of-invention")
 	if title.Length() > 0 {
 		patentDoc.Title = append(patentDoc.Title, Title{
-			Language: strings.ToLower("en"),
+			Language: patentDoc.Lang,
 			Text:     strings.TrimSpace(title.Text()),
 		})
 	}
@@ -74,7 +74,7 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 	title = biblio.Find("invention-title")
 	if title.Length() > 0 {
 		patentDoc.Title = append(patentDoc.Title, Title{
-			Language: strings.ToLower("en"),
+			Language: patentDoc.Lang,
 			Text:     strings.TrimSpace(title.Text()),
 		})
 	}
@@ -86,7 +86,7 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 			patentDoc.Abstract,
 			Abstract{
 				Text:     strings.TrimSpace(a.Text()),
-				Language: strings.ToLower("en"),
+				Language: patentDoc.Lang,
 			},
 		)
 	})
@@ -98,7 +98,7 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 			patentDoc.Description,
 			Description{
 				Text:     strings.TrimSpace(d.Text()),
-				Language: strings.ToLower("en"),
+				Language: patentDoc.Lang,
 			})
 	})
 	// claims
@@ -115,11 +115,10 @@ func ProcessApplicationXML4Simple(doc *goquery.Document) (patentDoc UsptoPatentD
 	*/
 	claims := root.Find("claims")
 	claims.Each(func(i int, c *goquery.Selection) {
-		lang := "en"
 		id, _ := c.Attr("id")
 		patentDoc.Claims = append(patentDoc.Claims, Claim{
 			Text:     strings.TrimSpace(c.Text()),
-			Language: strings.TrimSpace(lang),
+			Language: patentDoc.Lang,
 			Id:       id,
 		})
 	})

@@ -17,7 +17,7 @@ func ProcessApplicationXML40Simple(doc *goquery.Document) (patentDoc UsptoPatent
 		return
 	}
 
-	patentDoc.Lang, _ = root.Attr("lang")
+	patentDoc.Lang = strings.ToLower(root.AttrOr("lang", ""))
 	patentDoc.DtdVersion, _ = root.Attr("dtd-version")
 	patentDoc.File, _ = root.Attr("file")
 	patentDoc.Status, _ = root.Attr("status")
@@ -61,7 +61,7 @@ func ProcessApplicationXML40Simple(doc *goquery.Document) (patentDoc UsptoPatent
 	*/
 	title := biblio.Find("invention-title")
 	patentDoc.Title = append(patentDoc.Title, Title{
-		Language: strings.ToLower("en"),
+		Language: patentDoc.Lang,
 		Text:     strings.TrimSpace(title.Text()),
 	})
 
@@ -72,7 +72,7 @@ func ProcessApplicationXML40Simple(doc *goquery.Document) (patentDoc UsptoPatent
 			patentDoc.Abstract,
 			Abstract{
 				Text:     strings.TrimSpace(a.Text()),
-				Language: strings.ToLower("en"),
+				Language: patentDoc.Lang,
 			},
 		)
 	})
